@@ -1,15 +1,19 @@
+// au, nz, se, dk, no, at, ph
+
 var gplay = require('google-play-scraper');
 
-gplay.list({
+au_free = gplay.list({
   category: gplay.category.GAME,
   collection: gplay.collection.TOP_FREE,
-  num: 120
-  })
-  .then(console.log, console.log);
+  num: 120,
+  country: 'au'
+  });
 
-gplay.list({
+au_gross = gplay.list({
   category: gplay.category.GAME,
   collection: gplay.collection.GROSSING,
-  num: 120
-  })
-  .then(console.log, console.log)
+  num: 120,
+  country: 'au'
+  });
+
+  console.log('Success');
