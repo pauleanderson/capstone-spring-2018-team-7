@@ -1,6 +1,12 @@
-// au, nz, se, dk, no, at, ph
+// npm install google-play-scraper
 
+'use strict';
 var gplay = require('google-play-scraper');
+const fs = require('fs');
+
+var err_handler = function(err) {
+  console.log(err);
+}
 
 au_free = gplay.list({
   category: gplay.category.GAME,
@@ -8,6 +14,11 @@ au_free = gplay.list({
   num: 120,
   country: 'au'
   });
+ // .then(JSON.stringify, err_handler)
+ // .then(fs.writeFileSync('au_free.json'), err_handler);
+data_au_free = JSON.stringify(au_free);
+fs.writeFileSync('au_free.json', data_au_free);
+
 
 au_gross = gplay.list({
   category: gplay.category.GAME,
@@ -99,4 +110,4 @@ ph_gross = gplay.list({
   num: 120,
   country: 'ph'
   });
-console.log('Success');
+
