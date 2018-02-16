@@ -21,7 +21,7 @@ cat ~/capstone-spring-2018-team-7/collect_data/JSON/au_free_300.json >> ~/capsto
 echo ',' >> ~/capstone-spring-2018-team-7/collect_data/JSON/au_free.json 
 cat ~/capstone-spring-2018-team-7/collect_data/JSON/au_free_400.json >> ~/capstone-spring-2018-team-7/collect_data/JSON/au_free.json 
 echo ']' >> ~/capstone-spring-2018-team-7/collect_data/JSON/au_free.json 
-#rm ~/capstone-spring-2018-team-7/collect_data/JSON/au_free_0.json ~/capstone-spring-2018-team-7/collect_data/JSON/au_free_100.json ~/capstone-spring-2018-team-7/collect_data/JSON/au_free_200.json ~/capstone-spring-2018-team-7/collect_data/JSON/au_free_300.json ~/capstone-spring-2018-team-7/collect_data/JSON/au_free_400.json
+rm ~/capstone-spring-2018-team-7/collect_data/JSON/au_free_0.json ~/capstone-spring-2018-team-7/collect_data/JSON/au_free_100.json ~/capstone-spring-2018-team-7/collect_data/JSON/au_free_200.json ~/capstone-spring-2018-team-7/collect_data/JSON/au_free_300.json ~/capstone-spring-2018-team-7/collect_data/JSON/au_free_400.json
 
 #au gross
 #node gplay_gross.js -c 'au' -i 0 > ~/capstone-spring-2018-team-7/collect_data_android/JSON/au_gross_0.json
