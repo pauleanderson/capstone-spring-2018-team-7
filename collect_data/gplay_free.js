@@ -17,7 +17,8 @@ var top = function(var_country_code, var_start_index) {
     collection: gplay.collection.TOP_FREE,
     num : 100,
     country: var_country_code,
-    start : var_start_index
+    start : var_start_index,
+    fullDetail : true
   })
   .then(console.log, console.log);
 } 
