@@ -5,7 +5,7 @@
 # Run by calling bash ~/capstone-spring-2018-team-7/collect_data/pull_android.sh
 
 charts='free gross trend'
-
+date=$(date +%Y-%m-%d)
 for chart in $charts
 do
     countries='au nz se dk no at ph'
@@ -52,17 +52,17 @@ do
             i=$(grep -c 'Error: Error' ~/capstone-spring-2018-team-7/collect_data/android/${chart}_400.json)
         done 
     
-        echo '[' > ~/capstone-spring-2018-team-7/collect_data/android/${country}_${chart}.json 
-        cat ~/capstone-spring-2018-team-7/collect_data/android/${chart}_0.json >> ~/capstone-spring-2018-team-7/collect_data/android/${country}_${chart}.json 
-        echo ',' >> ~/capstone-spring-2018-team-7/collect_data/android/${country}_${chart}.json 
-        cat ~/capstone-spring-2018-team-7/collect_data/android/${chart}_100.json >> ~/capstone-spring-2018-team-7/collect_data/android/${country}_${chart}.json 
-        echo ',' >> ~/capstone-spring-2018-team-7/collect_data/android/${country}_${chart}.json 
-        cat ~/capstone-spring-2018-team-7/collect_data/android/${chart}_200.json >> ~/capstone-spring-2018-team-7/collect_data/android/${country}_${chart}.json 
-        echo ',' >> ~/capstone-spring-2018-team-7/collect_data/android/${country}_${chart}.json 
-        cat ~/capstone-spring-2018-team-7/collect_data/android/${chart}_300.json >> ~/capstone-spring-2018-team-7/collect_data/android/${country}_${chart}.json 
-        echo ',' >> ~/capstone-spring-2018-team-7/collect_data/android/${country}_${chart}.json 
-        cat ~/capstone-spring-2018-team-7/collect_data/android/${chart}_400.json >> ~/capstone-spring-2018-team-7/collect_data/android/${country}_${chart}.json 
-        echo ']' >> ~/capstone-spring-2018-team-7/collect_data/android/${country}_${chart}.json 
+        echo '[' > ~/capstone-spring-2018-team-7/collect_data/android/${country}_${chart}_${date}.json 
+        cat ~/capstone-spring-2018-team-7/collect_data/android/${chart}_0.json >> ~/capstone-spring-2018-team-7/collect_data/android/${country}_${chart}_${date}.json 
+        echo ',' >> ~/capstone-spring-2018-team-7/collect_data/android/${country}_${chart}_${date}.json 
+        cat ~/capstone-spring-2018-team-7/collect_data/android/${chart}_100.json >> ~/capstone-spring-2018-team-7/collect_data/android/${country}_${chart}_${date}.json 
+        echo ',' >> ~/capstone-spring-2018-team-7/collect_data/android/${country}_${chart}_${date}.json 
+        cat ~/capstone-spring-2018-team-7/collect_data/android/${chart}_200.json >> ~/capstone-spring-2018-team-7/collect_data/android/${country}_${chart}_${date}.json 
+        echo ',' >> ~/capstone-spring-2018-team-7/collect_data/android/${country}_${chart}_${date}.json 
+        cat ~/capstone-spring-2018-team-7/collect_data/android/${chart}_300.json >> ~/capstone-spring-2018-team-7/collect_data/android/${country}_${chart}_${date}.json 
+        echo ',' >> ~/capstone-spring-2018-team-7/collect_data/android/${country}_${chart}_${date}.json 
+        cat ~/capstone-spring-2018-team-7/collect_data/android/${chart}_400.json >> ~/capstone-spring-2018-team-7/collect_data/android/${country}_${chart}_${date}.json 
+        echo ']' >> ~/capstone-spring-2018-team-7/collect_data/android/${country}_${chart}_${date}.json 
         rm ~/capstone-spring-2018-team-7/collect_data/android/${chart}_0.json ~/capstone-spring-2018-team-7/collect_data/android/${chart}_100.json ~/capstone-spring-2018-team-7/collect_data/android/${chart}_200.json ~/capstone-spring-2018-team-7/collect_data/android/${chart}_300.json ~/capstone-spring-2018-team-7/collect_data/android/${chart}_400.json
     done
 done
