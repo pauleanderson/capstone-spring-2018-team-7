@@ -65,6 +65,7 @@ do
         echo ']' >> ~/capstone-spring-2018-team-7/collect_data/android/${country}_${chart}_${date}.json
         
         jsonlint -f -q -S ~/capstone-spring-2018-team-7/collect_data/android/${country}_${chart}_${date}.json > ~/capstone-spring-2018-team-7/collect_data/android/tempfile.json
+        cat ~/capstone-spring-2018-team-7/collect_data/android/tempfile.json > ~/capstone-spring-2018-team-7/collect_data/android/${country}_${chart}_${date}.json
         
         rm ~/capstone-spring-2018-team-7/collect_data/android/tempfile.json ~/capstone-spring-2018-team-7/collect_data/android/${chart}_0.json ~/capstone-spring-2018-team-7/collect_data/android/${chart}_100.json ~/capstone-spring-2018-team-7/collect_data/android/${chart}_200.json ~/capstone-spring-2018-team-7/collect_data/android/${chart}_300.json ~/capstone-spring-2018-team-7/collect_data/android/${chart}_400.json
     done
