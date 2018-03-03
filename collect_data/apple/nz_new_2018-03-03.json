@@ -2,97 +2,9 @@
   { 
     "appId" : undefined,
     "description" : undefined,
-    "developer" : "Snowman",
-    "developerId" : 524873456,
-    "developerUrl" : "https://itunes.apple.com/nz/developer/snowman/id524873456?mt=8",
-    "genreIds" : [ 
-        "6014",
-        "7001",
-        "7016"
-      ],
-    "genres" : [ 
-        "Games",
-        "Action",
-        "Sports"
-      ],
-    "icon" : "http://is1.mzstatic.com/image/thumb/Purple118/v4/50/b4/07/50b40735-57f3-89d3-5bfc-1336b3f8e08b/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-8.png/200x200bb.png",
-    "id" : "1182456409",
-    "released" : "2018-02-21",
-    "title" : "Alto's Odyssey",
-    "url" : "https://itunes.apple.com/nz/app/altos-odyssey/id1182456409?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "Ian MacLarty",
-    "developerId" : 367178222,
-    "developerUrl" : "https://itunes.apple.com/nz/developer/ian-maclarty/id367178222?mt=8",
-    "genreIds" : [ 
-        "6014",
-        "7012"
-      ],
-    "genres" : [ 
-        "Games",
-        "Puzzle"
-      ],
-    "icon" : "http://is2.mzstatic.com/image/thumb/Purple118/v4/f1/75/e0/f175e049-e194-133c-b222-d04b387c4641/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-6.png/200x200bb.png",
-    "id" : "1293516048",
-    "released" : "2018-02-21",
-    "title" : "Dissembler",
-    "url" : "https://itunes.apple.com/nz/app/dissembler/id1293516048?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "David Marquardt",
-    "developerId" : 1023227475,
-    "developerUrl" : "https://itunes.apple.com/nz/developer/david-marquardt/id1023227475?mt=8",
-    "genreIds" : [ 
-        "6014",
-        "7001",
-        "7011",
-        "6016"
-      ],
-    "genres" : [ 
-        "Games",
-        "Action",
-        "Music",
-        "Entertainment"
-      ],
-    "icon" : "http://is2.mzstatic.com/image/thumb/Purple118/v4/15/41/4c/15414c27-1210-86e8-9dbe-71157ebf13ea/AppIcon-1x_U007emarketing-0-85-220-0-8.png/200x200bb.png",
-    "id" : "1255213438",
-    "released" : "2018-02-21",
-    "title" : "Glitch Dash",
-    "url" : "https://itunes.apple.com/nz/app/glitch-dash/id1255213438?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "Computer Lunch",
-    "developerId" : 1287171333,
-    "developerUrl" : "https://itunes.apple.com/nz/developer/computer-lunch/id1287171333?mt=8",
-    "genreIds" : [ 
-        "6014",
-        "7001",
-        "7003"
-      ],
-    "genres" : [ 
-        "Games",
-        "Action",
-        "Arcade"
-      ],
-    "icon" : "http://is3.mzstatic.com/image/thumb/Purple118/v4/00/c5/ab/00c5ab60-f733-478d-6c25-b37dcb1c068f/AppIcon-1x_U007emarketing-85-220-8.png/200x200bb.png",
-    "id" : "1287171334",
-    "released" : "2018-02-22",
-    "title" : "Mama Hawk",
-    "url" : "https://itunes.apple.com/nz/app/mama-hawk/id1287171334?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "PlaySide",
-    "developerId" : 551505830,
-    "developerUrl" : "https://itunes.apple.com/nz/developer/playside/id551505830?mt=8",
+    "developer" : "BANDAI NAMCO Entertainment Europe",
+    "developerId" : 580781332,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/bandai-namco-entertainment-europe/id580781332?mt=8",
     "genreIds" : [ 
         "6014",
         "7003",
@@ -103,79 +15,253 @@
         "Arcade",
         "Action"
       ],
-    "icon" : "http://is2.mzstatic.com/image/thumb/Purple118/v4/a2/b2/ce/a2b2ce02-9c97-3244-9233-61b60883662f/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-5.png/200x200bb.png",
-    "id" : "1335501301",
-    "released" : "2018-02-20",
-    "title" : "Jump Jam!",
-    "url" : "https://itunes.apple.com/nz/app/jump-jam/id1335501301?mt=8"
+    "icon" : "http://is5.mzstatic.com/image/thumb/Purple118/v4/e0/ed/73/e0ed732c-67d5-4a11-2c26-2ab77128e361/mzl.ibcajclw.png/200x200bb.png",
+    "id" : "1245078891",
+    "released" : "2017-12-14",
+    "title" : "TEKKEN™",
+    "url" : "https://itunes.apple.com/nz/app/tekken/id1245078891?mt=8"
   },
   { 
     "appId" : undefined,
     "description" : undefined,
-    "developer" : "Pretty Simple",
-    "developerId" : 767473892,
-    "developerUrl" : "https://itunes.apple.com/nz/developer/pretty-simple/id767473892?mt=8",
+    "developer" : "Playdigious",
+    "developerId" : 1041387229,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/playdigious/id1041387229?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7014",
+        "6016",
+        "7002"
+      ],
+    "genres" : [ 
+        "Games",
+        "Role-Playing",
+        "Entertainment",
+        "Adventure"
+      ],
+    "icon" : "http://is5.mzstatic.com/image/thumb/Purple128/v4/86/9e/15/869e155a-e579-2a2d-1d8d-14e159d53d89/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-6.png/200x200bb.png",
+    "id" : "1291427111",
+    "released" : "2018-02-28",
+    "title" : "Evoland 2",
+    "url" : "https://itunes.apple.com/nz/app/evoland-2/id1291427111?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Marker",
+    "developerId" : 333191633,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/marker/id333191633?mt=8",
     "genreIds" : [ 
         "6014",
         "7012",
-        "7002",
-        "6016"
+        "7002"
       ],
     "genres" : [ 
         "Games",
         "Puzzle",
-        "Adventure",
-        "Entertainment"
+        "Adventure"
       ],
-    "icon" : "http://is3.mzstatic.com/image/thumb/Purple128/v4/d7/5e/14/d75e14cd-48cb-aa2b-fe53-c9f84a74c7b1/AppIcon-CC4-1x_U007emarketing-85-220-9.png/200x200bb.png",
-    "id" : "1223379536",
-    "released" : "2018-02-21",
-    "title" : "Mysteries of the Past",
-    "url" : "https://itunes.apple.com/nz/app/mysteries-of-the-past/id1223379536?mt=8"
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple118/v4/5a/52/01/5a5201e3-03b2-7b23-fba2-df1cf76071f9/AppIcon-1x_U007emarketing-0-85-220-0-5.png/200x200bb.png",
+    "id" : "1283950638",
+    "released" : "2018-02-28",
+    "title" : "Samsara Game",
+    "url" : "https://itunes.apple.com/nz/app/samsara-game/id1283950638?mt=8"
   },
   { 
     "appId" : undefined,
     "description" : undefined,
-    "developer" : "Bloop Games",
-    "developerId" : 1224067835,
-    "developerUrl" : "https://itunes.apple.com/nz/developer/bloop-games/id1224067835?mt=8",
+    "developer" : "nWay Inc.",
+    "developerId" : 943118886,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/nway-inc/id943118886?mt=8",
     "genreIds" : [ 
         "6014",
+        "7001"
+      ],
+    "genres" : [ 
+        "Games",
+        "Action"
+      ],
+    "icon" : "http://is2.mzstatic.com/image/thumb/Purple118/v4/42/f6/aa/42f6aa90-153a-5cfa-b6c2-32bbc83eae61/AppIcon-1x_U007emarketing-85-220-5.png/200x200bb.png",
+    "id" : "1246680419",
+    "released" : "2018-03-01",
+    "title" : "ChronoBlade",
+    "url" : "https://itunes.apple.com/nz/app/chronoblade/id1246680419?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "HAL Laboratory, Inc.",
+    "developerId" : 1279621107,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/hal-laboratory-inc/id1279621107?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7002",
+        "7001"
+      ],
+    "genres" : [ 
+        "Games",
+        "Adventure",
+        "Action"
+      ],
+    "icon" : "http://is2.mzstatic.com/image/thumb/Purple128/v4/40/26/14/402614d0-4319-6652-3c4d-b078daac815e/AppIcon-1x_U007emarketing-85-220-0-4.png/200x200bb.png",
+    "id" : "1279621108",
+    "released" : "2018-02-26",
+    "title" : "Part Time UFO",
+    "url" : "https://itunes.apple.com/nz/app/part-time-ufo/id1279621108?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "MONSTER PLANET Corp.",
+    "developerId" : 430534465,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/monster-planet-corp/id430534465?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7003",
+        "7009"
+      ],
+    "genres" : [ 
+        "Games",
+        "Arcade",
+        "Family"
+      ],
+    "icon" : "http://is2.mzstatic.com/image/thumb/Purple62/v4/3f/0d/22/3f0d22c6-f016-160f-8b96-8d61c8e0789f/AppIcon-1x_U007emarketing-0-85-220-0-8.png/200x200bb.png",
+    "id" : "1339552636",
+    "released" : "2018-02-27",
+    "title" : "Spin Bomb",
+    "url" : "https://itunes.apple.com/nz/app/spin-bomb/id1339552636?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Noodlecake Studios Inc",
+    "developerId" : 370828169,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/noodlecake-studios-inc/id370828169?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7002",
+        "7001"
+      ],
+    "genres" : [ 
+        "Games",
+        "Adventure",
+        "Action"
+      ],
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple128/v4/95/f8/ca/95f8ca88-f0c2-21b4-1e9b-5d903ab17526/AppIcon-1x_U007emarketing-85-220-0-9.png/200x200bb.png",
+    "id" : "1332743891",
+    "released" : "2018-02-28",
+    "title" : "Lichtspeer",
+    "url" : "https://itunes.apple.com/nz/app/lichtspeer/id1332743891?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Daylight Studios Pte. Ltd.",
+    "developerId" : 440184810,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/daylight-studios-pte-ltd/id440184810?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7015",
+        "7002"
+      ],
+    "genres" : [ 
+        "Games",
+        "Simulation",
+        "Adventure"
+      ],
+    "icon" : "http://is2.mzstatic.com/image/thumb/Purple128/v4/92/94/39/9294395d-0f1b-1421-c1cd-bd2f58061624/AppIcon-1x_U007emarketing-85-220-8.png/200x200bb.png",
+    "id" : "1315946489",
+    "released" : "2018-02-28",
+    "title" : "Holy Potatoes! We're in Space?",
+    "url" : "https://itunes.apple.com/nz/app/holy-potatoes-were-in-space/id1315946489?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Big Blue Bubble",
+    "developerId" : 310903390,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/big-blue-bubble/id310903390?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7012",
+        "7001"
+      ],
+    "genres" : [ 
+        "Games",
+        "Puzzle",
+        "Action"
+      ],
+    "icon" : "http://is5.mzstatic.com/image/thumb/Purple62/v4/97/56/09/9756092e-3034-b087-2d99-626db2f15a5e/AppIcon-1x_U007emarketing-85-220-6.png/200x200bb.png",
+    "id" : "1257250196",
+    "released" : "2018-02-28",
+    "title" : "Wrecking Squad",
+    "url" : "https://itunes.apple.com/nz/app/wrecking-squad/id1257250196?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Four Thirty Three",
+    "developerId" : 378776346,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/four-thirty-three/id378776346?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7017"
+      ],
+    "genres" : [ 
+        "Games",
+        "Strategy"
+      ],
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple118/v4/57/24/b7/5724b739-ecbf-50bd-799e-288c81fe1144/AppIcon-1x_U007emarketing-85-220-5.png/200x200bb.png",
+    "id" : "1279152828",
+    "released" : "2018-02-27",
+    "title" : "Battle Boom",
+    "url" : "https://itunes.apple.com/nz/app/battle-boom/id1279152828?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Ketchapp",
+    "developerId" : 528065807,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/ketchapp/id528065807?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "6016",
         "7001",
         "7003"
       ],
     "genres" : [ 
         "Games",
+        "Entertainment",
         "Action",
         "Arcade"
       ],
-    "icon" : "http://is3.mzstatic.com/image/thumb/Purple118/v4/2b/92/f0/2b92f06f-17d1-3579-3e7b-6f72be9f71f2/AppIcon-1x_U007emarketing-85-220-8.png/200x200bb.png",
-    "id" : "1270782229",
-    "released" : "2018-02-21",
-    "title" : "Birdy Trip",
-    "url" : "https://itunes.apple.com/nz/app/birdy-trip/id1270782229?mt=8"
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple118/v4/4b/c2/b0/4bc2b0aa-8216-3851-41bc-d9307f1735a4/AppIcon-1x_U007emarketing-85-220-9.png/200x200bb.png",
+    "id" : "1317018868",
+    "released" : "2018-03-01",
+    "title" : "Space Snake",
+    "url" : "https://itunes.apple.com/nz/app/space-snake/id1317018868?mt=8"
   },
   { 
     "appId" : undefined,
     "description" : undefined,
-    "developer" : "Idiocracy, inc",
-    "developerId" : 1107531306,
-    "developerUrl" : "https://itunes.apple.com/nz/developer/idiocracy-inc/id1107531306?mt=8",
+    "developer" : "Atari",
+    "developerId" : 291286181,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/atari/id291286181?mt=8",
     "genreIds" : [ 
         "6014",
-        "7017",
-        "7004"
+        "7005",
+        "7015"
       ],
     "genres" : [ 
         "Games",
-        "Strategy",
-        "Board"
+        "Card",
+        "Simulation"
       ],
-    "icon" : "http://is4.mzstatic.com/image/thumb/Purple118/v4/60/b2/1a/60b21ae0-d479-f65c-81bf-e69900ea3158/AppIcon-1x_U007emarketing-85-220-7.png/200x200bb.png",
-    "id" : "1286987058",
-    "released" : "2018-02-20",
-    "title" : "Dice Brawl: Captain's League",
-    "url" : "https://itunes.apple.com/nz/app/dice-brawl-captains-league/id1286987058?mt=8"
+    "icon" : "http://is1.mzstatic.com/image/thumb/Purple62/v4/d8/13/a0/d813a01c-b765-a698-dc58-37d29505ac98/mzl.xbdrlsie.png/200x200bb.png",
+    "id" : "1214944417",
+    "released" : "2018-01-24",
+    "title" : "Transit City Touch",
+    "url" : "https://itunes.apple.com/nz/app/transit-city-touch/id1214944417?mt=8"
   },
   { 
     "appId" : undefined,
@@ -204,319 +290,47 @@
   { 
     "appId" : undefined,
     "description" : undefined,
-    "developer" : "GalacticThumb",
-    "developerId" : 955128546,
-    "developerUrl" : "https://itunes.apple.com/nz/developer/galacticthumb/id955128546?mt=8",
-    "genreIds" : [ 
-        "6014",
-        "7012",
-        "7003"
-      ],
-    "genres" : [ 
-        "Games",
-        "Puzzle",
-        "Arcade"
-      ],
-    "icon" : "http://is2.mzstatic.com/image/thumb/Purple128/v4/cd/9b/17/cd9b17a2-b096-273e-1363-16cca7ce5a57/AppIcon-1x_U007emarketing-0-85-220-0-5.png/200x200bb.png",
-    "id" : "1182825152",
-    "released" : "2018-02-20",
-    "title" : "Make 10",
-    "url" : "https://itunes.apple.com/nz/app/make-10/id1182825152?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "Thunderbox Entertainment Inc.",
-    "developerId" : 945257999,
-    "developerUrl" : "https://itunes.apple.com/nz/developer/thunderbox-entertainment-inc/id945257999?mt=8",
-    "genreIds" : [ 
-        "6014",
-        "7004",
-        "7005",
-        "6017"
-      ],
-    "genres" : [ 
-        "Games",
-        "Board",
-        "Card",
-        "Education"
-      ],
-    "icon" : "http://is1.mzstatic.com/image/thumb/Purple62/v4/fb/09/54/fb095490-b1ac-e414-a1dc-f316e3175b30/AppIcon-1x_U007emarketing-0-85-220-0-8.png/200x200bb.png",
-    "id" : "1002886058",
-    "released" : "2018-02-20",
-    "title" : "Roll For It!",
-    "url" : "https://itunes.apple.com/nz/app/roll-for-it/id1002886058?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "Umbrella Games LLC",
-    "developerId" : 1059299541,
-    "developerUrl" : "https://itunes.apple.com/nz/developer/umbrella-games-llc/id1059299541?mt=8",
-    "genreIds" : [ 
-        "6014",
-        "7001",
-        "7003"
-      ],
-    "genres" : [ 
-        "Games",
-        "Action",
-        "Arcade"
-      ],
-    "icon" : "http://is1.mzstatic.com/image/thumb/Purple118/v4/1b/e6/a7/1be6a737-d55d-f1cb-56fb-15210f3cfd6c/AppIcon-1x_U007emarketing-85-220-0-8.png/200x200bb.png",
-    "id" : "1330321812",
-    "released" : "2018-02-22",
-    "title" : "Slime",
-    "url" : "https://itunes.apple.com/nz/app/slime/id1330321812?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "Identity Visuals",
-    "developerId" : 974796317,
-    "developerUrl" : "https://itunes.apple.com/nz/developer/identity-visuals/id974796317?mt=8",
-    "genreIds" : [ 
-        "6014",
-        "7003",
-        "7001"
-      ],
-    "genres" : [ 
-        "Games",
-        "Arcade",
-        "Action"
-      ],
-    "icon" : "http://is3.mzstatic.com/image/thumb/Purple128/v4/63/87/b0/6387b08c-c142-f65a-a6c2-a2d38bc120fe/AppIcon-1x_U007emarketing-85-220-0-9.png/200x200bb.png",
-    "id" : "1052650381",
-    "released" : "2018-02-17",
-    "title" : "Bouncy Smash",
-    "url" : "https://itunes.apple.com/nz/app/bouncy-smash/id1052650381?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
     "developer" : "Appsolute Games LLC",
     "developerId" : 602062365,
     "developerUrl" : "https://itunes.apple.com/nz/developer/appsolute-games-llc/id602062365?mt=8",
     "genreIds" : [ 
         "6014",
-        "7003",
-        "7001",
-        "6016"
-      ],
-    "genres" : [ 
-        "Games",
-        "Arcade",
-        "Action",
-        "Entertainment"
-      ],
-    "icon" : "http://is2.mzstatic.com/image/thumb/Purple118/v4/12/9f/a1/129fa1b2-0455-9aac-970b-fc551b7dea76/AppIcon-1x_U007emarketing-85-220-8.png/200x200bb.png",
-    "id" : "1308650389",
-    "released" : "2018-02-21",
-    "title" : "Sunbirds",
-    "url" : "https://itunes.apple.com/nz/app/sunbirds/id1308650389?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "NEXON Company",
-    "developerId" : 523546006,
-    "developerUrl" : "https://itunes.apple.com/nz/developer/nexon-company/id523546006?mt=8",
-    "genreIds" : [ 
-        "6014",
-        "7017",
-        "7001"
-      ],
-    "genres" : [ 
-        "Games",
-        "Strategy",
-        "Action"
-      ],
-    "icon" : "http://is5.mzstatic.com/image/thumb/Purple128/v4/d3/2a/f0/d32af011-a0f2-2eb8-8d35-3df799aa054d/pr_source.png/200x200bb.png",
-    "id" : "1112510384",
-    "released" : "2018-02-21",
-    "title" : "MapleStory Blitz",
-    "url" : "https://itunes.apple.com/nz/app/maplestory-blitz/id1112510384?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "Denis Buslaev",
-    "developerId" : 1234009363,
-    "developerUrl" : "https://itunes.apple.com/nz/developer/denis-buslaev/id1234009363?mt=8",
-    "genreIds" : [ 
-        "6014",
-        "7005",
-        "7012"
-      ],
-    "genres" : [ 
-        "Games",
-        "Card",
-        "Puzzle"
-      ],
-    "icon" : "http://is1.mzstatic.com/image/thumb/Purple62/v4/be/8e/4a/be8e4a90-fd4a-9178-cb75-90e391bde96c/mzl.efblotod.png/200x200bb.png",
-    "id" : "1234009364",
-    "released" : "2017-07-28",
-    "title" : "Selfie Poker",
-    "url" : "https://itunes.apple.com/nz/app/selfie-poker/id1234009364?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "NEXON Company",
-    "developerId" : 523546006,
-    "developerUrl" : "https://itunes.apple.com/nz/developer/nexon-company/id523546006?mt=8",
-    "genreIds" : [ 
-        "6014",
         "6016",
-        "7015",
+        "7012",
+        "7019"
+      ],
+    "genres" : [ 
+        "Games",
+        "Entertainment",
+        "Puzzle",
+        "Word"
+      ],
+    "icon" : "http://is5.mzstatic.com/image/thumb/Purple128/v4/5e/d0/55/5ed0558c-c77e-7083-ef34-d92456c0cfbf/AppIcon-1x_U007emarketing-85-220-7.png/200x200bb.png",
+    "id" : "1092942843",
+    "released" : "2016-07-14",
+    "title" : "TwinWords",
+    "url" : "https://itunes.apple.com/nz/app/twinwords/id1092942843?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Plug In Digital",
+    "developerId" : 608306412,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/plug-in-digital/id608306412?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7002",
         "7014"
       ],
     "genres" : [ 
         "Games",
-        "Entertainment",
-        "Simulation",
+        "Adventure",
         "Role-Playing"
       ],
-    "icon" : "http://is1.mzstatic.com/image/thumb/Purple128/v4/fc/b4/a4/fcb4a4cf-5c97-6ab8-3fdc-1592b28f4185/mzl.kmclizyq.png/200x200bb.png",
-    "id" : "1306570769",
-    "released" : "2018-02-21",
-    "title" : "Romance of the Three Kingdoms",
-    "url" : "https://itunes.apple.com/nz/app/romance-of-the-three-kingdoms/id1306570769?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "MY COM",
-    "developerId" : 875810767,
-    "developerUrl" : "https://itunes.apple.com/nz/developer/my-com/id875810767?mt=8",
-    "genreIds" : [ 
-        "6014",
-        "7003",
-        "7001",
-        "6016"
-      ],
-    "genres" : [ 
-        "Games",
-        "Arcade",
-        "Action",
-        "Entertainment"
-      ],
-    "icon" : "http://is2.mzstatic.com/image/thumb/Purple128/v4/1a/02/3a/1a023a9d-c81a-5f02-90f8-44d933b0c60a/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-5.png/200x200bb.png",
-    "id" : "1081472257",
-    "released" : "2018-02-22",
-    "title" : "Armored Warfare: Assault",
-    "url" : "https://itunes.apple.com/nz/app/armored-warfare-assault/id1081472257?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "redsaharastudio",
-    "developerId" : 830268686,
-    "developerUrl" : "https://itunes.apple.com/nz/developer/redsaharastudio/id830268686?mt=8",
-    "genreIds" : [ 
-        "6014",
-        "7014",
-        "7003"
-      ],
-    "genres" : [ 
-        "Games",
-        "Role-Playing",
-        "Arcade"
-      ],
-    "icon" : "http://is4.mzstatic.com/image/thumb/Purple62/v4/6b/0e/dc/6b0edc58-87b8-a541-f157-228bac9d7e9a/AppIcon-1x_U007emarketing-85-220-5.png/200x200bb.png",
-    "id" : "1223335007",
-    "released" : "2018-02-22",
-    "title" : "Velator : Immortal Invasion",
-    "url" : "https://itunes.apple.com/nz/app/velator-immortal-invasion/id1223335007?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "Artifex Mundi S.A.",
-    "developerId" : 577014586,
-    "developerUrl" : "https://itunes.apple.com/nz/developer/artifex-mundi-s-a/id577014586?mt=8",
-    "genreIds" : [ 
-        "6014",
-        "7012",
-        "7002"
-      ],
-    "genres" : [ 
-        "Games",
-        "Puzzle",
-        "Adventure"
-      ],
-    "icon" : "http://is4.mzstatic.com/image/thumb/Purple118/v4/8a/3c/63/8a3c6341-5d9e-ade0-096f-de7573cdfa6a/pr_source.png/200x200bb.png",
-    "id" : "1317824493",
-    "released" : "2018-02-22",
-    "title" : "Demon Hunter 4",
-    "url" : "https://itunes.apple.com/nz/app/demon-hunter-4/id1317824493?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "Konstantin Flick",
-    "developerId" : 1273554217,
-    "developerUrl" : "https://itunes.apple.com/nz/developer/konstantin-flick/id1273554217?mt=8",
-    "genreIds" : [ 
-        "6014",
-        "7002",
-        "7003"
-      ],
-    "genres" : [ 
-        "Games",
-        "Adventure",
-        "Arcade"
-      ],
-    "icon" : "http://is4.mzstatic.com/image/thumb/Purple128/v4/74/fb/8f/74fb8f29-18e2-0bee-cd60-13c242700991/AppIcon-1x_U007emarketing-85-220-6.png/200x200bb.png",
-    "id" : "1293986829",
-    "released" : "2018-02-21",
-    "title" : "BUBBLEON",
-    "url" : "https://itunes.apple.com/nz/app/bubbleon/id1293986829?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "Artem Koblov",
-    "developerId" : 980769734,
-    "developerUrl" : "https://itunes.apple.com/nz/developer/artem-koblov/id980769734?mt=8",
-    "genreIds" : [ 
-        "6014",
-        "6016",
-        "7002",
-        "7011"
-      ],
-    "genres" : [ 
-        "Games",
-        "Entertainment",
-        "Adventure",
-        "Music"
-      ],
-    "icon" : "http://is5.mzstatic.com/image/thumb/Purple128/v4/0c/ca/d1/0ccad143-6bbd-be98-83ff-e013c75603b9/AppIcon-1x_U007emarketing-0-85-220-0-5.png/200x200bb.png",
-    "id" : "1299534713",
-    "released" : "2018-01-31",
-    "title" : "Will it ever end?",
-    "url" : "https://itunes.apple.com/nz/app/will-it-ever-end/id1299534713?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "Upjers GmbH",
-    "developerId" : 451417174,
-    "developerUrl" : "https://itunes.apple.com/nz/developer/upjers-gmbh/id451417174?mt=8",
-    "genreIds" : [ 
-        "6014",
-        "7014",
-        "7002"
-      ],
-    "genres" : [ 
-        "Games",
-        "Role-Playing",
-        "Adventure"
-      ],
-    "icon" : "http://is5.mzstatic.com/image/thumb/Purple128/v4/2f/45/63/2f4563de-d498-1af4-3f04-0e6da1b8137b/AppIcon-1x_U007emarketing-85-220-5.png/200x200bb.png",
-    "id" : "1160643166",
-    "released" : "2018-02-22",
-    "title" : "upjers Wonderland",
-    "url" : "https://itunes.apple.com/nz/app/upjers-wonderland/id1160643166?mt=8"
+    "icon" : "http://is5.mzstatic.com/image/thumb/Purple62/v4/6d/ad/0a/6dad0a0d-251d-5a05-256c-90fe2c8a2e92/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-5.png/200x200bb.png",
+    "id" : "1326078585",
+    "released" : "2018-03-01",
+    "title" : "Silent Streets: Mockingbird",
+    "url" : "https://itunes.apple.com/nz/app/silent-streets-mockingbird/id1326078585?mt=8"
   }
 ]

@@ -2,6 +2,26 @@
   { 
     "appId" : undefined,
     "description" : undefined,
+    "developer" : "Tinder Inc.",
+    "developerId" : 725634363,
+    "developerUrl" : "https://itunes.apple.com/at/developer/tinder-inc/id725634363?mt=8",
+    "genreIds" : [ 
+        "6012",
+        "6005"
+      ],
+    "genres" : [ 
+        "Lifestyle",
+        "Soziale Netze"
+      ],
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple128/v4/99/88/5d/99885d98-3baf-da31-d81e-5440611fd4cd/AppIcon-1x_U007emarketing-85-220-0-4.png/200x200bb.png",
+    "id" : "547702041",
+    "released" : "2012-08-03",
+    "title" : "Tinder",
+    "url" : "https://itunes.apple.com/at/app/tinder/id547702041?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
     "developer" : "Netflix, Inc.",
     "developerId" : 363590054,
     "developerUrl" : "https://itunes.apple.com/at/developer/netflix-inc/id363590054?mt=8",
@@ -22,22 +42,90 @@
   { 
     "appId" : undefined,
     "description" : undefined,
-    "developer" : "Tinder Inc.",
-    "developerId" : 725634363,
-    "developerUrl" : "https://itunes.apple.com/at/developer/tinder-inc/id725634363?mt=8",
+    "developer" : "Playrix Games",
+    "developerId" : 1162116447,
+    "developerUrl" : "https://itunes.apple.com/at/developer/playrix-games/id1162116447?mt=8",
     "genreIds" : [ 
-        "6012",
-        "6005"
+        "6014",
+        "6016",
+        "7012",
+        "7015"
       ],
     "genres" : [ 
-        "Lifestyle",
-        "Soziale Netze"
+        "Spiele",
+        "Unterhaltung",
+        "Puzzle",
+        "Simulation"
       ],
-    "icon" : "http://is4.mzstatic.com/image/thumb/Purple128/v4/99/88/5d/99885d98-3baf-da31-d81e-5440611fd4cd/AppIcon-1x_U007emarketing-85-220-0-4.png/200x200bb.png",
-    "id" : "547702041",
-    "released" : "2012-08-03",
-    "title" : "Tinder",
-    "url" : "https://itunes.apple.com/at/app/tinder/id547702041?mt=8"
+    "icon" : "http://is3.mzstatic.com/image/thumb/Purple118/v4/5b/b7/8f/5bb78f84-7345-bf67-7134-b8b50dd5a967/AppIcon-1x_U007emarketing-0-85-220-0-9.png/200x200bb.png",
+    "id" : "1105855019",
+    "released" : "2016-08-25",
+    "title" : "Gardenscapes",
+    "url" : "https://itunes.apple.com/at/app/gardenscapes/id1105855019?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "FunPlus",
+    "developerId" : 495598783,
+    "developerUrl" : "https://itunes.apple.com/at/developer/funplus/id495598783?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7017",
+        "7014"
+      ],
+    "genres" : [ 
+        "Spiele",
+        "Strategie",
+        "Rollenspiel"
+      ],
+    "icon" : "http://is2.mzstatic.com/image/thumb/Purple118/v4/35/cd/8a/35cd8ab3-d529-de3d-a7cb-5a0c857f8a99/mzl.orvrpkmv.png/200x200bb.png",
+    "id" : "1274354704",
+    "released" : "2017-09-21",
+    "title" : "Guns of Glory",
+    "url" : "https://itunes.apple.com/at/app/guns-of-glory/id1274354704?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "LOVOO GmbH apps",
+    "developerId" : 445338489,
+    "developerUrl" : "https://itunes.apple.com/at/developer/lovoo-gmbh-apps/id445338489?mt=8",
+    "genreIds" : [ 
+        "6005",
+        "6012"
+      ],
+    "genres" : [ 
+        "Soziale Netze",
+        "Lifestyle"
+      ],
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple62/v4/f8/64/2b/f8642b83-03e2-f32a-0586-8fd9d8d9d5b5/AppIcon-1x_U007emarketing-85-220-0-6.png/200x200bb.png",
+    "id" : "445338486",
+    "released" : "2011-07-17",
+    "title" : "LOVOO",
+    "url" : "https://itunes.apple.com/at/app/lovoo/id445338486?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Electronic Arts",
+    "developerId" : 284800461,
+    "developerUrl" : "https://itunes.apple.com/at/developer/electronic-arts/id284800461?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7017",
+        "7014"
+      ],
+    "genres" : [ 
+        "Spiele",
+        "Strategie",
+        "Rollenspiel"
+      ],
+    "icon" : "http://is3.mzstatic.com/image/thumb/Purple128/v4/6d/ed/36/6ded360f-70ae-0f69-cbe5-7a89aa65076e/AppIcon-1x_U007emarketing-85-220-8.png/200x200bb.png",
+    "id" : "921022358",
+    "released" : "2015-11-24",
+    "title" : "Star Wars™: Galaxy of Heroes",
+    "url" : "https://itunes.apple.com/at/app/star-wars-galaxy-of-heroes/id921022358?mt=8"
   },
   { 
     "appId" : undefined,
@@ -64,46 +152,46 @@
   { 
     "appId" : undefined,
     "description" : undefined,
-    "developer" : "LOVOO GmbH apps",
-    "developerId" : 445338489,
-    "developerUrl" : "https://itunes.apple.com/at/developer/lovoo-gmbh-apps/id445338489?mt=8",
+    "developer" : "Niantic, Inc.",
+    "developerId" : 1037205060,
+    "developerUrl" : "https://itunes.apple.com/at/developer/niantic-inc/id1037205060?mt=8",
     "genreIds" : [ 
-        "6005",
-        "6012"
+        "6014",
+        "6013"
       ],
     "genres" : [ 
-        "Soziale Netze",
-        "Lifestyle"
+        "Spiele",
+        "Gesundheit und Fitness"
       ],
-    "icon" : "http://is4.mzstatic.com/image/thumb/Purple62/v4/f8/64/2b/f8642b83-03e2-f32a-0586-8fd9d8d9d5b5/AppIcon-1x_U007emarketing-85-220-0-6.png/200x200bb.png",
-    "id" : "445338486",
-    "released" : "2011-07-17",
-    "title" : "LOVOO",
-    "url" : "https://itunes.apple.com/at/app/lovoo/id445338486?mt=8"
+    "icon" : "http://is2.mzstatic.com/image/thumb/Purple118/v4/11/03/cc/1103cc8d-405c-f9f1-b5f2-da94a75c5de4/AppIcon-1x_U007emarketing-85-220-0-8.png/200x200bb.png",
+    "id" : "1094591345",
+    "released" : "2016-07-16",
+    "title" : "Pokémon GO",
+    "url" : "https://itunes.apple.com/at/app/pok%C3%A9mon-go/id1094591345?mt=8"
   },
   { 
     "appId" : undefined,
     "description" : undefined,
-    "developer" : "BANDAI NAMCO Entertainment Inc.",
-    "developerId" : 352305770,
-    "developerUrl" : "https://itunes.apple.com/at/developer/bandai-namco-entertainment-inc/id352305770?mt=8",
+    "developer" : "Supercell",
+    "developerId" : 488106216,
+    "developerUrl" : "https://itunes.apple.com/at/developer/supercell/id488106216?mt=8",
     "genreIds" : [ 
         "6014",
-        "7014",
-        "7002",
-        "6016"
+        "7001",
+        "6016",
+        "7017"
       ],
     "genres" : [ 
         "Spiele",
-        "Rollenspiel",
-        "Abenteuer",
-        "Unterhaltung"
+        "Action",
+        "Unterhaltung",
+        "Strategie"
       ],
-    "icon" : "http://is1.mzstatic.com/image/thumb/Purple128/v4/a1/73/81/a1738167-a616-7a57-a6a9-e3095d8c4150/pr_source.png/200x200bb.png",
-    "id" : "943690848",
-    "released" : "2015-02-16",
-    "title" : "ONE PIECE TREASURE CRUISE",
-    "url" : "https://itunes.apple.com/at/app/one-piece-treasure-cruise/id943690848?mt=8"
+    "icon" : "http://is1.mzstatic.com/image/thumb/Purple128/v4/88/0a/bb/880abbb0-611a-13a8-44da-8e49e2b3f07a/AppIcon-1x_U007emarketing-0-85-220-0-5.png/200x200bb.png",
+    "id" : "529479190",
+    "released" : "2012-08-02",
+    "title" : "Clash of Clans",
+    "url" : "https://itunes.apple.com/at/app/clash-of-clans/id529479190?mt=8"
   },
   { 
     "appId" : undefined,
@@ -128,6 +216,30 @@
     "released" : "2016-03-02",
     "title" : "Clash Royale",
     "url" : "https://itunes.apple.com/at/app/clash-royale/id1053012308?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "BANDAI NAMCO Entertainment Inc.",
+    "developerId" : 352305770,
+    "developerUrl" : "https://itunes.apple.com/at/developer/bandai-namco-entertainment-inc/id352305770?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7012",
+        "7001",
+        "6016"
+      ],
+    "genres" : [ 
+        "Spiele",
+        "Puzzle",
+        "Action",
+        "Unterhaltung"
+      ],
+    "icon" : "http://is2.mzstatic.com/image/thumb/Purple118/v4/0b/f5/55/0bf555dd-f0b3-babc-f7fb-64f4d49df28f/mzl.aclovzwb.png/200x200bb.png",
+    "id" : "951627425",
+    "released" : "2015-07-16",
+    "title" : "DRAGON BALL Z DOKKAN BATTLE",
+    "url" : "https://itunes.apple.com/at/app/dragon-ball-z-dokkan-battle/id951627425?mt=8"
   },
   { 
     "appId" : undefined,
@@ -180,192 +292,6 @@
   { 
     "appId" : undefined,
     "description" : undefined,
-    "developer" : "Supercell",
-    "developerId" : 488106216,
-    "developerUrl" : "https://itunes.apple.com/at/developer/supercell/id488106216?mt=8",
-    "genreIds" : [ 
-        "6014",
-        "7015",
-        "7009",
-        "6016"
-      ],
-    "genres" : [ 
-        "Spiele",
-        "Simulation",
-        "Familie",
-        "Unterhaltung"
-      ],
-    "icon" : "http://is1.mzstatic.com/image/thumb/Purple128/v4/69/8a/47/698a47dc-08ec-d2e3-ebf3-39a5d33d117d/AppIcon-1x_U007emarketing-0-85-220-0-6.png/200x200bb.png",
-    "id" : "506627515",
-    "released" : "2012-06-21",
-    "title" : "Hay Day",
-    "url" : "https://itunes.apple.com/at/app/hay-day/id506627515?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "Supercell",
-    "developerId" : 488106216,
-    "developerUrl" : "https://itunes.apple.com/at/developer/supercell/id488106216?mt=8",
-    "genreIds" : [ 
-        "6014",
-        "7001",
-        "6016",
-        "7017"
-      ],
-    "genres" : [ 
-        "Spiele",
-        "Action",
-        "Unterhaltung",
-        "Strategie"
-      ],
-    "icon" : "http://is1.mzstatic.com/image/thumb/Purple128/v4/88/0a/bb/880abbb0-611a-13a8-44da-8e49e2b3f07a/AppIcon-1x_U007emarketing-0-85-220-0-5.png/200x200bb.png",
-    "id" : "529479190",
-    "released" : "2012-08-02",
-    "title" : "Clash of Clans",
-    "url" : "https://itunes.apple.com/at/app/clash-of-clans/id529479190?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "Playrix Games",
-    "developerId" : 1162116447,
-    "developerUrl" : "https://itunes.apple.com/at/developer/playrix-games/id1162116447?mt=8",
-    "genreIds" : [ 
-        "6014",
-        "6016",
-        "7012",
-        "7015"
-      ],
-    "genres" : [ 
-        "Spiele",
-        "Unterhaltung",
-        "Puzzle",
-        "Simulation"
-      ],
-    "icon" : "http://is3.mzstatic.com/image/thumb/Purple118/v4/5b/b7/8f/5bb78f84-7345-bf67-7134-b8b50dd5a967/AppIcon-1x_U007emarketing-0-85-220-0-9.png/200x200bb.png",
-    "id" : "1105855019",
-    "released" : "2016-08-25",
-    "title" : "Gardenscapes",
-    "url" : "https://itunes.apple.com/at/app/gardenscapes/id1105855019?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "FunPlus",
-    "developerId" : 495598783,
-    "developerUrl" : "https://itunes.apple.com/at/developer/funplus/id495598783?mt=8",
-    "genreIds" : [ 
-        "6014",
-        "7017",
-        "7014"
-      ],
-    "genres" : [ 
-        "Spiele",
-        "Strategie",
-        "Rollenspiel"
-      ],
-    "icon" : "http://is2.mzstatic.com/image/thumb/Purple118/v4/35/cd/8a/35cd8ab3-d529-de3d-a7cb-5a0c857f8a99/mzl.orvrpkmv.png/200x200bb.png",
-    "id" : "1274354704",
-    "released" : "2017-09-21",
-    "title" : "Guns of Glory",
-    "url" : "https://itunes.apple.com/at/app/guns-of-glory/id1274354704?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "Epic Action LLC",
-    "developerId" : 1140629705,
-    "developerUrl" : "https://itunes.apple.com/at/developer/epic-action-llc/id1140629705?mt=8",
-    "genreIds" : [ 
-        "6014",
-        "6005",
-        "7017",
-        "7014"
-      ],
-    "genres" : [ 
-        "Spiele",
-        "Soziale Netze",
-        "Strategie",
-        "Rollenspiel"
-      ],
-    "icon" : "http://is2.mzstatic.com/image/thumb/Purple128/v4/c5/55/7c/c5557cf1-1ff7-66d0-0bdf-aec6ff0736c0/mzl.uxogjpiq.jpg/200x200bb.png",
-    "id" : "1186994231",
-    "released" : "2017-06-28",
-    "title" : "Final Fantasy XV: A New Empire",
-    "url" : "https://itunes.apple.com/at/app/final-fantasy-xv-a-new-empire/id1186994231?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "NaturalMotion",
-    "developerId" : 330281898,
-    "developerUrl" : "https://itunes.apple.com/at/developer/naturalmotion/id330281898?mt=8",
-    "genreIds" : [ 
-        "6014",
-        "6016",
-        "7013",
-        "7003"
-      ],
-    "genres" : [ 
-        "Spiele",
-        "Unterhaltung",
-        "Rennsport",
-        "Arcade"
-      ],
-    "icon" : "http://is2.mzstatic.com/image/thumb/Purple62/v4/24/35/a4/2435a41f-febc-df3b-f58c-000651b338ac/AppIcon-1x_U007emarketing-85-220-9.png/200x200bb.png",
-    "id" : "887947640",
-    "released" : "2016-06-29",
-    "title" : "CSR Racing 2",
-    "url" : "https://itunes.apple.com/at/app/csr-racing-2/id887947640?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "Niantic, Inc.",
-    "developerId" : 1037205060,
-    "developerUrl" : "https://itunes.apple.com/at/developer/niantic-inc/id1037205060?mt=8",
-    "genreIds" : [ 
-        "6014",
-        "6013"
-      ],
-    "genres" : [ 
-        "Spiele",
-        "Gesundheit und Fitness"
-      ],
-    "icon" : "http://is2.mzstatic.com/image/thumb/Purple118/v4/11/03/cc/1103cc8d-405c-f9f1-b5f2-da94a75c5de4/AppIcon-1x_U007emarketing-85-220-0-8.png/200x200bb.png",
-    "id" : "1094591345",
-    "released" : "2016-07-16",
-    "title" : "Pokémon GO",
-    "url" : "https://itunes.apple.com/at/app/pok%C3%A9mon-go/id1094591345?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "InnoGames",
-    "developerId" : 435365770,
-    "developerUrl" : "https://itunes.apple.com/at/developer/innogames/id435365770?mt=8",
-    "genreIds" : [ 
-        "6014",
-        "7015",
-        "7017",
-        "6016"
-      ],
-    "genres" : [ 
-        "Spiele",
-        "Simulation",
-        "Strategie",
-        "Unterhaltung"
-      ],
-    "icon" : "http://is1.mzstatic.com/image/thumb/Purple128/v4/c8/b6/4f/c8b64ffc-14ca-e216-78f9-cc29ea6fbe93/AppIcon-1x_U007emarketing-85-220-6.png/200x200bb.png",
-    "id" : "711455226",
-    "released" : "2014-01-31",
-    "title" : "Forge of Empires",
-    "url" : "https://itunes.apple.com/at/app/forge-of-empires/id711455226?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
     "developer" : "Peak Games",
     "developerId" : 476160947,
     "developerUrl" : "https://itunes.apple.com/at/developer/peak-games/id476160947?mt=8",
@@ -388,22 +314,48 @@
   { 
     "appId" : undefined,
     "description" : undefined,
-    "developer" : "Spotify Ltd.",
-    "developerId" : 324684583,
-    "developerUrl" : "https://itunes.apple.com/at/developer/spotify-ltd/id324684583?mt=8",
+    "developer" : "Com2uS Corp.",
+    "developerId" : 299175870,
+    "developerUrl" : "https://itunes.apple.com/at/developer/com2us-corp/id299175870?mt=8",
     "genreIds" : [ 
-        "6011",
+        "6014",
+        "7014",
+        "6016",
+        "7017"
+      ],
+    "genres" : [ 
+        "Spiele",
+        "Rollenspiel",
+        "Unterhaltung",
+        "Strategie"
+      ],
+    "icon" : "http://is1.mzstatic.com/image/thumb/Purple128/v4/39/e7/e4/39e7e47b-470d-3ae0-44c2-7c1c6b5144a2/mzl.vqomhaul.jpg/200x200bb.png",
+    "id" : "852912420",
+    "released" : "2014-06-12",
+    "title" : "Summoners War: Sky Arena",
+    "url" : "https://itunes.apple.com/at/app/summoners-war-sky-arena/id852912420?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Tap4Fun Game Ltd",
+    "developerId" : 500556134,
+    "developerUrl" : "https://itunes.apple.com/at/developer/tap4fun-game-ltd/id500556134?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7017",
         "6016"
       ],
     "genres" : [ 
-        "Musik",
+        "Spiele",
+        "Strategie",
         "Unterhaltung"
       ],
-    "icon" : "http://is1.mzstatic.com/image/thumb/Purple128/v4/b2/a8/7c/b2a87c3a-1a17-19fe-275c-a3c2ff2f7360/AppIcon-1x_U007emarketing-85-220-0-5.png/200x200bb.png",
-    "id" : "324684580",
-    "released" : "2011-11-15",
-    "title" : "Spotify Music",
-    "url" : "https://itunes.apple.com/at/app/spotify-music/id324684580?mt=8"
+    "icon" : "http://is1.mzstatic.com/image/thumb/Purple118/v4/88/a4/0d/88a40d64-90e6-1dba-1f0a-a6545e89e2d9/mzl.animtopm.png/200x200bb.png",
+    "id" : "500099330",
+    "released" : "2012-02-12",
+    "title" : "King's Empire (Deluxe)",
+    "url" : "https://itunes.apple.com/at/app/kings-empire-deluxe/id500099330?mt=8"
   },
   { 
     "appId" : undefined,
@@ -452,112 +404,50 @@
   { 
     "appId" : undefined,
     "description" : undefined,
-    "developer" : "Playrix Games",
-    "developerId" : 1162116447,
-    "developerUrl" : "https://itunes.apple.com/at/developer/playrix-games/id1162116447?mt=8",
+    "developer" : "Supercell",
+    "developerId" : 488106216,
+    "developerUrl" : "https://itunes.apple.com/at/developer/supercell/id488106216?mt=8",
     "genreIds" : [ 
         "6014",
-        "7012",
-        "6016",
-        "7015"
-      ],
-    "genres" : [ 
-        "Spiele",
-        "Puzzle",
-        "Unterhaltung",
-        "Simulation"
-      ],
-    "icon" : "http://is5.mzstatic.com/image/thumb/Purple118/v4/40/3e/2e/403e2ed6-534e-bd4b-4f73-11d6bade6c9f/AppIcon-1x_U007emarketing-0-85-220-0-5.png/200x200bb.png",
-    "id" : "664575829",
-    "released" : "2015-12-10",
-    "title" : "Fishdom",
-    "url" : "https://itunes.apple.com/at/app/fishdom/id664575829?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "Tap4Fun Game Ltd",
-    "developerId" : 500556134,
-    "developerUrl" : "https://itunes.apple.com/at/developer/tap4fun-game-ltd/id500556134?mt=8",
-    "genreIds" : [ 
-        "6014",
-        "7017",
+        "7015",
+        "7009",
         "6016"
       ],
     "genres" : [ 
         "Spiele",
-        "Strategie",
+        "Simulation",
+        "Familie",
         "Unterhaltung"
       ],
-    "icon" : "http://is1.mzstatic.com/image/thumb/Purple118/v4/88/a4/0d/88a40d64-90e6-1dba-1f0a-a6545e89e2d9/mzl.animtopm.png/200x200bb.png",
-    "id" : "500099330",
-    "released" : "2012-02-12",
-    "title" : "King's Empire (Deluxe)",
-    "url" : "https://itunes.apple.com/at/app/kings-empire-deluxe/id500099330?mt=8"
+    "icon" : "http://is1.mzstatic.com/image/thumb/Purple128/v4/69/8a/47/698a47dc-08ec-d2e3-ebf3-39a5d33d117d/AppIcon-1x_U007emarketing-0-85-220-0-6.png/200x200bb.png",
+    "id" : "506627515",
+    "released" : "2012-06-21",
+    "title" : "Hay Day",
+    "url" : "https://itunes.apple.com/at/app/hay-day/id506627515?mt=8"
   },
   { 
     "appId" : undefined,
     "description" : undefined,
-    "developer" : "DAZN",
-    "developerId" : 1085544656,
-    "developerUrl" : "https://itunes.apple.com/at/developer/dazn/id1085544656?mt=8",
-    "genreIds" : [ 
-        "6004",
-        "6016"
-      ],
-    "genres" : [ 
-        "Sport",
-        "Unterhaltung"
-      ],
-    "icon" : "http://is3.mzstatic.com/image/thumb/Purple128/v4/11/42/9b/11429b71-6106-4730-c1c3-56aeb91e78cf/AppIcon-1x_U007emarketing-85-220-0-6.jpeg/200x200bb.png",
-    "id" : "1129523589",
-    "released" : "2016-08-07",
-    "title" : "DAZN",
-    "url" : "https://itunes.apple.com/at/app/dazn/id1129523589?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "NibiruTech Limited",
-    "developerId" : 293614979,
-    "developerUrl" : "https://itunes.apple.com/at/developer/nibirutech-limited/id293614979?mt=8",
+    "developer" : "Epic Action LLC",
+    "developerId" : 1140629705,
+    "developerUrl" : "https://itunes.apple.com/at/developer/epic-action-llc/id1140629705?mt=8",
     "genreIds" : [ 
         "6014",
-        "6016",
-        "7017"
-      ],
-    "genres" : [ 
-        "Spiele",
-        "Unterhaltung",
-        "Strategie"
-      ],
-    "icon" : "http://is4.mzstatic.com/image/thumb/Purple62/v4/70/06/ea/7006ead0-36a3-7638-782f-2bfb2785a154/AppIcon_normal-1x_U007emarketing-0-85-220-0-6.png/200x200bb.png",
-    "id" : "484039314",
-    "released" : "2012-02-12",
-    "title" : "King's Empire",
-    "url" : "https://itunes.apple.com/at/app/kings-empire/id484039314?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "IGG.COM",
-    "developerId" : 1303288190,
-    "developerUrl" : "https://itunes.apple.com/at/developer/igg-com/id1303288190?mt=8",
-    "genreIds" : [ 
-        "6014",
+        "6005",
         "7017",
         "7014"
       ],
     "genres" : [ 
         "Spiele",
+        "Soziale Netze",
         "Strategie",
         "Rollenspiel"
       ],
-    "icon" : "http://is4.mzstatic.com/image/thumb/Purple128/v4/c5/64/c5/c564c51f-1217-96d9-0905-f754bd919d43/AppIcon-1x_U007emarketing-0-85-220-0-5.png/200x200bb.png",
-    "id" : "1071976327",
-    "released" : "2016-03-31",
-    "title" : "Lords Mobile: War Kingdom",
-    "url" : "https://itunes.apple.com/at/app/lords-mobile-war-kingdom/id1071976327?mt=8"
+    "icon" : "http://is2.mzstatic.com/image/thumb/Purple128/v4/c5/55/7c/c5557cf1-1ff7-66d0-0bdf-aec6ff0736c0/mzl.uxogjpiq.jpg/200x200bb.png",
+    "id" : "1186994231",
+    "released" : "2017-06-28",
+    "title" : "Final Fantasy XV: A New Empire",
+    "url" : "https://itunes.apple.com/at/app/final-fantasy-xv-a-new-empire/id1186994231?mt=8"
   },
   { 
     "appId" : undefined,
@@ -586,150 +476,74 @@
   { 
     "appId" : undefined,
     "description" : undefined,
-    "developer" : "Dropbox",
-    "developerId" : 327630333,
-    "developerUrl" : "https://itunes.apple.com/at/developer/dropbox/id327630333?mt=8",
+    "developer" : "InnoGames",
+    "developerId" : 435365770,
+    "developerUrl" : "https://itunes.apple.com/at/developer/innogames/id435365770?mt=8",
     "genreIds" : [ 
-        "6007",
-        "6002"
+        "6014",
+        "7015",
+        "7017",
+        "6016"
       ],
     "genres" : [ 
-        "Produktivität",
-        "Dienstprogramme"
+        "Spiele",
+        "Simulation",
+        "Strategie",
+        "Unterhaltung"
       ],
-    "icon" : "http://is5.mzstatic.com/image/thumb/Purple62/v4/0b/d2/e2/0bd2e2a7-ba5a-33be-cf8d-9515f0adc6c0/AppIcon-1x_U007emarketing-85-220-0-5.png/200x200bb.png",
-    "id" : "327630330",
-    "released" : "2009-09-29",
-    "title" : "Dropbox",
-    "url" : "https://itunes.apple.com/at/app/dropbox/id327630330?mt=8"
+    "icon" : "http://is1.mzstatic.com/image/thumb/Purple128/v4/c8/b6/4f/c8b64ffc-14ca-e216-78f9-cc29ea6fbe93/AppIcon-1x_U007emarketing-85-220-6.png/200x200bb.png",
+    "id" : "711455226",
+    "released" : "2014-01-31",
+    "title" : "Forge of Empires",
+    "url" : "https://itunes.apple.com/at/app/forge-of-empires/id711455226?mt=8"
   },
   { 
     "appId" : undefined,
     "description" : undefined,
-    "developer" : "Com2uS Corp.",
-    "developerId" : 299175870,
-    "developerUrl" : "https://itunes.apple.com/at/developer/com2us-corp/id299175870?mt=8",
+    "developer" : "Playrix Games",
+    "developerId" : 1162116447,
+    "developerUrl" : "https://itunes.apple.com/at/developer/playrix-games/id1162116447?mt=8",
     "genreIds" : [ 
         "6014",
-        "7014",
+        "7012",
         "6016",
-        "7017"
+        "7015"
       ],
     "genres" : [ 
         "Spiele",
-        "Rollenspiel",
+        "Puzzle",
         "Unterhaltung",
-        "Strategie"
+        "Simulation"
       ],
-    "icon" : "http://is1.mzstatic.com/image/thumb/Purple128/v4/39/e7/e4/39e7e47b-470d-3ae0-44c2-7c1c6b5144a2/mzl.vqomhaul.jpg/200x200bb.png",
-    "id" : "852912420",
-    "released" : "2014-06-12",
-    "title" : "Summoners War: Sky Arena",
-    "url" : "https://itunes.apple.com/at/app/summoners-war-sky-arena/id852912420?mt=8"
+    "icon" : "http://is5.mzstatic.com/image/thumb/Purple118/v4/40/3e/2e/403e2ed6-534e-bd4b-4f73-11d6bade6c9f/AppIcon-1x_U007emarketing-0-85-220-0-5.png/200x200bb.png",
+    "id" : "664575829",
+    "released" : "2015-12-10",
+    "title" : "Fishdom",
+    "url" : "https://itunes.apple.com/at/app/fishdom/id664575829?mt=8"
   },
   { 
     "appId" : undefined,
     "description" : undefined,
-    "developer" : "Lesson Nine GmbH",
-    "developerId" : 357018535,
-    "developerUrl" : "https://itunes.apple.com/at/developer/lesson-nine-gmbh/id357018535?mt=8",
-    "genreIds" : [ 
-        "6017",
-        "6003"
-      ],
-    "genres" : [ 
-        "Bildung",
-        "Reisen"
-      ],
-    "icon" : "http://is4.mzstatic.com/image/thumb/Purple118/v4/50/67/35/506735f1-f3ca-69cd-6015-fc140040df22/AppIcons-1x_U007emarketing-85-220-9.png/200x200bb.png",
-    "id" : "829587759",
-    "released" : "2014-06-11",
-    "title" : "Babbel – Sprachen lernen",
-    "url" : "https://itunes.apple.com/at/app/babbel-sprachen-lernen/id829587759?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "Badoo Software Ltd",
-    "developerId" : 351331197,
-    "developerUrl" : "https://itunes.apple.com/at/developer/badoo-software-ltd/id351331197?mt=8",
-    "genreIds" : [ 
-        "6005",
-        "6012"
-      ],
-    "genres" : [ 
-        "Soziale Netze",
-        "Lifestyle"
-      ],
-    "icon" : "http://is3.mzstatic.com/image/thumb/Purple62/v4/83/f5/b4/83f5b49a-2664-69fa-a5e2-9f02b3cd0a34/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-8.png/200x200bb.png",
-    "id" : "351331194",
-    "released" : "2010-10-19",
-    "title" : "Badoo: Lerne neue Leute kennen",
-    "url" : "https://itunes.apple.com/at/app/badoo-lerne-neue-leute-kennen/id351331194?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "Freeletics GmbH",
-    "developerId" : 579309595,
-    "developerUrl" : "https://itunes.apple.com/at/developer/freeletics-gmbh/id579309595?mt=8",
-    "genreIds" : [ 
-        "6013",
-        "6012"
-      ],
-    "genres" : [ 
-        "Gesundheit und Fitness",
-        "Lifestyle"
-      ],
-    "icon" : "http://is5.mzstatic.com/image/thumb/Purple128/v4/0b/fa/2c/0bfa2c8c-20e0-ca0d-a57b-0d4eebfcc750/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-5.png/200x200bb.png",
-    "id" : "654810212",
-    "released" : "2013-06-26",
-    "title" : "Freeletics Bodyweight",
-    "url" : "https://itunes.apple.com/at/app/freeletics-bodyweight/id654810212?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "Kabam",
-    "developerId" : 445459903,
-    "developerUrl" : "https://itunes.apple.com/at/developer/kabam/id445459903?mt=8",
+    "developer" : "NaturalMotion",
+    "developerId" : 330281898,
+    "developerUrl" : "https://itunes.apple.com/at/developer/naturalmotion/id330281898?mt=8",
     "genreIds" : [ 
         "6014",
-        "7001",
-        "7002",
-        "6016"
+        "6016",
+        "7013",
+        "7003"
       ],
     "genres" : [ 
         "Spiele",
-        "Action",
-        "Abenteuer",
-        "Unterhaltung"
+        "Unterhaltung",
+        "Rennsport",
+        "Arcade"
       ],
-    "icon" : "http://is2.mzstatic.com/image/thumb/Purple128/v4/d5/f1/ec/d5f1eca8-897e-8dfa-9045-fcca8525724a/AppIcon-1x_U007emarketing-0-85-220-0-5.png/200x200bb.png",
-    "id" : "896112560",
-    "released" : "2014-12-10",
-    "title" : "MARVEL Sturm der Superhelden",
-    "url" : "https://itunes.apple.com/at/app/marvel-sturm-der-superhelden/id896112560?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "DEEZER SA",
-    "developerId" : 292738172,
-    "developerUrl" : "https://itunes.apple.com/at/developer/deezer-sa/id292738172?mt=8",
-    "genreIds" : [ 
-        "6011",
-        "6016"
-      ],
-    "genres" : [ 
-        "Musik",
-        "Unterhaltung"
-      ],
-    "icon" : "http://is3.mzstatic.com/image/thumb/Purple62/v4/2f/22/2d/2f222dc7-70fa-3408-d5e3-4495fa521fe8/AppIcon-1x_U007emarketing-85-220-0-9.png/200x200bb.png",
-    "id" : "292738169",
-    "released" : "2008-10-31",
-    "title" : "Deezer: Musik Player & Radio",
-    "url" : "https://itunes.apple.com/at/app/deezer-musik-player-radio/id292738169?mt=8"
+    "icon" : "http://is2.mzstatic.com/image/thumb/Purple62/v4/24/35/a4/2435a41f-febc-df3b-f58c-000651b338ac/AppIcon-1x_U007emarketing-85-220-9.png/200x200bb.png",
+    "id" : "887947640",
+    "released" : "2016-06-29",
+    "title" : "CSR Racing 2",
+    "url" : "https://itunes.apple.com/at/app/csr-racing-2/id887947640?mt=8"
   },
   { 
     "appId" : undefined,
@@ -758,9 +572,9 @@
   { 
     "appId" : undefined,
     "description" : undefined,
-    "developer" : "Electronic Arts",
-    "developerId" : 284800461,
-    "developerUrl" : "https://itunes.apple.com/at/developer/electronic-arts/id284800461?mt=8",
+    "developer" : "IGG.COM",
+    "developerId" : 1303288190,
+    "developerUrl" : "https://itunes.apple.com/at/developer/igg-com/id1303288190?mt=8",
     "genreIds" : [ 
         "6014",
         "7017",
@@ -771,11 +585,277 @@
         "Strategie",
         "Rollenspiel"
       ],
-    "icon" : "http://is3.mzstatic.com/image/thumb/Purple128/v4/6d/ed/36/6ded360f-70ae-0f69-cbe5-7a89aa65076e/AppIcon-1x_U007emarketing-85-220-8.png/200x200bb.png",
-    "id" : "921022358",
-    "released" : "2015-11-24",
-    "title" : "Star Wars™: Galaxy of Heroes",
-    "url" : "https://itunes.apple.com/at/app/star-wars-galaxy-of-heroes/id921022358?mt=8"
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple128/v4/c5/64/c5/c564c51f-1217-96d9-0905-f754bd919d43/AppIcon-1x_U007emarketing-0-85-220-0-5.png/200x200bb.png",
+    "id" : "1071976327",
+    "released" : "2016-03-31",
+    "title" : "Lords Mobile: War Kingdom",
+    "url" : "https://itunes.apple.com/at/app/lords-mobile-war-kingdom/id1071976327?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Badoo Software Ltd",
+    "developerId" : 351331197,
+    "developerUrl" : "https://itunes.apple.com/at/developer/badoo-software-ltd/id351331197?mt=8",
+    "genreIds" : [ 
+        "6005",
+        "6012"
+      ],
+    "genres" : [ 
+        "Soziale Netze",
+        "Lifestyle"
+      ],
+    "icon" : "http://is3.mzstatic.com/image/thumb/Purple62/v4/83/f5/b4/83f5b49a-2664-69fa-a5e2-9f02b3cd0a34/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-8.png/200x200bb.png",
+    "id" : "351331194",
+    "released" : "2010-10-19",
+    "title" : "Badoo: Lerne neue Leute kennen",
+    "url" : "https://itunes.apple.com/at/app/badoo-lerne-neue-leute-kennen/id351331194?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Kabam",
+    "developerId" : 445459903,
+    "developerUrl" : "https://itunes.apple.com/at/developer/kabam/id445459903?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7001",
+        "7002",
+        "6016"
+      ],
+    "genres" : [ 
+        "Spiele",
+        "Action",
+        "Abenteuer",
+        "Unterhaltung"
+      ],
+    "icon" : "http://is2.mzstatic.com/image/thumb/Purple128/v4/d5/f1/ec/d5f1eca8-897e-8dfa-9045-fcca8525724a/AppIcon-1x_U007emarketing-0-85-220-0-5.png/200x200bb.png",
+    "id" : "896112560",
+    "released" : "2014-12-10",
+    "title" : "MARVEL Sturm der Superhelden",
+    "url" : "https://itunes.apple.com/at/app/marvel-sturm-der-superhelden/id896112560?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "ELEX Wireless",
+    "developerId" : 424770549,
+    "developerUrl" : "https://itunes.apple.com/at/developer/elex-wireless/id424770549?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7014",
+        "7017",
+        "6016"
+      ],
+    "genres" : [ 
+        "Spiele",
+        "Rollenspiel",
+        "Strategie",
+        "Unterhaltung"
+      ],
+    "icon" : "http://is5.mzstatic.com/image/thumb/Purple128/v4/3a/8c/c8/3a8cc8dc-0b3d-ad23-a237-7c6f3dd2f0c2/AppIcon-1x_U007emarketing-0-85-220-0-8.png/200x200bb.png",
+    "id" : "945274928",
+    "released" : "2014-12-30",
+    "title" : "Clash of Kings - CoK",
+    "url" : "https://itunes.apple.com/at/app/clash-of-kings-cok/id945274928?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Lesson Nine GmbH",
+    "developerId" : 357018535,
+    "developerUrl" : "https://itunes.apple.com/at/developer/lesson-nine-gmbh/id357018535?mt=8",
+    "genreIds" : [ 
+        "6017",
+        "6003"
+      ],
+    "genres" : [ 
+        "Bildung",
+        "Reisen"
+      ],
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple118/v4/50/67/35/506735f1-f3ca-69cd-6015-fc140040df22/AppIcons-1x_U007emarketing-85-220-9.png/200x200bb.png",
+    "id" : "829587759",
+    "released" : "2014-06-11",
+    "title" : "Babbel – Sprachen lernen",
+    "url" : "https://itunes.apple.com/at/app/babbel-sprachen-lernen/id829587759?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "DAZN",
+    "developerId" : 1085544656,
+    "developerUrl" : "https://itunes.apple.com/at/developer/dazn/id1085544656?mt=8",
+    "genreIds" : [ 
+        "6004",
+        "6016"
+      ],
+    "genres" : [ 
+        "Sport",
+        "Unterhaltung"
+      ],
+    "icon" : "http://is3.mzstatic.com/image/thumb/Purple128/v4/11/42/9b/11429b71-6106-4730-c1c3-56aeb91e78cf/AppIcon-1x_U007emarketing-85-220-0-6.jpeg/200x200bb.png",
+    "id" : "1129523589",
+    "released" : "2016-08-07",
+    "title" : "DAZN",
+    "url" : "https://itunes.apple.com/at/app/dazn/id1129523589?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "DEEZER SA",
+    "developerId" : 292738172,
+    "developerUrl" : "https://itunes.apple.com/at/developer/deezer-sa/id292738172?mt=8",
+    "genreIds" : [ 
+        "6011",
+        "6016"
+      ],
+    "genres" : [ 
+        "Musik",
+        "Unterhaltung"
+      ],
+    "icon" : "http://is3.mzstatic.com/image/thumb/Purple62/v4/2f/22/2d/2f222dc7-70fa-3408-d5e3-4495fa521fe8/AppIcon-1x_U007emarketing-85-220-0-9.png/200x200bb.png",
+    "id" : "292738169",
+    "released" : "2008-10-31",
+    "title" : "Deezer: Musik Player & Radio",
+    "url" : "https://itunes.apple.com/at/app/deezer-musik-player-radio/id292738169?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Funstage Spielewebseiten Betriebsges.m.b.H.",
+    "developerId" : 452677265,
+    "developerUrl" : "https://itunes.apple.com/at/developer/funstage-spielewebseiten-betriebsges-m-b-h/id452677265?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7006"
+      ],
+    "genres" : [ 
+        "Spiele",
+        "Casino"
+      ],
+    "icon" : "http://is5.mzstatic.com/image/thumb/Purple118/v4/c1/52/17/c1521763-c654-47dd-951e-af0f1b77bbf7/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-5.png/200x200bb.png",
+    "id" : "454690785",
+    "released" : "2011-12-06",
+    "title" : "GameTwist Slots",
+    "url" : "https://itunes.apple.com/at/app/gametwist-slots/id454690785?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "King",
+    "developerId" : 526656015,
+    "developerUrl" : "https://itunes.apple.com/at/developer/king/id526656015?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "6016",
+        "7012",
+        "7003"
+      ],
+    "genres" : [ 
+        "Spiele",
+        "Unterhaltung",
+        "Puzzle",
+        "Arcade"
+      ],
+    "icon" : "http://is3.mzstatic.com/image/thumb/Purple128/v4/eb/c1/2b/ebc12b5f-7b0f-7f5d-eda5-1151c1239ccd/mzl.rzffdagb.jpg/200x200bb.png",
+    "id" : "608206510",
+    "released" : "2013-12-12",
+    "title" : "Farm Heroes Saga",
+    "url" : "https://itunes.apple.com/at/app/farm-heroes-saga/id608206510?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Epic War LLC",
+    "developerId" : 592652843,
+    "developerUrl" : "https://itunes.apple.com/at/developer/epic-war-llc/id592652843?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "6005",
+        "7017",
+        "7014"
+      ],
+    "genres" : [ 
+        "Spiele",
+        "Soziale Netze",
+        "Strategie",
+        "Rollenspiel"
+      ],
+    "icon" : "http://is2.mzstatic.com/image/thumb/Purple128/v4/5e/cd/e5/5ecde588-ccf4-b9c9-f3e2-ec98216ceceb/mzl.hormgnkk.jpg/200x200bb.png",
+    "id" : "934596429",
+    "released" : "2015-11-11",
+    "title" : "Mobile Strike",
+    "url" : "https://itunes.apple.com/at/app/mobile-strike/id934596429?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "NibiruTech Limited",
+    "developerId" : 293614979,
+    "developerUrl" : "https://itunes.apple.com/at/developer/nibirutech-limited/id293614979?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "6016",
+        "7017"
+      ],
+    "genres" : [ 
+        "Spiele",
+        "Unterhaltung",
+        "Strategie"
+      ],
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple62/v4/70/06/ea/7006ead0-36a3-7638-782f-2bfb2785a154/AppIcon_normal-1x_U007emarketing-0-85-220-0-6.png/200x200bb.png",
+    "id" : "484039314",
+    "released" : "2012-02-12",
+    "title" : "King's Empire",
+    "url" : "https://itunes.apple.com/at/app/kings-empire/id484039314?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "WARGAMING Group Limited",
+    "developerId" : 815044731,
+    "developerUrl" : "https://itunes.apple.com/at/developer/wargaming-group-limited/id815044731?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7017",
+        "6016",
+        "7001"
+      ],
+    "genres" : [ 
+        "Spiele",
+        "Strategie",
+        "Unterhaltung",
+        "Action"
+      ],
+    "icon" : "http://is1.mzstatic.com/image/thumb/Purple62/v4/5c/cd/47/5ccd479e-b627-4222-5ccb-dbd42577dc36/pr_source.png/200x200bb.png",
+    "id" : "859204347",
+    "released" : "2014-06-28",
+    "title" : "World of Tanks Blitz",
+    "url" : "https://itunes.apple.com/at/app/world-of-tanks-blitz/id859204347?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "ELEX Wireless",
+    "developerId" : 424770549,
+    "developerUrl" : "https://itunes.apple.com/at/developer/elex-wireless/id424770549?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7014",
+        "7009",
+        "6005"
+      ],
+    "genres" : [ 
+        "Spiele",
+        "Rollenspiel",
+        "Familie",
+        "Soziale Netze"
+      ],
+    "icon" : "http://is3.mzstatic.com/image/thumb/Purple118/v4/f0/9b/4f/f09b4f4c-c3c2-2457-a3a8-87346c195f06/mzl.ytlvabsv.png/200x200bb.png",
+    "id" : "1214763767",
+    "released" : "2017-05-05",
+    "title" : "Love Nikki-Dress UP Queen",
+    "url" : "https://itunes.apple.com/at/app/love-nikki-dress-up-queen/id1214763767?mt=8"
   },
   { 
     "appId" : undefined,
@@ -804,6 +884,114 @@
   { 
     "appId" : undefined,
     "description" : undefined,
+    "developer" : "Mobile Trend GmbH",
+    "developerId" : 904596209,
+    "developerUrl" : "https://itunes.apple.com/at/developer/mobile-trend-gmbh/id904596209?mt=8",
+    "genreIds" : [ 
+        "6005",
+        "6012"
+      ],
+    "genres" : [ 
+        "Soziale Netze",
+        "Lifestyle"
+      ],
+    "icon" : "http://is1.mzstatic.com/image/thumb/Purple118/v4/74/df/ed/74dfed8a-e5fd-be04-b1ef-565f1ad1009f/AppIcon-1x_U007emarketing-sRGB-85-220-4.jpeg/200x200bb.png",
+    "id" : "904596206",
+    "released" : "2015-06-10",
+    "title" : "yoomee – Fun und Flirt",
+    "url" : "https://itunes.apple.com/at/app/yoomee-fun-und-flirt/id904596206?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Playrix Games",
+    "developerId" : 1162116447,
+    "developerUrl" : "https://itunes.apple.com/at/developer/playrix-games/id1162116447?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "6016",
+        "7002",
+        "7015"
+      ],
+    "genres" : [ 
+        "Spiele",
+        "Unterhaltung",
+        "Abenteuer",
+        "Simulation"
+      ],
+    "icon" : "http://is2.mzstatic.com/image/thumb/Purple118/v4/eb/b1/23/ebb12356-bc9e-0ceb-e62e-efc17b464b6c/AppIcon-1x_U007emarketing-0-85-220-0-9.png/200x200bb.png",
+    "id" : "638689075",
+    "released" : "2013-10-23",
+    "title" : "Township",
+    "url" : "https://itunes.apple.com/at/app/township/id638689075?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Jeli App",
+    "developerId" : 1116790277,
+    "developerUrl" : "https://itunes.apple.com/at/developer/jeli-app/id1116790277?mt=8",
+    "genreIds" : [ 
+        "6005",
+        "6007"
+      ],
+    "genres" : [ 
+        "Soziale Netze",
+        "Produktivität"
+      ],
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple118/v4/93/89/95/93899590-46d1-a31f-9730-20c28eb3ee51/AppIcon-1x_U007emarketing-85-220-4.png/200x200bb.png",
+    "id" : "1213806775",
+    "released" : "2017-03-15",
+    "title" : "XLock",
+    "url" : "https://itunes.apple.com/at/app/xlock/id1213806775?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "BANDAI NAMCO Entertainment Inc.",
+    "developerId" : 352305770,
+    "developerUrl" : "https://itunes.apple.com/at/developer/bandai-namco-entertainment-inc/id352305770?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7014",
+        "7002",
+        "6016"
+      ],
+    "genres" : [ 
+        "Spiele",
+        "Rollenspiel",
+        "Abenteuer",
+        "Unterhaltung"
+      ],
+    "icon" : "http://is1.mzstatic.com/image/thumb/Purple128/v4/a1/73/81/a1738167-a616-7a57-a6a9-e3095d8c4150/pr_source.png/200x200bb.png",
+    "id" : "943690848",
+    "released" : "2015-02-16",
+    "title" : "ONE PIECE TREASURE CRUISE",
+    "url" : "https://itunes.apple.com/at/app/one-piece-treasure-cruise/id943690848?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Once Dating AG",
+    "developerId" : 965232603,
+    "developerUrl" : "https://itunes.apple.com/at/developer/once-dating-ag/id965232603?mt=8",
+    "genreIds" : [ 
+        "6012",
+        "6005"
+      ],
+    "genres" : [ 
+        "Lifestyle",
+        "Soziale Netze"
+      ],
+    "icon" : "http://is2.mzstatic.com/image/thumb/Purple62/v4/de/ca/50/deca501f-0a6f-d27f-06db-a7405ac2653c/AppIcon-1x_U007emarketing-85-220-0-4.png/200x200bb.png",
+    "id" : "965232604",
+    "released" : "2016-05-10",
+    "title" : "Once - Seriöse Partnersuche",
+    "url" : "https://itunes.apple.com/at/app/once-seri%C3%B6se-partnersuche/id965232604?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
     "developer" : "Huuuge Global Ltd.",
     "developerId" : 1222929957,
     "developerUrl" : "https://itunes.apple.com/at/developer/huuuge-global-ltd/id1222929957?mt=8",
@@ -828,6 +1016,62 @@
   { 
     "appId" : undefined,
     "description" : undefined,
+    "developer" : "runtastic",
+    "developerId" : 336599885,
+    "developerUrl" : "https://itunes.apple.com/at/developer/runtastic/id336599885?mt=8",
+    "genreIds" : [ "6013" ],
+    "genres" : [ "Gesundheit und Fitness" ],
+    "icon" : "http://is1.mzstatic.com/image/thumb/Purple118/v4/ee/7e/d3/ee7ed365-45a5-b9ee-f446-21d0054e3c97/AppIcon-1x_U007emarketing-85-220-0-6.png/200x200bb.png",
+    "id" : "1035263816",
+    "released" : "2015-11-12",
+    "title" : "Runtastic Results Fitness App",
+    "url" : "https://itunes.apple.com/at/app/runtastic-results-fitness-app/id1035263816?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Seriously",
+    "developerId" : 868013621,
+    "developerUrl" : "https://itunes.apple.com/at/developer/seriously/id868013621?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7012",
+        "7002"
+      ],
+    "genres" : [ 
+        "Spiele",
+        "Puzzle",
+        "Abenteuer"
+      ],
+    "icon" : "http://is2.mzstatic.com/image/thumb/Purple118/v4/e3/84/ad/e384adde-ac16-589e-08d6-6f09bec7078a/mzl.ccoubwig.png/200x200bb.png",
+    "id" : "868013618",
+    "released" : "2014-10-09",
+    "title" : "Best Fiends Puzzle-\u00adAbenteuer",
+    "url" : "https://itunes.apple.com/at/app/best-fiends-puzzle-abenteuer/id868013618?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Smule",
+    "developerId" : 290596339,
+    "developerUrl" : "https://itunes.apple.com/at/developer/smule/id290596339?mt=8",
+    "genreIds" : [ 
+        "6011",
+        "6016"
+      ],
+    "genres" : [ 
+        "Musik",
+        "Unterhaltung"
+      ],
+    "icon" : "http://is1.mzstatic.com/image/thumb/Purple118/v4/b2/5a/72/b25a72fe-2ff6-015b-436a-eff66a6d0161/AppIcon-CCCP-1x_U007emarketing-85-220-9.png/200x200bb.png",
+    "id" : "509993510",
+    "released" : "2012-08-08",
+    "title" : "Sing! by Smule",
+    "url" : "https://itunes.apple.com/at/app/sing-by-smule/id509993510?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
     "developer" : "The Bikini Body Training Company Pty Ltd",
     "developerId" : 1049234586,
     "developerUrl" : "https://itunes.apple.com/at/developer/the-bikini-body-training-company-pty-ltd/id1049234586?mt=8",
@@ -848,64 +1092,464 @@
   { 
     "appId" : undefined,
     "description" : undefined,
-    "developer" : "runtastic",
-    "developerId" : 336599885,
-    "developerUrl" : "https://itunes.apple.com/at/developer/runtastic/id336599885?mt=8",
-    "genreIds" : [ "6013" ],
-    "genres" : [ "Gesundheit und Fitness" ],
-    "icon" : "http://is1.mzstatic.com/image/thumb/Purple118/v4/ee/7e/d3/ee7ed365-45a5-b9ee-f446-21d0054e3c97/AppIcon-1x_U007emarketing-85-220-0-6.png/200x200bb.png",
-    "id" : "1035263816",
-    "released" : "2015-11-12",
-    "title" : "Runtastic Results Fitness App",
-    "url" : "https://itunes.apple.com/at/app/runtastic-results-fitness-app/id1035263816?mt=8"
+    "developer" : "Asana Rebel GmbH",
+    "developerId" : 1067860795,
+    "developerUrl" : "https://itunes.apple.com/at/developer/asana-rebel-gmbh/id1067860795?mt=8",
+    "genreIds" : [ 
+        "6013",
+        "6004"
+      ],
+    "genres" : [ 
+        "Gesundheit und Fitness",
+        "Sport"
+      ],
+    "icon" : "http://is1.mzstatic.com/image/thumb/Purple128/v4/4a/ad/34/4aad3450-bf44-07fd-d2f3-28bb797259ef/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-9.jpeg/200x200bb.png",
+    "id" : "1067860796",
+    "released" : "2015-12-17",
+    "title" : "Asana Rebel: Yoga und Fitness",
+    "url" : "https://itunes.apple.com/at/app/asana-rebel-yoga-und-fitness/id1067860796?mt=8"
   },
   { 
     "appId" : undefined,
     "description" : undefined,
-    "developer" : "IGG.COM",
-    "developerId" : 1303288190,
-    "developerUrl" : "https://itunes.apple.com/at/developer/igg-com/id1303288190?mt=8",
+    "developer" : "Dropbox",
+    "developerId" : 327630333,
+    "developerUrl" : "https://itunes.apple.com/at/developer/dropbox/id327630333?mt=8",
+    "genreIds" : [ 
+        "6007",
+        "6002"
+      ],
+    "genres" : [ 
+        "Produktivität",
+        "Dienstprogramme"
+      ],
+    "icon" : "http://is5.mzstatic.com/image/thumb/Purple62/v4/0b/d2/e2/0bd2e2a7-ba5a-33be-cf8d-9515f0adc6c0/AppIcon-1x_U007emarketing-85-220-0-5.png/200x200bb.png",
+    "id" : "327630330",
+    "released" : "2009-09-29",
+    "title" : "Dropbox",
+    "url" : "https://itunes.apple.com/at/app/dropbox/id327630330?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Freeletics GmbH",
+    "developerId" : 579309595,
+    "developerUrl" : "https://itunes.apple.com/at/developer/freeletics-gmbh/id579309595?mt=8",
+    "genreIds" : [ 
+        "6013",
+        "6012"
+      ],
+    "genres" : [ 
+        "Gesundheit und Fitness",
+        "Lifestyle"
+      ],
+    "icon" : "http://is5.mzstatic.com/image/thumb/Purple128/v4/0b/fa/2c/0bfa2c8c-20e0-ca0d-a57b-0d4eebfcc750/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-5.png/200x200bb.png",
+    "id" : "654810212",
+    "released" : "2013-06-26",
+    "title" : "Freeletics Bodyweight",
+    "url" : "https://itunes.apple.com/at/app/freeletics-bodyweight/id654810212?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Spotify Ltd.",
+    "developerId" : 324684583,
+    "developerUrl" : "https://itunes.apple.com/at/developer/spotify-ltd/id324684583?mt=8",
+    "genreIds" : [ 
+        "6011",
+        "6016"
+      ],
+    "genres" : [ 
+        "Musik",
+        "Unterhaltung"
+      ],
+    "icon" : "http://is1.mzstatic.com/image/thumb/Purple128/v4/b2/a8/7c/b2a87c3a-1a17-19fe-275c-a3c2ff2f7360/AppIcon-1x_U007emarketing-85-220-0-5.png/200x200bb.png",
+    "id" : "324684580",
+    "released" : "2011-11-15",
+    "title" : "Spotify Music",
+    "url" : "https://itunes.apple.com/at/app/spotify-music/id324684580?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Plarium Global Ltd",
+    "developerId" : 489487383,
+    "developerUrl" : "https://itunes.apple.com/at/developer/plarium-global-ltd/id489487383?mt=8",
     "genreIds" : [ 
         "6014",
-        "7001",
+        "7017",
+        "7001"
+      ],
+    "genres" : [ 
+        "Spiele",
+        "Strategie",
+        "Action"
+      ],
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple62/v4/62/d7/9a/62d79a07-19e3-b0a7-83c1-c993ddeb69fa/mzl.fhytfqqr.jpg/200x200bb.png",
+    "id" : "916728593",
+    "released" : "2015-01-06",
+    "title" : "Stormfall: Rise of Balur",
+    "url" : "https://itunes.apple.com/at/app/stormfall-rise-of-balur/id916728593?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Miniclip.com",
+    "developerId" : 337457683,
+    "developerUrl" : "https://itunes.apple.com/at/developer/miniclip-com/id337457683?mt=8",
+    "genreIds" : [ 
+        "6014",
         "6016",
+        "7016",
+        "7015"
+      ],
+    "genres" : [ 
+        "Spiele",
+        "Unterhaltung",
+        "Sport",
+        "Simulation"
+      ],
+    "icon" : "http://is2.mzstatic.com/image/thumb/Purple118/v4/e1/3c/4c/e13c4cc0-cfe1-7509-9b5b-140ab46fdb08/mzl.zumjjfib.png/200x200bb.png",
+    "id" : "543186831",
+    "released" : "2013-02-27",
+    "title" : "8 Ball Pool™",
+    "url" : "https://itunes.apple.com/at/app/8-ball-pool/id543186831?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Electronic Arts",
+    "developerId" : 284800461,
+    "developerUrl" : "https://itunes.apple.com/at/developer/electronic-arts/id284800461?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7015",
         "7017"
       ],
     "genres" : [ 
         "Spiele",
-        "Action",
-        "Unterhaltung",
+        "Simulation",
         "Strategie"
       ],
-    "icon" : "http://is2.mzstatic.com/image/thumb/Purple118/v4/83/74/d3/8374d387-6e42-6560-1355-83fc7b843bd9/AppIcon-1x_U007emarketing-0-85-220-0-8.png/200x200bb.png",
-    "id" : "692669501",
-    "released" : "2013-10-22",
-    "title" : "Castle Clash: Königsduell",
-    "url" : "https://itunes.apple.com/at/app/castle-clash-k%C3%B6nigsduell/id692669501?mt=8"
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple128/v4/02/0a/ab/020aabc4-ea6f-74a8-cac7-f0b6201d30b1/AppIcon-1x_U007emarketing-85-220-6.png/200x200bb.png",
+    "id" : "913292932",
+    "released" : "2014-12-17",
+    "title" : "SimCity BuildIt",
+    "url" : "https://itunes.apple.com/at/app/simcity-buildit/id913292932?mt=8"
   },
   { 
     "appId" : undefined,
     "description" : undefined,
-    "developer" : "Playdemic",
-    "developerId" : 505151958,
-    "developerUrl" : "https://itunes.apple.com/at/developer/playdemic/id505151958?mt=8",
+    "developer" : "Nexters Global LTD",
+    "developerId" : 660706304,
+    "developerUrl" : "https://itunes.apple.com/at/developer/nexters-global-ltd/id660706304?mt=8",
     "genreIds" : [ 
         "6014",
-        "6004",
+        "6016",
         "7015",
-        "7016"
+        "7002"
       ],
     "genres" : [ 
         "Spiele",
-        "Sport",
+        "Unterhaltung",
         "Simulation",
-        "Sport"
+        "Abenteuer"
       ],
-    "icon" : "http://is5.mzstatic.com/image/thumb/Purple128/v4/32/84/b4/3284b4b2-8f1e-6305-9bb9-81c9dd13a518/AppIcon-1x_U007emarketing-85-220-0-6.png/200x200bb.png",
-    "id" : "1089225191",
-    "released" : "2017-01-18",
-    "title" : "Golf Clash",
-    "url" : "https://itunes.apple.com/at/app/golf-clash/id1089225191?mt=8"
+    "icon" : "http://is3.mzstatic.com/image/thumb/Purple128/v4/f9/5e/ae/f95eae2a-12e0-f16c-0f1f-b2fd4dab179e/mzl.zyzafxbe.png/200x200bb.png",
+    "id" : "849703639",
+    "released" : "2014-05-21",
+    "title" : "Island Experiment",
+    "url" : "https://itunes.apple.com/at/app/island-experiment/id849703639?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Nintendo Co., Ltd.",
+    "developerId" : 1062496488,
+    "developerUrl" : "https://itunes.apple.com/at/developer/nintendo-co-ltd/id1062496488?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7014",
+        "7017"
+      ],
+    "genres" : [ 
+        "Spiele",
+        "Rollenspiel",
+        "Strategie"
+      ],
+    "icon" : "http://is2.mzstatic.com/image/thumb/Purple118/v4/60/0d/0d/600d0daf-47ff-e588-ae8c-6bca67f6d8c2/AppIcon-1x_U007emarketing-85-220-5.png/200x200bb.png",
+    "id" : "1181774280",
+    "released" : "2017-02-02",
+    "title" : "Fire Emblem Heroes",
+    "url" : "https://itunes.apple.com/at/app/fire-emblem-heroes/id1181774280?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Fun Games For Free",
+    "developerId" : 618574061,
+    "developerUrl" : "https://itunes.apple.com/at/developer/fun-games-for-free/id618574061?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7001",
+        "7003",
+        "6016"
+      ],
+    "genres" : [ 
+        "Spiele",
+        "Action",
+        "Arcade",
+        "Unterhaltung"
+      ],
+    "icon" : "http://is2.mzstatic.com/image/thumb/Purple118/v4/ac/6c/7e/ac6c7e14-b2c2-453b-df12-e9ad7df5128a/AppIcon-1x_U007emarketing-85-220-8.png/200x200bb.png",
+    "id" : "930574573",
+    "released" : "2014-11-10",
+    "title" : "Sniper 3D: Coole Krieg Spiele",
+    "url" : "https://itunes.apple.com/at/app/sniper-3d-coole-krieg-spiele/id930574573?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Hyperconnect",
+    "developerId" : 972558972,
+    "developerUrl" : "https://itunes.apple.com/at/developer/hyperconnect/id972558972?mt=8",
+    "genreIds" : [ "6005" ],
+    "genres" : [ "Soziale Netze" ],
+    "icon" : "http://is1.mzstatic.com/image/thumb/Purple118/v4/a5/5c/94/a55c94fb-0365-c05c-9180-990410661888/AppIcon-1x_U007emarketing-85-220-0-6.png/200x200bb.png",
+    "id" : "972558973",
+    "released" : "2015-06-11",
+    "title" : "Azar - Video Chat, Entdecken",
+    "url" : "https://itunes.apple.com/at/app/azar-video-chat-entdecken/id972558973?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Rovio Entertainment Oyj",
+    "developerId" : 298910979,
+    "developerUrl" : "https://itunes.apple.com/at/developer/rovio-entertainment-oyj/id298910979?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7012",
+        "7001"
+      ],
+    "genres" : [ 
+        "Spiele",
+        "Puzzle",
+        "Action"
+      ],
+    "icon" : "http://is3.mzstatic.com/image/thumb/Purple118/v4/f7/81/d4/f781d473-b559-2a3d-6e14-fbba30a5c325/AppIcon-1x_U007emarketing-85-220-0-8.png/200x200bb.png",
+    "id" : "880047117",
+    "released" : "2015-07-30",
+    "title" : "Angry Birds 2",
+    "url" : "https://itunes.apple.com/at/app/angry-birds-2/id880047117?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Electronic Arts",
+    "developerId" : 284800461,
+    "developerUrl" : "https://itunes.apple.com/at/developer/electronic-arts/id284800461?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7002",
+        "7015"
+      ],
+    "genres" : [ 
+        "Spiele",
+        "Abenteuer",
+        "Simulation"
+      ],
+    "icon" : "http://is5.mzstatic.com/image/thumb/Purple128/v4/c8/22/5b/c8225b66-4f38-f2af-d240-986abc604f05/AppIcon-1x_U007emarketing-0-85-220-0-6.png/200x200bb.png",
+    "id" : "466966101",
+    "released" : "2011-12-15",
+    "title" : "Die Sims™  FreePlay",
+    "url" : "https://itunes.apple.com/at/app/die-sims-freeplay/id466966101?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "1492 Studio",
+    "developerId" : 934334114,
+    "developerUrl" : "https://itunes.apple.com/at/developer/1492-studio/id934334114?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7015",
+        "6018",
+        "7014"
+      ],
+    "genres" : [ 
+        "Spiele",
+        "Simulation",
+        "Bücher",
+        "Rollenspiel"
+      ],
+    "icon" : "http://is3.mzstatic.com/image/thumb/Purple62/v4/d8/2f/ed/d82fedd8-312e-b268-e215-79e5931aef8f/AppIcon-1x_U007emarketing-0-85-220-0-5.png/200x200bb.png",
+    "id" : "1042313380",
+    "released" : "2016-02-08",
+    "title" : "Is-it Love ? Matt - Liebe",
+    "url" : "https://itunes.apple.com/at/app/is-it-love-matt-liebe/id1042313380?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Blizzard Entertainment, Inc.",
+    "developerId" : 306862900,
+    "developerUrl" : "https://itunes.apple.com/at/developer/blizzard-entertainment-inc/id306862900?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "6016",
+        "7005",
+        "7017"
+      ],
+    "genres" : [ 
+        "Spiele",
+        "Unterhaltung",
+        "Karten",
+        "Strategie"
+      ],
+    "icon" : "http://is2.mzstatic.com/image/thumb/Purple62/v4/01/bc/fe/01bcfe6d-ecd4-dcd4-1090-aea06a32ff0e/mzl.vamxuvcg.png/200x200bb.png",
+    "id" : "625257520",
+    "released" : "2014-04-16",
+    "title" : "Hearthstone",
+    "url" : "https://itunes.apple.com/at/app/hearthstone/id625257520?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "1492 Studio",
+    "developerId" : 934334114,
+    "developerUrl" : "https://itunes.apple.com/at/developer/1492-studio/id934334114?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7011",
+        "6018",
+        "7015"
+      ],
+    "genres" : [ 
+        "Spiele",
+        "Musik",
+        "Bücher",
+        "Simulation"
+      ],
+    "icon" : "http://is3.mzstatic.com/image/thumb/Purple118/v4/0d/b9/e2/0db9e27c-765b-7764-3a1c-d0f5508400ae/AppIcon-1x_U007emarketing-0-85-220-0-5.png/200x200bb.png",
+    "id" : "1206885506",
+    "released" : "2017-08-08",
+    "title" : "Is-it Love? Colin",
+    "url" : "https://itunes.apple.com/at/app/is-it-love-colin/id1206885506?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Gameloft",
+    "developerId" : 282764297,
+    "developerUrl" : "https://itunes.apple.com/at/developer/gameloft/id282764297?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7015",
+        "6016",
+        "7002"
+      ],
+    "genres" : [ 
+        "Spiele",
+        "Simulation",
+        "Unterhaltung",
+        "Abenteuer"
+      ],
+    "icon" : "http://is2.mzstatic.com/image/thumb/Purple118/v4/64/3b/92/643b926c-17b2-5b7f-d08e-bb6a710eb36e/AppIcon-1x_U007emarketing-85-220-5.png/200x200bb.png",
+    "id" : "882507985",
+    "released" : "2015-01-08",
+    "title" : "Dragon Mania Legends",
+    "url" : "https://itunes.apple.com/at/app/dragon-mania-legends/id882507985?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Playtika LTD",
+    "developerId" : 447553567,
+    "developerUrl" : "https://itunes.apple.com/at/developer/playtika-ltd/id447553567?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7006",
+        "6016",
+        "7005"
+      ],
+    "genres" : [ 
+        "Spiele",
+        "Casino",
+        "Unterhaltung",
+        "Karten"
+      ],
+    "icon" : "http://is1.mzstatic.com/image/thumb/Purple118/v4/f4/c1/9a/f4c19a45-face-e16b-daca-751a74b968eb/AppIconIPhone-1x_U007emarketing-0-85-220-0-1.png/200x200bb.png",
+    "id" : "603097018",
+    "released" : "2013-06-13",
+    "title" : "Caesars Casino Official Slots",
+    "url" : "https://itunes.apple.com/at/app/caesars-casino-official-slots/id603097018?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Cubic Games",
+    "developerId" : 561634640,
+    "developerUrl" : "https://itunes.apple.com/at/developer/cubic-games/id561634640?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7001",
+        "7015",
+        "6016"
+      ],
+    "genres" : [ 
+        "Spiele",
+        "Action",
+        "Simulation",
+        "Unterhaltung"
+      ],
+    "icon" : "http://is2.mzstatic.com/image/thumb/Purple128/v4/2d/95/c4/2d95c42e-f92c-f850-23f8-34027ba8b5aa/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/200x200bb.png",
+    "id" : "640111933",
+    "released" : "2013-05-02",
+    "title" : "Pixel Gun 3D",
+    "url" : "https://itunes.apple.com/at/app/pixel-gun-3d/id640111933?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "King",
+    "developerId" : 526656015,
+    "developerUrl" : "https://itunes.apple.com/at/developer/king/id526656015?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7012"
+      ],
+    "genres" : [ 
+        "Spiele",
+        "Puzzle"
+      ],
+    "icon" : "http://is3.mzstatic.com/image/thumb/Purple118/v4/2d/51/9c/2d519cba-d322-1647-9003-448c2bff652c/mzl.xzyonpig.png/200x200bb.png",
+    "id" : "1095254858",
+    "released" : "2017-01-11",
+    "title" : "Bubble Witch 3 Saga",
+    "url" : "https://itunes.apple.com/at/app/bubble-witch-3-saga/id1095254858?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "droidhang",
+    "developerId" : 463987809,
+    "developerUrl" : "https://itunes.apple.com/at/developer/droidhang/id463987809?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7017",
+        "7014"
+      ],
+    "genres" : [ 
+        "Spiele",
+        "Strategie",
+        "Rollenspiel"
+      ],
+    "icon" : "http://is3.mzstatic.com/image/thumb/Purple118/v4/cc/06/98/cc069830-81ec-bc0e-5c8e-a9a816f4a782/pr_source.png/200x200bb.png",
+    "id" : "1153461915",
+    "released" : "2016-11-09",
+    "title" : "Idle Heroes - Idle Games",
+    "url" : "https://itunes.apple.com/at/app/idle-heroes-idle-games/id1153461915?mt=8"
   },
   { 
     "appId" : undefined,
@@ -954,90 +1598,128 @@
   { 
     "appId" : undefined,
     "description" : undefined,
-    "developer" : "Lifesum AB",
-    "developerId" : 286906694,
-    "developerUrl" : "https://itunes.apple.com/at/developer/lifesum-ab/id286906694?mt=8",
-    "genreIds" : [ 
-        "6013",
-        "6012"
-      ],
-    "genres" : [ 
-        "Gesundheit und Fitness",
-        "Lifestyle"
-      ],
-    "icon" : "http://is1.mzstatic.com/image/thumb/Purple128/v4/a8/42/2f/a8422fb5-204b-b401-cf51-50057950bdd2/AppIcon-green-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-6.png/200x200bb.png",
-    "id" : "286906691",
-    "released" : "2008-08-03",
-    "title" : "Lifesum: Kalorienzähler & Diät",
-    "url" : "https://itunes.apple.com/at/app/lifesum-kalorienz%C3%A4hler-di%C3%A4t/id286906691?mt=8"
+    "developer" : "\"Die Presse\" Digital GmbH & Co KG",
+    "developerId" : 394872880,
+    "developerUrl" : "https://itunes.apple.com/at/developer/die-presse-digital-gmbh-co-kg/id394872880?mt=8",
+    "genreIds" : [ "6009" ],
+    "genres" : [ "Nachrichten" ],
+    "icon" : "http://is3.mzstatic.com/image/thumb/Purple128/v4/6e/5a/5f/6e5a5f1c-05f2-44ee-ff99-ad733d950411/AppIcon-1x_U007emarketing-85-220-0-5.png/200x200bb.png",
+    "id" : "394872877",
+    "released" : "2010-10-07",
+    "title" : "Die Presse",
+    "url" : "https://itunes.apple.com/at/app/die-presse/id394872877?mt=8"
   },
   { 
     "appId" : undefined,
     "description" : undefined,
-    "developer" : "Smule",
-    "developerId" : 290596339,
-    "developerUrl" : "https://itunes.apple.com/at/developer/smule/id290596339?mt=8",
+    "developer" : "Glu Games Inc",
+    "developerId" : 284419051,
+    "developerUrl" : "https://itunes.apple.com/at/developer/glu-games-inc/id284419051?mt=8",
     "genreIds" : [ 
-        "6011",
+        "6014",
+        "6004",
+        "7001",
+        "7015"
+      ],
+    "genres" : [ 
+        "Spiele",
+        "Sport",
+        "Action",
+        "Simulation"
+      ],
+    "icon" : "http://is3.mzstatic.com/image/thumb/Purple118/v4/3b/29/46/3b294635-680d-2604-f48b-23abe2f5ccf8/pr_source.png/200x200bb.png",
+    "id" : "893372761",
+    "released" : "2015-09-15",
+    "title" : "Deer Hunter 2018™",
+    "url" : "https://itunes.apple.com/at/app/deer-hunter-2018/id893372761?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Boranu Online B.V.",
+    "developerId" : 1159514669,
+    "developerUrl" : "https://itunes.apple.com/at/developer/boranu-online-b-v/id1159514669?mt=8",
+    "genreIds" : [ 
+        "6005",
         "6016"
       ],
     "genres" : [ 
-        "Musik",
+        "Soziale Netze",
         "Unterhaltung"
       ],
-    "icon" : "http://is2.mzstatic.com/image/thumb/Purple128/v4/1f/19/38/1f19384c-bc11-a86b-6151-6322415036e0/AppIcon-CCCP-1x_U007emarketing-85-220-9.png/200x200bb.png",
-    "id" : "509993510",
-    "released" : "2012-08-08",
-    "title" : "Sing! by Smule",
-    "url" : "https://itunes.apple.com/at/app/sing-by-smule/id509993510?mt=8"
+    "icon" : "http://is2.mzstatic.com/image/thumb/Purple128/v4/fd/c2/89/fdc28997-1796-fc10-2809-05ef382af08d/AppIcon-1x_U007emarketing-85-220-0-5.png/200x200bb.png",
+    "id" : "1159514670",
+    "released" : "2016-10-26",
+    "title" : "iDates - Dates, Flirts & Chats",
+    "url" : "https://itunes.apple.com/at/app/idates-dates-flirts-chats/id1159514670?mt=8"
   },
   { 
     "appId" : undefined,
     "description" : undefined,
-    "developer" : "King",
-    "developerId" : 526656015,
-    "developerUrl" : "https://itunes.apple.com/at/developer/king/id526656015?mt=8",
+    "developer" : "SQUARE ENIX INC",
+    "developerId" : 300186801,
+    "developerUrl" : "https://itunes.apple.com/at/developer/square-enix-inc/id300186801?mt=8",
     "genreIds" : [ 
         "6014",
-        "6016",
-        "7012",
-        "7003"
+        "7014",
+        "7002"
       ],
     "genres" : [ 
         "Spiele",
-        "Unterhaltung",
-        "Puzzle",
-        "Arcade"
+        "Rollenspiel",
+        "Abenteuer"
       ],
-    "icon" : "http://is3.mzstatic.com/image/thumb/Purple128/v4/eb/c1/2b/ebc12b5f-7b0f-7f5d-eda5-1151c1239ccd/mzl.rzffdagb.jpg/200x200bb.png",
-    "id" : "608206510",
-    "released" : "2013-12-12",
-    "title" : "Farm Heroes Saga",
-    "url" : "https://itunes.apple.com/at/app/farm-heroes-saga/id608206510?mt=8"
+    "icon" : "http://is1.mzstatic.com/image/thumb/Purple128/v4/d5/e3/e6/d5e3e6b5-19d2-8d6c-c49e-e8f02e3e59c6/AppIcon-1x_U007emarketing-0-85-220-0-9.png/200x200bb.png",
+    "id" : "1078553808",
+    "released" : "2016-06-29",
+    "title" : "FINAL FANTASY BRAVE EXVIUS",
+    "url" : "https://itunes.apple.com/at/app/final-fantasy-brave-exvius/id1078553808?mt=8"
   },
   { 
     "appId" : undefined,
     "description" : undefined,
-    "developer" : "Blizzard Entertainment, Inc.",
-    "developerId" : 306862900,
-    "developerUrl" : "https://itunes.apple.com/at/developer/blizzard-entertainment-inc/id306862900?mt=8",
+    "developer" : "Episode Interactive",
+    "developerId" : 761807761,
+    "developerUrl" : "https://itunes.apple.com/at/developer/episode-interactive/id761807761?mt=8",
     "genreIds" : [ 
         "6014",
-        "6016",
-        "7005",
-        "7017"
+        "7014",
+        "7015",
+        "6016"
       ],
     "genres" : [ 
         "Spiele",
-        "Unterhaltung",
-        "Karten",
-        "Strategie"
+        "Rollenspiel",
+        "Simulation",
+        "Unterhaltung"
       ],
-    "icon" : "http://is2.mzstatic.com/image/thumb/Purple62/v4/01/bc/fe/01bcfe6d-ecd4-dcd4-1090-aea06a32ff0e/mzl.vamxuvcg.png/200x200bb.png",
-    "id" : "625257520",
-    "released" : "2014-04-16",
-    "title" : "Hearthstone",
-    "url" : "https://itunes.apple.com/at/app/hearthstone/id625257520?mt=8"
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple118/v4/8b/db/4f/8bdb4fe6-b53f-482b-d941-8046028e6e74/AppIcon-1x_U007emarketing-85-220-9.png/200x200bb.png",
+    "id" : "656971078",
+    "released" : "2013-12-18",
+    "title" : "Episode - Choose Your Story",
+    "url" : "https://itunes.apple.com/at/app/episode-choose-your-story/id656971078?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Camel Games Inc.",
+    "developerId" : 542910776,
+    "developerUrl" : "https://itunes.apple.com/at/developer/camel-games-inc/id542910776?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7017",
+        "7015"
+      ],
+    "genres" : [ 
+        "Spiele",
+        "Strategie",
+        "Simulation"
+      ],
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple128/v4/b0/41/41/b04141a0-5fa8-6d8a-c848-d43dcdab05c9/AppIcon-1x_U007emarketing-0-85-220-0-5.png/200x200bb.png",
+    "id" : "1071744151",
+    "released" : "2016-04-06",
+    "title" : "War and Order",
+    "url" : "https://itunes.apple.com/at/app/war-and-order/id1071744151?mt=8"
   },
   { 
     "appId" : undefined,
@@ -1047,43 +1729,19 @@
     "developerUrl" : "https://itunes.apple.com/at/developer/electronic-arts/id284800461?mt=8",
     "genreIds" : [ 
         "6014",
-        "7002",
-        "7015"
+        "7015",
+        "7013"
       ],
     "genres" : [ 
         "Spiele",
-        "Abenteuer",
-        "Simulation"
+        "Simulation",
+        "Rennsport"
       ],
-    "icon" : "http://is5.mzstatic.com/image/thumb/Purple128/v4/c8/22/5b/c8225b66-4f38-f2af-d240-986abc604f05/AppIcon-1x_U007emarketing-0-85-220-0-6.png/200x200bb.png",
-    "id" : "466966101",
-    "released" : "2011-12-15",
-    "title" : "Die Sims™  FreePlay",
-    "url" : "https://itunes.apple.com/at/app/die-sims-freeplay/id466966101?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "ELEX Wireless",
-    "developerId" : 424770549,
-    "developerUrl" : "https://itunes.apple.com/at/developer/elex-wireless/id424770549?mt=8",
-    "genreIds" : [ 
-        "6014",
-        "7014",
-        "7009",
-        "6005"
-      ],
-    "genres" : [ 
-        "Spiele",
-        "Rollenspiel",
-        "Familie",
-        "Soziale Netze"
-      ],
-    "icon" : "http://is3.mzstatic.com/image/thumb/Purple118/v4/f0/9b/4f/f09b4f4c-c3c2-2457-a3a8-87346c195f06/mzl.ytlvabsv.png/200x200bb.png",
-    "id" : "1214763767",
-    "released" : "2017-05-05",
-    "title" : "Love Nikki-Dress UP Queen",
-    "url" : "https://itunes.apple.com/at/app/love-nikki-dress-up-queen/id1214763767?mt=8"
+    "icon" : "http://is1.mzstatic.com/image/thumb/Purple118/v4/ca/b3/ae/cab3ae82-a6d3-8389-11fc-b989b619ca7f/AppIcon-1x_U007emarketing-85-220-0-8.png/200x200bb.png",
+    "id" : "883393043",
+    "released" : "2015-10-01",
+    "title" : "Need for Speed™ No Limits",
+    "url" : "https://itunes.apple.com/at/app/need-for-speed-no-limits/id883393043?mt=8"
   },
   { 
     "appId" : undefined,
@@ -1112,806 +1770,24 @@
   { 
     "appId" : undefined,
     "description" : undefined,
-    "developer" : "NUTS POWER ONLINE ENTERTAINMENT LIMITED",
-    "developerId" : 1225482469,
-    "developerUrl" : "https://itunes.apple.com/at/developer/nuts-power-online-entertainment-limited/id1225482469?mt=8",
-    "genreIds" : [ 
-        "6014",
-        "7017",
-        "7015"
-      ],
-    "genres" : [ 
-        "Spiele",
-        "Strategie",
-        "Simulation"
-      ],
-    "icon" : "http://is4.mzstatic.com/image/thumb/Purple118/v4/dc/5c/0a/dc5c0a09-a88e-e9c0-f038-1a868236ce57/AppIcon-1x_U007emarketing-85-220-8.png/200x200bb.png",
-    "id" : "1241625625",
-    "released" : "2017-05-29",
-    "title" : "War of Colony",
-    "url" : "https://itunes.apple.com/at/app/war-of-colony/id1241625625?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "MyFitnessPal.com",
-    "developerId" : 341232721,
-    "developerUrl" : "https://itunes.apple.com/at/developer/myfitnesspal-com/id341232721?mt=8",
-    "genreIds" : [ 
-        "6013",
-        "6012"
-      ],
-    "genres" : [ 
-        "Gesundheit und Fitness",
-        "Lifestyle"
-      ],
-    "icon" : "http://is2.mzstatic.com/image/thumb/Purple62/v4/6f/37/a6/6f37a67e-afec-c089-695c-a58c48e03b65/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-6.png/200x200bb.png",
-    "id" : "341232718",
-    "released" : "2009-12-08",
-    "title" : "MyFitnessPal",
-    "url" : "https://itunes.apple.com/at/app/myfitnesspal/id341232718?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "Plarium LLC",
-    "developerId" : 1053231049,
-    "developerUrl" : "https://itunes.apple.com/at/developer/plarium-llc/id1053231049?mt=8",
-    "genreIds" : [ 
-        "6014",
-        "7001",
-        "7017"
-      ],
-    "genres" : [ 
-        "Spiele",
-        "Action",
-        "Strategie"
-      ],
-    "icon" : "http://is5.mzstatic.com/image/thumb/Purple128/v4/0e/fc/8a/0efc8a8e-84d4-f6a9-7184-361c95e9428a/mzl.oevasofv.png/200x200bb.png",
-    "id" : "966810173",
-    "released" : "2015-08-15",
-    "title" : "Vikings: War of Clans",
-    "url" : "https://itunes.apple.com/at/app/vikings-war-of-clans/id966810173?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "BANDAI NAMCO Entertainment Inc.",
-    "developerId" : 352305770,
-    "developerUrl" : "https://itunes.apple.com/at/developer/bandai-namco-entertainment-inc/id352305770?mt=8",
-    "genreIds" : [ 
-        "6014",
-        "7012",
-        "7001",
-        "6016"
-      ],
-    "genres" : [ 
-        "Spiele",
-        "Puzzle",
-        "Action",
-        "Unterhaltung"
-      ],
-    "icon" : "http://is2.mzstatic.com/image/thumb/Purple118/v4/0b/f5/55/0bf555dd-f0b3-babc-f7fb-64f4d49df28f/mzl.aclovzwb.png/200x200bb.png",
-    "id" : "951627425",
-    "released" : "2015-07-16",
-    "title" : "DRAGON BALL Z DOKKAN BATTLE",
-    "url" : "https://itunes.apple.com/at/app/dragon-ball-z-dokkan-battle/id951627425?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "Zoosk, Inc.",
-    "developerId" : 349160526,
-    "developerUrl" : "https://itunes.apple.com/at/developer/zoosk-inc/id349160526?mt=8",
-    "genreIds" : [ 
-        "6005",
-        "6012"
-      ],
-    "genres" : [ 
-        "Soziale Netze",
-        "Lifestyle"
-      ],
-    "icon" : "http://is3.mzstatic.com/image/thumb/Purple118/v4/f9/68/64/f968642b-b988-5aa6-3907-234de3f9adc6/mzl.xcbxqzqp.jpg/200x200bb.png",
-    "id" : "349160522",
-    "released" : "2010-01-12",
-    "title" : "Zoosk – die beste Dating-App",
-    "url" : "https://itunes.apple.com/at/app/zoosk-die-beste-dating-app/id349160522?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "Global Tech",
-    "developerId" : 1232520254,
-    "developerUrl" : "https://itunes.apple.com/at/developer/global-tech/id1232520254?mt=8",
-    "genreIds" : [ 
-        "6012",
-        "6016"
-      ],
-    "genres" : [ 
-        "Lifestyle",
-        "Unterhaltung"
-      ],
-    "icon" : "http://is4.mzstatic.com/image/thumb/Purple118/v4/a1/9a/d5/a19ad536-4660-87db-1791-1bc187ba530e/AppIcon-1x_U007emarketing-85-220-0-4.png/200x200bb.png",
-    "id" : "1234261222",
-    "released" : "2017-07-21",
-    "title" : "Testfoni",
-    "url" : "https://itunes.apple.com/at/app/testfoni/id1234261222?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "Nintendo Co., Ltd.",
-    "developerId" : 1062496488,
-    "developerUrl" : "https://itunes.apple.com/at/developer/nintendo-co-ltd/id1062496488?mt=8",
-    "genreIds" : [ 
-        "6014",
-        "7014",
-        "7017"
-      ],
-    "genres" : [ 
-        "Spiele",
-        "Rollenspiel",
-        "Strategie"
-      ],
-    "icon" : "http://is2.mzstatic.com/image/thumb/Purple118/v4/60/0d/0d/600d0daf-47ff-e588-ae8c-6bca67f6d8c2/AppIcon-1x_U007emarketing-85-220-5.png/200x200bb.png",
-    "id" : "1181774280",
-    "released" : "2017-02-02",
-    "title" : "Fire Emblem Heroes",
-    "url" : "https://itunes.apple.com/at/app/fire-emblem-heroes/id1181774280?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "Goodgame Studios",
-    "developerId" : 553166917,
-    "developerUrl" : "https://itunes.apple.com/at/developer/goodgame-studios/id553166917?mt=8",
-    "genreIds" : [ 
-        "6014",
-        "7015",
-        "7017",
-        "6016"
-      ],
-    "genres" : [ 
-        "Spiele",
-        "Simulation",
-        "Strategie",
-        "Unterhaltung"
-      ],
-    "icon" : "http://is1.mzstatic.com/image/thumb/Purple118/v4/24/0d/16/240d1604-fcdd-3d4f-84e1-8b0530c32a49/mzl.nloawmrw.png/200x200bb.png",
-    "id" : "585661281",
-    "released" : "2013-02-26",
-    "title" : "Empire Four Kingdoms",
-    "url" : "https://itunes.apple.com/at/app/empire-four-kingdoms/id585661281?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "Playrix Games",
-    "developerId" : 1162116447,
-    "developerUrl" : "https://itunes.apple.com/at/developer/playrix-games/id1162116447?mt=8",
+    "developer" : "KONAMI",
+    "developerId" : 299580230,
+    "developerUrl" : "https://itunes.apple.com/at/developer/konami/id299580230?mt=8",
     "genreIds" : [ 
         "6014",
         "6016",
-        "7002",
-        "7015"
+        "7005"
       ],
     "genres" : [ 
         "Spiele",
         "Unterhaltung",
-        "Abenteuer",
-        "Simulation"
+        "Karten"
       ],
-    "icon" : "http://is2.mzstatic.com/image/thumb/Purple118/v4/eb/b1/23/ebb12356-bc9e-0ceb-e62e-efc17b464b6c/AppIcon-1x_U007emarketing-0-85-220-0-9.png/200x200bb.png",
-    "id" : "638689075",
-    "released" : "2013-10-23",
-    "title" : "Township",
-    "url" : "https://itunes.apple.com/at/app/township/id638689075?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "Rovio Entertainment Oyj",
-    "developerId" : 298910979,
-    "developerUrl" : "https://itunes.apple.com/at/developer/rovio-entertainment-oyj/id298910979?mt=8",
-    "genreIds" : [ 
-        "6014",
-        "7012",
-        "7001"
-      ],
-    "genres" : [ 
-        "Spiele",
-        "Puzzle",
-        "Action"
-      ],
-    "icon" : "http://is3.mzstatic.com/image/thumb/Purple118/v4/f7/81/d4/f781d473-b559-2a3d-6e14-fbba30a5c325/AppIcon-1x_U007emarketing-85-220-0-8.png/200x200bb.png",
-    "id" : "880047117",
-    "released" : "2015-07-30",
-    "title" : "Angry Birds 2",
-    "url" : "https://itunes.apple.com/at/app/angry-birds-2/id880047117?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "Once Dating AG",
-    "developerId" : 965232603,
-    "developerUrl" : "https://itunes.apple.com/at/developer/once-dating-ag/id965232603?mt=8",
-    "genreIds" : [ 
-        "6012",
-        "6005"
-      ],
-    "genres" : [ 
-        "Lifestyle",
-        "Soziale Netze"
-      ],
-    "icon" : "http://is2.mzstatic.com/image/thumb/Purple62/v4/de/ca/50/deca501f-0a6f-d27f-06db-a7405ac2653c/AppIcon-1x_U007emarketing-85-220-0-4.png/200x200bb.png",
-    "id" : "965232604",
-    "released" : "2016-05-10",
-    "title" : "Once - Seriöse Partnersuche",
-    "url" : "https://itunes.apple.com/at/app/once-seri%C3%B6se-partnersuche/id965232604?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "Glu Games Inc",
-    "developerId" : 284419051,
-    "developerUrl" : "https://itunes.apple.com/at/developer/glu-games-inc/id284419051?mt=8",
-    "genreIds" : [ 
-        "6014",
-        "6016",
-        "7002",
-        "7014"
-      ],
-    "genres" : [ 
-        "Spiele",
-        "Unterhaltung",
-        "Abenteuer",
-        "Rollenspiel"
-      ],
-    "icon" : "http://is1.mzstatic.com/image/thumb/Purple128/v4/b4/b1/d2/b4b1d2fe-bd7c-0592-e476-643a534644e9/pr_source.png/200x200bb.png",
-    "id" : "860822992",
-    "released" : "2014-06-24",
-    "title" : "Kim Kardashian: Hollywood",
-    "url" : "https://itunes.apple.com/at/app/kim-kardashian-hollywood/id860822992?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "Fun Games For Free",
-    "developerId" : 618574061,
-    "developerUrl" : "https://itunes.apple.com/at/developer/fun-games-for-free/id618574061?mt=8",
-    "genreIds" : [ 
-        "6014",
-        "7001",
-        "7003",
-        "6016"
-      ],
-    "genres" : [ 
-        "Spiele",
-        "Action",
-        "Arcade",
-        "Unterhaltung"
-      ],
-    "icon" : "http://is2.mzstatic.com/image/thumb/Purple118/v4/ac/6c/7e/ac6c7e14-b2c2-453b-df12-e9ad7df5128a/AppIcon-1x_U007emarketing-85-220-8.png/200x200bb.png",
-    "id" : "930574573",
-    "released" : "2014-11-10",
-    "title" : "Sniper 3D: Coole Krieg Spiele",
-    "url" : "https://itunes.apple.com/at/app/sniper-3d-coole-krieg-spiele/id930574573?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "droidhang",
-    "developerId" : 463987809,
-    "developerUrl" : "https://itunes.apple.com/at/developer/droidhang/id463987809?mt=8",
-    "genreIds" : [ 
-        "6014",
-        "7017",
-        "7014"
-      ],
-    "genres" : [ 
-        "Spiele",
-        "Strategie",
-        "Rollenspiel"
-      ],
-    "icon" : "http://is3.mzstatic.com/image/thumb/Purple118/v4/cc/06/98/cc069830-81ec-bc0e-5c8e-a9a816f4a782/pr_source.png/200x200bb.png",
-    "id" : "1153461915",
-    "released" : "2016-11-09",
-    "title" : "Idle Heroes - Idle Games",
-    "url" : "https://itunes.apple.com/at/app/idle-heroes-idle-games/id1153461915?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "King",
-    "developerId" : 526656015,
-    "developerUrl" : "https://itunes.apple.com/at/developer/king/id526656015?mt=8",
-    "genreIds" : [ 
-        "6014",
-        "7012"
-      ],
-    "genres" : [ 
-        "Spiele",
-        "Puzzle"
-      ],
-    "icon" : "http://is3.mzstatic.com/image/thumb/Purple118/v4/2d/51/9c/2d519cba-d322-1647-9003-448c2bff652c/mzl.xzyonpig.png/200x200bb.png",
-    "id" : "1095254858",
-    "released" : "2017-01-11",
-    "title" : "Bubble Witch 3 Saga",
-    "url" : "https://itunes.apple.com/at/app/bubble-witch-3-saga/id1095254858?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "Ludia",
-    "developerId" : 293912963,
-    "developerUrl" : "https://itunes.apple.com/at/developer/ludia/id293912963?mt=8",
-    "genreIds" : [ 
-        "6014",
-        "6016",
-        "7015",
-        "7002"
-      ],
-    "genres" : [ 
-        "Spiele",
-        "Unterhaltung",
-        "Simulation",
-        "Abenteuer"
-      ],
-    "icon" : "http://is1.mzstatic.com/image/thumb/Purple118/v4/00/70/c5/0070c5d7-4f79-67a7-364e-9d65401d01e2/AppIcon-1x_U007emarketing-85-220-6.png/200x200bb.png",
-    "id" : "791211390",
-    "released" : "2015-04-29",
-    "title" : "Jurassic World™: Das Spiel",
-    "url" : "https://itunes.apple.com/at/app/jurassic-world-das-spiel/id791211390?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "BANDAI NAMCO Entertainment Inc.",
-    "developerId" : 352305770,
-    "developerUrl" : "https://itunes.apple.com/at/developer/bandai-namco-entertainment-inc/id352305770?mt=8",
-    "genreIds" : [ 
-        "6014",
-        "6016",
-        "7014",
-        "7001"
-      ],
-    "genres" : [ 
-        "Spiele",
-        "Unterhaltung",
-        "Rollenspiel",
-        "Action"
-      ],
-    "icon" : "http://is3.mzstatic.com/image/thumb/Purple118/v4/2d/77/ca/2d77ca21-3031-8be2-66a8-6b5a0ae1ff72/AppIcon-1x_U007emarketing-85-220-6.png/200x200bb.png",
-    "id" : "1192559286",
-    "released" : "2017-03-30",
-    "title" : "SWORD ART ONLINE Memory Defrag",
-    "url" : "https://itunes.apple.com/at/app/sword-art-online-memory-defrag/id1192559286?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "KLab Global Pte. Ltd.",
-    "developerId" : 538759009,
-    "developerUrl" : "https://itunes.apple.com/at/developer/klab-global-pte-ltd/id538759009?mt=8",
-    "genreIds" : [ 
-        "6014",
-        "7014",
-        "7001",
-        "6016"
-      ],
-    "genres" : [ 
-        "Spiele",
-        "Rollenspiel",
-        "Action",
-        "Unterhaltung"
-      ],
-    "icon" : "http://is5.mzstatic.com/image/thumb/Purple128/v4/ae/d9/34/aed934c8-3018-fcb3-2198-9d8c13a52ee9/mzl.rcjncuig.png/200x200bb.png",
-    "id" : "1003168863",
-    "released" : "2016-01-13",
-    "title" : "BLEACH Brave Souls",
-    "url" : "https://itunes.apple.com/at/app/bleach-brave-souls/id1003168863?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "Ubisoft",
-    "developerId" : 317644720,
-    "developerUrl" : "https://itunes.apple.com/at/developer/ubisoft/id317644720?mt=8",
-    "genreIds" : [ 
-        "6014",
-        "7005",
-        "7001"
-      ],
-    "genres" : [ 
-        "Spiele",
-        "Karten",
-        "Action"
-      ],
-    "icon" : "http://is5.mzstatic.com/image/thumb/Purple128/v4/c2/5b/68/c25b6887-ee23-7a22-22f8-a48e979dc81a/AppIcon-1x_U007emarketing-85-220-0-9.png/200x200bb.png",
-    "id" : "1106442030",
-    "released" : "2017-11-09",
-    "title" : "South Park: Phone Destroyer™",
-    "url" : "https://itunes.apple.com/at/app/south-park-phone-destroyer/id1106442030?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "AMZN Mobile LLC",
-    "developerId" : 297606954,
-    "developerUrl" : "https://itunes.apple.com/at/developer/amzn-mobile-llc/id297606954?mt=8",
-    "genreIds" : [ 
-        "6011",
-        "6016"
-      ],
-    "genres" : [ 
-        "Musik",
-        "Unterhaltung"
-      ],
-    "icon" : "http://is3.mzstatic.com/image/thumb/Purple118/v4/57/4c/ae/574cae63-417d-ff94-da17-f3c5efa5f98c/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-9.png/200x200bb.png",
-    "id" : "510855668",
-    "released" : "2012-09-18",
-    "title" : "Amazon Music",
-    "url" : "https://itunes.apple.com/at/app/amazon-music/id510855668?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "N3TWORK Inc.",
-    "developerId" : 766104536,
-    "developerUrl" : "https://itunes.apple.com/at/developer/n3twork-inc/id766104536?mt=8",
-    "genreIds" : [ 
-        "6014",
-        "7012",
-        "7014"
-      ],
-    "genres" : [ 
-        "Spiele",
-        "Puzzle",
-        "Rollenspiel"
-      ],
-    "icon" : "http://is3.mzstatic.com/image/thumb/Purple128/v4/eb/6b/bf/eb6bbf0b-afe5-e6db-4158-3968eb21fc22/mzl.bvjhcltc.png/200x200bb.png",
-    "id" : "1032040117",
-    "released" : "2016-05-05",
-    "title" : "Legendary - Game of Heroes",
-    "url" : "https://itunes.apple.com/at/app/legendary-game-of-heroes/id1032040117?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "Asana Rebel GmbH",
-    "developerId" : 1067860795,
-    "developerUrl" : "https://itunes.apple.com/at/developer/asana-rebel-gmbh/id1067860795?mt=8",
-    "genreIds" : [ 
-        "6013",
-        "6004"
-      ],
-    "genres" : [ 
-        "Gesundheit und Fitness",
-        "Sport"
-      ],
-    "icon" : "http://is1.mzstatic.com/image/thumb/Purple128/v4/4a/ad/34/4aad3450-bf44-07fd-d2f3-28bb797259ef/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-9.jpeg/200x200bb.png",
-    "id" : "1067860796",
-    "released" : "2015-12-17",
-    "title" : "Asana Rebel: Yoga und Fitness",
-    "url" : "https://itunes.apple.com/at/app/asana-rebel-yoga-und-fitness/id1067860796?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "Funstage Spielewebseiten Betriebsges.m.b.H.",
-    "developerId" : 452677265,
-    "developerUrl" : "https://itunes.apple.com/at/developer/funstage-spielewebseiten-betriebsges-m-b-h/id452677265?mt=8",
-    "genreIds" : [ 
-        "6014",
-        "7006"
-      ],
-    "genres" : [ 
-        "Spiele",
-        "Casino"
-      ],
-    "icon" : "http://is5.mzstatic.com/image/thumb/Purple118/v4/c1/52/17/c1521763-c654-47dd-951e-af0f1b77bbf7/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-5.png/200x200bb.png",
-    "id" : "454690785",
-    "released" : "2011-12-06",
-    "title" : "GameTwist Slots",
-    "url" : "https://itunes.apple.com/at/app/gametwist-slots/id454690785?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "Zachary Seidel",
-    "developerId" : 1323968231,
-    "developerUrl" : "https://itunes.apple.com/at/developer/zachary-seidel/id1323968231?mt=8",
-    "genreIds" : [ "6002" ],
-    "genres" : [ "Dienstprogramme" ],
-    "icon" : "http://is2.mzstatic.com/image/thumb/Purple118/v4/7e/b4/b1/7eb4b127-2cf4-4e35-728e-d2018041c298/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-6.png/200x200bb.png",
-    "id" : "1323968232",
-    "released" : "2017-12-28",
-    "title" : "Magic Scanner.",
-    "url" : "https://itunes.apple.com/at/app/magic-scanner/id1323968232?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "Headspace meditation limited",
-    "developerId" : 384434796,
-    "developerUrl" : "https://itunes.apple.com/at/developer/headspace-meditation-limited/id384434796?mt=8",
-    "genreIds" : [ 
-        "6013",
-        "6007"
-      ],
-    "genres" : [ 
-        "Gesundheit und Fitness",
-        "Produktivität"
-      ],
-    "icon" : "http://is3.mzstatic.com/image/thumb/Purple62/v4/cc/18/b8/cc18b8e4-0008-b882-5c1f-a4eab8bd9f53/AppIcon-1x_U007emarketing-85-220-0-6.png/200x200bb.png",
-    "id" : "493145008",
-    "released" : "2012-02-02",
-    "title" : "Headspace: Geführte Meditation",
-    "url" : "https://itunes.apple.com/at/app/headspace-gef%C3%BChrte-meditation/id493145008?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "Snail Games USA Inc.",
-    "developerId" : 920658198,
-    "developerUrl" : "https://itunes.apple.com/at/developer/snail-games-usa-inc/id920658198?mt=8",
-    "genreIds" : [ 
-        "6014",
-        "7014",
-        "7001"
-      ],
-    "genres" : [ 
-        "Spiele",
-        "Rollenspiel",
-        "Action"
-      ],
-    "icon" : "http://is5.mzstatic.com/image/thumb/Purple118/v4/34/bf/c4/34bfc43a-f8ad-2cde-81f5-a4cbe54fc7f8/AppIcon-na-1x_U007emarketing-0-85-220-0-6.png/200x200bb.png",
-    "id" : "944892716",
-    "released" : "2015-03-25",
-    "title" : "Taichi Panda",
-    "url" : "https://itunes.apple.com/at/app/taichi-panda/id944892716?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "Seriously",
-    "developerId" : 868013621,
-    "developerUrl" : "https://itunes.apple.com/at/developer/seriously/id868013621?mt=8",
-    "genreIds" : [ 
-        "6014",
-        "7012",
-        "7002"
-      ],
-    "genres" : [ 
-        "Spiele",
-        "Puzzle",
-        "Abenteuer"
-      ],
-    "icon" : "http://is2.mzstatic.com/image/thumb/Purple118/v4/e3/84/ad/e384adde-ac16-589e-08d6-6f09bec7078a/mzl.ccoubwig.png/200x200bb.png",
-    "id" : "868013618",
-    "released" : "2014-10-09",
-    "title" : "Best Fiends Puzzle-\u00adAbenteuer",
-    "url" : "https://itunes.apple.com/at/app/best-fiends-puzzle-abenteuer/id868013618?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "Playa Games GmbH",
-    "developerId" : 526078354,
-    "developerUrl" : "https://itunes.apple.com/at/developer/playa-games-gmbh/id526078354?mt=8",
-    "genreIds" : [ 
-        "6014",
-        "7002",
-        "6016",
-        "7014"
-      ],
-    "genres" : [ 
-        "Spiele",
-        "Abenteuer",
-        "Unterhaltung",
-        "Rollenspiel"
-      ],
-    "icon" : "http://is1.mzstatic.com/image/thumb/Purple128/v4/24/c0/f4/24c0f4ef-57dc-65d5-3830-e0ab2fd364d1/pr_source.jpg/200x200bb.png",
-    "id" : "556886960",
-    "released" : "2012-12-13",
-    "title" : "Shakes und Fidget",
-    "url" : "https://itunes.apple.com/at/app/shakes-und-fidget/id556886960?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "\"Die Presse\" Digital GmbH & Co KG",
-    "developerId" : 394872880,
-    "developerUrl" : "https://itunes.apple.com/at/developer/die-presse-digital-gmbh-co-kg/id394872880?mt=8",
-    "genreIds" : [ "6009" ],
-    "genres" : [ "Nachrichten" ],
-    "icon" : "http://is3.mzstatic.com/image/thumb/Purple128/v4/6e/5a/5f/6e5a5f1c-05f2-44ee-ff99-ad733d950411/AppIcon-1x_U007emarketing-85-220-0-5.png/200x200bb.png",
-    "id" : "394872877",
-    "released" : "2010-10-07",
-    "title" : "Die Presse",
-    "url" : "https://itunes.apple.com/at/app/die-presse/id394872877?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "Fluffy Fairy Games GmbH",
-    "developerId" : 1112983227,
-    "developerUrl" : "https://itunes.apple.com/at/developer/fluffy-fairy-games-gmbh/id1112983227?mt=8",
-    "genreIds" : [ 
-        "6014",
-        "7015",
-        "7017",
-        "6016"
-      ],
-    "genres" : [ 
-        "Spiele",
-        "Simulation",
-        "Strategie",
-        "Unterhaltung"
-      ],
-    "icon" : "http://is3.mzstatic.com/image/thumb/Purple128/v4/e4/4d/b9/e44db9c5-28b5-d8b7-6ac7-cb16fadf7ff4/mzl.basjvtzn.png/200x200bb.png",
-    "id" : "1116645064",
-    "released" : "2016-07-01",
-    "title" : "Idle Miner Tycoon",
-    "url" : "https://itunes.apple.com/at/app/idle-miner-tycoon/id1116645064?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "Miniclip.com",
-    "developerId" : 337457683,
-    "developerUrl" : "https://itunes.apple.com/at/developer/miniclip-com/id337457683?mt=8",
-    "genreIds" : [ 
-        "6014",
-        "6016",
-        "7016",
-        "7015"
-      ],
-    "genres" : [ 
-        "Spiele",
-        "Unterhaltung",
-        "Sport",
-        "Simulation"
-      ],
-    "icon" : "http://is2.mzstatic.com/image/thumb/Purple118/v4/e1/3c/4c/e13c4cc0-cfe1-7509-9b5b-140ab46fdb08/mzl.zumjjfib.png/200x200bb.png",
-    "id" : "543186831",
-    "released" : "2013-02-27",
-    "title" : "8 Ball Pool™",
-    "url" : "https://itunes.apple.com/at/app/8-ball-pool/id543186831?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "TuneIn",
-    "developerId" : 319295335,
-    "developerUrl" : "https://itunes.apple.com/at/developer/tunein/id319295335?mt=8",
-    "genreIds" : [ 
-        "6011",
-        "6016"
-      ],
-    "genres" : [ 
-        "Musik",
-        "Unterhaltung"
-      ],
-    "icon" : "http://is4.mzstatic.com/image/thumb/Purple128/v4/a2/4b/ef/a24befa2-62c0-7509-e882-92ad9a2533e3/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-6.png/200x200bb.png",
-    "id" : "418987775",
-    "released" : "2011-04-19",
-    "title" : "TuneIn Radio",
-    "url" : "https://itunes.apple.com/at/app/tunein-radio/id418987775?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "1492 Studio",
-    "developerId" : 934334114,
-    "developerUrl" : "https://itunes.apple.com/at/developer/1492-studio/id934334114?mt=8",
-    "genreIds" : [ 
-        "6014",
-        "7002",
-        "6016",
-        "7014"
-      ],
-    "genres" : [ 
-        "Spiele",
-        "Abenteuer",
-        "Unterhaltung",
-        "Rollenspiel"
-      ],
-    "icon" : "http://is3.mzstatic.com/image/thumb/Purple118/v4/b3/a3/81/b3a381a2-7425-4c4d-dbd1-b6d44732e5d8/AppIcon-1x_U007emarketing-0-85-220-0-5.png/200x200bb.png",
-    "id" : "1178985006",
-    "released" : "2017-05-31",
-    "title" : "Is-it Love ? Drogo - Vampire",
-    "url" : "https://itunes.apple.com/at/app/is-it-love-drogo-vampire/id1178985006?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "musical.ly Inc.",
-    "developerId" : 1039610913,
-    "developerUrl" : "https://itunes.apple.com/at/developer/musical-ly-inc/id1039610913?mt=8",
-    "genreIds" : [ 
-        "6008",
-        "6005"
-      ],
-    "genres" : [ 
-        "Foto und Video",
-        "Soziale Netze"
-      ],
-    "icon" : "http://is2.mzstatic.com/image/thumb/Purple128/v4/75/dc/c8/75dcc8be-750f-73b4-9003-15d528e25b70/AppIcon-1x_U007emarketing-85-220-0-3.png/200x200bb.png",
-    "id" : "835599320",
-    "released" : "2014-04-02",
-    "title" : "musical.ly",
-    "url" : "https://itunes.apple.com/at/app/musical-ly/id835599320?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "nanobitsoftware.com",
-    "developerId" : 307749755,
-    "developerUrl" : "https://itunes.apple.com/at/developer/nanobitsoftware-com/id307749755?mt=8",
-    "genreIds" : [ 
-        "6014",
-        "7009",
-        "7014"
-      ],
-    "genres" : [ 
-        "Spiele",
-        "Familie",
-        "Rollenspiel"
-      ],
-    "icon" : "http://is3.mzstatic.com/image/thumb/Purple62/v4/a0/78/d2/a078d295-6633-0387-acbf-b99210d5c9d5/AppIcon-1x_U007emarketing-85-220-9.png/200x200bb.png",
-    "id" : "876656488",
-    "released" : "2015-04-30",
-    "title" : "Hollywood Story",
-    "url" : "https://itunes.apple.com/at/app/hollywood-story/id876656488?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "Justlin Ltd.",
-    "developerId" : 1200732611,
-    "developerUrl" : "https://itunes.apple.com/at/developer/justlin-ltd/id1200732611?mt=8",
-    "genreIds" : [ "6005" ],
-    "genres" : [ "Soziale Netze" ],
-    "icon" : "http://is4.mzstatic.com/image/thumb/Purple118/v4/9d/2b/5c/9d2b5c2e-378a-6ee5-294a-80b4eeebb948/pr_source.png/200x200bb.png",
-    "id" : "1205911467",
-    "released" : "2017-03-01",
-    "title" : "Linduu",
-    "url" : "https://itunes.apple.com/at/app/linduu/id1205911467?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "ATP Media Operations Ltd.",
-    "developerId" : 1114471029,
-    "developerUrl" : "https://itunes.apple.com/at/developer/atp-media-operations-ltd/id1114471029?mt=8",
-    "genreIds" : [ 
-        "6004",
-        "6016"
-      ],
-    "genres" : [ 
-        "Sport",
-        "Unterhaltung"
-      ],
-    "icon" : "http://is3.mzstatic.com/image/thumb/Purple118/v4/9b/b7/4f/9bb74fd1-c78d-4e9a-fefd-8304d2f224e5/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-6.jpeg/200x200bb.png",
-    "id" : "1114471030",
-    "released" : "2016-12-13",
-    "title" : "Tennis TV - Live Streaming",
-    "url" : "https://itunes.apple.com/at/app/tennis-tv-live-streaming/id1114471030?mt=8"
-  },
-  { 
-    "appId" : undefined,
-    "description" : undefined,
-    "developer" : "Hyperconnect",
-    "developerId" : 972558972,
-    "developerUrl" : "https://itunes.apple.com/at/developer/hyperconnect/id972558972?mt=8",
-    "genreIds" : [ "6005" ],
-    "genres" : [ "Soziale Netze" ],
-    "icon" : "http://is1.mzstatic.com/image/thumb/Purple118/v4/a5/5c/94/a55c94fb-0365-c05c-9180-990410661888/AppIcon-1x_U007emarketing-85-220-0-6.png/200x200bb.png",
-    "id" : "972558973",
-    "released" : "2015-06-11",
-    "title" : "Azar - Video Chat, Entdecken",
-    "url" : "https://itunes.apple.com/at/app/azar-video-chat-entdecken/id972558973?mt=8"
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple62/v4/ac/99/61/ac99611e-4b37-e5b6-c339-cad8e709c33c/AppIcon-1x_U007emarketing-85-220-7.png/200x200bb.png",
+    "id" : "1068378177",
+    "released" : "2017-01-18",
+    "title" : "Yu-Gi-Oh! Duel Links",
+    "url" : "https://itunes.apple.com/at/app/yu-gi-oh-duel-links/id1068378177?mt=8"
   },
   { 
     "appId" : undefined,
@@ -1940,152 +1816,238 @@
   { 
     "appId" : undefined,
     "description" : undefined,
-    "developer" : "WARGAMING Group Limited",
-    "developerId" : 815044731,
-    "developerUrl" : "https://itunes.apple.com/at/developer/wargaming-group-limited/id815044731?mt=8",
+    "developer" : "IGG.COM",
+    "developerId" : 1303288190,
+    "developerUrl" : "https://itunes.apple.com/at/developer/igg-com/id1303288190?mt=8",
     "genreIds" : [ 
         "6014",
-        "7017",
+        "7001",
         "6016",
-        "7001"
+        "7017"
       ],
     "genres" : [ 
         "Spiele",
-        "Strategie",
+        "Action",
         "Unterhaltung",
-        "Action"
+        "Strategie"
       ],
-    "icon" : "http://is1.mzstatic.com/image/thumb/Purple62/v4/5c/cd/47/5ccd479e-b627-4222-5ccb-dbd42577dc36/pr_source.png/200x200bb.png",
-    "id" : "859204347",
-    "released" : "2014-06-28",
-    "title" : "World of Tanks Blitz",
-    "url" : "https://itunes.apple.com/at/app/world-of-tanks-blitz/id859204347?mt=8"
+    "icon" : "http://is2.mzstatic.com/image/thumb/Purple118/v4/83/74/d3/8374d387-6e42-6560-1355-83fc7b843bd9/AppIcon-1x_U007emarketing-0-85-220-0-8.png/200x200bb.png",
+    "id" : "692669501",
+    "released" : "2013-10-22",
+    "title" : "Castle Clash: Königsduell",
+    "url" : "https://itunes.apple.com/at/app/castle-clash-k%C3%B6nigsduell/id692669501?mt=8"
   },
   { 
     "appId" : undefined,
     "description" : undefined,
-    "developer" : "Big Fish Games, Inc",
-    "developerId" : 292594310,
-    "developerUrl" : "https://itunes.apple.com/at/developer/big-fish-games-inc/id292594310?mt=8",
+    "developer" : "Andrey Pryakhin",
+    "developerId" : 968535575,
+    "developerUrl" : "https://itunes.apple.com/at/developer/andrey-pryakhin/id968535575?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7001",
+        "7017"
+      ],
+    "genres" : [ 
+        "Spiele",
+        "Action",
+        "Strategie"
+      ],
+    "icon" : "http://is1.mzstatic.com/image/thumb/Purple118/v4/cc/1a/b0/cc1ab0d8-64eb-6325-e14c-a31849108be0/AppIcon-1x_U007emarketing-0-85-220-0-8.png/200x200bb.png",
+    "id" : "1241932094",
+    "released" : "2017-06-12",
+    "title" : "Last Day on Earth: Survival",
+    "url" : "https://itunes.apple.com/at/app/last-day-on-earth-survival/id1241932094?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Fingersoft",
+    "developerId" : 514034278,
+    "developerUrl" : "https://itunes.apple.com/at/developer/fingersoft/id514034278?mt=8",
     "genreIds" : [ 
         "6014",
         "6016",
         "7003",
-        "7015"
+        "7013"
       ],
     "genres" : [ 
         "Spiele",
         "Unterhaltung",
         "Arcade",
-        "Simulation"
+        "Rennsport"
       ],
-    "icon" : "http://is1.mzstatic.com/image/thumb/Purple128/v4/28/d3/75/28d3757d-4a6e-b1d2-1737-044b6ec77d74/mzl.swhrnnzc.png/200x200bb.png",
-    "id" : "1029094059",
-    "released" : "2017-06-26",
-    "title" : "Cooking Craze",
-    "url" : "https://itunes.apple.com/at/app/cooking-craze/id1029094059?mt=8"
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple118/v4/53/ef/a9/53efa985-369f-447d-adb3-ca2c1a34790d/AppIcon-1x_U007emarketing-85-220-7.png/200x200bb.png",
+    "id" : "1146465836",
+    "released" : "2016-12-07",
+    "title" : "Hill Climb Racing 2",
+    "url" : "https://itunes.apple.com/at/app/hill-climb-racing-2/id1146465836?mt=8"
   },
   { 
     "appId" : undefined,
     "description" : undefined,
-    "developer" : "runtastic",
-    "developerId" : 336599885,
-    "developerUrl" : "https://itunes.apple.com/at/developer/runtastic/id336599885?mt=8",
+    "developer" : "Crowdstar Inc",
+    "developerId" : 321598392,
+    "developerUrl" : "https://itunes.apple.com/at/developer/crowdstar-inc/id321598392?mt=8",
     "genreIds" : [ 
-        "6013",
-        "6004"
+        "6014",
+        "7015",
+        "7014",
+        "6024"
       ],
     "genres" : [ 
-        "Gesundheit und Fitness",
-        "Sport"
+        "Spiele",
+        "Simulation",
+        "Rollenspiel",
+        "Shopping"
       ],
-    "icon" : "http://is3.mzstatic.com/image/thumb/Purple128/v4/78/ea/08/78ea08ab-1d0d-8a7f-5301-da84b4e3e8e9/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-3.png/200x200bb.png",
-    "id" : "366626332",
-    "released" : "2010-04-13",
-    "title" : "Runtastic PRO GPS Laufen",
-    "url" : "https://itunes.apple.com/at/app/runtastic-pro-gps-laufen/id366626332?mt=8"
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple128/v4/79/38/92/793892c0-72dd-6372-7407-0c74f8bdca77/AppIcon-1x_U007emarketing-85-220-5.png/200x200bb.png",
+    "id" : "620112416",
+    "released" : "2013-06-25",
+    "title" : "Covet Fashion",
+    "url" : "https://itunes.apple.com/at/app/covet-fashion/id620112416?mt=8"
   },
   { 
     "appId" : undefined,
     "description" : undefined,
-    "developer" : "Hyperjoy Limited",
-    "developerId" : 1093774791,
-    "developerUrl" : "https://itunes.apple.com/at/developer/hyperjoy-limited/id1093774791?mt=8",
+    "developer" : "ONEMT LIMITED",
+    "developerId" : 896047171,
+    "developerUrl" : "https://itunes.apple.com/at/developer/onemt-limited/id896047171?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7017",
+        "7014",
+        "6016"
+      ],
+    "genres" : [ 
+        "Spiele",
+        "Strategie",
+        "Rollenspiel",
+        "Unterhaltung"
+      ],
+    "icon" : "http://is3.mzstatic.com/image/thumb/Purple128/v4/15/e0/b5/15e0b589-c9bc-2859-4de7-2ea930fbf602/AppIcon-1x_U007emarketing-0-85-220-0-6.png/200x200bb.png",
+    "id" : "1110600998",
+    "released" : "2016-06-29",
+    "title" : "Rise of the Kings",
+    "url" : "https://itunes.apple.com/at/app/rise-of-the-kings/id1110600998?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "2K",
+    "developerId" : 324563547,
+    "developerUrl" : "https://itunes.apple.com/at/developer/2k/id324563547?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "6016",
+        "7016",
+        "7005"
+      ],
+    "genres" : [ 
+        "Spiele",
+        "Unterhaltung",
+        "Sport",
+        "Karten"
+      ],
+    "icon" : "http://is1.mzstatic.com/image/thumb/Purple128/v4/27/5a/5b/275a5bba-3f6c-5d86-b028-62c43989cc4c/AppIcon-1x_U007emarketing-85-220-0-9.jpeg/200x200bb.png",
+    "id" : "775402833",
+    "released" : "2014-08-14",
+    "title" : "WWE SuperCard",
+    "url" : "https://itunes.apple.com/at/app/wwe-supercard/id775402833?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Nordcurrent",
+    "developerId" : 348389028,
+    "developerUrl" : "https://itunes.apple.com/at/developer/nordcurrent/id348389028?mt=8",
     "genreIds" : [ 
         "6014",
         "7001",
-        "7014"
+        "7003"
       ],
     "genres" : [ 
         "Spiele",
         "Action",
-        "Rollenspiel"
+        "Arcade"
       ],
-    "icon" : "http://is1.mzstatic.com/image/thumb/Purple118/v4/39/1a/f3/391af3b7-316c-ea2f-d93f-d1b77c85f34d/AppIcon-1x_U007emarketing-0-85-220-0-9.png/200x200bb.png",
-    "id" : "1093774792",
-    "released" : "2016-08-19",
-    "title" : "Hyper Heroes: Marble-Like RPG",
-    "url" : "https://itunes.apple.com/at/app/hyper-heroes-marble-like-rpg/id1093774792?mt=8"
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple118/v4/a6/08/31/a6083154-9ad1-7cd7-1f14-f67081b8127d/AppIcon-1x_U007emarketing-0-85-220-0-5.png/200x200bb.png",
+    "id" : "1029110855",
+    "released" : "2015-11-26",
+    "title" : "Sniper Arena: Online PvP Game",
+    "url" : "https://itunes.apple.com/at/app/sniper-arena-online-pvp-game/id1029110855?mt=8"
   },
   { 
     "appId" : undefined,
     "description" : undefined,
-    "developer" : "Boranu Online B.V.",
-    "developerId" : 1159514669,
-    "developerUrl" : "https://itunes.apple.com/at/developer/boranu-online-b-v/id1159514669?mt=8",
+    "developer" : "G5 Entertainment",
+    "developerId" : 305426797,
+    "developerUrl" : "https://itunes.apple.com/at/developer/g5-entertainment/id305426797?mt=8",
     "genreIds" : [ 
-        "6005",
+        "6014",
+        "7002",
+        "7012",
         "6016"
       ],
     "genres" : [ 
-        "Soziale Netze",
+        "Spiele",
+        "Abenteuer",
+        "Puzzle",
         "Unterhaltung"
       ],
-    "icon" : "http://is2.mzstatic.com/image/thumb/Purple128/v4/fd/c2/89/fdc28997-1796-fc10-2809-05ef382af08d/AppIcon-1x_U007emarketing-85-220-0-5.png/200x200bb.png",
-    "id" : "1159514670",
-    "released" : "2016-10-26",
-    "title" : "iDates - Dates, Flirts & Chats",
-    "url" : "https://itunes.apple.com/at/app/idates-dates-flirts-chats/id1159514670?mt=8"
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple118/v4/5d/6d/88/5d6d8845-3f9d-1146-6077-13362543651d/AppIcon-1x_U007emarketing-85-220-6.png/200x200bb.png",
+    "id" : "722217471",
+    "released" : "2014-02-20",
+    "title" : "Hidden City®",
+    "url" : "https://itunes.apple.com/at/app/hidden-city/id722217471?mt=8"
   },
   { 
     "appId" : undefined,
     "description" : undefined,
-    "developer" : "Lesson Nine GmbH",
-    "developerId" : 357018535,
-    "developerUrl" : "https://itunes.apple.com/at/developer/lesson-nine-gmbh/id357018535?mt=8",
+    "developer" : "Playdemic",
+    "developerId" : 505151958,
+    "developerUrl" : "https://itunes.apple.com/at/developer/playdemic/id505151958?mt=8",
     "genreIds" : [ 
-        "6017",
-        "6003"
+        "6014",
+        "6004",
+        "7015",
+        "7016"
       ],
     "genres" : [ 
-        "Bildung",
-        "Reisen"
+        "Spiele",
+        "Sport",
+        "Simulation",
+        "Sport"
       ],
-    "icon" : "http://is2.mzstatic.com/image/thumb/Purple128/v4/68/69/ba/6869ba0a-19bf-7bae-d14a-2e10210ede0e/AppIcons-1x_U007emarketing-85-220-9.png/200x200bb.png",
-    "id" : "477147527",
-    "released" : "2011-12-22",
-    "title" : "Babbel – Englisch lernen",
-    "url" : "https://itunes.apple.com/at/app/babbel-englisch-lernen/id477147527?mt=8"
+    "icon" : "http://is5.mzstatic.com/image/thumb/Purple128/v4/32/84/b4/3284b4b2-8f1e-6305-9bb9-81c9dd13a518/AppIcon-1x_U007emarketing-85-220-0-6.png/200x200bb.png",
+    "id" : "1089225191",
+    "released" : "2017-01-18",
+    "title" : "Golf Clash",
+    "url" : "https://itunes.apple.com/at/app/golf-clash/id1089225191?mt=8"
   },
   { 
     "appId" : undefined,
     "description" : undefined,
-    "developer" : "adviqo AG",
-    "developerId" : 458612953,
-    "developerUrl" : "https://itunes.apple.com/at/developer/adviqo-ag/id458612953?mt=8",
+    "developer" : "Fluffy Fairy Games GmbH",
+    "developerId" : 1112983227,
+    "developerUrl" : "https://itunes.apple.com/at/developer/fluffy-fairy-games-gmbh/id1112983227?mt=8",
     "genreIds" : [ 
-        "6012",
+        "6014",
+        "7015",
+        "7017",
         "6016"
       ],
     "genres" : [ 
-        "Lifestyle",
+        "Spiele",
+        "Simulation",
+        "Strategie",
         "Unterhaltung"
       ],
-    "icon" : "http://is1.mzstatic.com/image/thumb/Purple128/v4/1a/bd/f5/1abdf559-d43c-93c1-cf42-73b89eb0ac7d/AppIcon-1x_U007emarketing-85-220-6.png/200x200bb.png",
-    "id" : "602283488",
-    "released" : "2013-04-12",
-    "title" : "fortunica - Tarot & Wahrsager",
-    "url" : "https://itunes.apple.com/at/app/fortunica-tarot-wahrsager/id602283488?mt=8"
+    "icon" : "http://is3.mzstatic.com/image/thumb/Purple128/v4/e4/4d/b9/e44db9c5-28b5-d8b7-6ac7-cb16fadf7ff4/mzl.basjvtzn.png/200x200bb.png",
+    "id" : "1116645064",
+    "released" : "2016-07-01",
+    "title" : "Idle Miner Tycoon",
+    "url" : "https://itunes.apple.com/at/app/idle-miner-tycoon/id1116645064?mt=8"
   },
   { 
     "appId" : undefined,
@@ -2112,42 +2074,68 @@
   { 
     "appId" : undefined,
     "description" : undefined,
-    "developer" : "Game Insight",
-    "developerId" : 957388299,
-    "developerUrl" : "https://itunes.apple.com/at/developer/game-insight/id957388299?mt=8",
+    "developer" : "Twitch Interactive, Inc.",
+    "developerId" : 358612219,
+    "developerUrl" : "https://itunes.apple.com/at/developer/twitch-interactive-inc/id358612219?mt=8",
     "genreIds" : [ 
-        "6014",
-        "7001"
+        "6008",
+        "6005"
       ],
     "genres" : [ 
-        "Spiele",
-        "Action"
+        "Foto und Video",
+        "Soziale Netze"
       ],
-    "icon" : "http://is4.mzstatic.com/image/thumb/Purple128/v4/b9/c7/8d/b9c78dc5-fbf2-d5d9-11cf-79d887ab0c0e/AppIcon-1x_U007emarketing-85-220-0-8.png/200x200bb.png",
-    "id" : "1179715015",
-    "released" : "2017-05-16",
-    "title" : "Guns of Boom",
-    "url" : "https://itunes.apple.com/at/app/guns-of-boom/id1179715015?mt=8"
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple128/v4/fa/8d/e2/fa8de2ec-7f84-fe69-3bb0-85ec2ccd115e/TwitchAppIcon-1x_U007emarketing-85-220-0-6.png/200x200bb.png",
+    "id" : "460177396",
+    "released" : "2011-10-26",
+    "title" : "Twitch",
+    "url" : "https://itunes.apple.com/at/app/twitch/id460177396?mt=8"
   },
   { 
     "appId" : undefined,
     "description" : undefined,
-    "developer" : "Jeli App",
-    "developerId" : 1116790277,
-    "developerUrl" : "https://itunes.apple.com/at/developer/jeli-app/id1116790277?mt=8",
+    "developer" : "Playa Games GmbH",
+    "developerId" : 526078354,
+    "developerUrl" : "https://itunes.apple.com/at/developer/playa-games-gmbh/id526078354?mt=8",
     "genreIds" : [ 
-        "6005",
-        "6007"
+        "6014",
+        "7002",
+        "6016",
+        "7014"
       ],
     "genres" : [ 
-        "Soziale Netze",
-        "Produktivität"
+        "Spiele",
+        "Abenteuer",
+        "Unterhaltung",
+        "Rollenspiel"
       ],
-    "icon" : "http://is4.mzstatic.com/image/thumb/Purple118/v4/93/89/95/93899590-46d1-a31f-9730-20c28eb3ee51/AppIcon-1x_U007emarketing-85-220-4.png/200x200bb.png",
-    "id" : "1213806775",
-    "released" : "2017-03-15",
-    "title" : "XLock",
-    "url" : "https://itunes.apple.com/at/app/xlock/id1213806775?mt=8"
+    "icon" : "http://is1.mzstatic.com/image/thumb/Purple128/v4/24/c0/f4/24c0f4ef-57dc-65d5-3830-e0ab2fd364d1/pr_source.jpg/200x200bb.png",
+    "id" : "556886960",
+    "released" : "2012-12-13",
+    "title" : "Shakes und Fidget",
+    "url" : "https://itunes.apple.com/at/app/shakes-und-fidget/id556886960?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "MY COM",
+    "developerId" : 875810767,
+    "developerUrl" : "https://itunes.apple.com/at/developer/my-com/id875810767?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7002",
+        "7003"
+      ],
+    "genres" : [ 
+        "Spiele",
+        "Abenteuer",
+        "Arcade"
+      ],
+    "icon" : "http://is5.mzstatic.com/image/thumb/Purple128/v4/70/7b/99/707b998d-c28c-b080-caac-80fa0b85c357/AppIcon-1x_U007emarketing-85-220-5.png/200x200bb.png",
+    "id" : "1145878423",
+    "released" : "2017-01-18",
+    "title" : "HAWK – Ballerspiele. Attacke!",
+    "url" : "https://itunes.apple.com/at/app/hawk-ballerspiele-attacke/id1145878423?mt=8"
   },
   { 
     "appId" : undefined,
@@ -2168,5 +2156,67 @@
     "released" : "2014-09-01",
     "title" : "Peak - Gehirntraining",
     "url" : "https://itunes.apple.com/at/app/peak-gehirntraining/id806223188?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "AppsYouLove",
+    "developerId" : 1168714543,
+    "developerUrl" : "https://itunes.apple.com/at/developer/appsyoulove/id1168714543?mt=8",
+    "genreIds" : [ 
+        "6016",
+        "6012"
+      ],
+    "genres" : [ 
+        "Unterhaltung",
+        "Lifestyle"
+      ],
+    "icon" : "http://is2.mzstatic.com/image/thumb/Purple128/v4/91/9b/f4/919bf482-c82b-8d76-be49-a5e4aabba5dd/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-6.png/200x200bb.png",
+    "id" : "1293646758",
+    "released" : "2017-10-27",
+    "title" : "UNICORN - Malen Nach Zahlen",
+    "url" : "https://itunes.apple.com/at/app/unicorn-malen-nach-zahlen/id1293646758?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Zoosk, Inc.",
+    "developerId" : 349160526,
+    "developerUrl" : "https://itunes.apple.com/at/developer/zoosk-inc/id349160526?mt=8",
+    "genreIds" : [ 
+        "6005",
+        "6012"
+      ],
+    "genres" : [ 
+        "Soziale Netze",
+        "Lifestyle"
+      ],
+    "icon" : "http://is3.mzstatic.com/image/thumb/Purple118/v4/f9/68/64/f968642b-b988-5aa6-3907-234de3f9adc6/mzl.xcbxqzqp.jpg/200x200bb.png",
+    "id" : "349160522",
+    "released" : "2010-01-12",
+    "title" : "Zoosk – die beste Dating-App",
+    "url" : "https://itunes.apple.com/at/app/zoosk-die-beste-dating-app/id349160522?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "YONG OK PARK",
+    "developerId" : 581876748,
+    "developerUrl" : "https://itunes.apple.com/at/developer/yong-ok-park/id581876748?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7015",
+        "7017"
+      ],
+    "genres" : [ 
+        "Spiele",
+        "Simulation",
+        "Strategie"
+      ],
+    "icon" : "http://is2.mzstatic.com/image/thumb/Purple128/v4/4f/a5/c9/4fa5c98d-695c-1434-7140-8b6d20a066b9/AppIcon-1x_U007emarketing-0-85-220-0-2.png/200x200bb.png",
+    "id" : "1133478462",
+    "released" : "2016-07-18",
+    "title" : "Grow Castle!",
+    "url" : "https://itunes.apple.com/at/app/grow-castle/id1133478462?mt=8"
   }
 ]
