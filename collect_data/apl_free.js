@@ -13,7 +13,7 @@ const options = commandLineArgs(optionDefinitions)
 var top = function(var_country_code) {
   store.list({
     collection: store.collection.TOP_FREE_GAMES_IOS,
-    num : 200,
+    num : 100,
     country: var_country_code,
   })
   .then(console.log, console.log);

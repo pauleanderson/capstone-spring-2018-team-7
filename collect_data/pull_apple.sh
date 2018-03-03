@@ -13,6 +13,6 @@ do
 
     for country in $countries
     do
-        node ~/capstone-spring-2018-team-7/collect_data/apl_${chart}.js -c $country > ~/capstone-spring-2018-team-7/collect_data/apple/${country}_${chart}_${date}.json
+        node ~/capstone-spring-2018-team-7/collect_data/apl_${chart}.js -c $country | jsonlint -f -q -S > ~/capstone-spring-2018-team-7/collect_data/apple/${country}_${chart}_${date}.json
     done
 done
