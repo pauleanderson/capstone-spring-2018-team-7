@@ -60,8 +60,13 @@ do
         cat ~/capstone-spring-2018-team-7/collect_data/android/${chart}_200.json >> ~/capstone-spring-2018-team-7/collect_data/android/${country}_${chart}_${date}.json 
         echo ',' >> ~/capstone-spring-2018-team-7/collect_data/android/${country}_${chart}_${date}.json 
         cat ~/capstone-spring-2018-team-7/collect_data/android/${chart}_300.json >> ~/capstone-spring-2018-team-7/collect_data/android/${country}_${chart}_${date}.json 
-        echo ',' >> ~/capstone-spring-2018-team-7/collect_data/android/${country}_${chart}_${date}.json 
-        cat ~/capstone-spring-2018-team-7/collect_data/android/${chart}_400.json >> ~/capstone-spring-2018-team-7/collect_data/android/${country}_${chart}_${date}.json 
+        
+        if [ "$chart" != "trend" ] && [ "$country" != "de" ]
+        then
+            echo ',' >> ~/capstone-spring-2018-team-7/collect_data/android/${country}_${chart}_${date}.json 
+            cat ~/capstone-spring-2018-team-7/collect_data/android/${chart}_400.json >> ~/capstone-spring-2018-team-7/collect_data/android/${country}_${chart}_${date}.json 
+        fi
+        
         echo ']' >> ~/capstone-spring-2018-team-7/collect_data/android/${country}_${chart}_${date}.json
         
         jsonlint-py -f -q -S ~/capstone-spring-2018-team-7/collect_data/android/${country}_${chart}_${date}.json > ~/capstone-spring-2018-team-7/collect_data/android/tempfile.json
