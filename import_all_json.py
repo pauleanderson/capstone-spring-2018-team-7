@@ -41,7 +41,6 @@ db = connection.apps
 apple = db.apple
 for filename in os.listdir(dir):
     filepath = dir+'/'+filename
-    print(filepath)
     if filename == ".DS_Store":
         continue
     split = re.split('_|\.',filename)
