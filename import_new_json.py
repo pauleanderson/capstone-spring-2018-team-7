@@ -4,10 +4,11 @@ import pymongo
 import re
 import demjson
 from bson import json_util
+import datetime
 
 current_date = datetime.datetime.now().strftime("%Y-%m-%d")
 
-dir='home/cofccapstoneteam7/capstone-spring-2018-team-7/collect_data/android'
+dir='/home/cofccapstoneteam7/capstone-spring-2018-team-7/collect_data/android'
 connection = pymongo.MongoClient("mongodb://localhost")
 db = connection.apps
 android = db.android
