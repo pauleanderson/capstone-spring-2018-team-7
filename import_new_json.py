@@ -4,6 +4,7 @@ import pymongo
 import re
 import demjson
 from bson import json_util
+import datetime
 
 current_date = datetime.datetime.now().strftime("%Y-%m-%d")
 
