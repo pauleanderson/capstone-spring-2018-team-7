@@ -1,8 +1,8 @@
-Technologies used
-python
-github
-mongodb
-google cloud
-google-play-scraper
-app-store-scraper
-node.js
+Technologies used <br>
+python <br>
+github <br>
+mongodb <br>
+google cloud <br>
+google-play-scraper <br>
+app-store-scraper <br>
+node.js <br>
