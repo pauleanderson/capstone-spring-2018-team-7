@@ -26,9 +26,15 @@ df1 = pick_country(set_android(),"nz")
 
 #Build the pivot table
 pivot = df1.pivot_table(index = "appId", columns = "date", values = "rank")
-print(pivot.to_string().translate(unicode()))
+#print(pivot.to_string().translate(unicode()))
 
 # to be completed
 #for index, row in pivot.iterrows():
   #print (row['2018-03-04'])
+
+def first_delta (row):
+  return row[3]-row[2]
+
+pivot['delta rank1'] = pivot.apply (lambda row: first_delta (row),axis=1)
+print(pivot.to_string().translate(unicode())
 
