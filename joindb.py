@@ -17,12 +17,14 @@ def set_apple ():
 def pick_country(platform, country):
   return pd.DataFrame(list(platform.find({"country":country})))
 
+def unicode()
+  return dict.fromkeys(range(0x10000, sys.maxunicode + 1), 0xfffd)
 
 df = pick_country(set_apple(), "au")
-non_pbm_map = dict.fromkeys(range(0x10000, sys.maxunicode + 1), 0xfffd)
+
 
 pivot = df.pivot_table(index = "appId", columns = "date", values = "rank")
-print(pivot.to_string().translate(non_pbm_map))
+print(pivot.to_string().translate(unicode()))
 
 
 
