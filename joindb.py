@@ -36,5 +36,4 @@ def first_delta (row):
   return row[3]-row[2]
 
 pivot['delta rank1'] = pivot.apply (lambda row: first_delta (row),axis=1)
-print(pivot.to_string().translate(unicode())
-
+print(pivot.to_string().translate(unicode()))
