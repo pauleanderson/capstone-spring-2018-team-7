@@ -20,10 +20,12 @@ def pick_country(platform, country):
 def unicode():
   return dict.fromkeys(range(0x10000, sys.maxunicode + 1), 0xfffd)
 
-df = pick_country(set_apple(), "au")
+
+df = pick_country(set_android(), "au")
+df1 = pick_country(set_android(),"nz")
 
 
-pivot = df.pivot_table(index = "appId", columns = "date", values = "rank")
+pivot = df1.pivot_table(index = "appId", columns = "date", values = "rank")
 print(pivot.to_string().translate(unicode()))
 
 
