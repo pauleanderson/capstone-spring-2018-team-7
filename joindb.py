@@ -29,6 +29,6 @@ pivot = df1.pivot_table(index = "appId", columns = "date", values = "rank")
 print(pivot.to_string().translate(unicode()))
 
 # to be completed
-for index, row in pivot.iterrows():
-  print (row['2018-03-04'])
+#for index, row in pivot.iterrows():
+  #print (row['2018-03-04'])
 
