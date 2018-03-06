@@ -1,24 +1,29 @@
-import json
-import os
-import pymongo
-import re
-import demjson
-from bson import json_util
-import datetime
-import pandas as pd
+
+
 #jsonData = pd.read_json(fileName, orient="records")
 
-connection = pymongo.MongoClient("mongodb://localhost")
-db = connection.apps
-apple = db.apple
+from pymongo import MongoClient
+import pandas as pd
+import sys
 
-#data = data.replace(": undefined" , ": \"undefined\"")
+## connect to the database
+client = MongoClient ('localhost', 27017)
+data = client.apps
 
-cursor = apple.find({"country":"au", "chart":"free", "date":"2018-03-05"},
-                   {"_id":False, "title":True, "rank":True})
+## start with opening data
 
-df =  pd.DataFrame(list(cursor))
-print(df)
+def set_android ():
+  return data.android
+
+def set_apple ():
+  return data.apple
+
+def pick_platform(platform):
+  return pd.DataFrame(list(platform.find()))
+
+df = pick_platform(set_apple())
+print df
+
 
 
 '''
