@@ -40,4 +40,4 @@ def first_delta (df, row):
 pivot['delta rank1'] = pivot.apply (lambda row: first_delta (pivot, row),axis=1)
 print(pivot.to_string().translate(unicode()))
 print(pivot["delta rank1"].max())
-print(pivot[:,pivot.idxmax()])
+print(pivot.loc[pivot["delta rank1"].idxmax()])
