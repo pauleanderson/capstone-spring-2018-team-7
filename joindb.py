@@ -33,7 +33,7 @@ pivot = df1.pivot_table(index = "appId", columns = "date", values = "rank")
   #print (row['2018-03-04'])
 
 def first_delta (df, row):
-  return row[len(df.columns)]-row[len(df.columns)-1]
+  return row[len(df.columns)-1]-row[len(df.columns)-2]
 
 
 
