@@ -11,8 +11,7 @@ df = pd.DataFrame(list(android.find({"country":"au"})))
 non_pbm_map = dict.fromkeys(range(0x10000, sys.maxunicode + 1), 0xfffd)
 #print(df.loc[1:6, :])
 
-ids = df["appId"]
-new_df = df[ids.isin(ids[ids.duplicated()])]
+new_df = pd.concat(g for _, g in df.groupby("appId") if len(g) > 1)
 print(new_df.to_string().translate(non_pbm_map))
 
 
