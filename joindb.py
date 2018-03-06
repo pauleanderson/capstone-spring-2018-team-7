@@ -25,7 +25,7 @@ new_df = pd.concat(g for _, g in df.groupby("appId") if len(g) > 1)
 #merged_df = left_df.merge(df_sliced, on="appId", validate="one_to_many")
 #print(merged_df.to_string().translate(non_pbm_map))
 
-pivot = pivot_table(new_df, index = "appId", columns = "date", values = "rank")
+pivot = new_df.pivot_table(index = "appId", columns = "date", values = "rank")
 print(pivot.to_string().translate(non_pbm_map))
 
 
