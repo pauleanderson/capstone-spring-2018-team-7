@@ -22,5 +22,5 @@ df_sliced = new_df[["appId", "country", "rank", "date"]].copy()
 
 
 new_df = df_sliced.merge(df_sliced, on="appId")
-print(new_df[1:2].to_string().translate(non_pbm_map))
+print(new_df.to_string().translate(non_pbm_map))
 
