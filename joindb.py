@@ -8,7 +8,7 @@ data = client.apps
 
 android = data.android
 df = pd.DataFrame(list(android.find({"country":"au"})))
-##non_pbm_map = dict.fromkeys(range(0x10000, sys.maxunicode + 1), 0xfffd)
+non_pbm_map = dict.fromkeys(range(0x10000, sys.maxunicode + 1), 0xfffd)
 #print(df.loc[1:6, :])
 
 scores = df["score"]
