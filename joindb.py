@@ -39,3 +39,4 @@ def first_delta (row):
 
 pivot['delta rank1'] = pivot.apply (lambda row: first_delta (row),axis=1)
 print(pivot.to_string().translate(unicode()))
+print(pivot.max("delta rank1"))
