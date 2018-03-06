@@ -17,7 +17,7 @@ def set_apple ():
 def pick_country(platform, country):
   return pd.DataFrame(list(platform.find({"country":country})))
 
-def unicode()
+def unicode():
   return dict.fromkeys(range(0x10000, sys.maxunicode + 1), 0xfffd)
 
 df = pick_country(set_apple(), "au")
