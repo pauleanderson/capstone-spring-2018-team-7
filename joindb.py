@@ -16,7 +16,7 @@ new_df = pd.concat(g for _, g in df.groupby("appId") if len(g) > 1)
 #print(new_df.to_string().translate(non_pbm_map))
 
 #Inner join
-df_sliced = new_df[["appId", "country", "score", "date"]].copy()
+df_sliced = new_df[["appId", "country", "rank", "date"]].copy()
 
 df1 = df_sliced[1:250]
 df2 = df_sliced[251:500]
