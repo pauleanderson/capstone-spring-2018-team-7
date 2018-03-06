@@ -18,14 +18,12 @@ new_df = pd.concat(g for _, g in df.groupby("appId") if len(g) > 1)
 
 #Inner join
 df_sliced = new_df[["appId", "country", "rank", "date"]].copy()
-left_df = df_sliced.drop_duplicates(subset="appId", keep = "first")
+left_df = new_df.drop_duplicates(subset="appId", keep = "first")
+right_df = df_sliced.substract(left_df)
 
 
 
-
-merged_df = left_df.merge(df_sliced, on="appId", validate="one_to_many")
+merged_df = left_df.merge(right_df, on="appId", validate="one_to_many")
 print(merged_df.to_string().translate(non_pbm_map))
-#print(new_df.count())
-#print(left_df.count())
-#print(merged_df.count())
+
 
