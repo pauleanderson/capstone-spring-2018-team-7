@@ -32,11 +32,12 @@ pivot = df1.pivot_table(index = "appId", columns = "date", values = "rank")
 #for index, row in pivot.iterrows():
   #print (row['2018-03-04'])
 
-def first_delta (row):
-  return row[1]-row[0]
+def first_delta (df, row):
+  return row[len(df.columns)]-row[len(df.columns)-1]
 
 
 
 pivot['delta rank1'] = pivot.apply (lambda row: first_delta (row),axis=1)
-#print(pivot.to_string().translate(unicode()))
+print(pivot.to_string().translate(unicode()))
 print(pivot["delta rank1"].max())
+print(pivot[:,pivot.idxmax()])
