@@ -33,13 +33,9 @@ pivot = df1.pivot_table(index = "appId", columns = "date", values = "rank")
   #print (row['2018-03-04'])
 
 def first_delta (row):
-  return row[3]-row[2]
+  return row[1]-row[0]
 
-def deltas (df,row):
-  for j in row:
-    for i in len(df.columns)-1:
-      df["delta"] = df.apply (lambda row: row[i+1]-row[i],axis=1)
-  return df
 
-#pivot['delta rank1'] = pivot.apply (lambda row: first_delta (row),axis=1)
+
+pivot['delta rank1'] = pivot.apply (lambda row: first_delta (row),axis=1)
 print(deltas(pivot, 1).to_string().translate(unicode()))
