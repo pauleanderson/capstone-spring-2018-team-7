@@ -19,9 +19,8 @@ print(new_df.to_string().translate(non_pbm_map))
 #Inner join
 df_sliced = new_df[["appId", "country", "rank", "date"]].copy()
 
-df1 = df_sliced[1:250]
-df2 = df_sliced[251:500]
 
-new_df = df1.merge(df2, on="appId")
+
+new_df = df_sliced.merge(df_sliced, on="appId")
 print(new_df[1:2].to_string().translate(non_pbm_map))
 
