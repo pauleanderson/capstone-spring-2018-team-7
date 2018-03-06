@@ -11,7 +11,7 @@ data = client.apps
 def pick_platform (db, platform):
   return db.platform
 
-android = pick_platform(data.android)
+android = pick_platform(data,android)
 df = pd.DataFrame(list(android.find({"country":"au"})))
 non_pbm_map = dict.fromkeys(range(0x10000, sys.maxunicode + 1), 0xfffd)
 
