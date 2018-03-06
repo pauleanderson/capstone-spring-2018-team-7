@@ -11,8 +11,8 @@ df = pd.DataFrame(list(android.find({"country":"au"})))
 non_pbm_map = dict.fromkeys(range(0x10000, sys.maxunicode + 1), 0xfffd)
 #print(df.loc[1:6, :])
 
-scores = df["score"]
-new_df = df[scores.isin(scores[scores.duplicated()])]
+ids = df["ID"]
+new_df = df[ids.isin(ids[ids.duplicated()])]
 
 print(new_df.to_string().translate(non_pbm_map))
 
