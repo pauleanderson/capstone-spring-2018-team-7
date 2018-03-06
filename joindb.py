@@ -19,7 +19,7 @@ new_df = pd.concat(g for _, g in df.groupby("appId") if len(g) > 1)
 #Inner join
 df_sliced = new_df[["appId", "country", "rank", "date"]].copy()
 left_df = new_df.drop_duplicates(subset="appId", keep = "first")
-right_df = df_sliced.substract(left_df)
+right_df = df_sliced.subtract(left_df)
 
 
 
