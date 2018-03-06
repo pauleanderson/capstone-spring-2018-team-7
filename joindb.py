@@ -8,6 +8,6 @@ data = client.apps
 
 android = data.android
 df = pd.DataFrame(list(android.find()))
-non_pbm_map = dict.fromkeys(range(0x10000, sys.maxunicode + 1), 0xfffd)
-print(df.to_string().translate(non_pbm_map))
+##non_pbm_map = dict.fromkeys(range(0x10000, sys.maxunicode + 1), 0xfffd)
+print(df.to_string())
 
