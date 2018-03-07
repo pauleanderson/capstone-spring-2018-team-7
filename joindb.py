@@ -25,7 +25,7 @@ df = pick_country(set_android(), "au")
 df1 = pick_country(set_android(),"nz")
 
 #Build the pivot table
-pivot = df1.pivot_table(index = "appId", columns = "date", values = ["rank", "chart"])
+pivot = df1.pivot_table(index = "appId", columns = "date", values = "rank")
 #print(pivot.to_string().translate(unicode()))
 
 # to be completed
