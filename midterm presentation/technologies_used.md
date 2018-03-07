@@ -6,3 +6,4 @@ google cloud <br>
 google-play-scraper <br>
 app-store-scraper <br>
 node.js <br>
+slack <br>
