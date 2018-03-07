@@ -1,0 +1,688 @@
+[ 
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Playdigious",
+    "developerId" : 1041387229,
+    "developerUrl" : "https://itunes.apple.com/dk/developer/playdigious/id1041387229?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7014",
+        "6016",
+        "7002"
+      ],
+    "genres" : [ 
+        "Games",
+        "Role-Playing",
+        "Entertainment",
+        "Adventure"
+      ],
+    "icon" : "http://is5.mzstatic.com/image/thumb/Purple128/v4/86/9e/15/869e155a-e579-2a2d-1d8d-14e159d53d89/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-6.png/200x200bb.png",
+    "id" : "1291427111",
+    "released" : "2018-02-28",
+    "title" : "Evoland 2",
+    "url" : "https://itunes.apple.com/dk/app/evoland-2/id1291427111?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "HAL Laboratory, Inc.",
+    "developerId" : 1279621107,
+    "developerUrl" : "https://itunes.apple.com/dk/developer/hal-laboratory-inc/id1279621107?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7002",
+        "7001"
+      ],
+    "genres" : [ 
+        "Games",
+        "Adventure",
+        "Action"
+      ],
+    "icon" : "http://is2.mzstatic.com/image/thumb/Purple128/v4/40/26/14/402614d0-4319-6652-3c4d-b078daac815e/AppIcon-1x_U007emarketing-85-220-0-4.png/200x200bb.png",
+    "id" : "1279621108",
+    "released" : "2018-02-26",
+    "title" : "Part Time UFO",
+    "url" : "https://itunes.apple.com/dk/app/part-time-ufo/id1279621108?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Daylight Studios Pte. Ltd.",
+    "developerId" : 440184810,
+    "developerUrl" : "https://itunes.apple.com/dk/developer/daylight-studios-pte-ltd/id440184810?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7015",
+        "7002"
+      ],
+    "genres" : [ 
+        "Games",
+        "Simulation",
+        "Adventure"
+      ],
+    "icon" : "http://is2.mzstatic.com/image/thumb/Purple128/v4/92/94/39/9294395d-0f1b-1421-c1cd-bd2f58061624/AppIcon-1x_U007emarketing-85-220-8.png/200x200bb.png",
+    "id" : "1315946489",
+    "released" : "2018-02-28",
+    "title" : "Holy Potatoes! We're in Space?",
+    "url" : "https://itunes.apple.com/dk/app/holy-potatoes-were-in-space/id1315946489?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Four Thirty Three",
+    "developerId" : 378776346,
+    "developerUrl" : "https://itunes.apple.com/dk/developer/four-thirty-three/id378776346?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7017"
+      ],
+    "genres" : [ 
+        "Games",
+        "Strategy"
+      ],
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple118/v4/57/24/b7/5724b739-ecbf-50bd-799e-288c81fe1144/AppIcon-1x_U007emarketing-85-220-5.png/200x200bb.png",
+    "id" : "1279152828",
+    "released" : "2018-02-27",
+    "title" : "Battle Boom",
+    "url" : "https://itunes.apple.com/dk/app/battle-boom/id1279152828?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "D&D Dream Corp.",
+    "developerId" : 338533084,
+    "developerUrl" : "https://itunes.apple.com/dk/developer/d-d-dream-corp/id338533084?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "6016",
+        "7016",
+        "7003"
+      ],
+    "genres" : [ 
+        "Games",
+        "Entertainment",
+        "Sports",
+        "Arcade"
+      ],
+    "icon" : "http://is5.mzstatic.com/image/thumb/Purple128/v4/77/99/bb/7799bb37-e91f-bfc7-12c7-225bd43c1c34/AppIcon-1x_U007emarketing-85-220-8.png/200x200bb.png",
+    "id" : "975139187",
+    "released" : "2018-02-23",
+    "title" : "Head Boxing",
+    "url" : "https://itunes.apple.com/dk/app/head-boxing/id975139187?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Future Proof Games",
+    "developerId" : 1279028863,
+    "developerUrl" : "https://itunes.apple.com/dk/developer/future-proof-games/id1279028863?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7015",
+        "6016",
+        "7002"
+      ],
+    "genres" : [ 
+        "Games",
+        "Simulation",
+        "Entertainment",
+        "Adventure"
+      ],
+    "icon" : "http://is1.mzstatic.com/image/thumb/Purple128/v4/f2/64/4d/f2644dce-8368-b4ca-b940-f703b16e4bbd/AppIcon-1x_U007emarketing-85-220-0-8.png/200x200bb.png",
+    "id" : "1279028864",
+    "released" : "2018-02-28",
+    "title" : "Majesty of Colors Remastered",
+    "url" : "https://itunes.apple.com/dk/app/majesty-of-colors-remastered/id1279028864?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Plug In Digital",
+    "developerId" : 608306412,
+    "developerUrl" : "https://itunes.apple.com/dk/developer/plug-in-digital/id608306412?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7002",
+        "7014"
+      ],
+    "genres" : [ 
+        "Games",
+        "Adventure",
+        "Role-Playing"
+      ],
+    "icon" : "http://is5.mzstatic.com/image/thumb/Purple62/v4/6d/ad/0a/6dad0a0d-251d-5a05-256c-90fe2c8a2e92/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-5.png/200x200bb.png",
+    "id" : "1326078585",
+    "released" : "2018-03-01",
+    "title" : "Silent Streets: Mockingbird",
+    "url" : "https://itunes.apple.com/dk/app/silent-streets-mockingbird/id1326078585?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "LAB CAVE GAMES",
+    "developerId" : 1303497780,
+    "developerUrl" : "https://itunes.apple.com/dk/developer/lab-cave-games/id1303497780?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "6016",
+        "7014",
+        "7017"
+      ],
+    "genres" : [ 
+        "Games",
+        "Entertainment",
+        "Role-Playing",
+        "Strategy"
+      ],
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple118/v4/88/40/9e/88409eeb-29c3-56af-c676-f8978ba3a8bc/AppIcon-1x_U007emarketing-85-220-0-5.png/200x200bb.png",
+    "id" : "1329932506",
+    "released" : "2018-02-28",
+    "title" : "Viking: Heroes War",
+    "url" : "https://itunes.apple.com/dk/app/viking-heroes-war/id1329932506?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "MY COM",
+    "developerId" : 875810767,
+    "developerUrl" : "https://itunes.apple.com/dk/developer/my-com/id875810767?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7003",
+        "7001",
+        "6016"
+      ],
+    "genres" : [ 
+        "Games",
+        "Arcade",
+        "Action",
+        "Entertainment"
+      ],
+    "icon" : "http://is2.mzstatic.com/image/thumb/Purple128/v4/1a/02/3a/1a023a9d-c81a-5f02-90f8-44d933b0c60a/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-5.png/200x200bb.png",
+    "id" : "1081472257",
+    "released" : "2017-12-11",
+    "title" : "Armored Warfare: Assault",
+    "url" : "https://itunes.apple.com/dk/app/armored-warfare-assault/id1081472257?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Battery Acid Games, Inc.",
+    "developerId" : 304475194,
+    "developerUrl" : "https://itunes.apple.com/dk/developer/battery-acid-games-inc/id304475194?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "6016",
+        "7001",
+        "7003"
+      ],
+    "genres" : [ 
+        "Games",
+        "Entertainment",
+        "Action",
+        "Arcade"
+      ],
+    "icon" : "http://is2.mzstatic.com/image/thumb/Purple128/v4/8c/2c/6f/8c2c6f22-0e90-9e0e-b5ee-224ceb867b5e/AppIcon-1x_U007emarketing-85-220-0-8.png/200x200bb.png",
+    "id" : "1097932133",
+    "released" : "2018-02-28",
+    "title" : "Peak Rider Snowboarding",
+    "url" : "https://itunes.apple.com/dk/app/peak-rider-snowboarding/id1097932133?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Ketchapp",
+    "developerId" : 528065807,
+    "developerUrl" : "https://itunes.apple.com/dk/developer/ketchapp/id528065807?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "6016",
+        "7001",
+        "7003"
+      ],
+    "genres" : [ 
+        "Games",
+        "Entertainment",
+        "Action",
+        "Arcade"
+      ],
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple118/v4/4b/c2/b0/4bc2b0aa-8216-3851-41bc-d9307f1735a4/AppIcon-1x_U007emarketing-85-220-9.png/200x200bb.png",
+    "id" : "1317018868",
+    "released" : "2018-03-01",
+    "title" : "Space Snake",
+    "url" : "https://itunes.apple.com/dk/app/space-snake/id1317018868?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Tigrido",
+    "developerId" : 943419893,
+    "developerUrl" : "https://itunes.apple.com/dk/developer/tigrido/id943419893?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7001",
+        "7003"
+      ],
+    "genres" : [ 
+        "Games",
+        "Action",
+        "Arcade"
+      ],
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple62/v4/31/a2/6b/31a26bf0-15c6-2526-1dbb-5571818716e5/AppIcon-1x_U007emarketing-85-220-8.png/200x200bb.png",
+    "id" : "1346577165",
+    "released" : "2018-02-27",
+    "title" : "Temple of Spikes: The Legend",
+    "url" : "https://itunes.apple.com/dk/app/temple-of-spikes-the-legend/id1346577165?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Noodlecake Studios Inc",
+    "developerId" : 370828169,
+    "developerUrl" : "https://itunes.apple.com/dk/developer/noodlecake-studios-inc/id370828169?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7002",
+        "7001"
+      ],
+    "genres" : [ 
+        "Games",
+        "Adventure",
+        "Action"
+      ],
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple128/v4/95/f8/ca/95f8ca88-f0c2-21b4-1e9b-5d903ab17526/AppIcon-1x_U007emarketing-85-220-0-9.png/200x200bb.png",
+    "id" : "1332743891",
+    "released" : "2018-02-28",
+    "title" : "Lichtspeer",
+    "url" : "https://itunes.apple.com/dk/app/lichtspeer/id1332743891?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "GAMELAB Zrt",
+    "developerId" : 1304385889,
+    "developerUrl" : "https://itunes.apple.com/dk/developer/gamelab-zrt/id1304385889?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7002",
+        "7001"
+      ],
+    "genres" : [ 
+        "Games",
+        "Adventure",
+        "Action"
+      ],
+    "icon" : "http://is1.mzstatic.com/image/thumb/Purple118/v4/97/4c/35/974c35b3-a4e2-ccdb-994e-0797a2cac45f/AppIcon-1x_U007emarketing-85-220-8.png/200x200bb.png",
+    "id" : "1334799624",
+    "released" : "2018-02-23",
+    "title" : "Wormster Dash",
+    "url" : "https://itunes.apple.com/dk/app/wormster-dash/id1334799624?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "nWay Inc.",
+    "developerId" : 943118886,
+    "developerUrl" : "https://itunes.apple.com/dk/developer/nway-inc/id943118886?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7001"
+      ],
+    "genres" : [ 
+        "Games",
+        "Action"
+      ],
+    "icon" : "http://is2.mzstatic.com/image/thumb/Purple118/v4/42/f6/aa/42f6aa90-153a-5cfa-b6c2-32bbc83eae61/AppIcon-1x_U007emarketing-85-220-5.png/200x200bb.png",
+    "id" : "1246680419",
+    "released" : "2018-03-01",
+    "title" : "ChronoBlade",
+    "url" : "https://itunes.apple.com/dk/app/chronoblade/id1246680419?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Marker",
+    "developerId" : 333191633,
+    "developerUrl" : "https://itunes.apple.com/dk/developer/marker/id333191633?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7012",
+        "7002"
+      ],
+    "genres" : [ 
+        "Games",
+        "Puzzle",
+        "Adventure"
+      ],
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple118/v4/5a/52/01/5a5201e3-03b2-7b23-fba2-df1cf76071f9/AppIcon-1x_U007emarketing-0-85-220-0-5.png/200x200bb.png",
+    "id" : "1283950638",
+    "released" : "2018-02-28",
+    "title" : "Samsara Game",
+    "url" : "https://itunes.apple.com/dk/app/samsara-game/id1283950638?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Mad Otter Games Inc.",
+    "developerId" : 1183113852,
+    "developerUrl" : "https://itunes.apple.com/dk/developer/mad-otter-games-inc/id1183113852?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7002",
+        "6016",
+        "7014"
+      ],
+    "genres" : [ 
+        "Games",
+        "Adventure",
+        "Entertainment",
+        "Role-Playing"
+      ],
+    "icon" : "http://is1.mzstatic.com/image/thumb/Purple128/v4/a2/1f/69/a21f6997-96a3-1f48-7f12-4c96e7ae57ef/mzl.pzabtmnv.jpg/200x200bb.png",
+    "id" : "1183113853",
+    "released" : "2018-02-26",
+    "title" : "3D MMO Villagers & Heroes",
+    "url" : "https://itunes.apple.com/dk/app/3d-mmo-villagers-heroes/id1183113853?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "FX Games Media",
+    "developerId" : 835092693,
+    "developerUrl" : "https://itunes.apple.com/dk/developer/fx-games-media/id835092693?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7005",
+        "7016"
+      ],
+    "genres" : [ 
+        "Games",
+        "Card",
+        "Sports"
+      ],
+    "icon" : "http://is5.mzstatic.com/image/thumb/Purple62/v4/e9/b8/b7/e9b8b7e5-232f-c6fc-68fa-5ff03e80187e/AppIcon-1x_U007emarketing-0-85-220-0-5.png/200x200bb.png",
+    "id" : "1316067604",
+    "released" : "2018-02-28",
+    "title" : "Arena: Galaxy Control",
+    "url" : "https://itunes.apple.com/dk/app/arena-galaxy-control/id1316067604?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Appsolute Games LLC",
+    "developerId" : 602062365,
+    "developerUrl" : "https://itunes.apple.com/dk/developer/appsolute-games-llc/id602062365?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "6016",
+        "7012",
+        "7019"
+      ],
+    "genres" : [ 
+        "Games",
+        "Entertainment",
+        "Puzzle",
+        "Word"
+      ],
+    "icon" : "http://is5.mzstatic.com/image/thumb/Purple128/v4/5e/d0/55/5ed0558c-c77e-7083-ef34-d92456c0cfbf/AppIcon-1x_U007emarketing-85-220-7.png/200x200bb.png",
+    "id" : "1092942843",
+    "released" : "2018-02-28",
+    "title" : "TwinWords",
+    "url" : "https://itunes.apple.com/dk/app/twinwords/id1092942843?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "UsFun Games",
+    "developerId" : 1223274316,
+    "developerUrl" : "https://itunes.apple.com/dk/developer/usfun-games/id1223274316?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7012",
+        "6016",
+        "7002"
+      ],
+    "genres" : [ 
+        "Games",
+        "Puzzle",
+        "Entertainment",
+        "Adventure"
+      ],
+    "icon" : "http://is5.mzstatic.com/image/thumb/Purple118/v4/0b/1a/5a/0b1a5ae9-b358-6fdd-2c4d-37369a2ad2a8/pr_source.png/200x200bb.png",
+    "id" : "1332599648",
+    "released" : "2018-02-27",
+    "title" : "PAPER Anne",
+    "url" : "https://itunes.apple.com/dk/app/paper-anne/id1332599648?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Bahar Gholipour",
+    "developerId" : 1315695209,
+    "developerUrl" : "https://itunes.apple.com/dk/developer/bahar-gholipour/id1315695209?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7011",
+        "6011",
+        "7003"
+      ],
+    "genres" : [ 
+        "Games",
+        "Music",
+        "Music",
+        "Arcade"
+      ],
+    "icon" : "http://is2.mzstatic.com/image/thumb/Purple62/v4/91/ad/d0/91add0ee-400c-7f49-1b22-1c0b95cbefd1/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/200x200bb.png",
+    "id" : "1315695210",
+    "released" : "2018-02-21",
+    "title" : "Tapophone",
+    "url" : "https://itunes.apple.com/dk/app/tapophone/id1315695210?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Gergely Borbas",
+    "developerId" : 1055216083,
+    "developerUrl" : "https://itunes.apple.com/dk/developer/gergely-borbas/id1055216083?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7012",
+        "7004",
+        "6017"
+      ],
+    "genres" : [ 
+        "Games",
+        "Puzzle",
+        "Board",
+        "Education"
+      ],
+    "icon" : "http://is5.mzstatic.com/image/thumb/Purple62/v4/ca/8f/cd/ca8fcd4f-6951-0e3b-a6f5-cf4b12a348d6/AppIcon-1x_U007emarketing-85-220-0-8.png/200x200bb.png",
+    "id" : "1200669138",
+    "released" : "2018-02-16",
+    "title" : "tangram! seven boards of skill",
+    "url" : "https://itunes.apple.com/dk/app/tangram-seven-boards-of-skill/id1200669138?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Subhendu Behera",
+    "developerId" : 365717059,
+    "developerUrl" : "https://itunes.apple.com/dk/developer/subhendu-behera/id365717059?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7016",
+        "7004",
+        "6016"
+      ],
+    "genres" : [ 
+        "Games",
+        "Sports",
+        "Board",
+        "Entertainment"
+      ],
+    "icon" : "http://is2.mzstatic.com/image/thumb/Purple118/v4/26/c2/7d/26c27dc4-1e22-22f6-1705-607c3e2ebc73/AppIcon-1x_U007emarketing-0-85-220-0-5.png/200x200bb.png",
+    "id" : "1351939098",
+    "released" : "2018-02-25",
+    "title" : "Real Chess 3D",
+    "url" : "https://itunes.apple.com/dk/app/real-chess-3d/id1351939098?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Apar Global pvt. ltd.",
+    "developerId" : 715684501,
+    "developerUrl" : "https://itunes.apple.com/dk/developer/apar-global-pvt-ltd/id715684501?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7003",
+        "7001"
+      ],
+    "genres" : [ 
+        "Games",
+        "Arcade",
+        "Action"
+      ],
+    "icon" : "http://is3.mzstatic.com/image/thumb/Purple118/v4/e1/52/d0/e152d061-4304-c1d9-b246-d5ac10d001ea/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-3.png/200x200bb.png",
+    "id" : "916212239",
+    "released" : "2018-02-27",
+    "title" : "War Of Cyber Tanks",
+    "url" : "https://itunes.apple.com/dk/app/war-of-cyber-tanks/id916212239?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "MONSTER PLANET Corp.",
+    "developerId" : 430534465,
+    "developerUrl" : "https://itunes.apple.com/dk/developer/monster-planet-corp/id430534465?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7003",
+        "7009"
+      ],
+    "genres" : [ 
+        "Games",
+        "Arcade",
+        "Family"
+      ],
+    "icon" : "http://is2.mzstatic.com/image/thumb/Purple62/v4/3f/0d/22/3f0d22c6-f016-160f-8b96-8d61c8e0789f/AppIcon-1x_U007emarketing-0-85-220-0-8.png/200x200bb.png",
+    "id" : "1339552636",
+    "released" : "2018-02-27",
+    "title" : "Spin Bomb",
+    "url" : "https://itunes.apple.com/dk/app/spin-bomb/id1339552636?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Umbrella Games LLC",
+    "developerId" : 1059299541,
+    "developerUrl" : "https://itunes.apple.com/dk/developer/umbrella-games-llc/id1059299541?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7001",
+        "7003"
+      ],
+    "genres" : [ 
+        "Games",
+        "Action",
+        "Arcade"
+      ],
+    "icon" : "http://is3.mzstatic.com/image/thumb/Purple128/v4/7f/e2/28/7fe228af-91fd-d541-ab76-0eadf1401967/AppIcon-1x_U007emarketing-85-220-0-8.png/200x200bb.png",
+    "id" : "1330321812",
+    "released" : "2018-02-22",
+    "title" : "Slime",
+    "url" : "https://itunes.apple.com/dk/app/slime/id1330321812?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Niko Pesonen",
+    "developerId" : 1348740897,
+    "developerUrl" : "https://itunes.apple.com/dk/developer/niko-pesonen/id1348740897?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7003",
+        "7001"
+      ],
+    "genres" : [ 
+        "Games",
+        "Arcade",
+        "Action"
+      ],
+    "icon" : "http://is2.mzstatic.com/image/thumb/Purple128/v4/cd/d3/60/cdd360c9-6b4f-34fa-abfb-c38ea1b7781f/AppIcon-1x_U007emarketing-0-85-220-0-8.png/200x200bb.png",
+    "id" : "1348740898",
+    "released" : "2018-02-19",
+    "title" : "Up a Cave",
+    "url" : "https://itunes.apple.com/dk/app/up-a-cave/id1348740898?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "gamebra.in",
+    "developerId" : 1030548463,
+    "developerUrl" : "https://itunes.apple.com/dk/developer/gamebra-in/id1030548463?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7009",
+        "6017",
+        "7012"
+      ],
+    "genres" : [ 
+        "Games",
+        "Family",
+        "Education",
+        "Puzzle"
+      ],
+    "icon" : "http://is2.mzstatic.com/image/thumb/Purple128/v4/ac/84/a9/ac84a97d-ae7a-033c-bbb3-9efdb16dc0a1/AppIcon-1x_U007emarketing-0-85-220-0-8.png/200x200bb.png",
+    "id" : "1342758511",
+    "released" : "2018-02-28",
+    "title" : "puzzlement",
+    "url" : "https://itunes.apple.com/dk/app/puzzlement/id1342758511?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Hard Slime",
+    "developerId" : 1272097090,
+    "developerUrl" : "https://itunes.apple.com/dk/developer/hard-slime/id1272097090?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7003",
+        "7002"
+      ],
+    "genres" : [ 
+        "Games",
+        "Arcade",
+        "Adventure"
+      ],
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple118/v4/c3/f9/4e/c3f94e07-9f20-64a9-559a-8942cf8f1e70/mzl.agehnhyi.jpg/200x200bb.png",
+    "id" : "1285247601",
+    "released" : "2018-02-27",
+    "title" : "Kidarian Adventures",
+    "url" : "https://itunes.apple.com/dk/app/kidarian-adventures/id1285247601?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Spider Solitaire",
+    "developerId" : 1127784526,
+    "developerUrl" : "https://itunes.apple.com/dk/developer/spider-solitaire/id1127784526?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7004",
+        "6016",
+        "7012"
+      ],
+    "genres" : [ 
+        "Games",
+        "Board",
+        "Entertainment",
+        "Puzzle"
+      ],
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple128/v4/a9/a3/5f/a9a35faa-8ddf-99c8-bd34-7c04eac8fdfb/AppIcon-1x_U007emarketing-85-220-8.png/200x200bb.png",
+    "id" : "1312952701",
+    "released" : "2018-02-28",
+    "title" : "Puzzle World Adventure",
+    "url" : "https://itunes.apple.com/dk/app/puzzle-world-adventure/id1312952701?mt=8"
+  }
+]
