@@ -32,7 +32,7 @@ def unicode():
 df1 = pick_country(set_apple(), 'au')
 
 #Build the pivot table
-pivot = df1.pivot_table(index = ["title", "chart", "genres"], columns = "date", values = "rank")
+pivot = df1.pivot_table(index = ["title", "chart"], columns = "date", values = "rank")
 pivot = pivot.fillna(100)
 #print(pivot.to_string().translate(unicode()))
 
