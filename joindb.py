@@ -26,6 +26,7 @@ df1 = pick_country(set_apple(),"nz")
 
 #Build the pivot table
 pivot = df1.pivot_table(index = "title", columns = "date", values = "rank")
+pivot.fillna(100, replace = True)
 #print(pivot.to_string().translate(unicode()))
 
 # to be completed
