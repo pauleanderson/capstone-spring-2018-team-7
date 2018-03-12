@@ -18,7 +18,7 @@ def pick_country(platform, country):
   return pd.DataFrame(list(platform.find({"country":country})))
 
 def pull_all_countries(platform):
-  return pd.DataFrame(list(platfrom.find()))
+  return pd.DataFrame(list(platform.find()))
 
 def unicode():
   return dict.fromkeys(range(0x10000, sys.maxunicode + 1), 0xfffd)
