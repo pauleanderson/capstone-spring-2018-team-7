@@ -8,23 +8,28 @@ data = client.apps
 
 ## start with opening data
 
+## Pick Android collections
 def set_android ():
   return data.android
 
+## Pick Apple collections
 def set_apple ():
   return data.apple
 
+## Pick country
 def pick_country(platform, country):
   return pd.DataFrame(list(platform.find({"country":country})))
 
+## Pick all countries
 def pull_all_countries(platform):
   return pd.DataFrame(list(platform.find()))
 
+## Translate Unicode
 def unicode():
   return dict.fromkeys(range(0x10000, sys.maxunicode + 1), 0xfffd)
 
 
-df1 = pull_all_countries(set_apple())
+df1 = pick_country(set_apple(), 'au')
 
 #Build the pivot table
 pivot = df1.pivot_table(index = ["title", "chart", "country"], columns = "date", values = "rank")
