@@ -18,7 +18,7 @@ def set_apple ():
 
 ## Pick country
 def pick_country(platform, country):
-  return pd.DataFrame(list(platform.find({"country":country}, {"genres":"Games"})))
+  return pd.DataFrame(list(platform.find({"country":country})))
 
 ## Pick all countries
 def pull_all_countries(platform):
@@ -29,7 +29,7 @@ def unicode():
   return dict.fromkeys(range(0x10000, sys.maxunicode + 1), 0xfffd)
 
 
-df1 = pick_country(set_apple(), 'au')
+df1 = pick_country(set_apple(), 'au').find({"genres":"Games"})
 
 #Build the pivot table
 pivot = df1.pivot_table(index = ["title", "chart", "genres"], columns = "date", values = "rank")
