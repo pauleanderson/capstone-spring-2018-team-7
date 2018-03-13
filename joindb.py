@@ -59,6 +59,8 @@ print("")
 print("")
 print("The 3 bigest positive change over last 4 days in australia:")
 print(pivot.nlargest(3,"delta rank1"))
+print(len(pivot))
+print("")
 #print(pivot.loc[pivot["delta rank1"].idxmax()])
 
 #
@@ -73,6 +75,7 @@ pivotAll['delta rank2'] = pivotAll.apply (lambda row: first_delta (pivotAll, row
 pivotAll = pivotAll[["delta rank2"]]
 #print(pivotAll)
 print(pivotAll.nlargest(3,"delta rank2"))
+print(len(pivotAll))
 
 #Need to find a way to grab genre[1] and make sure its gaming.
 #that code goes here
