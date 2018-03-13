@@ -64,7 +64,7 @@ print(pivot.loc[pivot["delta rank1"].idxmax()])
 #grabing the games from the data and Aggregating it into a single table.
 
 dfAll = pull_all_countries(set_apple())
-pivotAll = df.pivot_table(index = ["title", "chart","genres"], columns = "date", values = "rank")
+pivotAll = dfAll.pivot_table(index = ["title", "chart","genres" == games], columns = "date", values = "rank")
 pivotAll = pivot.fillna(100)
 print(pivot)
 
