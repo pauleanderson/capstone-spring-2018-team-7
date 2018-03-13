@@ -66,20 +66,20 @@ print(pivot.loc[pivot["delta rank1"].idxmax()])
 dfAll = pull_all_countries(set_apple())
 pivotAll = dfAll.pivot_table(index = ["title"], columns = "date", values = "rank")
 pivotAll = pivot.fillna(100)
-pivotAll['delta rank1'] = pivotAll.apply (lambda row: first_delta (pivotAll, row),axis=1)
-pivotAll = pivotAll[["delta rank1"]]
-
-print(pivotAll.nlargest(3,"delta rank1"))
+pivotAll['delta rank2'] = pivotAll.apply (lambda row: first_delta (pivotAll, row),axis=1)
+pivotAll = pivotAll[["delta rank2"]]
+print(pivotAll)
+#print(pivotAll.nlargest(3,"delta rank2"))
 
 #Need to find a way to grab genre[1] and make sure its gaming.
 #that code goes here
 
-'''
+
 #ecliptic model
 
 outliers_fraction = 0.02
-ecliptic_fit_apple = EllipticEnvelope(contamination=outliers_fraction).fit(pivotAll)
-plot(ecliptic_fit_apple)
-'''
+ecliptic_fit_apple = EllipticEnvelope(contamination=outliers_fraction).fit(pivotAll["delta rank2"])
+#plot(ecliptic_fit_apple)
+
 
 
