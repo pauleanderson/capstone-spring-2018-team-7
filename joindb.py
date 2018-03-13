@@ -1,6 +1,12 @@
 from pymongo import MongoClient
 import pandas as pd
 import sys
+from sklearn.covariance import EllipticEnvelope
+from sklearn.ensemble import IsolationForest
+from sklearn.neighbors import LocalOutlierFactor
+from pymongo import MongoClient
+import pandas as pd
+import sys
 
 ## connect to the database
 client = MongoClient ('localhost', 27017)
@@ -32,7 +38,7 @@ def unicode():
 df1 = pick_country(set_apple(), 'au')
 
 #Build the pivot table
-pivot = df1.pivot_table(index = ["title", "chart"], columns = "date", values = "rank")
+pivot = df1.pivot_table(index = ["title", "chart",], columns = "date", values = "rank")
 pivot = pivot.fillna(100)
 #print(pivot.to_string().translate(unicode()))
 
@@ -53,3 +59,17 @@ print("")
 print("")
 print("The bigest positive change over last 24 hours:")
 print(pivot.loc[pivot["delta rank1"].idxmax()])
+
+
+#Aggregating the data into a single table.
+
+dfAll = pull_all_countries(set_apple())
+print(dfAll)
+
+'''
+#ecliptic model
+ecliptic_fit_apple = EllipticEnvelope(contamination=outliers_fraction).fit(pivot)
+'''
+
+
+
