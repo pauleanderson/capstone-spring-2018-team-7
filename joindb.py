@@ -38,7 +38,7 @@ def unicode():
 df1 = pick_country(set_apple(), 'au')
 
 #Build the pivot table
-pivot = df1.pivot_table(index = ["title", "chart",], columns = "date", values = "rank")
+pivot = df1.pivot_table(index = ["title", "chart"], columns = "date", values = "rank")
 pivot = pivot.fillna(100)
 #print(pivot.to_string().translate(unicode()))
 
@@ -61,13 +61,17 @@ print("The bigest positive change over last 24 hours:")
 print(pivot.loc[pivot["delta rank1"].idxmax()])
 
 
-#Aggregating the data into a single table.
+#grabing the games from the data and Aggregating it into a single table.
 
 dfAll = pull_all_countries(set_apple())
-print(dfAll)
+pivotAll = dfA;;.pivot_table(index = ["title", "chart","genres"], columns = "date", values = "rank")
+pivotAll = pivot.fillna(100)
+print(pivot)
+
 
 '''
 #ecliptic model
+outliers_fraction = 0.02
 ecliptic_fit_apple = EllipticEnvelope(contamination=outliers_fraction).fit(pivot)
 '''
 
