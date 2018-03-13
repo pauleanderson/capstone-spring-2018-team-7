@@ -78,7 +78,7 @@ print(pivotAll)
 
 outliers_fraction = 0.02
 ecliptic_fit_apple = EllipticEnvelope(contamination=outliers_fraction).fit(pivotAll)
-
+plot(ecliptic_fit_apple)
 
 
 
