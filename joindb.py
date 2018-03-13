@@ -78,7 +78,7 @@ print(pivotAll)
 #ecliptic model
 
 outliers_fraction = 0.02
-ecliptic_fit_apple = EllipticEnvelope(contamination=outliers_fraction).fit(pivotAll["delta rank2"])
+ecliptic_fit_apple = EllipticEnvelope(contamination=outliers_fraction).fit(pivotAll)
 #plot(ecliptic_fit_apple)
 
 
