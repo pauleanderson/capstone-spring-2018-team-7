@@ -57,8 +57,11 @@ print(pivot.to_string().translate(unicode()))
 print("")
 print("")
 print("")
-print("The bigest positive change over last 24 hours:")
-print(pivot.loc[pivot["delta rank1"].idxmax()])
+print("The 3 bigest positive change over last 4 days in australia:")
+print(pivot.nlargest(3,"delta rank1"))
+#print(pivot.loc[pivot["delta rank1"].idxmax()])
+
+#
 
 
 #grabing the games from the data and Aggregating it into a single table.
@@ -68,8 +71,8 @@ pivotAll = dfAll.pivot_table(index = ["title"], columns = "date", values = "rank
 pivotAll = pivot.fillna(100)
 pivotAll['delta rank2'] = pivotAll.apply (lambda row: first_delta (pivotAll, row),axis=1)
 pivotAll = pivotAll[["delta rank2"]]
-print(pivotAll)
-#print(pivotAll.nlargest(3,"delta rank2"))
+#print(pivotAll)
+print(pivotAll.nlargest(3,"delta rank2"))
 
 #Need to find a way to grab genre[1] and make sure its gaming.
 #that code goes here
