@@ -66,12 +66,12 @@ print(pivot.loc[pivot["delta rank1"].idxmax()])
 dfAll = pull_all_countries(set_apple())
 pivotAll = dfAll.pivot_table(index = ["title", "chart"], columns = "date", values = "rank")
 pivotAll = pivot.fillna(100)
-print(pivot)
+pivotAll = pivotAll[["delta rank1"]]
+print(pivotAll)
 
 #Need to find a way to grab genre[1] and make sure its gaming.
 #that code goes here
 
-print(pivot[,5])
 '''
 #ecliptic model
 outliers_fraction = 0.02
