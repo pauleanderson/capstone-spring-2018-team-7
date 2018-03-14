@@ -20,6 +20,7 @@ for filename in os.listdir(dir):
     filepath = dir+'/'+filename
     if filename == ".DS_Store" or filename == ".ipynb_checkpoints":
         continue
+    print(filename)
     split = re.split('_|\.',filename)
     country = split[0]
     chart = split[1]
@@ -43,6 +44,7 @@ for filename in os.listdir(dir):
     filepath = dir+'/'+filename
     if filename == ".DS_Store":
         continue
+    print(filename)
     split = re.split('_|\.',filename)
     country = split[0]
     chart = split[1]

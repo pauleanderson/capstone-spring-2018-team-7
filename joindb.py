@@ -72,7 +72,7 @@ dfAll = pull_all_countries(set_apple())
 pivotAll = dfAll.pivot_table(index = ["title"], columns = "date", values = "rank")
 pivotAll = pivot.fillna(100)
 pivotAll['delta rank1'] = pivotAll.apply (lambda row: first_delta (pivotAll, row),axis=1)
-print(pivotAll["delta rank1"])
+print(pivotAll)
 #pivotAll = pivotAll[["delta rank2"]]
 #print(pivotAll)
 #print(pivotAll.nlargest(3,"delta rank2"))
