@@ -15,7 +15,7 @@ var top = function(var_country_code, var_start_index) {
   gplay.list({
     category: gplay.category.GAME,
     collection: gplay.collection.GROSSING,
-    num : 100,
+    num : 50,
     country: var_country_code,
     start : var_start_index,
     fullDetail : true
