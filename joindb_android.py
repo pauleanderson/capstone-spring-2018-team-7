@@ -30,6 +30,7 @@ df2 = pull_all_countries(set_apple())
 
 #Build the pivot table
 pivot = df1.pivot_table(index = "title", columns = "date", values = "rank")
+pivot = pivot.fillna(101)
 #print(pivot.to_string().translate(unicode()))
 
 # to be completed
