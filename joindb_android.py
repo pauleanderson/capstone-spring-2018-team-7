@@ -29,7 +29,7 @@ df1 = pick_country(set_apple(), "au")
 df2 = pull_all_countries(set_apple())
 
 #Build the pivot table
-pivot = df1.pivot_table(index = "appId", columns = "date", values = "rank")
+pivot = df1.pivot_table(index = "title", columns = "date", values = "rank")
 #print(pivot.to_string().translate(unicode()))
 
 # to be completed
