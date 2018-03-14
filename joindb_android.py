@@ -26,7 +26,7 @@ def unicode():
 
 
 df = pick_country(set_android(), "au")
-df1 = pick_all_countries(set_apple())
+df1 = pull_all_countries(set_apple())
 
 #Build the pivot table
 pivot = df1.pivot_table(index = "appId", columns = "date", values = "rank")
