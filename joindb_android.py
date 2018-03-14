@@ -17,12 +17,16 @@ def set_apple ():
 def pick_country(platform, country):
   return pd.DataFrame(list(platform.find({"country":country})))
 
+## Pick all countries
+def pull_all_countries(platform):
+  return pd.DataFrame(list(platform.find()))
+
 def unicode():
   return dict.fromkeys(range(0x10000, sys.maxunicode + 1), 0xfffd)
 
 
 df = pick_country(set_android(), "au")
-df1 = pick_country(set_android(),"nz")
+df1 = pick_all_countries(set_apple())
 
 #Build the pivot table
 pivot = df1.pivot_table(index = "appId", columns = "date", values = "rank")
