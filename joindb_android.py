@@ -48,8 +48,8 @@ def first_delta (df, row):
 
 def all_deltas (df, row):
   number = len(df.columns)
-  for i in number:
-    for j in number:
+  for i in range (0,number):
+    for j in range (0,number):
       df['delta rank' + column] = row[j]-row[i]
   return df
       
