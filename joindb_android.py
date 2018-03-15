@@ -2,18 +2,20 @@ from pymongo import MongoClient
 import pandas as pd
 import sys
 
+##___________________helper functions____________________
+
 ## connect to the database
 client = MongoClient ('localhost', 27017)
 data = client.apps
 
-## start with opening data
-
+## pick the collection
 def set_android ():
   return data.android
 
 def set_apple ():
   return data.apple
 
+## Pick 1 country
 def pick_country(platform, country):
   return pd.DataFrame(list(platform.find({"country":country})))
 
@@ -21,22 +23,26 @@ def pick_country(platform, country):
 def pull_all_countries(platform):
   return pd.DataFrame(list(platform.find()))
 
+## Translate unicode
 def unicode():
   return dict.fromkeys(range(0x10000, sys.maxunicode + 1), 0xfffd)
 
+## pick ranks for the last 5 days
 def pick_last_five(df):
   return df.iloc[:, len(df.columns)-5:len(df.columns)].copy()
 
-#def find_deltas(df, number_of_deltas):
+## Build pivot table
+def pivot_table(df):
+  pivot = df.pivot_table(index = ["title", "chart"], columns = "date", values = "rank")
+  pivot = pivot.fillna(101)
+  pivot = pick_last_five(pivot)
+  return pivot
   
 
 df1 = pick_country(set_apple(), "au")
-df2 = pull_all_countries(set_apple())
 
 #Build the pivot table
-pivot = df1.pivot_table(index = "title", columns = "date", values = "rank")
-pivot = pivot.fillna(101)
-pivot = pick_last_five(pivot)
+pivot = pivot_table(pivot)
 #print(pivot.to_string().translate(unicode()))
 
 # to be completed
