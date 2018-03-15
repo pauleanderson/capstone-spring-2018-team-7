@@ -49,7 +49,10 @@ def first_delta (df, row):
 def delta (df, row, column1, column2):
   return row[column2]-row[column1]    
 
-pivot['delta rank1'] = pivot.apply (lambda row: delta (pivot, row,3,4),axis=1)
+pivot['delta 1:2'] = pivot.apply (lambda row: delta (pivot, row,0,1),axis=1)
+pivot['delta 1:3'] = pivot.apply (lambda row: delta (pivot, row,0,2),axis=1)
+pivot['delta 1:4'] = pivot.apply (lambda row: delta (pivot, row,0,3),axis=1)
+pivot['delta 1:5'] = pivot.apply (lambda row: delta (pivot, row,0,4),axis=1)
 
 print(pivot.to_string().translate(unicode()))
 #print(pivot["delta rank1"].max())
