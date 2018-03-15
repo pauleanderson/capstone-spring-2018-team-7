@@ -27,6 +27,9 @@ def unicode():
 def pick_last_five(df):
   return df.iloc[:, len(df.columns)-5:len(df.columns)].copy()
 
+#def find_deltas(df, number_of_deltas):
+  
+
 df1 = pick_country(set_apple(), "au")
 df2 = pull_all_countries(set_apple())
 
@@ -45,7 +48,7 @@ def first_delta (df, row):
 
 
 
-#pivot['delta rank1'] = pivot.apply (lambda row: first_delta (pivot, row),axis=1)
+pivot['delta rank1'] = pivot.apply (lambda row: first_delta (pivot, row),axis=1)
 print(pivot.to_string().translate(unicode()))
 #print(pivot["delta rank1"].max())
 print("")
