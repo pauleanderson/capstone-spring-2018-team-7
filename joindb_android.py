@@ -46,9 +46,16 @@ pivot = pick_last_five(pivot)
 def first_delta (df, row):
   return row[len(df.columns)-2]-row[len(df.columns)-1]
 
+def all_deltas (df, row):
+  for column in len(df.columns):
+    for i in len(df.columns):
+      df['delta rank' + column] = row[i]-row[column]
+  return df
+      
 
 
-pivot['delta rank1'] = pivot.apply (lambda row: first_delta (pivot, row),axis=1)
+
+pivot['delta rank1'] = pivot.apply (lambda row: all_deltas (pivot, row),axis=1)
 print(pivot.to_string().translate(unicode()))
 #print(pivot["delta rank1"].max())
 print("")
