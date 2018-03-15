@@ -24,6 +24,8 @@ def pull_all_countries(platform):
 def unicode():
   return dict.fromkeys(range(0x10000, sys.maxunicode + 1), 0xfffd)
 
+def pick_last_five(df):
+  return df.iloc[:, len(df.columns)-5:len(df.columns)].copy()
 
 df1 = pick_country(set_apple(), "au")
 df2 = pull_all_countries(set_apple())
@@ -31,7 +33,7 @@ df2 = pull_all_countries(set_apple())
 #Build the pivot table
 pivot = df1.pivot_table(index = "title", columns = "date", values = "rank")
 pivot = pivot.fillna(101)
-pivot = pivot.iloc[:, len(pivot.columns)-5:len(pivot.columns)].copy()
+pivot = pick_last_five(pivot)
 #print(pivot.to_string().translate(unicode()))
 
 # to be completed
