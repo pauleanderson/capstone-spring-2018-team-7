@@ -42,7 +42,7 @@ def pivot_table(df):
 df1 = pick_country(set_apple(), "au")
 
 #Build the pivot table
-pivot = pivot_table(pivot)
+pivot = pivot_table(df1)
 #print(pivot.to_string().translate(unicode()))
 
 # to be completed
