@@ -17,7 +17,7 @@ def set_apple ():
 
 ## Pick 1 country
 def pick_country(platform, country):
-  return pd.DataFrame(list(platform.find({"country":country, "genre":"games"})))
+  return pd.DataFrame(list(platform.find({"country":country, "genres":"games"})))
 
 def pick_games(platform):
   return pd.DataFrame(list(platform.find({"genre":"games"})))
