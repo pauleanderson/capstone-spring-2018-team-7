@@ -51,7 +51,7 @@ pivot = pivot_table(df1)
 #print(pivot.to_string().translate(unicode()))
 
 def first_delta (df, row):
-  return row[len(df.columns)-2]-row[len(df.columns)-1]
+  return row[len(df.columns)-1]-row[len(df.columns)-2]
 
 def delta (df, row, column1, column2):
   return row[column2]-row[column1]    
