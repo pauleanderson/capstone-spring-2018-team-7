@@ -50,49 +50,159 @@ def last_five_days(df):
   df['delta 4:5'] = df.apply (lambda row: delta (df, row,3,4),axis=1)
   return df
 
-
-df1 = pick_country(set_apple(), 'au')
-
-#Build the pivot table
-pivot = df1.pivot_table(index = ["title", "chart"], columns = "date", values = "rank")
-pivot = pivot.fillna(101)
-#print(pivot.to_string().translate(unicode()))
-
-# to be completed
-#for index, row in pivot.iterrows():
-  #print (row['2018-03-04'])
-
 def first_delta (df, row):
   return row[len(df.columns)-2]-row[len(df.columns)-1]
 
+#australia
+df_au = pick_country(set_apple(), 'au')
+
+#Build the pivot table
+pivot_au = df_au.pivot_table(index = ["title", "chart"], columns = "date", values = "rank")
+pivot_au = pivot_au.fillna(101)
+#print(pivot.to_string().translate(unicode()))
 
 
-pivot['delta rank1'] = pivot.apply (lambda row: first_delta (pivot, row),axis=1)
-print(pivot.to_string().translate(unicode()))
+pivot_au['delta rank1'] = pivot_au.apply (lambda row: first_delta (pivot_au, row),axis=1)
+print(pivot_au.to_string().translate(unicode()))
 #print(pivot["delta rank1"].max())
 print("")
 print("")
 print("")
 print("The 3 bigest positive change over last 4 days in australia:")
-print(pivot.nlargest(3,"delta rank1"))
+print(pivot_au.nlargest(3,"delta rank1"))
 print(len(pivot))
 print("")
+
+#nz 
+
+
+df_nz = pick_country(set_apple(), 'nz')
+
+#Build the pivot table
+pivot_nz = df_nz.pivot_table(index = ["title", "chart"], columns = "date", values = "rank")
+pivot_nz = pivot_nz.fillna(101)
+#print(pivot.to_string().translate(unicode()))
+
+
+pivot_nz['delta rank2'] = pivot_nz.apply (lambda row: first_delta (pivot_nz, row),axis=1)
+print(pivot_nz.to_string().translate(unicode()))
+#print(pivot["delta rank1"].max())
+print("")
+print("")
+print("")
+print("The 3 bigest positive change over last 4 days in nz.")
+print(pivot_au.nlargest(3,"delta rank2"))
+print(len(pivot))
+print("")
+
+#se 
+
+df_se = pick_country(set_apple(), 'se')
+
+#Build the pivot table
+pivot_se = df_se.pivot_table(index = ["title", "chart"], columns = "date", values = "rank")
+pivot_se = pivot_se.fillna(101)
+#print(pivot.to_string().translate(unicode()))
+
+
+pivot_se['delta rank3'] = pivot_se.apply (lambda row: first_delta (pivot_se, row),axis=1)
+print(pivot_se.to_string().translate(unicode()))
+#print(pivot["delta rank1"].max())
+print("")
+print("")
+print("")
+print("The 3 bigest positive change over last 4 days in se.")
+print(pivot_se.nlargest(3,"delta rank3"))
+print(len(pivot))
+print("")
+
+
+#dk no at ph
+
+
+df_dk = pick_country(set_apple(), 'dk')
+
+#Build the pivot table
+pivot_dk = df_dk.pivot_table(index = ["title", "chart"], columns = "date", values = "rank")
+pivot_dk = pivot_dk.fillna(101)
+#print(pivot.to_string().translate(unicode()))
+
+
+pivot_dk['delta rank3'] = pivot_dk.apply (lambda row: first_delta (pivot_dk, row),axis=1)
+print(pivot_dk.to_string().translate(unicode()))
+#print(pivot["delta rank1"].max())
+print("")
+print("")
+print("")
+print("The 3 bigest positive change over last 4 days in se.")
+print(pivot_dk.nlargest(3,"delta rank4"))
+#print(len(pivot))
+print("")
+
+#no at ph
+
+df_no = pick_country(set_apple(), 'no')
+
+#Build the pivot table
+pivot_no = df_no.pivot_table(index = ["title", "chart"], columns = "date", values = "rank")
+pivot_no = pivot_no.fillna(101)
+#print(pivot.to_string().translate(unicode()))
+
+
+pivot_no['delta rank3'] = pivot_no.apply (lambda row: first_delta (pivot_no, row),axis=1)
+print(pivot_no.to_string().translate(unicode()))
+#print(pivot["delta rank1"].max())
+print("")
+print("")
+print("")
+print("The 3 bigest positive change over last 4 days in se.")
+print(pivot_no.nlargest(3,"delta rank5"))
+#print(len(pivot))
+print("")
+
+#at 
+df_at = pick_country(set_apple(), 'at')
+
+#Build the pivot table
+pivot_at = df_at.pivot_table(index = ["title", "chart"], columns = "date", values = "rank")
+pivot_at = pivot_at.fillna(101)
+#print(pivot.to_string().translate(unicode()))
+
+
+pivot_at['delta rank3'] = pivot_at.apply (lambda row: first_delta (pivot_at, row),axis=1)
+print(pivot_at.to_string().translate(unicode()))
+#print(pivot["delta rank1"].max())
+print("")
+print("")
+print("")
+print("The 3 bigest positive change over last 4 days in se.")
+print(pivot_at.nlargest(3,"delta rank5"))
+#print(len(pivot))
+print("")
+
+
+#ph
+df_ph = pick_country(set_apple(), 'ph')
+
+#Build the pivot table
+pivot_ph = df_ph.pivot_table(index = ["title", "chart"], columns = "date", values = "rank")
+pivot_ph = pivot_ph.fillna(101)
+#print(pivot.to_string().translate(unicode()))
+
+
+pivot_ph['delta rank3'] = pivot_ph.apply (lambda row: first_delta (pivot_ph, row),axis=1)
+print(pivot_ph.to_string().translate(unicode()))
+#print(pivot["delta rank1"].max())
+print("")
+print("")
+print("")
+print("The 3 bigest positive change over last 4 days in se.")
+print(pivot_ph.nlargest(3,"delta rank5"))
+#print(len(pivot))
+print("")
+
 #print(pivot.loc[pivot["delta rank1"].idxmax()])
 
-#
-
-
-#grabing the games from the data and Aggregating it into a single table.
-'''
-dfAll = pull_all_countries(set_apple())
-pivotAll = dfAll.pivot_table(index = ["title"], columns = "date", values = "rank")
-pivotAll = pivot.fillna(101)
-pivotAll['delta rank1'] = pivotAll.apply (lambda row: first_delta (pivotAll, row),axis=1)
-print(pivotAll)
-#pivotAll = pivotAll[["delta rank2"]]
-#print(pivotAll)
-#print(pivotAll.nlargest(3,"delta rank2"))
-#print(len(pivotAll))
 
 #Need to find a way to grab genre[1] and make sure its gaming.
 #that code goes here
