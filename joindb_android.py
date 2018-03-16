@@ -71,27 +71,10 @@ def last_five_days(df):
   
 
 df1 = pick_country(set_apple(), "au")
-
-#Build the pivot table
 pivot = pivot_table(df1)
 pivot = last_five_days(pivot)
-#print(pivot.to_string().translate(unicode()))
-   
-
-#pivot['delta 1:2'] = pivot.apply (lambda row: delta (pivot, row,0,1),axis=1)
-#pivot['delta 1:3'] = pivot.apply (lambda row: delta (pivot, row,0,2),axis=1)
-#pivot['delta 1:4'] = pivot.apply (lambda row: delta (pivot, row,0,3),axis=1)
-#pivot['delta 1:5'] = pivot.apply (lambda row: delta (pivot, row,0,4),axis=1)
-
-#pivot['delta 2:3'] = pivot.apply (lambda row: delta (pivot, row,1,2),axis=1)
-#pivot['delta 2:4'] = pivot.apply (lambda row: delta (pivot, row,1,3),axis=1)
-#pivot['delta 2:5'] = pivot.apply (lambda row: delta (pivot, row,1,4),axis=1)
-
-#pivot['delta 3:4'] = pivot.apply (lambda row: delta (pivot, row,2,3),axis=1)
-#pivot['delta 3:5'] = pivot.apply (lambda row: delta (pivot, row,2,4),axis=1)
-
-#pivot['delta 4:5'] = pivot.apply (lambda row: delta (pivot, row,3,4),axis=1)
 pivot = last_day_change(pivot)
+
 print(pivot.to_string().translate(unicode()))
 #print(pivot["delta rank1"].max())
 print("")
