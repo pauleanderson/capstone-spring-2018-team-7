@@ -40,7 +40,8 @@ def pivot_table(df):
 
 ## Pivot table with 1 delta for the last 24 hours
 def last_day_change(df):
-  return df['delta'] = pivot.apply (lambda row: first_delta (pivot, row),axis=1)
+  df['delta'] = pivot.apply (lambda row: first_delta (pivot, row),axis=1)
+  return df
   
 
 df1 = pick_country(set_apple(), "au")
