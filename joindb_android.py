@@ -25,7 +25,7 @@ def pull_all_countries(platform):
 
 ## Pick games only
 def pick_games(df):
-  return df[df.categories.map(lambda x: 'Games' in x)]
+  return df[df.genres.map(lambda x: 'Games' in x)]
 
 ## Translate unicode
 def unicode():
