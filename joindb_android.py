@@ -74,7 +74,7 @@ def last_five_days(df):
   
 
 df1 = pick_country(set_apple(), "au")
-df1 = pick_games(df)
+df1 = pick_games(df1)
 pivot = pivot_table(df1)
 pivot = last_five_days(pivot)
 pivot = last_day_change(pivot)
