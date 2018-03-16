@@ -34,12 +34,28 @@ def pull_all_countries(platform):
 def unicode():
   return dict.fromkeys(range(0x10000, sys.maxunicode + 1), 0xfffd)
 
+def last_five_days(df):
+  df['delta 1:2'] = df.apply (lambda row: delta (df, row,0,1),axis=1)
+  df['delta 1:3'] = df.apply (lambda row: delta (df, row,0,2),axis=1)
+  df['delta 1:4'] = df.apply (lambda row: delta (df, row,0,3),axis=1)
+  df['delta 1:5'] = df.apply (lambda row: delta (df, row,0,4),axis=1)
+
+  df['delta 2:3'] = df.apply (lambda row: delta (df, row,1,2),axis=1)
+  df['delta 2:4'] = df.apply (lambda row: delta (df, row,1,3),axis=1)
+  df['delta 2:5'] = df.apply (lambda row: delta (df, row,1,4),axis=1)
+
+  df['delta 3:4'] = df.apply (lambda row: delta (df, row,2,3),axis=1)
+  df['delta 3:5'] = df.apply (lambda row: delta (df, row,2,4),axis=1)
+
+  df['delta 4:5'] = df.apply (lambda row: delta (df, row,3,4),axis=1)
+  return df
+
 
 df1 = pick_country(set_apple(), 'au')
 
 #Build the pivot table
 pivot = df1.pivot_table(index = ["title", "chart"], columns = "date", values = "rank")
-pivot = pivot.fillna(100)
+pivot = pivot.fillna(101)
 #print(pivot.to_string().translate(unicode()))
 
 # to be completed
@@ -67,10 +83,10 @@ print("")
 
 
 #grabing the games from the data and Aggregating it into a single table.
-
+'''
 dfAll = pull_all_countries(set_apple())
 pivotAll = dfAll.pivot_table(index = ["title"], columns = "date", values = "rank")
-pivotAll = pivot.fillna(100)
+pivotAll = pivot.fillna(101)
 pivotAll['delta rank1'] = pivotAll.apply (lambda row: first_delta (pivotAll, row),axis=1)
 print(pivotAll)
 #pivotAll = pivotAll[["delta rank2"]]
@@ -89,6 +105,6 @@ ecliptic_fit_apple = EllipticEnvelope(contamination=outliers_fraction).fit(pivot
 #ecliptic_fit_apple.predict()
 
 #plot(ecliptic_fit_apple)
-
+'''
 
 
