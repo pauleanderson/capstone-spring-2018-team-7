@@ -37,6 +37,10 @@ def pivot_table(df):
   pivot = pivot.fillna(101)
   pivot = pick_last_five(pivot)
   return pivot
+
+## Pivot table with 1 delta for the last 24 hours
+def last_day_change(df):
+  return df['delta'] = pivot.apply (lambda row: first_delta (pivot, row),axis=1)
   
 
 df1 = pick_country(set_apple(), "au")
@@ -45,30 +49,26 @@ df1 = pick_country(set_apple(), "au")
 pivot = pivot_table(df1)
 #print(pivot.to_string().translate(unicode()))
 
-# to be completed
-#for index, row in pivot.iterrows():
-  #print (row['2018-03-04'])
-
 def first_delta (df, row):
   return row[len(df.columns)-2]-row[len(df.columns)-1]
 
 def delta (df, row, column1, column2):
   return row[column2]-row[column1]    
 
-pivot['delta 1:2'] = pivot.apply (lambda row: delta (pivot, row,0,1),axis=1)
-pivot['delta 1:3'] = pivot.apply (lambda row: delta (pivot, row,0,2),axis=1)
-pivot['delta 1:4'] = pivot.apply (lambda row: delta (pivot, row,0,3),axis=1)
-pivot['delta 1:5'] = pivot.apply (lambda row: delta (pivot, row,0,4),axis=1)
+#pivot['delta 1:2'] = pivot.apply (lambda row: delta (pivot, row,0,1),axis=1)
+#pivot['delta 1:3'] = pivot.apply (lambda row: delta (pivot, row,0,2),axis=1)
+#pivot['delta 1:4'] = pivot.apply (lambda row: delta (pivot, row,0,3),axis=1)
+#pivot['delta 1:5'] = pivot.apply (lambda row: delta (pivot, row,0,4),axis=1)
 
-pivot['delta 2:3'] = pivot.apply (lambda row: delta (pivot, row,1,2),axis=1)
-pivot['delta 2:4'] = pivot.apply (lambda row: delta (pivot, row,1,3),axis=1)
-pivot['delta 2:5'] = pivot.apply (lambda row: delta (pivot, row,1,4),axis=1)
+#pivot['delta 2:3'] = pivot.apply (lambda row: delta (pivot, row,1,2),axis=1)
+#pivot['delta 2:4'] = pivot.apply (lambda row: delta (pivot, row,1,3),axis=1)
+#pivot['delta 2:5'] = pivot.apply (lambda row: delta (pivot, row,1,4),axis=1)
 
-pivot['delta 3:4'] = pivot.apply (lambda row: delta (pivot, row,2,3),axis=1)
-pivot['delta 3:5'] = pivot.apply (lambda row: delta (pivot, row,2,4),axis=1)
+#pivot['delta 3:4'] = pivot.apply (lambda row: delta (pivot, row,2,3),axis=1)
+#pivot['delta 3:5'] = pivot.apply (lambda row: delta (pivot, row,2,4),axis=1)
 
-pivot['delta 4:5'] = pivot.apply (lambda row: delta (pivot, row,3,4),axis=1)
-
+#pivot['delta 4:5'] = pivot.apply (lambda row: delta (pivot, row,3,4),axis=1)
+pivot = last_day_change(pivot)
 print(pivot.to_string().translate(unicode()))
 #print(pivot["delta rank1"].max())
 print("")
