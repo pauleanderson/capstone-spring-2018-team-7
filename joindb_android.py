@@ -17,7 +17,7 @@ def set_apple ():
 
 ## Pick 1 country
 def pick_country(platform, country):
-  return pd.DataFrame(list(platform.find({"country":country})))
+  return pd.DataFrame(list(platform.find({"country":country, "genre":"games"})))
 
 def pick_games(platform):
   return pd.DataFrame(list(platform.find({"genre":"games"})))
@@ -74,7 +74,6 @@ def last_five_days(df):
   
 
 df1 = pick_country(set_apple(), "au")
-df1 = pick_games(df1)
 pivot = pivot_table(df1)
 pivot = last_five_days(pivot)
 pivot = last_day_change(pivot)
