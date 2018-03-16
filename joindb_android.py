@@ -23,6 +23,10 @@ def pick_country(platform, country):
 def pull_all_countries(platform):
   return pd.DataFrame(list(platform.find()))
 
+## Pick games only
+def pick_games(df):
+  return df[df.categories.map(lambda x: 'Games' in x)]
+
 ## Translate unicode
 def unicode():
   return dict.fromkeys(range(0x10000, sys.maxunicode + 1), 0xfffd)
@@ -71,6 +75,7 @@ def last_five_days(df):
   
 
 df1 = pick_country(set_apple(), "au")
+df1 = pick_games(df1)
 pivot = pivot_table(df1)
 pivot = last_five_days(pivot)
 pivot = last_day_change(pivot)
