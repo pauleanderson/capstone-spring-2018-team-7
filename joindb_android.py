@@ -38,23 +38,45 @@ def pivot_table(df):
   pivot = pick_last_five(pivot)
   return pivot
 
+## Find change in rank over last 24 hours
+def first_delta (df, row):
+  return row[len(df.columns)-1]-row[len(df.columns)-2]
+
+## Find change in rank
+def delta (df, row, column1, column2):
+  return row[column2]-row[column1] 
+
 ## Pivot table with 1 delta for the last 24 hours
 def last_day_change(df):
   df['delta'] = pivot.apply (lambda row: first_delta (pivot, row),axis=1)
   return df
+
+## Pivot table with all the changes over last 5 days as touples
+def last_five_days(df):
+  df['delta 1:2'] = df.apply (lambda row: delta (df, row,0,1),axis=1)
+  df['delta 1:3'] = df.apply (lambda row: delta (df, row,0,2),axis=1)
+  df['delta 1:4'] = df.apply (lambda row: delta (df, row,0,3),axis=1)
+  df['delta 1:5'] = df.apply (lambda row: delta (df, row,0,4),axis=1)
+
+  df['delta 2:3'] = df.apply (lambda row: delta (df, row,1,2),axis=1)
+  df['delta 2:4'] = df.apply (lambda row: delta (df, row,1,3),axis=1)
+  df['delta 2:5'] = df.apply (lambda row: delta (df, row,1,4),axis=1)
+
+  df['delta 3:4'] = df.apply (lambda row: delta (df, row,2,3),axis=1)
+  df['delta 3:5'] = df.apply (lambda row: delta (df, row,2,4),axis=1)
+
+  df['delta 4:5'] = df.apply (lambda row: delta (df, row,3,4),axis=1)
+  return df
+  
   
 
 df1 = pick_country(set_apple(), "au")
 
 #Build the pivot table
 pivot = pivot_table(df1)
+pivot = last_five_days(pivot)
 #print(pivot.to_string().translate(unicode()))
-
-def first_delta (df, row):
-  return row[len(df.columns)-1]-row[len(df.columns)-2]
-
-def delta (df, row, column1, column2):
-  return row[column2]-row[column1]    
+   
 
 #pivot['delta 1:2'] = pivot.apply (lambda row: delta (pivot, row,0,1),axis=1)
 #pivot['delta 1:3'] = pivot.apply (lambda row: delta (pivot, row,0,2),axis=1)
