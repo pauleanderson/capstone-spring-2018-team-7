@@ -1,0 +1,2156 @@
+[ 
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Tinder Inc.",
+    "developerId" : 725634363,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/tinder-inc/id725634363?mt=8",
+    "genreIds" : [ 
+        "6012",
+        "6005"
+      ],
+    "genres" : [ 
+        "Lifestyle",
+        "Social Networking"
+      ],
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple128/v4/99/88/5d/99885d98-3baf-da31-d81e-5440611fd4cd/AppIcon-1x_U007emarketing-85-220-0-4.png/200x200bb.png",
+    "id" : "547702041",
+    "released" : "2012-08-03",
+    "title" : "Tinder",
+    "url" : "https://itunes.apple.com/nz/app/tinder/id547702041?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Netflix, Inc.",
+    "developerId" : 363590054,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/netflix-inc/id363590054?mt=8",
+    "genreIds" : [ 
+        "6016",
+        "6012"
+      ],
+    "genres" : [ 
+        "Entertainment",
+        "Lifestyle"
+      ],
+    "icon" : "http://is3.mzstatic.com/image/thumb/Purple118/v4/e2/10/d8/e210d8af-0daf-88d4-4f43-a7abc9ed06ef/AppIcon-1x_U007emarketing-0-85-220-0-9.png/200x200bb.png",
+    "id" : "363590051",
+    "released" : "2015-03-20",
+    "title" : "Netflix",
+    "url" : "https://itunes.apple.com/nz/app/netflix/id363590051?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Google, Inc.",
+    "developerId" : 281956209,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/google-inc/id281956209?mt=8",
+    "genreIds" : [ 
+        "6008",
+        "6016"
+      ],
+    "genres" : [ 
+        "Photo & Video",
+        "Entertainment"
+      ],
+    "icon" : "http://is1.mzstatic.com/image/thumb/Purple128/v4/dc/9b/25/dc9b25e5-1681-be3d-702d-1b197b86274c/AppIcon-1x_U007emarketing-85-220-0-6.png/200x200bb.png",
+    "id" : "544007664",
+    "released" : "2012-09-11",
+    "title" : "YouTube: Watch, Listen, Stream",
+    "url" : "https://itunes.apple.com/nz/app/youtube-watch-listen-stream/id544007664?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Playtika LTD",
+    "developerId" : 447553567,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/playtika-ltd/id447553567?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7006",
+        "6016",
+        "7005"
+      ],
+    "genres" : [ 
+        "Games",
+        "Casino",
+        "Entertainment",
+        "Card"
+      ],
+    "icon" : "http://is5.mzstatic.com/image/thumb/Purple128/v4/53/2e/fe/532efe5c-c16a-7eba-ad20-cc898c2ae6cb/AppIcons-1x_U007emarketing-0-85-220-0-6.png/200x200bb.png",
+    "id" : "447553564",
+    "released" : "2011-09-30",
+    "title" : "Slotomania Casino Online Slots",
+    "url" : "https://itunes.apple.com/nz/app/slotomania-casino-online-slots/id447553564?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Product Madness",
+    "developerId" : 525894639,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/product-madness/id525894639?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "6016",
+        "7006",
+        "7005"
+      ],
+    "genres" : [ 
+        "Games",
+        "Entertainment",
+        "Casino",
+        "Card"
+      ],
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple128/v4/26/62/93/266293e6-85b5-0f64-09d2-eac635923eb5/AppIcon-1x_U007emarketing-85-220-5.png/200x200bb.png",
+    "id" : "785537179",
+    "released" : "2014-07-09",
+    "title" : "Heart of Vegas – Slots Casino",
+    "url" : "https://itunes.apple.com/nz/app/heart-of-vegas-slots-casino/id785537179?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "King",
+    "developerId" : 526656015,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/king/id526656015?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "6016",
+        "7012",
+        "7003"
+      ],
+    "genres" : [ 
+        "Games",
+        "Entertainment",
+        "Puzzle",
+        "Arcade"
+      ],
+    "icon" : "http://is2.mzstatic.com/image/thumb/Purple118/v4/e6/c3/59/e6c35971-e3a0-6cc2-9390-8fb3cd05f088/mzl.grceabah.png/200x200bb.png",
+    "id" : "553834731",
+    "released" : "2012-11-14",
+    "title" : "Candy Crush Saga",
+    "url" : "https://itunes.apple.com/nz/app/candy-crush-saga/id553834731?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "The Bikini Body Training Company Pty Ltd",
+    "developerId" : 1049234586,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/the-bikini-body-training-company-pty-ltd/id1049234586?mt=8",
+    "genreIds" : [ 
+        "6013",
+        "6012"
+      ],
+    "genres" : [ 
+        "Health & Fitness",
+        "Lifestyle"
+      ],
+    "icon" : "http://is3.mzstatic.com/image/thumb/Purple118/v4/13/7e/59/137e5919-03fc-052b-029c-cd47bd1ab673/AppIcon-1x_U007emarketing-85-220-0-9.png/200x200bb.png",
+    "id" : "1049234587",
+    "released" : "2015-11-20",
+    "title" : "Sweat: Kayla Itsines Fitness",
+    "url" : "https://itunes.apple.com/nz/app/sweat-kayla-itsines-fitness/id1049234587?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Playrix Games",
+    "developerId" : 1162116447,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/playrix-games/id1162116447?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "6016",
+        "7012",
+        "7015"
+      ],
+    "genres" : [ 
+        "Games",
+        "Entertainment",
+        "Puzzle",
+        "Simulation"
+      ],
+    "icon" : "http://is1.mzstatic.com/image/thumb/Purple118/v4/6a/f2/75/6af27572-78d9-0bfc-e101-1dc4b8d1a3ce/AppIcon-1x_U007emarketing-0-85-220-0-9.png/200x200bb.png",
+    "id" : "1105855019",
+    "released" : "2016-06-07",
+    "title" : "Gardenscapes",
+    "url" : "https://itunes.apple.com/nz/app/gardenscapes/id1105855019?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Spotify Ltd.",
+    "developerId" : 324684583,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/spotify-ltd/id324684583?mt=8",
+    "genreIds" : [ 
+        "6011",
+        "6016"
+      ],
+    "genres" : [ 
+        "Music",
+        "Entertainment"
+      ],
+    "icon" : "http://is3.mzstatic.com/image/thumb/Purple118/v4/80/d5/bd/80d5bde3-d604-4383-5014-d8c279008ca3/AppIcon-1x_U007emarketing-85-220-0-5.png/200x200bb.png",
+    "id" : "324684580",
+    "released" : "2012-05-21",
+    "title" : "Spotify Music",
+    "url" : "https://itunes.apple.com/nz/app/spotify-music/id324684580?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Headspace meditation limited",
+    "developerId" : 384434796,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/headspace-meditation-limited/id384434796?mt=8",
+    "genreIds" : [ 
+        "6013",
+        "6007"
+      ],
+    "genres" : [ 
+        "Health & Fitness",
+        "Productivity"
+      ],
+    "icon" : "http://is2.mzstatic.com/image/thumb/Purple128/v4/aa/db/0b/aadb0bb6-1cf5-1ba1-f296-fe08f8883867/AppIcon-1x_U007emarketing-85-220-0-6.png/200x200bb.png",
+    "id" : "493145008",
+    "released" : "2012-02-02",
+    "title" : "Headspace: Guided Meditation",
+    "url" : "https://itunes.apple.com/nz/app/headspace-guided-meditation/id493145008?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Niantic, Inc.",
+    "developerId" : 1037205060,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/niantic-inc/id1037205060?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "6013"
+      ],
+    "genres" : [ 
+        "Games",
+        "Health & Fitness"
+      ],
+    "icon" : "http://is2.mzstatic.com/image/thumb/Purple118/v4/11/03/cc/1103cc8d-405c-f9f1-b5f2-da94a75c5de4/AppIcon-1x_U007emarketing-85-220-0-8.png/200x200bb.png",
+    "id" : "1094591345",
+    "released" : "2016-07-05",
+    "title" : "Pokémon GO",
+    "url" : "https://itunes.apple.com/nz/app/pok%C3%A9mon-go/id1094591345?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Com2uS Corp.",
+    "developerId" : 299175870,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/com2us-corp/id299175870?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7014",
+        "6016",
+        "7017"
+      ],
+    "genres" : [ 
+        "Games",
+        "Role-Playing",
+        "Entertainment",
+        "Strategy"
+      ],
+    "icon" : "http://is1.mzstatic.com/image/thumb/Purple128/v4/fb/c7/15/fbc7154f-5d43-0d1e-daa5-05fbadba1c7c/AppIcon-1x_U007emarketing-85-220-9.png/200x200bb.png",
+    "id" : "852912420",
+    "released" : "2014-06-12",
+    "title" : "Summoners War",
+    "url" : "https://itunes.apple.com/nz/app/summoners-war/id852912420?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "IGG.COM",
+    "developerId" : 1303288190,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/igg-com/id1303288190?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7017",
+        "7014"
+      ],
+    "genres" : [ 
+        "Games",
+        "Strategy",
+        "Role-Playing"
+      ],
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple128/v4/c5/64/c5/c564c51f-1217-96d9-0905-f754bd919d43/AppIcon-1x_U007emarketing-0-85-220-0-5.png/200x200bb.png",
+    "id" : "1071976327",
+    "released" : "2016-03-31",
+    "title" : "Lords Mobile",
+    "url" : "https://itunes.apple.com/nz/app/lords-mobile/id1071976327?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Product Madness",
+    "developerId" : 525894639,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/product-madness/id525894639?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "6012",
+        "7006"
+      ],
+    "genres" : [ 
+        "Games",
+        "Lifestyle",
+        "Casino"
+      ],
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple118/v4/55/ec/8d/55ec8d54-bc55-3825-ef85-ba98cc061e63/AppIcon-1x_U007emarketing-GLES2_U002c0-512MB-85-220-0-8.png/200x200bb.png",
+    "id" : "1123582513",
+    "released" : "2017-06-21",
+    "title" : "Cashman Casino Vegas Slot Game",
+    "url" : "https://itunes.apple.com/nz/app/cashman-casino-vegas-slot-game/id1123582513?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "King",
+    "developerId" : 526656015,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/king/id526656015?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7003",
+        "7012"
+      ],
+    "genres" : [ 
+        "Games",
+        "Arcade",
+        "Puzzle"
+      ],
+    "icon" : "http://is5.mzstatic.com/image/thumb/Purple128/v4/b6/b3/07/b6b30704-3b37-fe28-3ab2-005827fee649/pr_source.png/200x200bb.png",
+    "id" : "850417475",
+    "released" : "2014-09-30",
+    "title" : "Candy Crush Soda Saga",
+    "url" : "https://itunes.apple.com/nz/app/candy-crush-soda-saga/id850417475?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "YOUZU GAMES HONGKONG LIMITED",
+    "developerId" : 930452495,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/youzu-games-hongkong-limited/id930452495?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "6016",
+        "7001",
+        "7014"
+      ],
+    "genres" : [ 
+        "Games",
+        "Entertainment",
+        "Action",
+        "Role-Playing"
+      ],
+    "icon" : "http://is5.mzstatic.com/image/thumb/Purple118/v4/c9/15/d7/c915d789-6f83-de84-59b7-cbe625fd2ca7/GameIcon-1x_U007emarketing-0-85-220-0-6.png/200x200bb.png",
+    "id" : "1132537738",
+    "released" : "2016-10-08",
+    "title" : "Legacy of Discord-FuriousWings",
+    "url" : "https://itunes.apple.com/nz/app/legacy-of-discord-furiouswings/id1132537738?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Pacific-Interactive ltd",
+    "developerId" : 580824260,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/pacific-interactive-ltd/id580824260?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7006",
+        "7005",
+        "6016"
+      ],
+    "genres" : [ 
+        "Games",
+        "Casino",
+        "Card",
+        "Entertainment"
+      ],
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple128/v4/1e/6d/da/1e6dda99-27ab-879b-f7ab-1306288202b0/AppIcon-1x_U007emarketing-0-85-220-0-5.png/200x200bb.png",
+    "id" : "586634331",
+    "released" : "2013-02-24",
+    "title" : "House of Fun Slots Casino",
+    "url" : "https://itunes.apple.com/nz/app/house-of-fun-slots-casino/id586634331?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Calm.com",
+    "developerId" : 571800813,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/calm-com/id571800813?mt=8",
+    "genreIds" : [ 
+        "6013",
+        "6012"
+      ],
+    "genres" : [ 
+        "Health & Fitness",
+        "Lifestyle"
+      ],
+    "icon" : "http://is5.mzstatic.com/image/thumb/Purple118/v4/13/08/79/1308799e-29e3-8b0f-69ee-b715955e5196/AppIcon-1x_U007emarketing-85-220-0-9.png/200x200bb.png",
+    "id" : "571800810",
+    "released" : "2013-02-22",
+    "title" : "Calm",
+    "url" : "https://itunes.apple.com/nz/app/calm/id571800810?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "BIGO TECHNOLOGY PTE. LTD.",
+    "developerId" : 940017134,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/bigo-technology-pte-ltd/id940017134?mt=8",
+    "genreIds" : [ 
+        "6005",
+        "6016"
+      ],
+    "genres" : [ 
+        "Social Networking",
+        "Entertainment"
+      ],
+    "icon" : "http://is5.mzstatic.com/image/thumb/Purple128/v4/a4/5f/9e/a45f9e4f-b135-c119-ca15-127387ec71f4/AppIcon-1x_U007emarketing-0-85-220-0-9.png/200x200bb.png",
+    "id" : "1077137248",
+    "released" : "2016-03-12",
+    "title" : "BIGO LIVE - Live Stream",
+    "url" : "https://itunes.apple.com/nz/app/bigo-live-live-stream/id1077137248?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Pixelberry Studios",
+    "developerId" : 575608309,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/pixelberry-studios/id575608309?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7014",
+        "6016",
+        "7015"
+      ],
+    "genres" : [ 
+        "Games",
+        "Role-Playing",
+        "Entertainment",
+        "Simulation"
+      ],
+    "icon" : "http://is3.mzstatic.com/image/thumb/Purple118/v4/8a/87/df/8a87df15-a915-16c5-e97b-76e0cb89a87f/AppIcon-1x_U007emarketing-85-220-6.png/200x200bb.png",
+    "id" : "1071310449",
+    "released" : "2016-06-22",
+    "title" : "Choices: Stories You Play",
+    "url" : "https://itunes.apple.com/nz/app/choices-stories-you-play/id1071310449?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Phantom EFX",
+    "developerId" : 310624343,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/phantom-efx/id310624343?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7015",
+        "6005",
+        "7006"
+      ],
+    "genres" : [ 
+        "Games",
+        "Simulation",
+        "Social Networking",
+        "Casino"
+      ],
+    "icon" : "http://is3.mzstatic.com/image/thumb/Purple128/v4/02/84/92/02849211-18ef-927d-fb46-bc16518685ab/AppIcon-1x_U007emarketing-85-220-8.png/200x200bb.png",
+    "id" : "1215145992",
+    "released" : "2017-11-28",
+    "title" : "MONOPOLY Slots",
+    "url" : "https://itunes.apple.com/nz/app/monopoly-slots/id1215145992?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Skype Communications S.a.r.l",
+    "developerId" : 304219585,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/skype-communications-s-a-r-l/id304219585?mt=8",
+    "genreIds" : [ 
+        "6005",
+        "6007"
+      ],
+    "genres" : [ 
+        "Social Networking",
+        "Productivity"
+      ],
+    "icon" : "http://is1.mzstatic.com/image/thumb/Purple118/v4/aa/7e/4c/aa7e4c9d-767e-55ed-3bb6-908d4b454538/AppIcon-1x_U007emarketing-85-220-0-3.png/200x200bb.png",
+    "id" : "304878510",
+    "released" : "2009-03-31",
+    "title" : "Skype for iPhone",
+    "url" : "https://itunes.apple.com/nz/app/skype-for-iphone/id304878510?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Crowdstar Inc",
+    "developerId" : 321598392,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/crowdstar-inc/id321598392?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7015",
+        "6012"
+      ],
+    "genres" : [ 
+        "Games",
+        "Simulation",
+        "Lifestyle"
+      ],
+    "icon" : "http://is3.mzstatic.com/image/thumb/Purple128/v4/b1/0c/14/b10c1479-cdcd-8944-9ccd-7b40b682fbfe/AppIcon-1x_U007emarketing-0-85-220-0-8.png/200x200bb.png",
+    "id" : "1010962391",
+    "released" : "2016-11-15",
+    "title" : "Design Home",
+    "url" : "https://itunes.apple.com/nz/app/design-home/id1010962391?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Episode Interactive",
+    "developerId" : 761807761,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/episode-interactive/id761807761?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7014",
+        "7015",
+        "6016"
+      ],
+    "genres" : [ 
+        "Games",
+        "Role-Playing",
+        "Simulation",
+        "Entertainment"
+      ],
+    "icon" : "http://is1.mzstatic.com/image/thumb/Purple128/v4/5f/f6/2a/5ff62a3e-fb82-1cdc-b0c5-65aea27dd43d/AppIcon-1x_U007emarketing-85-220-9.png/200x200bb.png",
+    "id" : "656971078",
+    "released" : "2013-12-18",
+    "title" : "Episode - Choose Your Story",
+    "url" : "https://itunes.apple.com/nz/app/episode-choose-your-story/id656971078?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "网易移动游戏",
+    "developerId" : 656116440,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/%E7%BD%91%E6%98%93%E7%A7%BB%E5%8A%A8%E6%B8%B8%E6%88%8F/id656116440?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7001",
+        "7014"
+      ],
+    "genres" : [ 
+        "Games",
+        "Action",
+        "Role-Playing"
+      ],
+    "icon" : "http://is2.mzstatic.com/image/thumb/Purple128/v4/07/3a/70/073a70b0-8679-b54c-ecca-71ca0ad73c6c/AppIcon-1x_U007emarketing-0-85-220-0-7.png/200x200bb.png",
+    "id" : "940547441",
+    "released" : "2015-06-17",
+    "title" : "梦幻西游",
+    "url" : "https://itunes.apple.com/nz/app/%E6%A2%A6%E5%B9%BB%E8%A5%BF%E6%B8%B8/id940547441?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Playrix Games",
+    "developerId" : 1162116447,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/playrix-games/id1162116447?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "6016",
+        "7012",
+        "7015"
+      ],
+    "genres" : [ 
+        "Games",
+        "Entertainment",
+        "Puzzle",
+        "Simulation"
+      ],
+    "icon" : "http://is5.mzstatic.com/image/thumb/Purple128/v4/85/7f/91/857f910e-9fbb-c17a-5f9e-0034e69e61bd/AppIcon-1x_U007emarketing-85-220-9.png/200x200bb.png",
+    "id" : "1195621598",
+    "released" : "2017-09-19",
+    "title" : "Homescapes",
+    "url" : "https://itunes.apple.com/nz/app/homescapes/id1195621598?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "密境和风",
+    "developerId" : 988396857,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/%E5%AF%86%E5%A2%83%E5%92%8C%E9%A3%8E/id988396857?mt=8",
+    "genreIds" : [ 
+        "6005",
+        "6008"
+      ],
+    "genres" : [ 
+        "Social Networking",
+        "Photo & Video"
+      ],
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple128/v4/71/af/8b/71af8b66-35a0-ee72-a6ed-cd849e2d9be1/AppIcon-1x_U007emarketing-85-220-3.png/200x200bb.png",
+    "id" : "988396858",
+    "released" : "2015-07-14",
+    "title" : "花椒-3亿人都在玩的短直播视频交友社区",
+    "url" : "https://itunes.apple.com/nz/app/%E8%8A%B1%E6%A4%92-3%E4%BA%BF%E4%BA%BA%E9%83%BD%E5%9C%A8%E7%8E%A9%E7%9A%84%E7%9F%AD%E7%9B%B4%E6%92%AD%E8%A7%86%E9%A2%91%E4%BA%A4%E5%8F%8B%E7%A4%BE%E5%8C%BA/id988396858?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Netmarble Games Corp.",
+    "developerId" : 930364579,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/netmarble-games-corp/id930364579?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7001",
+        "7014"
+      ],
+    "genres" : [ 
+        "Games",
+        "Action",
+        "Role-Playing"
+      ],
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple62/v4/6c/9b/48/6c9b48da-12cf-e020-686f-ef68a33f027f/AppIcon2-1x_U007emarketing-0-85-220-0-9.png/200x200bb.png",
+    "id" : "955705796",
+    "released" : "2015-04-29",
+    "title" : "MARVEL Future Fight",
+    "url" : "https://itunes.apple.com/nz/app/marvel-future-fight/id955705796?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Murka Entertainment Limited",
+    "developerId" : 476936085,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/murka-entertainment-limited/id476936085?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "6016",
+        "7006",
+        "7005"
+      ],
+    "genres" : [ 
+        "Games",
+        "Entertainment",
+        "Casino",
+        "Card"
+      ],
+    "icon" : "http://is5.mzstatic.com/image/thumb/Purple118/v4/7f/f7/7f/7ff77f2c-72c6-d158-e563-aaae98770db8/AppIcon-1x_U007emarketing-0-85-220-0-5.png/200x200bb.png",
+    "id" : "944158857",
+    "released" : "2015-01-02",
+    "title" : "Scatter Slots: Hot Vegas Slots",
+    "url" : "https://itunes.apple.com/nz/app/scatter-slots-hot-vegas-slots/id944158857?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Dropbox",
+    "developerId" : 327630333,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/dropbox/id327630333?mt=8",
+    "genreIds" : [ 
+        "6007",
+        "6002"
+      ],
+    "genres" : [ 
+        "Productivity",
+        "Utilities"
+      ],
+    "icon" : "http://is2.mzstatic.com/image/thumb/Purple128/v4/71/c0/c5/71c0c59e-6607-4ba6-4af1-a1559313b9fb/AppIcon-1x_U007emarketing-85-220-0-5.png/200x200bb.png",
+    "id" : "327630330",
+    "released" : "2009-09-29",
+    "title" : "Dropbox",
+    "url" : "https://itunes.apple.com/nz/app/dropbox/id327630330?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Asana Rebel GmbH",
+    "developerId" : 1067860795,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/asana-rebel-gmbh/id1067860795?mt=8",
+    "genreIds" : [ 
+        "6013",
+        "6004"
+      ],
+    "genres" : [ 
+        "Health & Fitness",
+        "Sports"
+      ],
+    "icon" : "http://is1.mzstatic.com/image/thumb/Purple118/v4/09/c6/94/09c6943a-9c9a-1d36-55fb-d59465922c25/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-9.jpeg/200x200bb.png",
+    "id" : "1067860796",
+    "released" : "2015-12-17",
+    "title" : "Asana Rebel: Yoga and Fitness",
+    "url" : "https://itunes.apple.com/nz/app/asana-rebel-yoga-and-fitness/id1067860796?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Bumble Holding Limited",
+    "developerId" : 1120675060,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/bumble-holding-limited/id1120675060?mt=8",
+    "genreIds" : [ 
+        "6012",
+        "6005"
+      ],
+    "genres" : [ 
+        "Lifestyle",
+        "Social Networking"
+      ],
+    "icon" : "http://is1.mzstatic.com/image/thumb/Purple118/v4/95/44/25/954425d1-184c-0238-ff0b-ece1985ec371/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-4.png/200x200bb.png",
+    "id" : "930441707",
+    "released" : "2014-12-03",
+    "title" : "Bumble - Meet New People",
+    "url" : "https://itunes.apple.com/nz/app/bumble-meet-new-people/id930441707?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Peak Games",
+    "developerId" : 476160947,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/peak-games/id476160947?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7003",
+        "7012"
+      ],
+    "genres" : [ 
+        "Games",
+        "Arcade",
+        "Puzzle"
+      ],
+    "icon" : "http://is5.mzstatic.com/image/thumb/Purple118/v4/f6/33/0a/f6330a03-b05f-9e94-49f7-1d5d1b7ab7b3/AppIcon-1x_U007emarketing-0-85-220-0-5.png/200x200bb.png",
+    "id" : "890378044",
+    "released" : "2015-01-06",
+    "title" : "Toy Blast",
+    "url" : "https://itunes.apple.com/nz/app/toy-blast/id890378044?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "BANDAI NAMCO Entertainment Inc.",
+    "developerId" : 352305770,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/bandai-namco-entertainment-inc/id352305770?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7012",
+        "7001",
+        "6016"
+      ],
+    "genres" : [ 
+        "Games",
+        "Puzzle",
+        "Action",
+        "Entertainment"
+      ],
+    "icon" : "http://is2.mzstatic.com/image/thumb/Purple118/v4/0b/f5/55/0bf555dd-f0b3-babc-f7fb-64f4d49df28f/mzl.aclovzwb.png/200x200bb.png",
+    "id" : "951627425",
+    "released" : "2015-07-16",
+    "title" : "DRAGON BALL Z DOKKAN BATTLE",
+    "url" : "https://itunes.apple.com/nz/app/dragon-ball-z-dokkan-battle/id951627425?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "LinkedIn Corporation",
+    "developerId" : 288429043,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/linkedin-corporation/id288429043?mt=8",
+    "genreIds" : [ 
+        "6005",
+        "6000"
+      ],
+    "genres" : [ 
+        "Social Networking",
+        "Business"
+      ],
+    "icon" : "http://is1.mzstatic.com/image/thumb/Purple128/v4/81/80/6a/81806af8-0892-ba9c-8f3e-f8abe5ed7bb7/AppIcon-1x_U007emarketing-85-220-0-5.png/200x200bb.png",
+    "id" : "288429040",
+    "released" : "2008-08-20",
+    "title" : "LinkedIn",
+    "url" : "https://itunes.apple.com/nz/app/linkedin/id288429040?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Blizzard Entertainment, Inc.",
+    "developerId" : 306862900,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/blizzard-entertainment-inc/id306862900?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "6016",
+        "7005",
+        "7017"
+      ],
+    "genres" : [ 
+        "Games",
+        "Entertainment",
+        "Card",
+        "Strategy"
+      ],
+    "icon" : "http://is3.mzstatic.com/image/thumb/Purple118/v4/1c/01/f0/1c01f068-ca26-b3e5-9c8a-0da404822a9f/mzl.deoavxtl.png/200x200bb.png",
+    "id" : "625257520",
+    "released" : "2014-04-02",
+    "title" : "Hearthstone",
+    "url" : "https://itunes.apple.com/nz/app/hearthstone/id625257520?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Smule",
+    "developerId" : 290596339,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/smule/id290596339?mt=8",
+    "genreIds" : [ 
+        "6011",
+        "6016"
+      ],
+    "genres" : [ 
+        "Music",
+        "Entertainment"
+      ],
+    "icon" : "http://is3.mzstatic.com/image/thumb/Purple128/v4/1f/96/ef/1f96ef1e-575f-6340-0637-631256be9111/AppIcon-CCCP-1x_U007emarketing-85-220-0-9.png/200x200bb.png",
+    "id" : "509993510",
+    "released" : "2012-08-08",
+    "title" : "Sing! by Smule",
+    "url" : "https://itunes.apple.com/nz/app/sing-by-smule/id509993510?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Peak Games",
+    "developerId" : 476160947,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/peak-games/id476160947?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7003",
+        "7012"
+      ],
+    "genres" : [ 
+        "Games",
+        "Arcade",
+        "Puzzle"
+      ],
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple128/v4/b8/bf/28/b8bf28af-5f9a-03f7-d4db-a5ea2b0c5e0a/AppIcon-1x_U007emarketing-0-85-220-0-8.png/200x200bb.png",
+    "id" : "1176027022",
+    "released" : "2017-08-15",
+    "title" : "Toon Blast",
+    "url" : "https://itunes.apple.com/nz/app/toon-blast/id1176027022?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "AnchorFree Inc.",
+    "developerId" : 309076084,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/anchorfree-inc/id309076084?mt=8",
+    "genreIds" : [ 
+        "6007",
+        "6002"
+      ],
+    "genres" : [ 
+        "Productivity",
+        "Utilities"
+      ],
+    "icon" : "http://is3.mzstatic.com/image/thumb/Purple118/v4/6e/56/eb/6e56eb6c-003c-f923-4de6-513af18a0430/mzl.cwfxnuta.png/200x200bb.png",
+    "id" : "443369807",
+    "released" : "2011-10-29",
+    "title" : "HotspotShield VPN & Wifi Proxy",
+    "url" : "https://itunes.apple.com/nz/app/hotspotshield-vpn-wifi-proxy/id443369807?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Zoosk, Inc.",
+    "developerId" : 349160526,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/zoosk-inc/id349160526?mt=8",
+    "genreIds" : [ 
+        "6005",
+        "6012"
+      ],
+    "genres" : [ 
+        "Social Networking",
+        "Lifestyle"
+      ],
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple118/v4/3b/01/58/3b015838-a30a-fb66-d154-8e5c95b38804/mzl.taxywxpa.jpg/200x200bb.png",
+    "id" : "349160522",
+    "released" : "2010-01-12",
+    "title" : "Zoosk - #1 Dating App",
+    "url" : "https://itunes.apple.com/nz/app/zoosk-1-dating-app/id349160522?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Google, Inc.",
+    "developerId" : 281956209,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/google-inc/id281956209?mt=8",
+    "genreIds" : [ 
+        "6011",
+        "6016"
+      ],
+    "genres" : [ 
+        "Music",
+        "Entertainment"
+      ],
+    "icon" : "http://is5.mzstatic.com/image/thumb/Purple118/v4/b6/25/a2/b625a222-f9aa-7657-55c7-90e6f296c3ea/AppIcon-1x_U007emarketing-85-220-0-5.png/200x200bb.png",
+    "id" : "1017492454",
+    "released" : "2016-05-17",
+    "title" : "YouTube Music",
+    "url" : "https://itunes.apple.com/nz/app/youtube-music/id1017492454?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Scopely",
+    "developerId" : 305003647,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/scopely/id305003647?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "6016",
+        "7014",
+        "7001"
+      ],
+    "genres" : [ 
+        "Games",
+        "Entertainment",
+        "Role-Playing",
+        "Action"
+      ],
+    "icon" : "http://is3.mzstatic.com/image/thumb/Purple62/v4/10/03/17/1003173a-7ced-d216-6d7d-b58e349b919f/AppIcon-1x_U007emarketing-85-220-8.png/200x200bb.png",
+    "id" : "1017432937",
+    "released" : "2015-12-07",
+    "title" : "WWE Champions - Action Game",
+    "url" : "https://itunes.apple.com/nz/app/wwe-champions-action-game/id1017432937?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Supercell",
+    "developerId" : 488106216,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/supercell/id488106216?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7001",
+        "6016",
+        "7017"
+      ],
+    "genres" : [ 
+        "Games",
+        "Action",
+        "Entertainment",
+        "Strategy"
+      ],
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple118/v4/1c/8d/63/1c8d634b-e034-f6ad-0e84-673d2b9c85b3/AppIcon-1x_U007emarketing-0-85-220-0-5.png/200x200bb.png",
+    "id" : "529479190",
+    "released" : "2012-08-02",
+    "title" : "Clash of Clans",
+    "url" : "https://itunes.apple.com/nz/app/clash-of-clans/id529479190?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Murka Entertainment Limited",
+    "developerId" : 476936085,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/murka-entertainment-limited/id476936085?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7005",
+        "6016",
+        "7006"
+      ],
+    "genres" : [ 
+        "Games",
+        "Card",
+        "Entertainment",
+        "Casino"
+      ],
+    "icon" : "http://is3.mzstatic.com/image/thumb/Purple128/v4/cc/3c/88/cc3c8855-3479-3e5a-e80c-3c135aecb778/AppIcon-1x_U007emarketing-0-85-220-0-5.png/200x200bb.png",
+    "id" : "950710606",
+    "released" : "2015-03-17",
+    "title" : "Infinity Slots: Vegas Casino",
+    "url" : "https://itunes.apple.com/nz/app/infinity-slots-vegas-casino/id950710606?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Kabam",
+    "developerId" : 445459903,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/kabam/id445459903?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7001",
+        "7002",
+        "6016"
+      ],
+    "genres" : [ 
+        "Games",
+        "Action",
+        "Adventure",
+        "Entertainment"
+      ],
+    "icon" : "http://is1.mzstatic.com/image/thumb/Purple118/v4/29/9e/b2/299eb229-a539-95fb-024d-73f50ad98005/AppIcon-1x_U007emarketing-0-85-220-0-5.png/200x200bb.png",
+    "id" : "896112560",
+    "released" : "2014-12-10",
+    "title" : "MARVEL Contest of Champions",
+    "url" : "https://itunes.apple.com/nz/app/marvel-contest-of-champions/id896112560?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Twitch Interactive, Inc.",
+    "developerId" : 358612219,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/twitch-interactive-inc/id358612219?mt=8",
+    "genreIds" : [ 
+        "6008",
+        "6005"
+      ],
+    "genres" : [ 
+        "Photo & Video",
+        "Social Networking"
+      ],
+    "icon" : "http://is5.mzstatic.com/image/thumb/Purple118/v4/65/1b/a7/651ba7fe-f18a-d142-99fd-0754760a61b4/TwitchAppIcon-1x_U007emarketing-85-220-0-6.png/200x200bb.png",
+    "id" : "460177396",
+    "released" : "2011-10-26",
+    "title" : "Twitch",
+    "url" : "https://itunes.apple.com/nz/app/twitch/id460177396?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Nordcurrent",
+    "developerId" : 348389028,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/nordcurrent/id348389028?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "6016",
+        "7003",
+        "7017"
+      ],
+    "genres" : [ 
+        "Games",
+        "Entertainment",
+        "Arcade",
+        "Strategy"
+      ],
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple128/v4/87/7e/82/877e8239-637b-d82b-1a05-9afa40a59f3f/AppIcon-1x_U007emarketing-0-85-220-0-6.png/200x200bb.png",
+    "id" : "714796093",
+    "released" : "2014-08-19",
+    "title" : "Cooking Fever",
+    "url" : "https://itunes.apple.com/nz/app/cooking-fever/id714796093?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "musical.ly Inc.",
+    "developerId" : 1039610913,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/musical-ly-inc/id1039610913?mt=8",
+    "genreIds" : [ 
+        "6008",
+        "6005"
+      ],
+    "genres" : [ 
+        "Photo & Video",
+        "Social Networking"
+      ],
+    "icon" : "http://is1.mzstatic.com/image/thumb/Purple128/v4/53/73/43/537343fd-65e2-8c25-77ed-a95b048540e8/AppIcon-1x_U007emarketing-85-220-0-3.png/200x200bb.png",
+    "id" : "835599320",
+    "released" : "2014-04-02",
+    "title" : "musical.ly",
+    "url" : "https://itunes.apple.com/nz/app/musical-ly/id835599320?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Blinks Labs",
+    "developerId" : 568839298,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/blinks-labs/id568839298?mt=8",
+    "genreIds" : [ 
+        "6017",
+        "6018"
+      ],
+    "genres" : [ 
+        "Education",
+        "Books"
+      ],
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple118/v4/a0/1f/4e/a01f4e1b-ee85-f139-9bab-ddc1e4a73906/AppIcon-1x_U007emarketing-85-220-0-6.png/200x200bb.png",
+    "id" : "568839295",
+    "released" : "2013-11-13",
+    "title" : "Blinkist - Always Learning",
+    "url" : "https://itunes.apple.com/nz/app/blinkist-always-learning/id568839295?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Kimberly Smith",
+    "developerId" : 1341283532,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/kimberly-smith/id1341283532?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7019",
+        "7012"
+      ],
+    "genres" : [ 
+        "Games",
+        "Word",
+        "Puzzle"
+      ],
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple128/v4/44/7d/f4/447df438-b621-3175-5721-3eb407dd46b7/AppIcon-1x_U007emarketing-85-220-0-6.png/200x200bb.png",
+    "id" : "1341283533",
+    "released" : "2018-02-10",
+    "title" : "Quiz Crossword",
+    "url" : "https://itunes.apple.com/nz/app/quiz-crossword/id1341283533?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "King",
+    "developerId" : 526656015,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/king/id526656015?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7012",
+        "7003"
+      ],
+    "genres" : [ 
+        "Games",
+        "Puzzle",
+        "Arcade"
+      ],
+    "icon" : "http://is5.mzstatic.com/image/thumb/Purple118/v4/db/1b/da/db1bdaed-e600-c689-2a2b-22656d12e6ac/AppIcon-1x_U007emarketing-0-85-220-0-8.png/200x200bb.png",
+    "id" : "1047246341",
+    "released" : "2015-12-15",
+    "title" : "Candy Crush Jelly Saga",
+    "url" : "https://itunes.apple.com/nz/app/candy-crush-jelly-saga/id1047246341?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Lightning Studios",
+    "developerId" : 558483483,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/lightning-studios/id558483483?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7017"
+      ],
+    "genres" : [ 
+        "Games",
+        "Strategy"
+      ],
+    "icon" : "http://is2.mzstatic.com/image/thumb/Purple128/v4/f0/fe/53/f0fe5382-bc87-0b5b-d2cc-982abacd869a/AppIcon-1x_U007emarketing-85-220-4.png/200x200bb.png",
+    "id" : "1071673198",
+    "released" : "2017-01-13",
+    "title" : "Game of Kings:The Blood Throne",
+    "url" : "https://itunes.apple.com/nz/app/game-of-kings-the-blood-throne/id1071673198?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Badoo Software Ltd",
+    "developerId" : 351331197,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/badoo-software-ltd/id351331197?mt=8",
+    "genreIds" : [ 
+        "6005",
+        "6012"
+      ],
+    "genres" : [ 
+        "Social Networking",
+        "Lifestyle"
+      ],
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple118/v4/ff/3b/b4/ff3bb494-14bf-973d-a6aa-b02d861181a2/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-8.png/200x200bb.png",
+    "id" : "351331194",
+    "released" : "2011-10-07",
+    "title" : "Badoo - The Dating App",
+    "url" : "https://itunes.apple.com/nz/app/badoo-the-dating-app/id351331194?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "DoubleVision Labs",
+    "developerId" : 876161071,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/doublevision-labs/id876161071?mt=8",
+    "genreIds" : [ 
+        "6007",
+        "6002"
+      ],
+    "genres" : [ 
+        "Productivity",
+        "Utilities"
+      ],
+    "icon" : "http://is3.mzstatic.com/image/thumb/Purple118/v4/5e/db/d8/5edbd82c-7683-990e-e92c-a6733707e36d/mzl.wmphjadv.png/200x200bb.png",
+    "id" : "917795718",
+    "released" : "2014-11-13",
+    "title" : "Fingerprint Login: PassKey Password Lock Hide Apps",
+    "url" : "https://itunes.apple.com/nz/app/fingerprint-login-passkey-password-lock-hide-apps/id917795718?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "上海熊猫互娱文化有限公司",
+    "developerId" : 1104880885,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/%E4%B8%8A%E6%B5%B7%E7%86%8A%E7%8C%AB%E4%BA%92%E5%A8%B1%E6%96%87%E5%8C%96%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/id1104880885?mt=8",
+    "genreIds" : [ "6016" ],
+    "genres" : [ "Entertainment" ],
+    "icon" : "http://is2.mzstatic.com/image/thumb/Purple62/v4/03/d7/3b/03d73b9e-fbd2-4419-9185-a3f2359ddf29/AppIcon-1x_U007emarketing-85-220-4.png/200x200bb.png",
+    "id" : "1106329353",
+    "released" : "2016-04-26",
+    "title" : "熊猫直播-游戏视频互动直播平台",
+    "url" : "https://itunes.apple.com/nz/app/%E7%86%8A%E7%8C%AB%E7%9B%B4%E6%92%AD-%E6%B8%B8%E6%88%8F%E8%A7%86%E9%A2%91%E4%BA%92%E5%8A%A8%E7%9B%B4%E6%92%AD%E5%B9%B3%E5%8F%B0/id1106329353?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Game Hive Corp.",
+    "developerId" : 443272129,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/game-hive-corp/id443272129?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7002",
+        "6016",
+        "7014"
+      ],
+    "genres" : [ 
+        "Games",
+        "Adventure",
+        "Entertainment",
+        "Role-Playing"
+      ],
+    "icon" : "http://is1.mzstatic.com/image/thumb/Purple128/v4/02/ae/9e/02ae9e5e-95f2-8fbd-2186-6ed2af08ad60/AppIcon-1x_U007emarketing-85-220-0-7.png/200x200bb.png",
+    "id" : "1120294802",
+    "released" : "2016-12-05",
+    "title" : "Tap Titans 2",
+    "url" : "https://itunes.apple.com/nz/app/tap-titans-2/id1120294802?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Apalon Apps",
+    "developerId" : 749046894,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/apalon-apps/id749046894?mt=8",
+    "genreIds" : [ 
+        "6001",
+        "6003"
+      ],
+    "genres" : [ 
+        "Weather",
+        "Travel"
+      ],
+    "icon" : "http://is3.mzstatic.com/image/thumb/Purple128/v4/8f/da/67/8fda6719-b6fa-f516-a8e8-0019d6cb7f03/AppIcon-free-1x_U007emarketing-85-220-0-9.png/200x200bb.png",
+    "id" : "749083919",
+    "released" : "2013-11-26",
+    "title" : "Weather Live - Local Forecast",
+    "url" : "https://itunes.apple.com/nz/app/weather-live-local-forecast/id749083919?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Moon Active",
+    "developerId" : 470556954,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/moon-active/id470556954?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7003",
+        "7002"
+      ],
+    "genres" : [ 
+        "Games",
+        "Arcade",
+        "Adventure"
+      ],
+    "icon" : "http://is2.mzstatic.com/image/thumb/Purple128/v4/99/55/60/995560aa-c0aa-99ed-27d5-30473c373c26/AppIcon-1x_U007emarketing-0-85-220-0-5.png/200x200bb.png",
+    "id" : "406889139",
+    "released" : "2010-12-11",
+    "title" : "Coin Master",
+    "url" : "https://itunes.apple.com/nz/app/coin-master/id406889139?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "YOUZU GAMES HONGKONG LIMITED",
+    "developerId" : 930452495,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/youzu-games-hongkong-limited/id930452495?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "6016",
+        "7001",
+        "7014"
+      ],
+    "genres" : [ 
+        "Games",
+        "Entertainment",
+        "Action",
+        "Role-Playing"
+      ],
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple60/v4/eb/b4/7f/ebb47f13-4b9f-a4b9-0cf7-23b3c43e59d9/mzl.xtrskljt.jpg/200x200bb.png",
+    "id" : "1051271934",
+    "released" : "2015-12-17",
+    "title" : "少年三國志",
+    "url" : "https://itunes.apple.com/nz/app/%E5%B0%91%E5%B9%B4%E4%B8%89%E5%9C%8B%E5%BF%97/id1051271934?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "PlayStudios",
+    "developerId" : 624795774,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/playstudios/id624795774?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "6016",
+        "7006",
+        "7005"
+      ],
+    "genres" : [ 
+        "Games",
+        "Entertainment",
+        "Casino",
+        "Card"
+      ],
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple128/v4/9e/4a/26/9e4a26ba-c424-981f-fee2-a48ec2c2b95b/mzl.miyjlrrs.png/200x200bb.png",
+    "id" : "1065980436",
+    "released" : "2015-12-16",
+    "title" : "POP! Slots – Casino Slot Games",
+    "url" : "https://itunes.apple.com/nz/app/pop-slots-casino-slot-games/id1065980436?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "GRINASYS CORP.",
+    "developerId" : 583901247,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/grinasys-corp/id583901247?mt=8",
+    "genreIds" : [ 
+        "6013",
+        "6012"
+      ],
+    "genres" : [ 
+        "Health & Fitness",
+        "Lifestyle"
+      ],
+    "icon" : "http://is5.mzstatic.com/image/thumb/Purple118/v4/62/ca/b2/62cab2a2-c958-49a7-6df6-51e4d7100ce2/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-3.png/200x200bb.png",
+    "id" : "950669893",
+    "released" : "2015-01-11",
+    "title" : "Walking for Weight Loss",
+    "url" : "https://itunes.apple.com/nz/app/walking-for-weight-loss/id950669893?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Ubisoft",
+    "developerId" : 317644720,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/ubisoft/id317644720?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7003",
+        "7001",
+        "6016"
+      ],
+    "genres" : [ 
+        "Games",
+        "Arcade",
+        "Action",
+        "Entertainment"
+      ],
+    "icon" : "http://is1.mzstatic.com/image/thumb/Purple118/v4/38/6e/f5/386ef561-edfe-d8bb-7161-01a6cfa9354c/mzl.zymonxzr.jpg/200x200bb.png",
+    "id" : "535500008",
+    "released" : "2012-10-24",
+    "title" : "Hungry Shark Evolution",
+    "url" : "https://itunes.apple.com/nz/app/hungry-shark-evolution/id535500008?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Electronic Arts",
+    "developerId" : 284800461,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/electronic-arts/id284800461?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7015"
+      ],
+    "genres" : [ 
+        "Games",
+        "Simulation"
+      ],
+    "icon" : "http://is2.mzstatic.com/image/thumb/Purple128/v4/3c/2d/05/3c2d05d9-49ce-cc83-5ba3-706e2d15b623/AppIcon-1x_U007emarketing-85-220-0-5.png/200x200bb.png",
+    "id" : "1144258115",
+    "released" : "2018-03-06",
+    "title" : "The Sims™ Mobile",
+    "url" : "https://itunes.apple.com/nz/app/the-sims-mobile/id1144258115?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Big Fish Games, Inc",
+    "developerId" : 292594310,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/big-fish-games-inc/id292594310?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "6016",
+        "7003",
+        "7015"
+      ],
+    "genres" : [ 
+        "Games",
+        "Entertainment",
+        "Arcade",
+        "Simulation"
+      ],
+    "icon" : "http://is5.mzstatic.com/image/thumb/Purple128/v4/06/c4/35/06c435cf-d114-957b-7dcd-af0a9822fce0/mzl.uzrgkmem.png/200x200bb.png",
+    "id" : "1029094059",
+    "released" : "2016-01-26",
+    "title" : "Cooking Craze- Restaurant Game",
+    "url" : "https://itunes.apple.com/nz/app/cooking-craze-restaurant-game/id1029094059?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Miniclip.com",
+    "developerId" : 337457683,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/miniclip-com/id337457683?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "6016",
+        "7016",
+        "7015"
+      ],
+    "genres" : [ 
+        "Games",
+        "Entertainment",
+        "Sports",
+        "Simulation"
+      ],
+    "icon" : "http://is2.mzstatic.com/image/thumb/Purple118/v4/e1/3c/4c/e13c4cc0-cfe1-7509-9b5b-140ab46fdb08/mzl.zumjjfib.png/200x200bb.png",
+    "id" : "543186831",
+    "released" : "2013-02-27",
+    "title" : "8 Ball Pool™",
+    "url" : "https://itunes.apple.com/nz/app/8-ball-pool/id543186831?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Andrey Pryakhin",
+    "developerId" : 968535575,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/andrey-pryakhin/id968535575?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7017",
+        "7001"
+      ],
+    "genres" : [ 
+        "Games",
+        "Strategy",
+        "Action"
+      ],
+    "icon" : "http://is3.mzstatic.com/image/thumb/Purple128/v4/ed/64/78/ed647809-3963-e10b-f619-7cdc55c90764/AppIcon-1x_U007emarketing-0-85-220-0-8.png/200x200bb.png",
+    "id" : "1241932094",
+    "released" : "2017-06-12",
+    "title" : "Last Day on Earth: Survival",
+    "url" : "https://itunes.apple.com/nz/app/last-day-on-earth-survival/id1241932094?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "xuan liu",
+    "developerId" : 1216139452,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/xuan-liu/id1216139452?mt=8",
+    "genreIds" : [ 
+        "6008",
+        "6016"
+      ],
+    "genres" : [ 
+        "Photo & Video",
+        "Entertainment"
+      ],
+    "icon" : "http://is2.mzstatic.com/image/thumb/Purple128/v4/c1/bf/1f/c1bf1f39-8a3b-8858-e85e-2391ee1b0c4a/AppIcon-1x_U007emarketing-85-220-0-5.png/200x200bb.png",
+    "id" : "1216590966",
+    "released" : "2017-04-04",
+    "title" : "Photable - Photo Editor",
+    "url" : "https://itunes.apple.com/nz/app/photable-photo-editor/id1216590966?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Oleksandr Rysenko",
+    "developerId" : 670711025,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/oleksandr-rysenko/id670711025?mt=8",
+    "genreIds" : [ "6012" ],
+    "genres" : [ "Lifestyle" ],
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple118/v4/20/bf/38/20bf3897-3f22-bceb-f816-cf144ab65fff/AppIcon-1x_U007emarketing-0-85-220-0-6.png/200x200bb.png",
+    "id" : "1076159017",
+    "released" : "2016-04-08",
+    "title" : "Room Planner & House Design 3D",
+    "url" : "https://itunes.apple.com/nz/app/room-planner-house-design-3d/id1076159017?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Easybrain",
+    "developerId" : 1190815537,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/easybrain/id1190815537?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "6016",
+        "7004",
+        "7012"
+      ],
+    "genres" : [ 
+        "Games",
+        "Entertainment",
+        "Board",
+        "Puzzle"
+      ],
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple128/v4/75/f2/f5/75f2f5d9-2533-960d-c646-7f8637b2e307/AppIcon-1x_U007emarketing-85-220-5.png/200x200bb.png",
+    "id" : "1274972321",
+    "released" : "2017-10-16",
+    "title" : "Pixel Art - Colour by Number",
+    "url" : "https://itunes.apple.com/nz/app/pixel-art-colour-by-number/id1274972321?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Plarium LLC",
+    "developerId" : 1053231049,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/plarium-llc/id1053231049?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7001",
+        "7017"
+      ],
+    "genres" : [ 
+        "Games",
+        "Action",
+        "Strategy"
+      ],
+    "icon" : "http://is5.mzstatic.com/image/thumb/Purple128/v4/0e/fc/8a/0efc8a8e-84d4-f6a9-7184-361c95e9428a/mzl.oevasofv.png/200x200bb.png",
+    "id" : "966810173",
+    "released" : "2015-07-06",
+    "title" : "Vikings: War of Clans",
+    "url" : "https://itunes.apple.com/nz/app/vikings-war-of-clans/id966810173?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Rebtel Services S.a.r.l.",
+    "developerId" : 310755563,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/rebtel-services-s-a-r-l/id310755563?mt=8",
+    "genreIds" : [ 
+        "6005",
+        "6007"
+      ],
+    "genres" : [ 
+        "Social Networking",
+        "Productivity"
+      ],
+    "icon" : "http://is1.mzstatic.com/image/thumb/Purple128/v4/8e/9f/e7/8e9fe716-ba8c-9c06-8b86-e47409d68a88/AppIcon-1x_U007emarketing-85-220-0-5.png/200x200bb.png",
+    "id" : "310755560",
+    "released" : "2009-10-14",
+    "title" : "Rebtel",
+    "url" : "https://itunes.apple.com/nz/app/rebtel/id310755560?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Nymgo SA",
+    "developerId" : 507980874,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/nymgo-sa/id507980874?mt=8",
+    "genreIds" : [ "6005" ],
+    "genres" : [ "Social Networking" ],
+    "icon" : "http://is2.mzstatic.com/image/thumb/Purple128/v4/b3/23/58/b32358ae-1c48-b206-e0e6-85c453b996e8/AppIcon-1x_U007emarketing-85-220-4.png/200x200bb.png",
+    "id" : "507980871",
+    "released" : "2012-03-30",
+    "title" : "Nymgo:Cheap International Call",
+    "url" : "https://itunes.apple.com/nz/app/nymgo-cheap-international-call/id507980871?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Viber Media SARL.",
+    "developerId" : 382617923,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/viber-media-sarl/id382617923?mt=8",
+    "genreIds" : [ 
+        "6005",
+        "6002"
+      ],
+    "genres" : [ 
+        "Social Networking",
+        "Utilities"
+      ],
+    "icon" : "http://is5.mzstatic.com/image/thumb/Purple118/v4/67/ce/f7/67cef723-5513-af30-199e-67005f06c66c/AppIcon-1x_U007emarketing-0-85-220-0-6.png/200x200bb.png",
+    "id" : "382617920",
+    "released" : "2010-12-02",
+    "title" : "Viber Messenger – Text & Call",
+    "url" : "https://itunes.apple.com/nz/app/viber-messenger-text-call/id382617920?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Roblox Corporation",
+    "developerId" : 431946155,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/roblox-corporation/id431946155?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7002",
+        "6016",
+        "7001"
+      ],
+    "genres" : [ 
+        "Games",
+        "Adventure",
+        "Entertainment",
+        "Action"
+      ],
+    "icon" : "http://is2.mzstatic.com/image/thumb/Purple128/v4/3d/2b/19/3d2b1983-321d-ee90-58c8-11f42f19f333/AppIcon-1x_U007emarketing-85-220-6.png/200x200bb.png",
+    "id" : "431946152",
+    "released" : "2011-05-26",
+    "title" : "ROBLOX",
+    "url" : "https://itunes.apple.com/nz/app/roblox/id431946152?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "2K",
+    "developerId" : 324563547,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/2k/id324563547?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "6016",
+        "7016",
+        "7005"
+      ],
+    "genres" : [ 
+        "Games",
+        "Entertainment",
+        "Sports",
+        "Card"
+      ],
+    "icon" : "http://is1.mzstatic.com/image/thumb/Purple128/v4/27/5a/5b/275a5bba-3f6c-5d86-b028-62c43989cc4c/AppIcon-1x_U007emarketing-85-220-0-9.jpeg/200x200bb.png",
+    "id" : "775402833",
+    "released" : "2014-08-14",
+    "title" : "WWE SuperCard",
+    "url" : "https://itunes.apple.com/nz/app/wwe-supercard/id775402833?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Xia Zhang",
+    "developerId" : 1342134534,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/xia-zhang/id1342134534?mt=8",
+    "genreIds" : [ "6016" ],
+    "genres" : [ "Entertainment" ],
+    "icon" : "http://is2.mzstatic.com/image/thumb/Purple118/v4/1e/46/e5/1e46e57a-289c-7bbc-d20f-15421e18455c/AppIcon-1x_U007emarketing-85-220-4.png/200x200bb.png",
+    "id" : "1342134535",
+    "released" : "2018-02-02",
+    "title" : "Emoji+ —Creative Emojis",
+    "url" : "https://itunes.apple.com/nz/app/emoji-creative-emojis/id1342134535?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Camel Games Inc.",
+    "developerId" : 542910776,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/camel-games-inc/id542910776?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7017",
+        "7015"
+      ],
+    "genres" : [ 
+        "Games",
+        "Strategy",
+        "Simulation"
+      ],
+    "icon" : "http://is5.mzstatic.com/image/thumb/Purple118/v4/85/5b/16/855b16da-6833-6885-dbc7-add576054c92/AppIcon-1x_U007emarketing-0-85-220-0-5.png/200x200bb.png",
+    "id" : "1071744151",
+    "released" : "2016-03-16",
+    "title" : "War and Order",
+    "url" : "https://itunes.apple.com/nz/app/war-and-order/id1071744151?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Science Mobile, LLC",
+    "developerId" : 969791636,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/science-mobile-llc/id969791636?mt=8",
+    "genreIds" : [ 
+        "6018",
+        "6016"
+      ],
+    "genres" : [ 
+        "Books",
+        "Entertainment"
+      ],
+    "icon" : "http://is1.mzstatic.com/image/thumb/Purple118/v4/31/73/10/31731027-1c29-a0fc-600a-f3b5eca10d98/AppIcon-1x_U007emarketing-85-220-0-5.png/200x200bb.png",
+    "id" : "1195233335",
+    "released" : "2017-02-09",
+    "title" : "Yarn - Chat & Text Stories",
+    "url" : "https://itunes.apple.com/nz/app/yarn-chat-text-stories/id1195233335?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "ONEMT LIMITED",
+    "developerId" : 896047171,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/onemt-limited/id896047171?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7014",
+        "6016",
+        "7017"
+      ],
+    "genres" : [ 
+        "Games",
+        "Role-Playing",
+        "Entertainment",
+        "Strategy"
+      ],
+    "icon" : "http://is3.mzstatic.com/image/thumb/Purple118/v4/c1/7b/fb/c17bfb61-93d2-c1ac-4b8f-d16396437dd1/AppIcon_en-1x_U007emarketing-0-85-220-0-9.png/200x200bb.png",
+    "id" : "1068427731",
+    "released" : "2016-02-06",
+    "title" : "Revenge of Sultans",
+    "url" : "https://itunes.apple.com/nz/app/revenge-of-sultans/id1068427731?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Beetpix Co. Ltd.",
+    "developerId" : 1318106999,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/beetpix-co-ltd/id1318106999?mt=8",
+    "genreIds" : [ 
+        "6017",
+        "6002"
+      ],
+    "genres" : [ 
+        "Education",
+        "Utilities"
+      ],
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple118/v4/5e/fe/d8/5efed851-111c-a20f-5f65-8958f678cc94/AppIcon-1x_U007emarketing-85-220-6.png/200x200bb.png",
+    "id" : "631173800",
+    "released" : "2013-04-16",
+    "title" : "NZ Driving Theory Test",
+    "url" : "https://itunes.apple.com/nz/app/nz-driving-theory-test/id631173800?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "MyFitnessPal.com",
+    "developerId" : 341232721,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/myfitnesspal-com/id341232721?mt=8",
+    "genreIds" : [ 
+        "6013",
+        "6012"
+      ],
+    "genres" : [ 
+        "Health & Fitness",
+        "Lifestyle"
+      ],
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple128/v4/2c/cc/c1/2cccc1c4-e3f5-75ff-20ac-aea2e522b27e/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-6.png/200x200bb.png",
+    "id" : "341232718",
+    "released" : "2009-12-08",
+    "title" : "MyFitnessPal",
+    "url" : "https://itunes.apple.com/nz/app/myfitnesspal/id341232718?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Grindr LLC",
+    "developerId" : 308956626,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/grindr-llc/id308956626?mt=8",
+    "genreIds" : [ 
+        "6005",
+        "6012"
+      ],
+    "genres" : [ 
+        "Social Networking",
+        "Lifestyle"
+      ],
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple128/v4/f7/fd/a4/f7fda4f0-8b09-c6ad-9aff-93fa6054dd40/AppIcon-1x_U007emarketing-85-220-8.png/200x200bb.png",
+    "id" : "319881193",
+    "released" : "2009-06-25",
+    "title" : "Grindr - Gay chat",
+    "url" : "https://itunes.apple.com/nz/app/grindr-gay-chat/id319881193?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Perry Street Software, Inc",
+    "developerId" : 359579430,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/perry-street-software-inc/id359579430?mt=8",
+    "genreIds" : [ 
+        "6005",
+        "6012"
+      ],
+    "genres" : [ 
+        "Social Networking",
+        "Lifestyle"
+      ],
+    "icon" : "http://is5.mzstatic.com/image/thumb/Purple128/v4/9b/cb/ff/9bcbfff0-1d7c-4cd4-7764-16581c3db16e/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-6.png/200x200bb.png",
+    "id" : "380015247",
+    "released" : "2010-07-24",
+    "title" : "SCRUFF",
+    "url" : "https://itunes.apple.com/nz/app/scruff/id380015247?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Com2uS Corp.",
+    "developerId" : 299175870,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/com2us-corp/id299175870?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7015",
+        "6016",
+        "7016"
+      ],
+    "genres" : [ 
+        "Games",
+        "Simulation",
+        "Entertainment",
+        "Sports"
+      ],
+    "icon" : "http://is1.mzstatic.com/image/thumb/Purple62/v4/c1/fa/8b/c1fa8bd4-619b-8f38-fdf8-fef34b932625/AppIcon-1x_U007emarketing-85-220-8.png/200x200bb.png",
+    "id" : "1059665257",
+    "released" : "2016-10-13",
+    "title" : "MLB 9 Innings 17",
+    "url" : "https://itunes.apple.com/nz/app/mlb-9-innings-17/id1059665257?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "gu yunhe",
+    "developerId" : 1273162444,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/gu-yunhe/id1273162444?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7019",
+        "6016",
+        "7012"
+      ],
+    "genres" : [ 
+        "Games",
+        "Word",
+        "Entertainment",
+        "Puzzle"
+      ],
+    "icon" : "http://is1.mzstatic.com/image/thumb/Purple128/v4/dc/85/e0/dc85e015-9306-cefa-06ed-b291422ea388/AppIcon-1x_U007emarketing-P3-85-220-7.png/200x200bb.png",
+    "id" : "1273162445",
+    "released" : "2017-08-23",
+    "title" : "Word Crossy -  Find right word",
+    "url" : "https://itunes.apple.com/nz/app/word-crossy-find-right-word/id1273162445?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Zynga Inc.",
+    "developerId" : 295913422,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/zynga-inc/id295913422?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "6016",
+        "7005",
+        "7006"
+      ],
+    "genres" : [ 
+        "Games",
+        "Entertainment",
+        "Card",
+        "Casino"
+      ],
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple118/v4/f8/3c/e0/f83ce0cf-31bc-2aa0-a92e-a85c338ce185/mzl.ooauauel.jpg/200x200bb.png",
+    "id" : "354902315",
+    "released" : "2010-05-14",
+    "title" : "Zynga Poker - Texas Holdem",
+    "url" : "https://itunes.apple.com/nz/app/zynga-poker-texas-holdem/id354902315?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "NBA",
+    "developerId" : 398083945,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/nba/id398083945?mt=8",
+    "genreIds" : [ 
+        "6004",
+        "6016"
+      ],
+    "genres" : [ 
+        "Sports",
+        "Entertainment"
+      ],
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple62/v4/32/9e/b4/329eb4a6-988e-26a8-2dd1-1f24133e806f/AppIcon-1x_U007emarketing-85-220-0-6.png/200x200bb.png",
+    "id" : "484672289",
+    "released" : "2011-12-21",
+    "title" : "2017-18 NBA App",
+    "url" : "https://itunes.apple.com/nz/app/2017-18-nba-app/id484672289?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Vigor Apps",
+    "developerId" : 1030347244,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/vigor-apps/id1030347244?mt=8",
+    "genreIds" : [ 
+        "6013",
+        "6012"
+      ],
+    "genres" : [ 
+        "Health & Fitness",
+        "Lifestyle"
+      ],
+    "icon" : "http://is5.mzstatic.com/image/thumb/Purple118/v4/c8/80/24/c880243d-f843-b482-5ab8-00e98ac1b8db/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-9.png/200x200bb.png",
+    "id" : "1099771240",
+    "released" : "2016-04-09",
+    "title" : "30 Days Workouts My Tracker",
+    "url" : "https://itunes.apple.com/nz/app/30-days-workouts-my-tracker/id1099771240?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "FunPlus",
+    "developerId" : 495598783,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/funplus/id495598783?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7014",
+        "7017",
+        "6005"
+      ],
+    "genres" : [ 
+        "Games",
+        "Role-Playing",
+        "Strategy",
+        "Social Networking"
+      ],
+    "icon" : "http://is1.mzstatic.com/image/thumb/Purple118/v4/d8/09/43/d80943fe-e5eb-6074-5176-b5c03d0001b9/mzl.lqpvyrjz.jpg/200x200bb.png",
+    "id" : "1084930849",
+    "released" : "2016-07-13",
+    "title" : "King of Avalon: Dragon Warfare",
+    "url" : "https://itunes.apple.com/nz/app/king-of-avalon-dragon-warfare/id1084930849?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Electronic Arts",
+    "developerId" : 284800461,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/electronic-arts/id284800461?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7002",
+        "7015"
+      ],
+    "genres" : [ 
+        "Games",
+        "Adventure",
+        "Simulation"
+      ],
+    "icon" : "http://is5.mzstatic.com/image/thumb/Purple128/v4/f9/9a/7c/f99a7ce8-bbc6-0674-3f40-636d4de10cec/AppIcon-1x_U007emarketing-0-85-220-0-6.png/200x200bb.png",
+    "id" : "466966101",
+    "released" : "2011-12-15",
+    "title" : "The Sims™ FreePlay",
+    "url" : "https://itunes.apple.com/nz/app/the-sims-freeplay/id466966101?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "NetEase Games",
+    "developerId" : 874255382,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/netease-games/id874255382?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7001",
+        "7002"
+      ],
+    "genres" : [ 
+        "Games",
+        "Action",
+        "Adventure"
+      ],
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple62/v4/fe/b0/b3/feb0b3dc-1511-37c4-dd5c-21ccf25ce74d/AppIcon-1x_U007emarketing-85-220-0-6.png/200x200bb.png",
+    "id" : "1307961750",
+    "released" : "2017-11-14",
+    "title" : "Rules of Survival",
+    "url" : "https://itunes.apple.com/nz/app/rules-of-survival/id1307961750?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Radish Media",
+    "developerId" : 1076491464,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/radish-media/id1076491464?mt=8",
+    "genreIds" : [ 
+        "6018",
+        "6016"
+      ],
+    "genres" : [ 
+        "Books",
+        "Entertainment"
+      ],
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple128/v4/84/55/f0/8455f058-9be5-9cca-aa4e-274cce238af5/AppIcon-1x_U007emarketing-85-220-0-5.png/200x200bb.png",
+    "id" : "1076491465",
+    "released" : "2016-02-14",
+    "title" : "Radish — Fiction Serials",
+    "url" : "https://itunes.apple.com/nz/app/radish-fiction-serials/id1076491465?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "droidhang",
+    "developerId" : 463987809,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/droidhang/id463987809?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7017",
+        "7014"
+      ],
+    "genres" : [ 
+        "Games",
+        "Strategy",
+        "Role-Playing"
+      ],
+    "icon" : "http://is2.mzstatic.com/image/thumb/Purple118/v4/a8/4d/bf/a84dbf1d-678d-a1ba-41f6-433c2a2bed14/AppIcon-1x_U007emarketing-0-85-220-0-9.png/200x200bb.png",
+    "id" : "1153461915",
+    "released" : "2016-11-09",
+    "title" : "Idle Heroes - Idle Games",
+    "url" : "https://itunes.apple.com/nz/app/idle-heroes-idle-games/id1153461915?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "FunPlus",
+    "developerId" : 495598783,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/funplus/id495598783?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7017",
+        "7014"
+      ],
+    "genres" : [ 
+        "Games",
+        "Strategy",
+        "Role-Playing"
+      ],
+    "icon" : "http://is5.mzstatic.com/image/thumb/Purple118/v4/19/49/d0/1949d0e6-6541-c17f-f90c-f95331da0064/mzl.tumazkjc.png/200x200bb.png",
+    "id" : "1274354704",
+    "released" : "2017-09-21",
+    "title" : "Guns of Glory",
+    "url" : "https://itunes.apple.com/nz/app/guns-of-glory/id1274354704?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Supercell",
+    "developerId" : 488106216,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/supercell/id488106216?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7017",
+        "6016",
+        "7001"
+      ],
+    "genres" : [ 
+        "Games",
+        "Strategy",
+        "Entertainment",
+        "Action"
+      ],
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple118/v4/58/28/9e/58289ecc-f6e3-e79b-a183-258f5aedbedf/AppIcon-1x_U007emarketing-0-85-220-0-5.png/200x200bb.png",
+    "id" : "1053012308",
+    "released" : "2016-01-04",
+    "title" : "Clash Royale",
+    "url" : "https://itunes.apple.com/nz/app/clash-royale/id1053012308?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Avid.ly",
+    "developerId" : 1181305700,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/avid-ly/id1181305700?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7004",
+        "7006"
+      ],
+    "genres" : [ 
+        "Games",
+        "Board",
+        "Casino"
+      ],
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple118/v4/74/48/60/74486046-107d-bf3c-df3c-78728847421f/AppIcon-1x_U007emarketing-85-220-6.png/200x200bb.png",
+    "id" : "1265838130",
+    "released" : "2017-08-10",
+    "title" : "Bingo Party- BINGO Games",
+    "url" : "https://itunes.apple.com/nz/app/bingo-party-bingo-games/id1265838130?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Tap4Fun",
+    "developerId" : 446315550,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/tap4fun/id446315550?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7015",
+        "7017"
+      ],
+    "genres" : [ 
+        "Games",
+        "Simulation",
+        "Strategy"
+      ],
+    "icon" : "http://is5.mzstatic.com/image/thumb/Purple128/v4/d1/e7/8c/d1e78c17-2012-a94c-e232-8f8a6bd10307/AppIcon-1x_U007emarketing-0-85-220-0-7.png/200x200bb.png",
+    "id" : "1156787368",
+    "released" : "2016-11-08",
+    "title" : "Brutal Age: Horde Invasion",
+    "url" : "https://itunes.apple.com/nz/app/brutal-age-horde-invasion/id1156787368?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Visual Supply Company",
+    "developerId" : 513526768,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/visual-supply-company/id513526768?mt=8",
+    "genreIds" : [ 
+        "6008",
+        "6012"
+      ],
+    "genres" : [ 
+        "Photo & Video",
+        "Lifestyle"
+      ],
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple128/v4/ed/2e/60/ed2e60a6-e687-7cdc-28e0-d7c6782883d8/AppIcon-1x_U007emarketing-85-220-0-5.png/200x200bb.png",
+    "id" : "588013838",
+    "released" : "2013-06-06",
+    "title" : "VSCO",
+    "url" : "https://itunes.apple.com/nz/app/vsco/id588013838?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Monkimun Inc",
+    "developerId" : 777748110,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/monkimun-inc/id777748110?mt=8",
+    "genreIds" : [ 
+        "6017",
+        "6016"
+      ],
+    "genres" : [ 
+        "Education",
+        "Entertainment"
+      ],
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple118/v4/8d/bc/fa/8dbcfae4-69fb-2f2a-4e05-df7ce099111f/AppIcon-1x_U007emarketing-85-220-5.png/200x200bb.png",
+    "id" : "1002043426",
+    "released" : "2015-09-11",
+    "title" : "Lingokids English for Kids",
+    "url" : "https://itunes.apple.com/nz/app/lingokids-english-for-kids/id1002043426?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Warner Bros.",
+    "developerId" : 298372283,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/warner-bros/id298372283?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7017",
+        "7001"
+      ],
+    "genres" : [ 
+        "Games",
+        "Strategy",
+        "Action"
+      ],
+    "icon" : "http://is1.mzstatic.com/image/thumb/Purple128/v4/9e/53/92/9e53928b-1ad1-6be4-e69f-dbb71670e614/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/200x200bb.png",
+    "id" : "1035712810",
+    "released" : "2017-10-05",
+    "title" : "Game of Thrones: Conquest™",
+    "url" : "https://itunes.apple.com/nz/app/game-of-thrones-conquest/id1035712810?mt=8"
+  }
+]

@@ -1,0 +1,522 @@
+[ 
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "BANDAI NAMCO Entertainment Europe",
+    "developerId" : 580781332,
+    "developerUrl" : "https://itunes.apple.com/no/developer/bandai-namco-entertainment-europe/id580781332?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "6016",
+        "7015",
+        "7014"
+      ],
+    "genres" : [ 
+        "Games",
+        "Entertainment",
+        "Simulation",
+        "Role-Playing"
+      ],
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple128/v4/40/e5/c4/40e5c45c-f28d-53a6-7a66-442d1544d685/AppIcon-1x_U007emarketing-0-85-220-0-8.png/200x200bb.png",
+    "id" : "1267861706",
+    "released" : "2018-03-14",
+    "title" : "My Tamagotchi Forever",
+    "url" : "https://itunes.apple.com/no/app/my-tamagotchi-forever/id1267861706?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "HyperBeard Games",
+    "developerId" : 1169188578,
+    "developerUrl" : "https://itunes.apple.com/no/developer/hyperbeard-games/id1169188578?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7002",
+        "7009",
+        "6016"
+      ],
+    "genres" : [ 
+        "Games",
+        "Adventure",
+        "Family",
+        "Entertainment"
+      ],
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple118/v4/c3/39/fe/c339fec0-87a7-928b-ab34-35b22aefd819/AppIcon-1x_U007emarketing-0-85-220-0-7.png/200x200bb.png",
+    "id" : "1329062940",
+    "released" : "2018-03-12",
+    "title" : "KleptoCats 2",
+    "url" : "https://itunes.apple.com/no/app/kleptocats-2/id1329062940?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "League of Geeks",
+    "developerId" : 1154749672,
+    "developerUrl" : "https://itunes.apple.com/no/developer/league-of-geeks/id1154749672?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7004",
+        "7017"
+      ],
+    "genres" : [ 
+        "Games",
+        "Board",
+        "Strategy"
+      ],
+    "icon" : "http://is5.mzstatic.com/image/thumb/Purple118/v4/d4/26/dd/d426dd4b-ba62-5c6d-70d5-b25fa4f0def1/AppIcon-1x_U007emarketing-85-220-0-8.png/200x200bb.png",
+    "id" : "1154749673",
+    "released" : "2018-03-15",
+    "title" : "Armello",
+    "url" : "https://itunes.apple.com/no/app/armello/id1154749673?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "GameHouse",
+    "developerId" : 284837569,
+    "developerUrl" : "https://itunes.apple.com/no/developer/gamehouse/id284837569?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7002",
+        "7015"
+      ],
+    "genres" : [ 
+        "Games",
+        "Adventure",
+        "Simulation"
+      ],
+    "icon" : "http://is3.mzstatic.com/image/thumb/Purple128/v4/4b/42/cb/4b42cbd4-8bd1-7042-d623-6785c319c75e/AppIcon-1x_U007emarketing-85-220-8.png/200x200bb.png",
+    "id" : "1242210377",
+    "released" : "2018-02-22",
+    "title" : "Parker & Lane",
+    "url" : "https://itunes.apple.com/no/app/parker-lane/id1242210377?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Distinctive Games",
+    "developerId" : 449857163,
+    "developerUrl" : "https://itunes.apple.com/no/developer/distinctive-games/id449857163?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7016",
+        "7001",
+        "6004"
+      ],
+    "genres" : [ 
+        "Games",
+        "Sports",
+        "Action",
+        "Sports"
+      ],
+    "icon" : "http://is5.mzstatic.com/image/thumb/Purple118/v4/e4/c7/e3/e4c7e32d-79c2-ae46-1b06-61e1498ab96c/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/200x200bb.png",
+    "id" : "1334710563",
+    "released" : "2018-03-07",
+    "title" : "Rugby League 18",
+    "url" : "https://itunes.apple.com/no/app/rugby-league-18/id1334710563?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "PlayStack Ltd",
+    "developerId" : 1133080356,
+    "developerUrl" : "https://itunes.apple.com/no/developer/playstack-ltd/id1133080356?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7012",
+        "7003"
+      ],
+    "genres" : [ 
+        "Games",
+        "Puzzle",
+        "Arcade"
+      ],
+    "icon" : "http://is1.mzstatic.com/image/thumb/Purple128/v4/24/b1/8d/24b18d9b-1970-7015-ec30-445e6eab064a/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-8.png/200x200bb.png",
+    "id" : "1324982051",
+    "released" : "2018-03-08",
+    "title" : "Mowy Lawn",
+    "url" : "https://itunes.apple.com/no/app/mowy-lawn/id1324982051?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "VLADISLAV VASILEV",
+    "developerId" : 1349721462,
+    "developerUrl" : "https://itunes.apple.com/no/developer/vladislav-vasilev/id1349721462?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7001",
+        "7002"
+      ],
+    "genres" : [ 
+        "Games",
+        "Action",
+        "Adventure"
+      ],
+    "icon" : "http://is5.mzstatic.com/image/thumb/Purple118/v4/6d/4f/3a/6d4f3a5e-0afe-f992-bf18-f6d1937452a0/AppIcon-1x_U007emarketing-0-P3-85-220-0-5.png/200x200bb.png",
+    "id" : "1349721463",
+    "released" : "2018-02-27",
+    "title" : "Slash of Sword",
+    "url" : "https://itunes.apple.com/no/app/slash-of-sword/id1349721463?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Kyrylo Kuzyk",
+    "developerId" : 1096049714,
+    "developerUrl" : "https://itunes.apple.com/no/developer/kyrylo-kuzyk/id1096049714?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7012"
+      ],
+    "genres" : [ 
+        "Games",
+        "Puzzle"
+      ],
+    "icon" : "http://is3.mzstatic.com/image/thumb/Purple118/v4/92/51/da/9251dac2-0cf9-0127-c417-f9f1c5236db8/AppIcon-1x_U007emarketing-85-220-7.png/200x200bb.png",
+    "id" : "1244456273",
+    "released" : "2018-03-12",
+    "title" : ".projekt",
+    "url" : "https://itunes.apple.com/no/app/projekt/id1244456273?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Your Story Interactive",
+    "developerId" : 1227198091,
+    "developerUrl" : "https://itunes.apple.com/no/developer/your-story-interactive/id1227198091?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7002",
+        "6018",
+        "7015"
+      ],
+    "genres" : [ 
+        "Games",
+        "Adventure",
+        "Books",
+        "Simulation"
+      ],
+    "icon" : "http://is1.mzstatic.com/image/thumb/Purple118/v4/cc/96/ce/cc96ceb7-d9ce-3181-ccde-a1b038a148d2/AppIcon-1x_U007emarketing-85-220-0-8.png/200x200bb.png",
+    "id" : "1227198092",
+    "released" : "2017-04-20",
+    "title" : "Survival-quest ZARYA-1 STATION",
+    "url" : "https://itunes.apple.com/no/app/survival-quest-zarya-1-station/id1227198092?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Simple Machine, LLC",
+    "developerId" : 440559596,
+    "developerUrl" : "https://itunes.apple.com/no/developer/simple-machine-llc/id440559596?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7012",
+        "7003"
+      ],
+    "genres" : [ 
+        "Games",
+        "Puzzle",
+        "Arcade"
+      ],
+    "icon" : "http://is1.mzstatic.com/image/thumb/Purple128/v4/9f/97/cf/9f97cff4-0e8d-e251-0044-1ac90b547f3a/AppIcon-1x_U007emarketing-0-85-220-0-5.png/200x200bb.png",
+    "id" : "1315674869",
+    "released" : "2018-03-15",
+    "title" : "_-_",
+    "url" : "https://itunes.apple.com/no/app//id1315674869?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Toast - Apps and Software LLC",
+    "developerId" : 393055476,
+    "developerUrl" : "https://itunes.apple.com/no/developer/toast-apps-and-software-llc/id393055476?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7015",
+        "7017"
+      ],
+    "genres" : [ 
+        "Games",
+        "Simulation",
+        "Strategy"
+      ],
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple118/v4/f8/28/8e/f8288e88-9196-5c5e-2277-d018258e72fa/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-6.png/200x200bb.png",
+    "id" : "1296964678",
+    "released" : "2018-03-09",
+    "title" : "Pixel Plex",
+    "url" : "https://itunes.apple.com/no/app/pixel-plex/id1296964678?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "DIGITAL MELODY GAMES KITAJEWSKI I STALEWSKI SPOLKA JAWNA",
+    "developerId" : 774942875,
+    "developerUrl" : "https://itunes.apple.com/no/developer/digital-melody-games-kitajewski-i-stalewski-spolka-jawna/id774942875?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7002",
+        "6016",
+        "7003"
+      ],
+    "genres" : [ 
+        "Games",
+        "Adventure",
+        "Entertainment",
+        "Arcade"
+      ],
+    "icon" : "http://is1.mzstatic.com/image/thumb/Purple128/v4/d0/80/49/d080492d-7ae6-535b-9744-1f90d3e29f82/AppIcon-1x_U007emarketing-0-85-220-0-8.png/200x200bb.png",
+    "id" : "1272045722",
+    "released" : "2018-03-14",
+    "title" : "Runventure",
+    "url" : "https://itunes.apple.com/no/app/runventure/id1272045722?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Kwalee",
+    "developerId" : 497961736,
+    "developerUrl" : "https://itunes.apple.com/no/developer/kwalee/id497961736?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7012",
+        "7003"
+      ],
+    "genres" : [ 
+        "Games",
+        "Puzzle",
+        "Arcade"
+      ],
+    "icon" : "http://is1.mzstatic.com/image/thumb/Purple128/v4/6b/ab/97/6bab970c-2cdd-0f99-1f1a-d6f339587713/AppIcon-1x_U007emarketing-85-220-8.png/200x200bb.png",
+    "id" : "1273311118",
+    "released" : "2018-03-14",
+    "title" : "SPILLZ",
+    "url" : "https://itunes.apple.com/no/app/spillz/id1273311118?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Monospect",
+    "developerId" : 1039237569,
+    "developerUrl" : "https://itunes.apple.com/no/developer/monospect/id1039237569?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7009",
+        "7017"
+      ],
+    "genres" : [ 
+        "Games",
+        "Family",
+        "Strategy"
+      ],
+    "icon" : "http://is3.mzstatic.com/image/thumb/Purple62/v4/ff/6d/36/ff6d36d3-b4e2-dc25-dd04-f693d5558e3e/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-5.png/200x200bb.png",
+    "id" : "1323503445",
+    "released" : "2018-02-16",
+    "title" : "Fishing Boss",
+    "url" : "https://itunes.apple.com/no/app/fishing-boss/id1323503445?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Leonid Bondar",
+    "developerId" : 1309526646,
+    "developerUrl" : "https://itunes.apple.com/no/developer/leonid-bondar/id1309526646?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7003",
+        "7002"
+      ],
+    "genres" : [ 
+        "Games",
+        "Arcade",
+        "Adventure"
+      ],
+    "icon" : "http://is2.mzstatic.com/image/thumb/Purple128/v4/27/67/e7/2767e7bc-fdc0-c408-3a35-d0592c318454/mzl.euddahul.png/200x200bb.png",
+    "id" : "1319959051",
+    "released" : "2018-01-31",
+    "title" : "Flaky's Adventure",
+    "url" : "https://itunes.apple.com/no/app/flakys-adventure/id1319959051?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Thomas Hunter",
+    "developerId" : 1033673015,
+    "developerUrl" : "https://itunes.apple.com/no/developer/thomas-hunter/id1033673015?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7012",
+        "7002"
+      ],
+    "genres" : [ 
+        "Games",
+        "Puzzle",
+        "Adventure"
+      ],
+    "icon" : "http://is5.mzstatic.com/image/thumb/Purple128/v4/9a/05/49/9a0549b8-8f08-2028-97f7-91cb52140628/AppIcon-1x_U007emarketing-85-220-0-9.png/200x200bb.png",
+    "id" : "1358142772",
+    "released" : "2018-03-12",
+    "title" : "Cobalt Dungeon",
+    "url" : "https://itunes.apple.com/no/app/cobalt-dungeon/id1358142772?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "MOBIRIX",
+    "developerId" : 349276666,
+    "developerUrl" : "https://itunes.apple.com/no/developer/mobirix/id349276666?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7002",
+        "7003",
+        "6016"
+      ],
+    "genres" : [ 
+        "Games",
+        "Adventure",
+        "Arcade",
+        "Entertainment"
+      ],
+    "icon" : "http://is1.mzstatic.com/image/thumb/Purple118/v4/53/a3/ee/53a3eeeb-8568-ddde-d7c7-aa3752dec382/AppIcon-1x_U007emarketing-85-220-5.png/200x200bb.png",
+    "id" : "1335884905",
+    "released" : "2018-03-13",
+    "title" : "Jump Knights",
+    "url" : "https://itunes.apple.com/no/app/jump-knights/id1335884905?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "THUMBAGE",
+    "developerId" : 1281424636,
+    "developerUrl" : "https://itunes.apple.com/no/developer/thumbage/id1281424636?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7017",
+        "7015"
+      ],
+    "genres" : [ 
+        "Games",
+        "Strategy",
+        "Simulation"
+      ],
+    "icon" : "http://is1.mzstatic.com/image/thumb/Purple128/v4/a1/32/dc/a132dc6c-0f82-d359-7d01-b18b559ce298/AppIcon-1x_U007emarketing-85-220-8.png/200x200bb.png",
+    "id" : "1102308668",
+    "released" : "2018-03-06",
+    "title" : "INTERPLANET",
+    "url" : "https://itunes.apple.com/no/app/interplanet/id1102308668?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Shaking Sheep Studio Limited",
+    "developerId" : 918820445,
+    "developerUrl" : "https://itunes.apple.com/no/developer/shaking-sheep-studio-limited/id918820445?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7004",
+        "7012"
+      ],
+    "genres" : [ 
+        "Games",
+        "Board",
+        "Puzzle"
+      ],
+    "icon" : "http://is1.mzstatic.com/image/thumb/Purple62/v4/75/10/7c/75107c6f-a33d-cfc4-cb34-0851d88f78cb/AppIcon-1x_U007emarketing-0-85-220-0-8.png/200x200bb.png",
+    "id" : "1238082002",
+    "released" : "2018-02-07",
+    "title" : "Pong Pong Egg",
+    "url" : "https://itunes.apple.com/no/app/pong-pong-egg/id1238082002?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Upopa Entertainment Ltd",
+    "developerId" : 1140797199,
+    "developerUrl" : "https://itunes.apple.com/no/developer/upopa-entertainment-ltd/id1140797199?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7001",
+        "7014",
+        "6016"
+      ],
+    "genres" : [ 
+        "Games",
+        "Action",
+        "Role-Playing",
+        "Entertainment"
+      ],
+    "icon" : "http://is3.mzstatic.com/image/thumb/Purple128/v4/89/95/95/899595f0-baa4-d474-60e0-29683f3f64b1/AppIcon-1x_U007emarketing-0-85-220-0-8.png/200x200bb.png",
+    "id" : "1289141566",
+    "released" : "2018-03-14",
+    "title" : "Hopeless Heroes: Tap Attack",
+    "url" : "https://itunes.apple.com/no/app/hopeless-heroes-tap-attack/id1289141566?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Laurent Bakowski",
+    "developerId" : 1099632510,
+    "developerUrl" : "https://itunes.apple.com/no/developer/laurent-bakowski/id1099632510?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7003"
+      ],
+    "genres" : [ 
+        "Games",
+        "Arcade"
+      ],
+    "icon" : "http://is1.mzstatic.com/image/thumb/Purple118/v4/51/ce/93/51ce9360-884d-d8d4-b9a6-978e4d084de9/AppIcon-1x_U007emarketing-85-220-6.png/200x200bb.png",
+    "id" : "1349712193",
+    "released" : "2018-03-13",
+    "title" : "2 Knights",
+    "url" : "https://itunes.apple.com/no/app/2-knights/id1349712193?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Appsolute Games LLC",
+    "developerId" : 602062365,
+    "developerUrl" : "https://itunes.apple.com/no/developer/appsolute-games-llc/id602062365?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7003",
+        "7001",
+        "6016"
+      ],
+    "genres" : [ 
+        "Games",
+        "Arcade",
+        "Action",
+        "Entertainment"
+      ],
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple128/v4/27/a4/ce/27a4ceba-d020-69f6-030c-4e49e7a18937/AppIcon-1x_U007emarketing-85-220-8.png/200x200bb.png",
+    "id" : "1345028045",
+    "released" : "2018-03-14",
+    "title" : "Quick Jumps!",
+    "url" : "https://itunes.apple.com/no/app/quick-jumps/id1345028045?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Kiseki Games",
+    "developerId" : 1192670762,
+    "developerUrl" : "https://itunes.apple.com/no/developer/kiseki-games/id1192670762?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7001",
+        "6016",
+        "7003"
+      ],
+    "genres" : [ 
+        "Games",
+        "Action",
+        "Entertainment",
+        "Arcade"
+      ],
+    "icon" : "http://is5.mzstatic.com/image/thumb/Purple62/v4/ba/bd/16/babd16a5-ef28-9cb5-bfa3-abc73a6678c3/AppIcon-1x_U007emarketing-0-P3-85-220-0-7.png/200x200bb.png",
+    "id" : "1348577303",
+    "released" : "2018-03-14",
+    "title" : "Go Go Jelly!",
+    "url" : "https://itunes.apple.com/no/app/go-go-jelly/id1348577303?mt=8"
+  }
+]
