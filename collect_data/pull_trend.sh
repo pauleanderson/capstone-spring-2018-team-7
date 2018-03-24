@@ -15,13 +15,11 @@ do
         node ~/capstone-spring-2018-team-7/collect_data/gplay_${chart}.js -c $country -i 300 | sed '$ s/.$//' | sed '1s/^.//' > ~/capstone-spring-2018-team-7/collect_data/trend/${chart}_300.json
         i=$(grep -c 'rror: Error\|ypeError' ~/capstone-spring-2018-team-7/collect_data/trend/${chart}_300.json)
         i2=$(grep -xc '^[[:space:]]*$' ~/capstone-spring-2018-team-7/collect_data/trend/${chart}_300.json)
-        echo $i2
         until [ $i -eq 0 ] && [ $i2 -eq 0 ]
         do
             node ~/capstone-spring-2018-team-7/collect_data/gplay_${chart}.js -c $country -i 300 | sed '$ s/.$//' | sed '1s/^.//' > ~/capstone-spring-2018-team-7/collect_data/trend/${chart}_300.json 
             i=$(grep -c 'rror: Error\|ypeError' ~/capstone-spring-2018-team-7/collect_data/trend/${chart}_300.json)
             i2=$(grep -xc '^[[:space:]]*$' ~/capstone-spring-2018-team-7/collect_data/trend/${chart}_300.json)
-            echo $i2
         done 
     
         node ~/capstone-spring-2018-team-7/collect_data/gplay_${chart}.js -c $country -i 350 | sed '$ s/.$//' | sed '1s/^.//' > ~/capstone-spring-2018-team-7/collect_data/trend/${chart}_350.json 
