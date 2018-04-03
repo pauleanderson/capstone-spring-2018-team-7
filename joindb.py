@@ -53,8 +53,14 @@ def last_five_days(df):
 def first_delta (df, row):
   return row[len(df.columns)-2]-row[len(df.columns)-1]
 
-#australia
+#country initialzation
 df_au = pick_country(set_apple(), 'au')
+df_nz = pick_country(set_apple(), 'nz')
+df_se = pick_country(set_apple(), 'se')
+df_dk = pick_country(set_apple(), 'dk')
+df_no = pick_country(set_apple(), 'no')
+df_at = pick_country(set_apple(), 'at')
+df_ph = pick_country(set_apple(), 'ph')
 
 #Build the pivot table
 pivot_au = df_au.pivot_table(index = ["title", "chart"], columns = "date", values = "rank")
@@ -62,9 +68,11 @@ pivot_au = pivot_au.fillna(101)
 #print(pivot.to_string().translate(unicode()))
 
 
-pivot_au['delta rank1'] = pivot_au.apply (lambda row: first_delta (pivot_au, row),axis=1)
+pivot_au['delta rank0'] = pivot_au.apply (lambda row: first_delta (pivot_au, row),axis=1)
 print(pivot_au.to_string().translate(unicode()))
+
 #print(pivot["delta rank1"].max())
+
 print("")
 print("")
 print("")
@@ -86,6 +94,7 @@ pivot_nz = pivot_nz.fillna(101)
 
 pivot_nz['delta rank2'] = pivot_nz.apply (lambda row: first_delta (pivot_nz, row),axis=1)
 print(pivot_nz.to_string().translate(unicode()))
+'''
 #print(pivot["delta rank1"].max())
 print("")
 print("")
@@ -94,7 +103,7 @@ print("The 3 bigest positive change over last 4 days in nz.")
 print(pivot_au.nlargest(3,"delta rank2"))
 print(len(pivot))
 print("")
-
+'''
 #se 
 
 df_se = pick_country(set_apple(), 'se')
@@ -108,6 +117,7 @@ pivot_se = pivot_se.fillna(101)
 pivot_se['delta rank3'] = pivot_se.apply (lambda row: first_delta (pivot_se, row),axis=1)
 print(pivot_se.to_string().translate(unicode()))
 #print(pivot["delta rank1"].max())
+'''
 print("")
 print("")
 print("")
@@ -115,9 +125,9 @@ print("The 3 bigest positive change over last 4 days in se.")
 print(pivot_se.nlargest(3,"delta rank3"))
 print(len(pivot))
 print("")
+'''
 
-
-#dk no at ph
+#dk 
 
 
 df_dk = pick_country(set_apple(), 'dk')
@@ -128,18 +138,20 @@ pivot_dk = pivot_dk.fillna(101)
 #print(pivot.to_string().translate(unicode()))
 
 
-pivot_dk['delta rank3'] = pivot_dk.apply (lambda row: first_delta (pivot_dk, row),axis=1)
+pivot_dk['delta rank4'] = pivot_dk.apply (lambda row: first_delta (pivot_dk, row),axis=1)
 print(pivot_dk.to_string().translate(unicode()))
 #print(pivot["delta rank1"].max())
+'''
 print("")
 print("")
 print("")
-print("The 3 bigest positive change over last 4 days in se.")
+print("The 3 bigest positive change over last 4 days in dk.")
 print(pivot_dk.nlargest(3,"delta rank4"))
 #print(len(pivot))
 print("")
 
-#no at ph
+'''
+#no 
 
 df_no = pick_country(set_apple(), 'no')
 
@@ -149,17 +161,19 @@ pivot_no = pivot_no.fillna(101)
 #print(pivot.to_string().translate(unicode()))
 
 
-pivot_no['delta rank3'] = pivot_no.apply (lambda row: first_delta (pivot_no, row),axis=1)
+pivot_no['delta rank5'] = pivot_no.apply (lambda row: first_delta (pivot_no, row),axis=1)
 print(pivot_no.to_string().translate(unicode()))
 #print(pivot["delta rank1"].max())
+'''
 print("")
 print("")
 print("")
-print("The 3 bigest positive change over last 4 days in se.")
+print("The 3 bigest positive change over last 4 days in no.")
 print(pivot_no.nlargest(3,"delta rank5"))
 #print(len(pivot))
 print("")
 
+'''
 #at 
 df_at = pick_country(set_apple(), 'at')
 
@@ -169,17 +183,18 @@ pivot_at = pivot_at.fillna(101)
 #print(pivot.to_string().translate(unicode()))
 
 
-pivot_at['delta rank3'] = pivot_at.apply (lambda row: first_delta (pivot_at, row),axis=1)
+pivot_at['delta rank6'] = pivot_at.apply (lambda row: first_delta (pivot_at, row),axis=1)
 print(pivot_at.to_string().translate(unicode()))
 #print(pivot["delta rank1"].max())
+'''
 print("")
 print("")
 print("")
-print("The 3 bigest positive change over last 4 days in se.")
+print("The 3 bigest positive change over last 4 days in at.")
 print(pivot_at.nlargest(3,"delta rank5"))
 #print(len(pivot))
 print("")
-
+'''
 
 #ph
 df_ph = pick_country(set_apple(), 'ph')
@@ -190,18 +205,21 @@ pivot_ph = pivot_ph.fillna(101)
 #print(pivot.to_string().translate(unicode()))
 
 
-pivot_ph['delta rank3'] = pivot_ph.apply (lambda row: first_delta (pivot_ph, row),axis=1)
+pivot_ph['delta rank7'] = pivot_ph.apply (lambda row: first_delta (pivot_ph, row),axis=1)
 print(pivot_ph.to_string().translate(unicode()))
 #print(pivot["delta rank1"].max())
+'''
 print("")
 print("")
 print("")
-print("The 3 bigest positive change over last 4 days in se.")
+print("The 3 bigest positive change over last 4 days in ph.")
 print(pivot_ph.nlargest(3,"delta rank5"))
 #print(len(pivot))
 print("")
-
+'''
 #print(pivot.loc[pivot["delta rank1"].idxmax()])
+
+
 
 
 #Need to find a way to grab genre[1] and make sure its gaming.
