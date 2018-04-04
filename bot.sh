@@ -1,0 +1,1 @@
+$ curl -X POST -H 'Content-type: application/json' --data '{"text":"Allow me to reintrode myself!"}' https://hooks.slack.com/services/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
