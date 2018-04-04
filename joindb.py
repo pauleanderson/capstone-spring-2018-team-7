@@ -65,23 +65,25 @@ df_ph = pick_country(set_apple(), 'ph')
 
 #Build the pivot table
 pivot_au = df_au.pivot_table(index = ["title", "chart"], columns = "date", values = "rank")
-pivot_au = pivot_au[,(pivot_au.columns - 5):]
+
+#pivot_au = pivot_au[pivot_au.shape[1] - 5:,]
+
 pivot_au = pivot_au.fillna(101)
-#print(pivot.to_string().translate(unicode()))
+pivot_au = pivot_au.iloc[:,pivot_au.shape[1]-6:]
 
 
-pivot_au['delta rank0'] = pivot_au.apply (lambda row: first_delta (pivot_au, row),axis=1)
+
+#pivot_au['delta rank0'] = pivot_au.apply (lambda row: first_delta (pivot_au, row),axis=1)
 print(pivot_au.to_string().translate(unicode()))
 
 #print(pivot["delta rank1"].max())
 
-print("")
-print("")
-print("")
-print("The 3 bigest positive change over last 4 days in australia:")
-print(pivot_au.nlargest(3,"delta rank1"))
-print("")
-
+#print("")
+#print("")
+#print("")
+#print("The 3 bigest positive change over last 4 days in australia:")
+#print(pivot_au.nlargest(3,"delta rank0"))
+#print("")
 #nz 
 
 
@@ -92,7 +94,7 @@ pivot_nz = pivot_nz.fillna(101)
 
 
 pivot_nz['delta rank2'] = pivot_nz.apply (lambda row: first_delta (pivot_nz, row),axis=1)
-print(pivot_nz.to_string().translate(unicode()))
+#print(pivot_nz.to_string().translate(unicode()))
 
 
 #Build the pivot table
@@ -102,7 +104,7 @@ pivot_se = pivot_se.fillna(101)
 
 
 pivot_se['delta rank3'] = pivot_se.apply (lambda row: first_delta (pivot_se, row),axis=1)
-print(pivot_se.to_string().translate(unicode()))
+#print(pivot_se.to_string().translate(unicode()))
 #print(pivot["delta rank1"].max())
 
 #dk 
@@ -111,7 +113,7 @@ pivot_dk = df_dk.pivot_table(index = ["title", "chart"], columns = "date", value
 pivot_dk = pivot_dk.fillna(101)
 #print(pivot.to_string().translate(unicode()))
 pivot_dk['delta rank4'] = pivot_dk.apply (lambda row: first_delta (pivot_dk, row),axis=1)
-print(pivot_dk.to_string().translate(unicode()))
+#print(pivot_dk.to_string().translate(unicode()))
 #print(pivot["delta rank1"].max())
 
 #no 
@@ -120,7 +122,7 @@ pivot_no = df_no.pivot_table(index = ["title", "chart"], columns = "date", value
 pivot_no = pivot_no.fillna(101)
 #print(pivot.to_string().translate(unicode()))
 pivot_no['delta rank5'] = pivot_no.apply (lambda row: first_delta (pivot_no, row),axis=1)
-print(pivot_no.to_string().translate(unicode()))
+#print(pivot_no.to_string().translate(unicode()))
 #print(pivot["delta rank1"].max())
 
 
@@ -130,7 +132,7 @@ pivot_at = df_at.pivot_table(index = ["title", "chart"], columns = "date", value
 pivot_at = pivot_at.fillna(101)
 #print(pivot.to_string().translate(unicode()))
 pivot_at['delta rank6'] = pivot_at.apply (lambda row: first_delta (pivot_at, row),axis=1)
-print(pivot_at.to_string().translate(unicode()))
+#print(pivot_at.to_string().translate(unicode()))
 #print(pivot["delta rank1"].max())
 
 #ph
@@ -139,13 +141,14 @@ pivot_ph = df_ph.pivot_table(index = ["title", "chart"], columns = "date", value
 pivot_ph = pivot_ph.fillna(101)
 #print(pivot.to_string().translate(unicode()))
 pivot_ph['delta rank7'] = pivot_ph.apply (lambda row: first_delta (pivot_ph, row),axis=1)
-print(pivot_ph.to_string().translate(unicode()))
+#print(pivot_ph.to_string().translate(unicode()))
 #print(pivot["delta rank1"].max())
 #print(pivot.loc[pivot["delta rank1"].idxmax()])
 
 
 #Need to find a way to grab genre[1] and make sure its gaming.
 #that code goes here
+
 
 
 #model

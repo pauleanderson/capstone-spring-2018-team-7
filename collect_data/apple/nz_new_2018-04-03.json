@@ -1,0 +1,346 @@
+[ 
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "FoxNext Games, LLC",
+    "developerId" : 1292952048,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/foxnext-games-llc/id1292952048?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7001",
+        "7014",
+        "6016"
+      ],
+    "genres" : [ 
+        "Games",
+        "Action",
+        "Role-Playing",
+        "Entertainment"
+      ],
+    "icon" : "http://is2.mzstatic.com/image/thumb/Purple128/v4/5d/90/51/5d905160-3237-d086-6e57-6da60db0e8b8/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-5.png/200x200bb.png",
+    "id" : "1292952049",
+    "released" : "2017-11-20",
+    "title" : "MARVEL Strike Force",
+    "url" : "https://itunes.apple.com/nz/app/marvel-strike-force/id1292952049?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Alex Vilassak",
+    "developerId" : 1320832434,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/alex-vilassak/id1320832434?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7003",
+        "7001"
+      ],
+    "genres" : [ 
+        "Games",
+        "Arcade",
+        "Action"
+      ],
+    "icon" : "https://is3-ssl.mzstatic.com/image/thumb/Purple62/v4/70/ba/73/70ba7394-7dc7-a3c1-276d-1215340fb439/AppIcon-1x_U007emarketing-85-220-0-8.png/200x200bb.png",
+    "id" : "1185071881",
+    "released" : "2018-03-28",
+    "title" : "OVIVO",
+    "url" : "https://itunes.apple.com/nz/app/ovivo/id1185071881?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "中手游",
+    "developerId" : 1173784973,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/%E4%B8%AD%E6%89%8B%E6%B8%B8/id1173784973?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7002",
+        "6016",
+        "7012"
+      ],
+    "genres" : [ 
+        "Games",
+        "Adventure",
+        "Entertainment",
+        "Puzzle"
+      ],
+    "icon" : "https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/8d/74/94/8d749455-13b1-9eea-47b5-98bb323117cc/AppIcon-1x_U007emarketing-85-220-8.png/200x200bb.png",
+    "id" : "1258488476",
+    "released" : "2018-03-27",
+    "title" : "Candleman",
+    "url" : "https://itunes.apple.com/nz/app/candleman/id1258488476?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Devolver Digital",
+    "developerId" : 457410262,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/devolver-digital/id457410262?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7012",
+        "6016",
+        "7002"
+      ],
+    "genres" : [ 
+        "Games",
+        "Puzzle",
+        "Entertainment",
+        "Adventure"
+      ],
+    "icon" : "https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/80/ef/c0/80efc06c-c454-4022-c108-367ac7358ebe/AppIcon-1x_U007emarketing-0-85-220-0-7.png/200x200bb.png",
+    "id" : "1354786786",
+    "released" : "2018-03-28",
+    "title" : "Umiro",
+    "url" : "https://itunes.apple.com/nz/app/umiro/id1354786786?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Kongregate",
+    "developerId" : 491569846,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/kongregate/id491569846?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7014",
+        "7002"
+      ],
+    "genres" : [ 
+        "Games",
+        "Role-Playing",
+        "Adventure"
+      ],
+    "icon" : "https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/13/75/dd/1375dd92-f28e-7df2-0ea3-38cc55b9a01e/AppIcon-1x_U007emarketing-0-85-220-0-8.png/200x200bb.png",
+    "id" : "1345705679",
+    "released" : "2018-03-28",
+    "title" : "Heroes of Rings",
+    "url" : "https://itunes.apple.com/nz/app/heroes-of-rings/id1345705679?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Fedor Danilov",
+    "developerId" : 1296875299,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/fedor-danilov/id1296875299?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7002",
+        "7003"
+      ],
+    "genres" : [ 
+        "Games",
+        "Adventure",
+        "Arcade"
+      ],
+    "icon" : "https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/ab/90/73/ab907366-7a3f-060e-0e8d-77e7e9c17842/AppIcon-1x_U007emarketing-85-220-0-8.png/200x200bb.png",
+    "id" : "1296875300",
+    "released" : "2018-03-27",
+    "title" : "Hyperforma",
+    "url" : "https://itunes.apple.com/nz/app/hyperforma/id1296875300?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Appsolute Games LLC",
+    "developerId" : 602062365,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/appsolute-games-llc/id602062365?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7001",
+        "7003",
+        "6016"
+      ],
+    "genres" : [ 
+        "Games",
+        "Action",
+        "Arcade",
+        "Entertainment"
+      ],
+    "icon" : "https://is2-ssl.mzstatic.com/image/thumb/Purple118/v4/f8/8e/6d/f88e6d1e-cf22-7280-8044-088c360baf29/AppIcon-1x_U007emarketing-85-220-6.png/200x200bb.png",
+    "id" : "1261235801",
+    "released" : "2018-03-28",
+    "title" : "Jetpack Jake!",
+    "url" : "https://itunes.apple.com/nz/app/jetpack-jake/id1261235801?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Com2uS Corp.",
+    "developerId" : 299175870,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/com2us-corp/id299175870?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "6016",
+        "7017",
+        "7014"
+      ],
+    "genres" : [ 
+        "Games",
+        "Entertainment",
+        "Strategy",
+        "Role-Playing"
+      ],
+    "icon" : "https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/4e/0e/d5/4e0ed534-f4e6-4924-3970-d8f5aa2b316e/AppIcon-1x_U007emarketing-85-220-9.png/200x200bb.png",
+    "id" : "1321283976",
+    "released" : "2018-03-29",
+    "title" : "Chain Strike™",
+    "url" : "https://itunes.apple.com/nz/app/chain-strike/id1321283976?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "The Frosty Pop Corps Inc.",
+    "developerId" : 930758677,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/the-frosty-pop-corps-inc/id930758677?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7016",
+        "6004",
+        "7009"
+      ],
+    "genres" : [ 
+        "Games",
+        "Sports",
+        "Sports",
+        "Family"
+      ],
+    "icon" : "http://is1.mzstatic.com/image/thumb/Purple128/v4/8d/c2/76/8dc2760d-46fa-04cd-203e-171b6f162163/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-5.png/200x200bb.png",
+    "id" : "1279551167",
+    "released" : "2018-03-28",
+    "title" : "Kingpin Bowling",
+    "url" : "https://itunes.apple.com/nz/app/kingpin-bowling/id1279551167?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Nanovation",
+    "developerId" : 876536274,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/nanovation/id876536274?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7001",
+        "6016",
+        "7003"
+      ],
+    "genres" : [ 
+        "Games",
+        "Action",
+        "Entertainment",
+        "Arcade"
+      ],
+    "icon" : "https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/68/2a/b0/682ab0e4-27a9-6147-6c1c-aef3d2daf747/AppIcon-1x_U007emarketing-85-220-6.png/200x200bb.png",
+    "id" : "1348052887",
+    "released" : "2018-03-28",
+    "title" : "Hexavoid 2",
+    "url" : "https://itunes.apple.com/nz/app/hexavoid-2/id1348052887?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "ArmNomads LLC",
+    "developerId" : 1125336041,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/armnomads-llc/id1125336041?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7003"
+      ],
+    "genres" : [ 
+        "Games",
+        "Arcade"
+      ],
+    "icon" : "https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/c5/4e/0f/c54e0f18-f862-360b-5f7a-097722fb87b6/AppIcon-1x_U007emarketing-85-220-7.jpeg/200x200bb.png",
+    "id" : "1314237670",
+    "released" : "2018-03-29",
+    "title" : "Finger Ballz",
+    "url" : "https://itunes.apple.com/nz/app/finger-ballz/id1314237670?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Iron Horse Games LLC",
+    "developerId" : 1281721366,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/iron-horse-games-llc/id1281721366?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7015"
+      ],
+    "genres" : [ 
+        "Games",
+        "Simulation"
+      ],
+    "icon" : "https://is4-ssl.mzstatic.com/image/thumb/Purple128/v4/8b/78/4c/8b784c9c-b7ff-c120-4048-96d17198c41d/AppIcon-1x_U007emarketing-0-85-220-0-8.png/200x200bb.png",
+    "id" : "1320056680",
+    "released" : "2018-03-27",
+    "title" : "Swarm Simulator: Evolution",
+    "url" : "https://itunes.apple.com/nz/app/swarm-simulator-evolution/id1320056680?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Tendril Studio",
+    "developerId" : 1261398164,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/tendril-studio/id1261398164?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7009",
+        "7003"
+      ],
+    "genres" : [ 
+        "Games",
+        "Family",
+        "Arcade"
+      ],
+    "icon" : "https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/e1/ae/5c/e1ae5cf7-0a1d-299f-b235-0bd4b69fdf72/AppIcon-1x_U007emarketing-0-85-220-0-8.png/200x200bb.png",
+    "id" : "1293794115",
+    "released" : "2018-02-20",
+    "title" : "Yum Yummy Superlicious",
+    "url" : "https://itunes.apple.com/nz/app/yum-yummy-superlicious/id1293794115?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "GavaGava, LTD",
+    "developerId" : 1349225150,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/gavagava-ltd/id1349225150?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7012",
+        "6017",
+        "7009"
+      ],
+    "genres" : [ 
+        "Games",
+        "Puzzle",
+        "Education",
+        "Family"
+      ],
+    "icon" : "https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/03/a3/9d/03a39d38-5462-5b1a-d3d1-c68317d3f95d/AppIcon-1x_U007emarketing-0-85-220-0-8.png/200x200bb.png",
+    "id" : "1349225151",
+    "released" : "2018-03-29",
+    "title" : "The Giant Turnip",
+    "url" : "https://itunes.apple.com/nz/app/the-giant-turnip/id1349225151?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Goodgame Studios",
+    "developerId" : 553166917,
+    "developerUrl" : "https://itunes.apple.com/nz/developer/goodgame-studios/id553166917?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7001",
+        "7017",
+        "6016"
+      ],
+    "genres" : [ 
+        "Games",
+        "Action",
+        "Strategy",
+        "Entertainment"
+      ],
+    "icon" : "https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/10/0b/4e/100b4e17-b442-58d0-5b39-a7db686baad5/mzl.buavldxk.png/200x200bb.png",
+    "id" : "1193543218",
+    "released" : "2018-03-26",
+    "title" : "Empire: Millennium Wars",
+    "url" : "https://itunes.apple.com/nz/app/empire-millennium-wars/id1193543218?mt=8"
+  }
+]

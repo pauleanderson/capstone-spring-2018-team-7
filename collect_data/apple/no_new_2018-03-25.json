@@ -1,0 +1,332 @@
+[ 
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Nitrome",
+    "developerId" : 568079484,
+    "developerUrl" : "https://itunes.apple.com/no/developer/nitrome/id568079484?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7012",
+        "7016"
+      ],
+    "genres" : [ 
+        "Games",
+        "Puzzle",
+        "Sports"
+      ],
+    "icon" : "http://is2.mzstatic.com/image/thumb/Purple62/v4/a4/fc/a6/a4fca6d1-c516-24c4-bb6f-386bb7b61866/AppIcon-1x_U007emarketing-85-220-3.png/200x200bb.png",
+    "id" : "1306789812",
+    "released" : "2018-03-21",
+    "title" : "Nano Golf: Puzzle Putting",
+    "url" : "https://itunes.apple.com/no/app/nano-golf-puzzle-putting/id1306789812?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Shaking Sheep Studio Limited",
+    "developerId" : 918820445,
+    "developerUrl" : "https://itunes.apple.com/no/developer/shaking-sheep-studio-limited/id918820445?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7004",
+        "7012"
+      ],
+    "genres" : [ 
+        "Games",
+        "Board",
+        "Puzzle"
+      ],
+    "icon" : "http://is1.mzstatic.com/image/thumb/Purple62/v4/75/10/7c/75107c6f-a33d-cfc4-cb34-0851d88f78cb/AppIcon-1x_U007emarketing-0-85-220-0-8.png/200x200bb.png",
+    "id" : "1238082002",
+    "released" : "2018-02-07",
+    "title" : "Pong Pong Egg",
+    "url" : "https://itunes.apple.com/no/app/pong-pong-egg/id1238082002?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Pixel Rocket SAS",
+    "developerId" : 1208124433,
+    "developerUrl" : "https://itunes.apple.com/no/developer/pixel-rocket-sas/id1208124433?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "6016",
+        "7012",
+        "7003"
+      ],
+    "genres" : [ 
+        "Games",
+        "Entertainment",
+        "Puzzle",
+        "Arcade"
+      ],
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple118/v4/2d/83/12/2d83129b-7063-6132-04ed-27d858f28044/AppIcon-1x_U007emarketing-85-220-0-9.png/200x200bb.png",
+    "id" : "1336060901",
+    "released" : "2018-03-20",
+    "title" : "9 Tiles",
+    "url" : "https://itunes.apple.com/no/app/9-tiles/id1336060901?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Pinpin Team",
+    "developerId" : 428404628,
+    "developerUrl" : "https://itunes.apple.com/no/developer/pinpin-team/id428404628?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7001",
+        "7003"
+      ],
+    "genres" : [ 
+        "Games",
+        "Action",
+        "Arcade"
+      ],
+    "icon" : "http://is5.mzstatic.com/image/thumb/Purple128/v4/08/b6/54/08b6546c-d8e2-7dd8-f739-5b3a0c0afb3b/AppIcon-1x_U007emarketing-0-85-220-0-5.png/200x200bb.png",
+    "id" : "1293135181",
+    "released" : "2018-03-21",
+    "title" : "Anark.io",
+    "url" : "https://itunes.apple.com/no/app/anark-io/id1293135181?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Futureplay",
+    "developerId" : 1018795566,
+    "developerUrl" : "https://itunes.apple.com/no/developer/futureplay/id1018795566?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7001",
+        "7015"
+      ],
+    "genres" : [ 
+        "Games",
+        "Action",
+        "Simulation"
+      ],
+    "icon" : "http://is1.mzstatic.com/image/thumb/Purple128/v4/a0/8f/fa/a08ffacd-142f-8133-fa5d-0daf7591e7e5/AppIcon-1x_U007emarketing-85-220-8.png/200x200bb.png",
+    "id" : "1192330031",
+    "released" : "2018-03-20",
+    "title" : "Idle Tuber Empire",
+    "url" : "https://itunes.apple.com/no/app/idle-tuber-empire/id1192330031?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Left Right Co., Ltd",
+    "developerId" : 1001214650,
+    "developerUrl" : "https://itunes.apple.com/no/developer/left-right-co-ltd/id1001214650?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7003",
+        "7016"
+      ],
+    "genres" : [ 
+        "Games",
+        "Arcade",
+        "Sports"
+      ],
+    "icon" : "http://is3.mzstatic.com/image/thumb/Purple128/v4/24/ae/1b/24ae1b4d-df11-ba88-8a6d-1bb8e9040b53/AppIcon-1x_U007emarketing-85-220-0-8.png/200x200bb.png",
+    "id" : "1331407855",
+    "released" : "2018-03-09",
+    "title" : "Flip : Surfing Colors",
+    "url" : "https://itunes.apple.com/no/app/flip-surfing-colors/id1331407855?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "nanobitsoftware.com",
+    "developerId" : 307749755,
+    "developerUrl" : "https://itunes.apple.com/no/developer/nanobitsoftware-com/id307749755?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7017",
+        "7015"
+      ],
+    "genres" : [ 
+        "Games",
+        "Strategy",
+        "Simulation"
+      ],
+    "icon" : "http://is5.mzstatic.com/image/thumb/Purple128/v4/8b/f2/a8/8bf2a8a6-7236-21bc-b82e-b33a4df032a6/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-9.png/200x200bb.png",
+    "id" : "1126049947",
+    "released" : "2017-05-25",
+    "title" : "My City - Entertainment Tycoon",
+    "url" : "https://itunes.apple.com/no/app/my-city-entertainment-tycoon/id1126049947?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Metro Trains Melbourne Pty Ltd",
+    "developerId" : 608701664,
+    "developerUrl" : "https://itunes.apple.com/no/developer/metro-trains-melbourne-pty-ltd/id608701664?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7003"
+      ],
+    "genres" : [ 
+        "Games",
+        "Arcade"
+      ],
+    "icon" : "http://is1.mzstatic.com/image/thumb/Purple128/v4/bf/3c/2d/bf3c2d34-2ab5-07ee-e3e2-ff2947e6c4ab/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-8.png/200x200bb.png",
+    "id" : "1317632685",
+    "released" : "2017-12-21",
+    "title" : "Dumb Ways To Die 3: World Tour",
+    "url" : "https://itunes.apple.com/no/app/dumb-ways-to-die-3-world-tour/id1317632685?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Animoca Brands",
+    "developerId" : 888599777,
+    "developerUrl" : "https://itunes.apple.com/no/developer/animoca-brands/id888599777?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7001",
+        "7017"
+      ],
+    "genres" : [ 
+        "Games",
+        "Action",
+        "Strategy"
+      ],
+    "icon" : "http://is3.mzstatic.com/image/thumb/Purple62/v4/03/c9/dc/03c9dcbc-0d4e-c338-b94c-99bee2e2741c/AppIcon-1x_U007emarketing-85-220-9.png/200x200bb.png",
+    "id" : "1300027167",
+    "released" : "2018-03-21",
+    "title" : "Crazy Defense Heroes",
+    "url" : "https://itunes.apple.com/no/app/crazy-defense-heroes/id1300027167?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Kung Fu Factory",
+    "developerId" : 503757364,
+    "developerUrl" : "https://itunes.apple.com/no/developer/kung-fu-factory/id503757364?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "6016",
+        "7014",
+        "7012"
+      ],
+    "genres" : [ 
+        "Games",
+        "Entertainment",
+        "Role-Playing",
+        "Puzzle"
+      ],
+    "icon" : "http://is5.mzstatic.com/image/thumb/Purple128/v4/db/c1/c7/dbc1c789-e18a-e3c9-de77-fd68bb41b4aa/AppIcon-1x_U007emarketing-85-220-9.png/200x200bb.png",
+    "id" : "1317502376",
+    "released" : "2018-02-27",
+    "title" : "Pacific Rim: Breach Wars",
+    "url" : "https://itunes.apple.com/no/app/pacific-rim-breach-wars/id1317502376?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Gear Games",
+    "developerId" : 335936262,
+    "developerUrl" : "https://itunes.apple.com/no/developer/gear-games/id335936262?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7004",
+        "7017"
+      ],
+    "genres" : [ 
+        "Games",
+        "Board",
+        "Strategy"
+      ],
+    "icon" : "http://is2.mzstatic.com/image/thumb/Purple118/v4/2d/b8/7f/2db87f4f-0287-9733-9375-b160e6138958/AppIcon-1x_U007emarketing-85-220-8.png/200x200bb.png",
+    "id" : "853680597",
+    "released" : "2017-01-15",
+    "title" : "Art Of War 3:PvP RTS strategy",
+    "url" : "https://itunes.apple.com/no/app/art-of-war-3-pvp-rts-strategy/id853680597?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Kiloo",
+    "developerId" : 330629809,
+    "developerUrl" : "https://itunes.apple.com/no/developer/kiloo/id330629809?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7003"
+      ],
+    "genres" : [ 
+        "Games",
+        "Arcade"
+      ],
+    "icon" : "http://is1.mzstatic.com/image/thumb/Purple128/v4/08/92/f6/0892f60f-edad-c385-0e53-f95da644899f/AppIcon-1x_U007emarketing-0-85-220-0-7.png/200x200bb.png",
+    "id" : "1248299485",
+    "released" : "2018-03-19",
+    "title" : "Jelly Copter",
+    "url" : "https://itunes.apple.com/no/app/jelly-copter/id1248299485?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "1Button SARL",
+    "developerId" : 388888785,
+    "developerUrl" : "https://itunes.apple.com/no/developer/1button-sarl/id388888785?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7003",
+        "7001"
+      ],
+    "genres" : [ 
+        "Games",
+        "Arcade",
+        "Action"
+      ],
+    "icon" : "http://is2.mzstatic.com/image/thumb/Purple128/v4/02/c1/a2/02c1a2c7-9d40-74c4-a46b-15302ff74392/AppIcon-1x_U007emarketing-85-220-3.png/200x200bb.png",
+    "id" : "1334106517",
+    "released" : "2018-03-21",
+    "title" : "Ball Panic!",
+    "url" : "https://itunes.apple.com/no/app/ball-panic/id1334106517?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Asmodee Digital",
+    "developerId" : 1135862620,
+    "developerUrl" : "https://itunes.apple.com/no/developer/asmodee-digital/id1135862620?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7014",
+        "7005"
+      ],
+    "genres" : [ 
+        "Games",
+        "Role-Playing",
+        "Card"
+      ],
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple118/v4/d2/27/59/d22759e7-f218-9360-79ae-bf9cc076787d/pr_source.png/200x200bb.png",
+    "id" : "1349815436",
+    "released" : "2018-03-14",
+    "title" : "Fighting Fantasy Legend",
+    "url" : "https://itunes.apple.com/no/app/fighting-fantasy-legend/id1349815436?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "X-LEGEND Entertainment Corp.",
+    "developerId" : 673946755,
+    "developerUrl" : "https://itunes.apple.com/no/developer/x-legend-entertainment-corp/id673946755?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7014",
+        "7002"
+      ],
+    "genres" : [ 
+        "Games",
+        "Role-Playing",
+        "Adventure"
+      ],
+    "icon" : "http://is5.mzstatic.com/image/thumb/Purple128/v4/10/3a/a4/103aa4c3-4b0a-3e3e-4fc0-b9565833ffd2/mzl.vwxcaxbg.jpg/200x200bb.png",
+    "id" : "1329433415",
+    "released" : "2018-03-20",
+    "title" : "Aura Kingdom",
+    "url" : "https://itunes.apple.com/no/app/aura-kingdom/id1329433415?mt=8"
+  }
+]

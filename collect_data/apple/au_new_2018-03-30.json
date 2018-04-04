@@ -1,0 +1,250 @@
+[ 
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Turner Broadcasting System, Inc.",
+    "developerId" : 289550996,
+    "developerUrl" : "https://itunes.apple.com/au/developer/turner-broadcasting-system-inc/id289550996?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7012",
+        "7014",
+        "6016"
+      ],
+    "genres" : [ 
+        "Games",
+        "Puzzle",
+        "Role-Playing",
+        "Entertainment"
+      ],
+    "icon" : "http://is5.mzstatic.com/image/thumb/Purple128/v4/d4/30/56/d43056da-f07f-a035-55bf-f59bb6042232/AppIcon-1x_U007emarketing-0-85-220-0-8.png/200x200bb.png",
+    "id" : "1272183758",
+    "released" : "2018-03-21",
+    "title" : "Cartoon Network Match Land",
+    "url" : "https://itunes.apple.com/au/app/cartoon-network-match-land/id1272183758?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Futureplay",
+    "developerId" : 1018795566,
+    "developerUrl" : "https://itunes.apple.com/au/developer/futureplay/id1018795566?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7001",
+        "7015"
+      ],
+    "genres" : [ 
+        "Games",
+        "Action",
+        "Simulation"
+      ],
+    "icon" : "http://is1.mzstatic.com/image/thumb/Purple128/v4/a0/8f/fa/a08ffacd-142f-8133-fa5d-0daf7591e7e5/AppIcon-1x_U007emarketing-85-220-8.png/200x200bb.png",
+    "id" : "1192330031",
+    "released" : "2017-11-05",
+    "title" : "Idle Tuber Empire",
+    "url" : "https://itunes.apple.com/au/app/idle-tuber-empire/id1192330031?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Nitrome",
+    "developerId" : 568079484,
+    "developerUrl" : "https://itunes.apple.com/au/developer/nitrome/id568079484?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7012",
+        "7016"
+      ],
+    "genres" : [ 
+        "Games",
+        "Puzzle",
+        "Sports"
+      ],
+    "icon" : "http://is2.mzstatic.com/image/thumb/Purple62/v4/a4/fc/a6/a4fca6d1-c516-24c4-bb6f-386bb7b61866/AppIcon-1x_U007emarketing-85-220-3.png/200x200bb.png",
+    "id" : "1306789812",
+    "released" : "2018-03-21",
+    "title" : "Nano Golf: Puzzle Putting",
+    "url" : "https://itunes.apple.com/au/app/nano-golf-puzzle-putting/id1306789812?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Kung Fu Factory",
+    "developerId" : 503757364,
+    "developerUrl" : "https://itunes.apple.com/au/developer/kung-fu-factory/id503757364?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "6016",
+        "7014",
+        "7012"
+      ],
+    "genres" : [ 
+        "Games",
+        "Entertainment",
+        "Role-Playing",
+        "Puzzle"
+      ],
+    "icon" : "http://is5.mzstatic.com/image/thumb/Purple128/v4/db/c1/c7/dbc1c789-e18a-e3c9-de77-fd68bb41b4aa/AppIcon-1x_U007emarketing-85-220-9.png/200x200bb.png",
+    "id" : "1317502376",
+    "released" : "2018-03-21",
+    "title" : "Pacific Rim: Breach Wars",
+    "url" : "https://itunes.apple.com/au/app/pacific-rim-breach-wars/id1317502376?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Kiloo",
+    "developerId" : 330629809,
+    "developerUrl" : "https://itunes.apple.com/au/developer/kiloo/id330629809?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7003"
+      ],
+    "genres" : [ 
+        "Games",
+        "Arcade"
+      ],
+    "icon" : "http://is1.mzstatic.com/image/thumb/Purple128/v4/08/92/f6/0892f60f-edad-c385-0e53-f95da644899f/AppIcon-1x_U007emarketing-0-85-220-0-7.png/200x200bb.png",
+    "id" : "1248299485",
+    "released" : "2017-11-18",
+    "title" : "Jelly Copter",
+    "url" : "https://itunes.apple.com/au/app/jelly-copter/id1248299485?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Shaking Sheep Studio Limited",
+    "developerId" : 918820445,
+    "developerUrl" : "https://itunes.apple.com/au/developer/shaking-sheep-studio-limited/id918820445?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7004",
+        "7012"
+      ],
+    "genres" : [ 
+        "Games",
+        "Board",
+        "Puzzle"
+      ],
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple62/v4/67/0a/d7/670ad789-6397-fc70-c0e1-28d060c44065/AppIcon-1x_U007emarketing-0-85-220-0-8.png/200x200bb.png",
+    "id" : "1238082002",
+    "released" : "2018-02-07",
+    "title" : "Pong Pong Egg",
+    "url" : "https://itunes.apple.com/au/app/pong-pong-egg/id1238082002?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Left Right Co., Ltd",
+    "developerId" : 1001214650,
+    "developerUrl" : "https://itunes.apple.com/au/developer/left-right-co-ltd/id1001214650?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7003",
+        "7016"
+      ],
+    "genres" : [ 
+        "Games",
+        "Arcade",
+        "Sports"
+      ],
+    "icon" : "http://is1.mzstatic.com/image/thumb/Purple118/v4/d5/72/6b/d5726bdf-930c-1e0a-513d-8493b94b73eb/AppIcon-1x_U007emarketing-85-220-0-8.png/200x200bb.png",
+    "id" : "1331407855",
+    "released" : "2018-01-18",
+    "title" : "Flip : Surfing Colors",
+    "url" : "https://itunes.apple.com/au/app/flip-surfing-colors/id1331407855?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "nanobitsoftware.com",
+    "developerId" : 307749755,
+    "developerUrl" : "https://itunes.apple.com/au/developer/nanobitsoftware-com/id307749755?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7017",
+        "7015"
+      ],
+    "genres" : [ 
+        "Games",
+        "Strategy",
+        "Simulation"
+      ],
+    "icon" : "http://is5.mzstatic.com/image/thumb/Purple128/v4/8b/f2/a8/8bf2a8a6-7236-21bc-b82e-b33a4df032a6/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-9.png/200x200bb.png",
+    "id" : "1126049947",
+    "released" : "2017-05-25",
+    "title" : "My City - Entertainment Tycoon",
+    "url" : "https://itunes.apple.com/au/app/my-city-entertainment-tycoon/id1126049947?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Pixel Rocket SAS",
+    "developerId" : 1208124433,
+    "developerUrl" : "https://itunes.apple.com/au/developer/pixel-rocket-sas/id1208124433?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "6016",
+        "7012",
+        "7003"
+      ],
+    "genres" : [ 
+        "Games",
+        "Entertainment",
+        "Puzzle",
+        "Arcade"
+      ],
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple118/v4/2d/83/12/2d83129b-7063-6132-04ed-27d858f28044/AppIcon-1x_U007emarketing-85-220-0-9.png/200x200bb.png",
+    "id" : "1336060901",
+    "released" : "2018-03-20",
+    "title" : "9 Tiles",
+    "url" : "https://itunes.apple.com/au/app/9-tiles/id1336060901?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Gear Games",
+    "developerId" : 335936262,
+    "developerUrl" : "https://itunes.apple.com/au/developer/gear-games/id335936262?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7004",
+        "7017"
+      ],
+    "genres" : [ 
+        "Games",
+        "Board",
+        "Strategy"
+      ],
+    "icon" : "http://is2.mzstatic.com/image/thumb/Purple118/v4/2d/b8/7f/2db87f4f-0287-9733-9375-b160e6138958/AppIcon-1x_U007emarketing-85-220-8.png/200x200bb.png",
+    "id" : "853680597",
+    "released" : "2017-01-15",
+    "title" : "Art Of War 3:PvP RTS strategy",
+    "url" : "https://itunes.apple.com/au/app/art-of-war-3-pvp-rts-strategy/id853680597?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Mixtvision Mediengesellschaft mbH",
+    "developerId" : 563462315,
+    "developerUrl" : "https://itunes.apple.com/au/developer/mixtvision-mediengesellschaft-mbh/id563462315?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7012",
+        "6018",
+        "7009"
+      ],
+    "genres" : [ 
+        "Games",
+        "Puzzle",
+        "Books",
+        "Family"
+      ],
+    "icon" : "http://is4.mzstatic.com/image/thumb/Purple128/v4/ba/72/f2/ba72f28f-effd-0116-0125-10448375ba6a/AppIcon-1x_U007emarketing-0-85-220-0-8.png/200x200bb.png",
+    "id" : "1353392007",
+    "released" : "2018-03-21",
+    "title" : "Kosmo & Klax: Treehouse-Party",
+    "url" : "https://itunes.apple.com/au/app/kosmo-klax-treehouse-party/id1353392007?mt=8"
+  }
+]
