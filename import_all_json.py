@@ -48,15 +48,19 @@ for filename in os.listdir(dir):
     country = split[0]
     chart = split[1]
     date = split[2]
-    data = open(filepath).read()
-    data = data.replace(": undefined",": \"undefined\"")
-    obj = json_util.loads(data)
-    for i in range(0, len(obj)):
-        obj[i]["country"] = country
-        obj[i]["chart"] = chart
-        obj[i]["date"] = date
-        obj[i]["rank"] = i+1
-    app_id = android.insert_many(obj)
+    try:
+        data = open(filepath).read()
+        data = data.replace(": undefined",": \"undefined\"")
+        obj = json_util.loads(data)
+        for i in range(0, len(obj)):
+            obj[i]["country"] = country
+            obj[i]["chart"] = chart
+            obj[i]["date"] = date
+            obj[i]["rank"] = i+1
+        app_id = android.insert_many(obj)
+    except:
+        print("Couldn't load")
+
 
 
 
