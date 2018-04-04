@@ -138,6 +138,7 @@ print(pivot_train)
 outliers_fraction = 0.02
 ecliptic_fit_apple = EllipticEnvelope(contamination=outliers_fraction).fit(df_apple)
 ecliptic_pred_apple = ecliptic_fit_apple.predict(df_apple)
+ecliptic_pred_apple = list(set(ecliptic_pred_apple))
 print(ecliptic_pred_apple)
 
 
