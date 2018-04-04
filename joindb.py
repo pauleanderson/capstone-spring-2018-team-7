@@ -98,6 +98,7 @@ for key in df_apple_pivots.keys():
   else:
     df_apple = pd.merge(df_apple,df_apple_pivots[key],on = ["title"],how = "outer")
 df_apple = df_apple.fillna(0)
+df_apple = df_apple.set_index("title")
 print(df_apple)
 
 
@@ -133,6 +134,7 @@ pivot_train = pd.merge(pivot_au,pivot_nz,on = ["title"],how  = "outer")
 print(pivot_train)
 #model
 '''
+
 outliers_fraction = 0.02
 ecliptic_fit_apple = EllipticEnvelope(contamination=outliers_fraction).fit(df_apple)
 
