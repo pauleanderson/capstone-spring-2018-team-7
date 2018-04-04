@@ -96,70 +96,70 @@ do
     
         echo '[' > ~/capstone-spring-2018-team-7/collect_data/android/${country}_${chart}_${date}.json 
 
-        i2=$(grep -xc '^[[:space:]]*$' ~/capstone-spring-2018-team-7/collect_data/trend/${chart}_0.json)
+        i2=$(grep -xc '^[[:space:]]*$' ~/capstone-spring-2018-team-7/collect_data/android/${chart}_0.json)
         if [ $i2 -eq 0 ]
         then
             cat ~/capstone-spring-2018-team-7/collect_data/android/${chart}_0.json >> ~/capstone-spring-2018-team-7/collect_data/android/${country}_${chart}_${date}.json 
             echo ',' >> ~/capstone-spring-2018-team-7/collect_data/android/${country}_${chart}_${date}.json
         fi
         
-        i2=$(grep -xc '^[[:space:]]*$' ~/capstone-spring-2018-team-7/collect_data/trend/${chart}_50.json)
+        i2=$(grep -xc '^[[:space:]]*$' ~/capstone-spring-2018-team-7/collect_data/android/${chart}_50.json)
         if [ $i2 -eq 0 ]
         then
             cat ~/capstone-spring-2018-team-7/collect_data/android/${chart}_50.json >> ~/capstone-spring-2018-team-7/collect_data/android/${country}_${chart}_${date}.json 
             echo ',' >> ~/capstone-spring-2018-team-7/collect_data/android/${country}_${chart}_${date}.json
         fi
 
-        i2=$(grep -xc '^[[:space:]]*$' ~/capstone-spring-2018-team-7/collect_data/trend/${chart}_100.json)
+        i2=$(grep -xc '^[[:space:]]*$' ~/capstone-spring-2018-team-7/collect_data/android/${chart}_100.json)
         if [ $i2 -eq 0 ]
         then
             cat ~/capstone-spring-2018-team-7/collect_data/android/${chart}_100.json >> ~/capstone-spring-2018-team-7/collect_data/android/${country}_${chart}_${date}.json
             echo ',' >> ~/capstone-spring-2018-team-7/collect_data/android/${country}_${chart}_${date}.json
         fi
 
-        i2=$(grep -xc '^[[:space:]]*$' ~/capstone-spring-2018-team-7/collect_data/trend/${chart}_150.json)
+        i2=$(grep -xc '^[[:space:]]*$' ~/capstone-spring-2018-team-7/collect_data/android/${chart}_150.json)
         if [ $i2 -eq 0 ]
         then
             cat ~/capstone-spring-2018-team-7/collect_data/android/${chart}_150.json >> ~/capstone-spring-2018-team-7/collect_data/android/${country}_${chart}_${date}.json 
             echo ',' >> ~/capstone-spring-2018-team-7/collect_data/android/${country}_${chart}_${date}.json 
         fi
 
-        i2=$(grep -xc '^[[:space:]]*$' ~/capstone-spring-2018-team-7/collect_data/trend/${chart}_200.json)
+        i2=$(grep -xc '^[[:space:]]*$' ~/capstone-spring-2018-team-7/collect_data/android/${chart}_200.json)
         if [ $i2 -eq 0 ]
         then
             cat ~/capstone-spring-2018-team-7/collect_data/android/${chart}_200.json >> ~/capstone-spring-2018-team-7/collect_data/android/${country}_${chart}_${date}.json
             echo ',' >> ~/capstone-spring-2018-team-7/collect_data/android/${country}_${chart}_${date}.json
         fi
 
-        i2=$(grep -xc '^[[:space:]]*$' ~/capstone-spring-2018-team-7/collect_data/trend/${chart}_250.json)
+        i2=$(grep -xc '^[[:space:]]*$' ~/capstone-spring-2018-team-7/collect_data/android/${chart}_250.json)
         if [ $i2 -eq 0 ]
         then
             cat ~/capstone-spring-2018-team-7/collect_data/android/${chart}_250.json >> ~/capstone-spring-2018-team-7/collect_data/android/${country}_${chart}_${date}.json 
             echo ',' >> ~/capstone-spring-2018-team-7/collect_data/android/${country}_${chart}_${date}.json 
         fi
 
-        i2=$(grep -xc '^[[:space:]]*$' ~/capstone-spring-2018-team-7/collect_data/trend/${chart}_300.json)
+        i2=$(grep -xc '^[[:space:]]*$' ~/capstone-spring-2018-team-7/collect_data/android/${chart}_300.json)
         if [ $i2 -eq 0 ]
         then
             cat ~/capstone-spring-2018-team-7/collect_data/android/${chart}_300.json >> ~/capstone-spring-2018-team-7/collect_data/android/${country}_${chart}_${date}.json
             echo ',' >> ~/capstone-spring-2018-team-7/collect_data/android/${country}_${chart}_${date}.json
         fi
 
-        i2=$(grep -xc '^[[:space:]]*$' ~/capstone-spring-2018-team-7/collect_data/trend/${chart}_350.json)
+        i2=$(grep -xc '^[[:space:]]*$' ~/capstone-spring-2018-team-7/collect_data/android/${chart}_350.json)
         if [ $i2 -eq 0 ]
         then
             cat ~/capstone-spring-2018-team-7/collect_data/android/${chart}_350.json >> ~/capstone-spring-2018-team-7/collect_data/android/${country}_${chart}_${date}.json 
             echo ',' >> ~/capstone-spring-2018-team-7/collect_data/android/${country}_${chart}_${date}.json
         fi
 
-        i2=$(grep -xc '^[[:space:]]*$' ~/capstone-spring-2018-team-7/collect_data/trend/${chart}_400.json)
+        i2=$(grep -xc '^[[:space:]]*$' ~/capstone-spring-2018-team-7/collect_data/android/${chart}_400.json)
         if [ $i2 -eq 0 ]
         then
             cat ~/capstone-spring-2018-team-7/collect_data/android/${chart}_400.json >> ~/capstone-spring-2018-team-7/collect_data/android/${country}_${chart}_${date}.json 
             echo ',' >> ~/capstone-spring-2018-team-7/collect_data/android/${country}_${chart}_${date}.json
         fi
 
-        i2=$(grep -xc '^[[:space:]]*$' ~/capstone-spring-2018-team-7/collect_data/trend/${chart}_450.json)
+        i2=$(grep -xc '^[[:space:]]*$' ~/capstone-spring-2018-team-7/collect_data/android/${chart}_450.json)
         if [ $i2 -eq 0 ]
         then
             cat ~/capstone-spring-2018-team-7/collect_data/android/${chart}_450.json >> ~/capstone-spring-2018-team-7/collect_data/android/${country}_${chart}_${date}.json 
