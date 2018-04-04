@@ -4,6 +4,7 @@ import sys
 from sklearn.covariance import EllipticEnvelope
 from sklearn.ensemble import IsolationForest
 from sklearn.neighbors import LocalOutlierFactor
+from sklearn import svm
 from pymongo import MongoClient
 import pandas as pd
 import sys
@@ -64,6 +65,7 @@ df_ph = pick_country(set_apple(), 'ph')
 
 #Build the pivot table
 pivot_au = df_au.pivot_table(index = ["title", "chart"], columns = "date", values = "rank")
+pivot_au = pivot_au[,(pivot_au.columns - 5):]
 pivot_au = pivot_au.fillna(101)
 #print(pivot.to_string().translate(unicode()))
 
@@ -78,13 +80,10 @@ print("")
 print("")
 print("The 3 bigest positive change over last 4 days in australia:")
 print(pivot_au.nlargest(3,"delta rank1"))
-print(len(pivot))
 print("")
 
 #nz 
 
-
-df_nz = pick_country(set_apple(), 'nz')
 
 #Build the pivot table
 pivot_nz = df_nz.pivot_table(index = ["title", "chart"], columns = "date", values = "rank")
@@ -94,19 +93,7 @@ pivot_nz = pivot_nz.fillna(101)
 
 pivot_nz['delta rank2'] = pivot_nz.apply (lambda row: first_delta (pivot_nz, row),axis=1)
 print(pivot_nz.to_string().translate(unicode()))
-'''
-#print(pivot["delta rank1"].max())
-print("")
-print("")
-print("")
-print("The 3 bigest positive change over last 4 days in nz.")
-print(pivot_au.nlargest(3,"delta rank2"))
-print(len(pivot))
-print("")
-'''
-#se 
 
-df_se = pick_country(set_apple(), 'se')
 
 #Build the pivot table
 pivot_se = df_se.pivot_table(index = ["title", "chart"], columns = "date", values = "rank")
@@ -117,122 +104,60 @@ pivot_se = pivot_se.fillna(101)
 pivot_se['delta rank3'] = pivot_se.apply (lambda row: first_delta (pivot_se, row),axis=1)
 print(pivot_se.to_string().translate(unicode()))
 #print(pivot["delta rank1"].max())
-'''
-print("")
-print("")
-print("")
-print("The 3 bigest positive change over last 4 days in se.")
-print(pivot_se.nlargest(3,"delta rank3"))
-print(len(pivot))
-print("")
-'''
 
 #dk 
-
-
-df_dk = pick_country(set_apple(), 'dk')
-
 #Build the pivot table
 pivot_dk = df_dk.pivot_table(index = ["title", "chart"], columns = "date", values = "rank")
 pivot_dk = pivot_dk.fillna(101)
 #print(pivot.to_string().translate(unicode()))
-
-
 pivot_dk['delta rank4'] = pivot_dk.apply (lambda row: first_delta (pivot_dk, row),axis=1)
 print(pivot_dk.to_string().translate(unicode()))
 #print(pivot["delta rank1"].max())
-'''
-print("")
-print("")
-print("")
-print("The 3 bigest positive change over last 4 days in dk.")
-print(pivot_dk.nlargest(3,"delta rank4"))
-#print(len(pivot))
-print("")
 
-'''
 #no 
-
-df_no = pick_country(set_apple(), 'no')
-
 #Build the pivot table
 pivot_no = df_no.pivot_table(index = ["title", "chart"], columns = "date", values = "rank")
 pivot_no = pivot_no.fillna(101)
 #print(pivot.to_string().translate(unicode()))
-
-
 pivot_no['delta rank5'] = pivot_no.apply (lambda row: first_delta (pivot_no, row),axis=1)
 print(pivot_no.to_string().translate(unicode()))
 #print(pivot["delta rank1"].max())
-'''
-print("")
-print("")
-print("")
-print("The 3 bigest positive change over last 4 days in no.")
-print(pivot_no.nlargest(3,"delta rank5"))
-#print(len(pivot))
-print("")
 
-'''
+
 #at 
-df_at = pick_country(set_apple(), 'at')
-
 #Build the pivot table
 pivot_at = df_at.pivot_table(index = ["title", "chart"], columns = "date", values = "rank")
 pivot_at = pivot_at.fillna(101)
 #print(pivot.to_string().translate(unicode()))
-
-
 pivot_at['delta rank6'] = pivot_at.apply (lambda row: first_delta (pivot_at, row),axis=1)
 print(pivot_at.to_string().translate(unicode()))
 #print(pivot["delta rank1"].max())
-'''
-print("")
-print("")
-print("")
-print("The 3 bigest positive change over last 4 days in at.")
-print(pivot_at.nlargest(3,"delta rank5"))
-#print(len(pivot))
-print("")
-'''
 
 #ph
-df_ph = pick_country(set_apple(), 'ph')
-
 #Build the pivot table
 pivot_ph = df_ph.pivot_table(index = ["title", "chart"], columns = "date", values = "rank")
 pivot_ph = pivot_ph.fillna(101)
 #print(pivot.to_string().translate(unicode()))
-
-
 pivot_ph['delta rank7'] = pivot_ph.apply (lambda row: first_delta (pivot_ph, row),axis=1)
 print(pivot_ph.to_string().translate(unicode()))
 #print(pivot["delta rank1"].max())
-'''
-print("")
-print("")
-print("")
-print("The 3 bigest positive change over last 4 days in ph.")
-print(pivot_ph.nlargest(3,"delta rank5"))
-#print(len(pivot))
-print("")
-'''
 #print(pivot.loc[pivot["delta rank1"].idxmax()])
-
-
 
 
 #Need to find a way to grab genre[1] and make sure its gaming.
 #that code goes here
 
 
-#ecliptic model
+#model
 
 outliers_fraction = 0.02
-ecliptic_fit_apple = EllipticEnvelope(contamination=outliers_fraction).fit(pivotAll)
-#ecliptic_fit_apple.predict()
+ecliptic_fit_apple = EllipticEnvelope(contamination=outliers_fraction).fit(pivot_Train)
+ecliptic_fit_apple.predict(pivot_Test)
+
+one_class_svm = svm.OneClassSVM(nu=0.1, kernel="rbf", gamma=0.1)
+clf.fit(pivot_Train)
 
 #plot(ecliptic_fit_apple)
-'''
+
 
 
