@@ -89,7 +89,19 @@ for key in df_apple_collection.keys():
   df_apple_pivots[key].reset_index(inplace = True)
   df_apple_pivots[key] = df_apple_pivots[key].loc[:,["title","delta 1:2","delta 1:3","delta 1:4","delta 1:5","delta 2:3","delta 2:4","delta 2:5","delta 3:4","delta 3:5","delta 4:5"]]
 
-print(df_apple_pivots["au free"])
+first = True
+
+for key in df_apple_pivots.keys():
+  if(first):
+    df_apple = df_apple_pivots[key]
+    first = False
+  else:
+    df_apple = pd.merge(df_apple,df_apple_pivots[key],on = ["title"],how = "outer")
+
+print(df_apple)
+
+
+
 
 
 
