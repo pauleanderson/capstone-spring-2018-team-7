@@ -53,7 +53,7 @@ def last_five_days(df):
 
 def first_delta (df, row):
   return row[len(df.columns)-2]-row[len(df.columns)-1]
-  
+
 def delta (df, row, column1, column2):
   return row[column2]-row[column1] 
 
@@ -88,6 +88,7 @@ print("")
 pivot_nz = df_nz.pivot_table(index = ["title", "chart"], columns = "date", values = "rank")
 pivot_nz = pivot_nz.fillna(101)
 pivot_nz = pivot_au.iloc[:,pivot_nz.shape[1]-6:]
+pivot_nz = last_five_days(pivot_nz)
 #print(pivot_nz.to_string().translate(unicode()))
 
 
@@ -95,30 +96,35 @@ pivot_nz = pivot_au.iloc[:,pivot_nz.shape[1]-6:]
 pivot_se = df_se.pivot_table(index = ["title", "chart"], columns = "date", values = "rank")
 pivot_se = pivot_se.fillna(101)
 pivot_se = pivot_se.iloc[:,pivot_se.shape[1]-6:]
+pivot_se = last_five_days(pivot_se)
 #print(pivot_se.to_string().translate(unicode()))
 
 #dk 
 pivot_dk = df_dk.pivot_table(index = ["title", "chart"], columns = "date", values = "rank")
 pivot_dk = pivot_dk.fillna(101)
 pivot_dk = pivot_dk.iloc[:,pivot_dk.shape[1]-6:]
+pivot_dk = last_five_days(pivot_dk)
 #print(pivot_dk.to_string().translate(unicode()))
 
 #no 
 pivot_no = df_no.pivot_table(index = ["title", "chart"], columns = "date", values = "rank")
 pivot_no = pivot_no.fillna(101)
 pivot_no = pivot_no.iloc[:,pivot_no.shape[1]-6:]
+pivot_no = last_five_days(pivot_no)
 #print(pivot_no.to_string().translate(unicode()))
 
 #at 
 pivot_at = df_at.pivot_table(index = ["title", "chart"], columns = "date", values = "rank")
 pivot_at = pivot_at.fillna(101)
 pivot_at = pivot_at.iloc[:,pivot_at.shape[1]-6:]
+pivot_at = last_five_days(pivot_at)
 #print(pivot_at.to_string().translate(unicode()))
 
 #ph
 pivot_ph = df_ph.pivot_table(index = ["title", "chart"], columns = "date", values = "rank")
 pivot_ph = pivot_ph.fillna(101)
 pivot_ph = pivot_ph.iloc[:,pivot_ph.shape[1]-6:]
+pivot_ph = last_five_days(pivot_ph)
 #print(pivot.to_string().translate(unicode()))
 #print(pivot_ph.to_string().translate(unicode()))
 
