@@ -1,18 +1,11 @@
-{"text":"*RankBot heils you!* \n The update for today: \n Definetly check:", "attachements":   [{
+{"text":"*RankBot heils you!* \n The update for today: \n Definetly check:", "attachments": [
+        {
             "title": "Slack API Documentation",
-            "title_link": "https://api.slack.com/",
             "text": "Check this app:",
-            "fields": [
-                {
-                    "title": "Priority",
-                    "value": "High",
-                    "short": false
-                }
-            ],
             "thumb_url": "https://lh3.googleusercontent.com/lZhL5smuoS8EqylXKUgv5tN7V9jlSUT2txzyHYHcIBDwTLkKjDGmuEXDS5N6YB5Oag=w340",
             "footer": "Slack API",
             "footer_icon": "https://platform.slack-edge.com/img/default_application_icon.png",
-            "ts": 123456789
         }
     ]
-}}
+}
+
