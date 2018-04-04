@@ -84,9 +84,10 @@ df_apple_pivots = {}
 for key in df_apple_collection.keys():
   df_apple_pivots[key] = df_apple_collection[key].pivot_table(index = ["title", "chart"], columns = "date", values = "rank")
   df_apple_pivots[key] = df_apple_pivots[key].fillna(101)
-  df_apple_pivots[key] = df_apple_pivots[key].iloc[:,df_apple_pivots[key].shape[1]-6:]
-  df_apple_pivots[key]= last_five_days(df_apple_pivots[key])
+  df_apple_pivots[key] = df_apple_pivots[key].iloc[:,df_apple_pivots[key].shape[1]-5:]
+  df_apple_pivots[key] = last_five_days(df_apple_pivots[key])
   df_apple_pivots[key].reset_index(inplace = True)
+  df_apple_pivots[key] = df_apple_pivots[key].loc[:,["title","delta 1:2","delta 1:3","delta 1:4","delta 1:5","delta 2:3","delta 2:4","delta 2:5","delta 3:4","delta 3:5","delta 4:5"]]
 
 print(df_apple_pivots["au free"])
 
