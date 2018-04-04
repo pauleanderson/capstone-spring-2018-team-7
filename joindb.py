@@ -23,9 +23,9 @@ def set_android ():
 def set_apple ():
   return data.apple
 
-## Pick country
-def pick_country(platform, country):
-  return pd.DataFrame(list(platform.find({"country":country})))
+## Pick country/chart type
+def pick_country(platform, country,chart):
+    return pd.DataFrame(list(platform.find({"country":country,"chart":chart})))
 
 ## Pick all countries
 def pull_all_countries(platform):
@@ -73,6 +73,7 @@ pivot_au = pivot_au.fillna(101)
 pivot_au = pivot_au.iloc[:,pivot_au.shape[1]-6:]
 #print(pivot_au.to_string().translate(unicode()))
 pivot_au = last_five_days(pivot_au)
+pivot_au.reset_index(inplace = True)
 print(pivot_au.to_string().translate(unicode()))
 
 '''
@@ -87,8 +88,9 @@ print("")
 #nz 
 pivot_nz = df_nz.pivot_table(index = ["title", "chart"], columns = "date", values = "rank")
 pivot_nz = pivot_nz.fillna(101)
-pivot_nz = pivot_au.iloc[:,pivot_nz.shape[1]-6:]
+pivot_nz = pivot_nz.iloc[:,pivot_nz.shape[1]-6:]
 pivot_nz = last_five_days(pivot_nz)
+pivot_nz.reset_index(inplace = True)
 #print(pivot_nz.to_string().translate(unicode()))
 
 
@@ -133,9 +135,10 @@ pivot_ph = last_five_days(pivot_ph)
 
 #mergin data frames into one training set
 
-pivot_Train = pd.merge(pivot_au, pivot_nz, pivot_se , pivot_dk, pivot_no, pivot_at, pivot_ph on='title')
-
-
+#print(pivot_se.shape[0])
+#pivot_Train = pivot_au.join( pivot_nz, on='title',how = "inner")
+pivot_train = pd.merge(pivot_au,pivot_nz,on = ["title"],how  = "outer")
+print(pivot_train)
 #model
 
 outliers_fraction = 0.02
