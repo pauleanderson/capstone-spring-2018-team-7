@@ -134,11 +134,11 @@ print(pivot_train)
 #model
 '''
 outliers_fraction = 0.02
-ecliptic_fit_apple = EllipticEnvelope(contamination=outliers_fraction).fit(pivot_Train)
-ecliptic_fit_apple.predict(pivot_Test)
+ecliptic_fit_apple = EllipticEnvelope(contamination=outliers_fraction).fit(df_apple)
+
 
 one_class_svm = svm.OneClassSVM(nu=0.1, kernel="rbf", gamma=0.1)
-clf.fit(pivot_Train)
+clf.fit(df_apple)
 
 #plot(ecliptic_fit_apple)
 
