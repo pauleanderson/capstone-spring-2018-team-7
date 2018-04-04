@@ -131,6 +131,9 @@ pivot_ph = last_five_days(pivot_ph)
 #Need to find a way to grab genre[1] and make sure its gaming.
 #that code goes here
 
+#mergin data frames into one training set
+
+pivot_Train = pd.merge(pivot_au, pivot_nz, pivot_se , pivot_dk, pivot_no, pivot_at, pivot_ph on='title')
 
 
 #model
