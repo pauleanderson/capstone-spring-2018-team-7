@@ -53,6 +53,10 @@ def last_five_days(df):
 
 def first_delta (df, row):
   return row[len(df.columns)-2]-row[len(df.columns)-1]
+  
+def delta (df, row, column1, column2):
+  return row[column2]-row[column1] 
+
 
 #country initialzation
 df_au = pick_country(set_apple(), 'au')
