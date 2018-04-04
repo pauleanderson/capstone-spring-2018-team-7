@@ -24,8 +24,11 @@ def set_apple ():
   return data.apple
 
 ## Pick country/chart type
-def pick_country(platform, country,chart):
-    return pd.DataFrame(list(platform.find({"country":country,"chart":chart})))
+def pick_country(platform, country_chart):
+  s = country_chart.split(" ")
+  country = s[0]
+  chart = s[1]
+  return pd.DataFrame(list(platform.find({"country":country,"chart":chart})))
 
 ## Pick all countries
 def pull_all_countries(platform):
@@ -57,15 +60,37 @@ def first_delta (df, row):
 def delta (df, row, column1, column2):
   return row[column2]-row[column1] 
 
+#countries_list
+countries = ['au', 'nz', 'se', 'dk', 'no', 'at', 'ph']
+apple_charts = ['free', 'gross', 'new']
+android_charts = ['free', 'gross', 'trend']
+apple_country_charts = []
+android_country_charts = []
+for i in countries:
+  for j in apple_charts:
+    apple_country_charts.append(i+ " " + j)
+  for j in android_charts:
+    android_country_charts.append(i+ " " + j)
 
+print(apple_country_charts)
+print(android_country_charts)
+
+for country_chart in apple_country_charts:
+  df_apple_collection[country_chart] = pick_country(set_apple(), country_chart)
+
+for key in df_apple_collection.keys():
+    print("\n" +"="*40)
+    print(key)
+    print("-"*40)
+    print(df_apple_collection[key])
+
+'''
+Android country chart
+for country_chart in android_country_charts:
+  df_android_collection[country_chart] = pick_country(set_android(), country_chart)
+'''
 #country initialzation
-df_au = pick_country(set_apple(), 'au')
-df_nz = pick_country(set_apple(), 'nz')
-df_se = pick_country(set_apple(), 'se')
-df_dk = pick_country(set_apple(), 'dk')
-df_no = pick_country(set_apple(), 'no')
-df_at = pick_country(set_apple(), 'at')
-df_ph = pick_country(set_apple(), 'ph')
+
 
 #Build the pivot table for au
 pivot_au = df_au.pivot_table(index = ["title", "chart"], columns = "date", values = "rank")
