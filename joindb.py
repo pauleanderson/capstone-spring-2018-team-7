@@ -137,13 +137,21 @@ print(pivot_train)
 
 outliers_fraction = 0.02
 ecliptic_fit_apple = EllipticEnvelope(contamination=outliers_fraction).fit(df_apple)
+ecliptic_pred_apple = ecliptic_fit_apple.predict(df_apple)
+print(ecliptic_pred_apple)
 
 
-one_class_svm = svm.OneClassSVM(nu=0.1, kernel="rbf", gamma=0.1)
-one_class_svm.fit(df_apple)
+one_class_svm = svm.OneClassSVM(nu=0.1, kernel="rbf", gamma=0.1).fit(df_apple)
+svm_pred_apple = one_class_svm.predict(df_apple)
+print(svm_pred_apple)
 
-IsolationForest_apple = IsolationForest(max_samples=100, random_state=rng)
-IsolationForest_apple.fit(df_apple)
+IsolationForest_apple = IsolationForest(max_samples=100,contamination = outliers_fraction).fit(df_apple)
+IsolationForest_apple_pred = IsolationForest_apple.predict(df_apple)
+print(IsolationForest_apple_pred)
+
+lof_apple = LocalOutlierFactor(contamination = outliers_fraction)
+lof_apple_pred = lof_apple.fit_predict(df_apple)
+print(lof_apple_pred)
 
 #plot(ecliptic_fit_apple)
 
