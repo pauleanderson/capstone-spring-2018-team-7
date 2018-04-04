@@ -1,7 +1,15 @@
 {"text":"*RankBot heils you!* \n The update for today: \n Definetly check:", "attachments": [
         {
             "title": "Slack API Documentation",
-            "text": "Title: App ID \n Country: Au \t Rank: 100 \t Chart: Free",
+            "text": "Title: App ID \n Country: Au \t Rank: 100 \t Chart: Free \n Developer: blah-blah-blah",
+            "thumb_url": "https://lh3.googleusercontent.com/lZhL5smuoS8EqylXKUgv5tN7V9jlSUT2txzyHYHcIBDwTLkKjDGmuEXDS5N6YB5Oag=w340",
+            "footer": "Slack API",
+            "footer_icon": "https://platform.slack-edge.com/img/default_application_icon.png",
+        },
+        
+        {
+            "title": "Slack API Documentation",
+            "text": "Title: App ID \n Country: Au \t Rank: 100 \t Chart: Free \n Developer: blah-blah-blah",
             "thumb_url": "https://lh3.googleusercontent.com/lZhL5smuoS8EqylXKUgv5tN7V9jlSUT2txzyHYHcIBDwTLkKjDGmuEXDS5N6YB5Oag=w340",
             "footer": "Slack API",
             "footer_icon": "https://platform.slack-edge.com/img/default_application_icon.png",
