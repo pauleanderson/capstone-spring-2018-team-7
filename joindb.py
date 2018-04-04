@@ -72,8 +72,8 @@ for i in countries:
   for j in android_charts:
     android_country_charts.append(i+ " " + j)
 
-print(apple_country_charts)
-print(android_country_charts)
+
+df_apple_collection = {}
 
 for country_chart in apple_country_charts:
   df_apple_collection[country_chart] = pick_country(set_apple(), country_chart)
