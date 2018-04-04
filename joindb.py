@@ -140,7 +140,7 @@ ecliptic_fit_apple = EllipticEnvelope(contamination=outliers_fraction).fit(df_ap
 
 
 one_class_svm = svm.OneClassSVM(nu=0.1, kernel="rbf", gamma=0.1)
-clf.fit(df_apple)
+one_class_svm.fit(df_apple)
 
 #plot(ecliptic_fit_apple)
 
