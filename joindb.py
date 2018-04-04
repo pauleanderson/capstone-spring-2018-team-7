@@ -97,7 +97,7 @@ for key in df_apple_pivots.keys():
     first = False
   else:
     df_apple = pd.merge(df_apple,df_apple_pivots[key],on = ["title"],how = "outer")
-
+df_apple = df_apple.fillna(0)
 print(df_apple)
 
 
