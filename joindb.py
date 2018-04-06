@@ -101,7 +101,14 @@ df_apple = df_apple.fillna(0)
 df_apple = df_apple.set_index("title")
 #print(df_apple)
 
-
+def printOutliers(model):
+  count = 0
+  for i in model:
+      if(i == -1):
+          print(df_apple.iloc[count])
+          count = count +1
+      else:
+          count = count +1
 
 
 
@@ -139,26 +146,15 @@ outliers_fraction = 0.02
 ecliptic_fit_apple = EllipticEnvelope(contamination=outliers_fraction).fit(df_apple)
 ecliptic_pred_apple = ecliptic_fit_apple.predict(df_apple)
 #ecliptic_pred_apple = list(set(ecliptic_pred_apple))
-#print(df_apple)
-
-count = 0
-for i in ecliptic_pred_apple:
-    if(i == -1):
-        print(df_apple.iloc[count])
-        count = count +1
-    else:
-        count = count +1
-        
-        
-
-
+#print(df_apple)        
 
 #print(ecliptic_pred_apple)
 
 
 one_class_svm = svm.OneClassSVM(nu=0.1, kernel="rbf", gamma=0.1).fit(df_apple)
 svm_pred_apple = one_class_svm.predict(df_apple)
-print(svm_pred_apple)
+#print(svm_pred_apple)
+printOutliers(svm.pred.apple)
 
 IsolationForest_apple = IsolationForest(max_samples=100,contamination = outliers_fraction).fit(df_apple)
 IsolationForest_apple_pred = IsolationForest_apple.predict(df_apple)
