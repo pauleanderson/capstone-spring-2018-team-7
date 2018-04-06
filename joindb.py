@@ -99,7 +99,7 @@ for key in df_apple_pivots.keys():
     df_apple = pd.merge(df_apple,df_apple_pivots[key],on = ["title"],how = "outer")
 df_apple = df_apple.fillna(0)
 df_apple = df_apple.set_index("title")
-print(df_apple)
+#print(df_apple)
 
 
 
@@ -139,12 +139,17 @@ outliers_fraction = 0.02
 ecliptic_fit_apple = EllipticEnvelope(contamination=outliers_fraction).fit(df_apple)
 ecliptic_pred_apple = ecliptic_fit_apple.predict(df_apple)
 #ecliptic_pred_apple = list(set(ecliptic_pred_apple))
+#print(df_apple)
+
 count = 0
 for i in ecliptic_pred_apple:
-  if i == -1:
-    print(df_apple[count,0])
-  else:
-    count++
+    if(i == -1):
+        print(df_apple.iloc[count])
+        count = count +1
+    else:
+        count = count +1
+        
+        
 
 
 
