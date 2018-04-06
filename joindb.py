@@ -154,7 +154,7 @@ ecliptic_pred_apple = ecliptic_fit_apple.predict(df_apple)
 one_class_svm = svm.OneClassSVM(nu=0.1, kernel="rbf", gamma=0.1).fit(df_apple)
 svm_pred_apple = one_class_svm.predict(df_apple)
 #print(svm_pred_apple)
-printOutliers(svm.pred.apple)
+printOutliers(svm_pred_apple)
 
 IsolationForest_apple = IsolationForest(max_samples=100,contamination = outliers_fraction).fit(df_apple)
 IsolationForest_apple_pred = IsolationForest_apple.predict(df_apple)
