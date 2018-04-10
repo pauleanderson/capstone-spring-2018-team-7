@@ -158,7 +158,8 @@ printOutliers(svm_pred_apple)
 
 IsolationForest_apple = IsolationForest(max_samples=100,contamination = outliers_fraction).fit(df_apple)
 IsolationForest_apple_pred = IsolationForest_apple.predict(df_apple)
-print(IsolationForest_apple_pred)
+#iprint(IsolationForest_apple_pred)
+printOutliers(IsolationForest_apple_pred)
 
 lof_apple = LocalOutlierFactor(contamination = outliers_fraction)
 lof_apple_pred = lof_apple.fit_predict(df_apple)
