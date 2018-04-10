@@ -62,8 +62,8 @@ def delta (df, row, column1, column2):
 
 #countries_list
 countries = ['au', 'nz', 'se', 'dk', 'no', 'at', 'ph']
-apple_charts = ['free', 'gross', 'new']
-android_charts = ['free', 'gross', 'trend']
+apple_charts =  'gross'
+android_charts = 'gross'
 apple_country_charts = []
 android_country_charts = []
 for i in countries:
@@ -142,7 +142,7 @@ print(pivot_train)
 #model
 '''
 
-outliers_fraction = 0.02
+outliers_fraction = 0.01
 ecliptic_fit_apple = EllipticEnvelope(contamination=outliers_fraction).fit(df_apple)
 ecliptic_pred_apple = ecliptic_fit_apple.predict(df_apple)
 #ecliptic_pred_apple = list(set(ecliptic_pred_apple))
