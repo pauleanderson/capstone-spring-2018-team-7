@@ -67,9 +67,7 @@ android_charts = 'gross'
 apple_country_charts = []
 android_country_charts = []
 for i in countries:
-  for j in apple_charts:
     apple_country_charts.append(i+ " " + j)
-  for j in android_charts:
     android_country_charts.append(i+ " " + j)
 
 
@@ -82,7 +80,7 @@ for country_chart in apple_country_charts:
 df_apple_pivots = {}
 
 for key in df_apple_collection.keys():
-  df_apple_pivots[key] = df_apple_collection[key].pivot_table(index = ["title", "chart"], columns = "date", values = "rank")
+  df_apple_pivots[key] = df_apple_collection[key].pivot_table(index = ["title"], columns = "date", values = "rank")
   df_apple_pivots[key] = df_apple_pivots[key].fillna(101)
   df_apple_pivots[key] = df_apple_pivots[key].iloc[:,df_apple_pivots[key].shape[1]-5:]
   df_apple_pivots[key] = last_five_days(df_apple_pivots[key])
@@ -97,6 +95,7 @@ for key in df_apple_pivots.keys():
     first = False
   else:
     df_apple = pd.merge(df_apple,df_apple_pivots[key],on = ["title"],how = "outer")
+
 df_apple = df_apple.fillna(0)
 df_apple = df_apple.set_index("title")
 #print(df_apple)
@@ -154,7 +153,7 @@ ecliptic_pred_apple = ecliptic_fit_apple.predict(df_apple)
 one_class_svm = svm.OneClassSVM(nu=0.1, kernel="rbf", gamma=0.1).fit(df_apple)
 svm_pred_apple = one_class_svm.predict(df_apple)
 #print(svm_pred_apple)
-printOutliers(svm_pred_apple)
+#printOutliers(svm_pred_apple)
 
 IsolationForest_apple = IsolationForest(max_samples=100,contamination = outliers_fraction).fit(df_apple)
 IsolationForest_apple_pred = IsolationForest_apple.predict(df_apple)
