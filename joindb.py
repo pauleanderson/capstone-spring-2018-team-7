@@ -67,8 +67,8 @@ android_charts = 'gross'
 apple_country_charts = []
 android_country_charts = []
 for i in countries:
-    apple_country_charts.append(i+ " " + j)
-    android_country_charts.append(i+ " " + j)
+    apple_country_charts.append(i+ " ")
+    android_country_charts.append(i+ " ")
 
 
 df_apple_collection = {}
