@@ -71,16 +71,13 @@ for i in countries:
     android_country_charts.append(i+ " ")
 
 
-df_apple_collection = {}
-
-for country_chart in apple_country_charts:
-  df_apple_collection[country_chart] = pick_country(set_apple(), country_chart)
+df_apple_grossing_collection = pick_country(set_apple(), apple_country_charts)
 
 
 df_apple_pivots = {}
 
 for key in df_apple_collection.keys():
-  df_apple_pivots[key] = df_apple_collection[key].pivot_table(index = ["title"], columns = "date", values = "rank")
+  df_apple_pivots[key] = df_apple_collection[key].pivot_table(index = "title", columns = "date", values = "rank")
   df_apple_pivots[key] = df_apple_pivots[key].fillna(101)
   df_apple_pivots[key] = df_apple_pivots[key].iloc[:,df_apple_pivots[key].shape[1]-5:]
   df_apple_pivots[key] = last_five_days(df_apple_pivots[key])
