@@ -39,7 +39,7 @@ android_countries_string = ""
 for i in range(len(apple_countries)):
     apple_countries_string = apple_countries_string + apple_countries[i] + ": " + str(apple_ranks[i]) + "\n"
 for i in range(len(android_countries)):
-    android_countries_string = android countries_string + android_countries[i] + ": " + str(android_ranks[i]) + "\n"
+    android_countries_string = android_countries_string + android_countries[i] + ": " + str(android_ranks[i]) + "\n"
 
 print(apple_countries_string)
 print(android_countries_string)
