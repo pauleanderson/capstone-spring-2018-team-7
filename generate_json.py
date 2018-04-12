@@ -34,12 +34,12 @@ android_countries = map(str, android_countries)
 apple_ranks = df_apple['rank'].tolist()
 android_ranks = df_android['rank'].tolist()
 
-print(apple_countries[1])
-
+apple_countries_string = ""
+android_countries_string = ""
 for i in range(len(apple_countries)):
-    apple_countries_string = apple_countries[i] + ": " + str(apple_ranks[i]) + "\n"
+    apple_countries_string = apple_countries_string + apple_countries[i] + ": " + str(apple_ranks[i]) + "\n"
 for i in range(len(android_countries)):
-    android_countries_string = android_countries[i] + ": " + str(android_ranks[i]) + "\n"
+    android_countries_string = android countries_string + android_countries[i] + ": " + str(android_ranks[i]) + "\n"
 
 print(apple_countries_string)
 print(android_countries_string)
