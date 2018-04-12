@@ -59,9 +59,9 @@ def generate_data (string):
 
 def app_data (platform, icon, title, countries, developer, url, release=None):
     if (release == "Android"):
-        data = '{' +'\n' + '"Platform: "' + platform + '\n"Title": "' + title + '", "text": "Countries and Ranks: ' + countries + '\n Developer: ' + developer + '\n url: ' + url + "thumb_url": "' + icon +  '"},'
+        data = '{' +'\n' + '"Platform: "' + platform + '\n"Title": "' + title + '", "text": "Countries and Ranks: ' + countries + '\n Developer: ' + developer + '\n url: ' + url +'", "thumb_url": "' + icon +  '"},'
     else:
-        data = '{' +'\n' + '"Platform: "' + platform + '\n"Title": "' + title + '", "text": "Countries and Ranks: ' + countries + '\n Release Date: ' + release + '\n Developer: ' + developer + '\n url: ' + url + "thumb_url": "' + icon +  '"},'        
+        data = '{' +'\n' + '"Platform: "' + platform + '\n"Title": "' + title + '", "text": "Countries and Ranks: ' + countries + '\n Release Date: ' + release + '\n Developer: ' + developer + '\n url: ' + url + '", "thumb_url": "' + icon +  '"},'        
     return data
 
 #TODO once the input to python is decided, we will need a function that will loop through apps like code below:
