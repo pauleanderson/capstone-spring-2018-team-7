@@ -24,15 +24,12 @@ def pick_title(platform, title, date):
 df_apple = pick_title(set_apple(), "Fortnite", current_date)
 df_android = pick_title(set_android(), "Candy Crush Saga", current_date)
 
-apple_countries = df_apple['country'].tolist()
-android_countries = df_android['country'].tolist()
+apple_countries = df_apple['country'].tolist().encode('ascii')
+android_countries = df_android['country'].tolist().encode('ascii')
 apple_ranks = df_apple['rank'].tolist()
 android_ranks = df_android['rank'].tolist()
 
-print(apple_countries)
-print(apple_ranks)
-print(android_countries)
-print(android_ranks)
+
 
 def generate_data (string):
     string = '{' +'\n' + '"text":"*Cayce heils you!* The update for today:", "attachments": [' + string[:-1]
