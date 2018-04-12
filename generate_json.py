@@ -24,12 +24,13 @@ def pick_title(platform, title, date):
 df_apple = pick_title(set_apple(), "Fortnite", current_date)
 df_android = pick_title(set_android(), "Candy Crush Saga", current_date)
 
+#print(df_apple)
+#print(df_android)
+
 apple_countries = df_apple['country'].tolist()
-for country in apple_countries:
-    country = country.encode('ascii')
+apple_countries = map(str, apple_countries)
 android_countries = df_android['country'].tolist()
-for country in android_countries:
-    country = country.encode('ascii')
+android_countries = map(str, android_countries)
 apple_ranks = df_apple['rank'].tolist()
 android_ranks = df_android['rank'].tolist()
 
