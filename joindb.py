@@ -8,6 +8,7 @@ from sklearn import svm
 from pymongo import MongoClient
 import pandas as pd
 import sys
+import csv
 
 ## connect to the database
 client = MongoClient ('localhost', 27017)
@@ -191,10 +192,10 @@ IsolationForest_apple = IsolationForest(max_samples=100,contamination = outliers
 IsolationForest_apple_pred = IsolationForest_apple.predict(df_apple)
 IsolationForest_android_pred = IsolationForest_apple.predict(df_android)
 #iprint(IsolationForest_apple_pred)
-print("apple")
-printOutliers(IsolationForest_apple_pred,"apple")
-print("android")
-printOutliers(IsolationForest_android_pred,"android")
+
+#printOutliers(IsolationForest_apple_pred,"apple")
+
+#printOutliers(IsolationForest_android_pred,"android")
 
 lof_apple = LocalOutlierFactor(contamination = outliers_fraction)
 lof_apple_pred = lof_apple.fit_predict(df_apple)
@@ -204,6 +205,18 @@ lof_android_pred = lof_apple.fit_predict(df_android)
 #print(lof_apple_pred)
 
 #plot(ecliptic_fit_apple)
+
+with open("outliers_apple", "w") as output:
+    writer = csv.writer(output, lineterminator='\n')
+    for val in outliers_apple:
+        writer.writerow([val])  
+
+with open("outliers_android", "w") as output:
+    writer = csv.writer(output, lineterminator='\n')
+    for val in outliers_android:
+        writer.writerow([val])  
+
+
 
 
 
