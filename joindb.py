@@ -69,7 +69,7 @@ for i in countries:
     apple_country_charts.append(pick_country(set_apple(),i))
     
 
-df_apple_pivots = [None]*7
+df_apple_pivots = [None]*6
 print(len(apple_country_charts))
 for i in range(len(apple_country_charts)-1):
   df_apple_pivots[i] = apple_country_charts[i].pivot_table(index = "title",columns = "date",values = "rank")
@@ -79,7 +79,6 @@ for i in range(len(apple_country_charts)-1):
   df_apple_pivots[i].reset_index(inplace = True)
   df_apple_pivots[i] = df_apple_pivots[i].loc[:,["title","delta 1:2","delta 1:3","delta 1:4","delta 1:5","delta 2:3","delta 2:4","delta 2:5","delta 3:4","delta 3:5","delta 4:5"]]
 
-print(df_apple_pivots)
     
 
 
@@ -98,14 +97,13 @@ first = True
 for i in range(len(df_apple_pivots)):
   if(first):
     df_apple = df_apple_pivots[i]
-      pass
     first = False
   else:
     df_apple = pd.merge(df_apple,df_apple_pivots[i],on = ["title"],how = "outer")
 
 df_apple = df_apple.fillna(0)
 df_apple = df_apple.set_index("title")
-#print(df_apple)
+print(df_apple)
 
 def printOutliers(model):
   count = 0
@@ -148,11 +146,10 @@ print(pivot_train)
 #model
 '''
 
-outliers_fraction = 0.01
+outliers_fraction = 0.0025
 ecliptic_fit_apple = EllipticEnvelope(contamination=outliers_fraction).fit(df_apple)
 ecliptic_pred_apple = ecliptic_fit_apple.predict(df_apple)
-#ecliptic_pred_apple = list(set(ecliptic_pred_apple))
-#print(df_apple)        
+ecliptic_pred_apple = list(set(ecliptic_pred_apple))       
 
 #print(ecliptic_pred_apple)
 
@@ -169,7 +166,7 @@ printOutliers(IsolationForest_apple_pred)
 
 lof_apple = LocalOutlierFactor(contamination = outliers_fraction)
 lof_apple_pred = lof_apple.fit_predict(df_apple)
-print(lof_apple_pred)
+#print(lof_apple_pred)
 
 #plot(ecliptic_fit_apple)
 
