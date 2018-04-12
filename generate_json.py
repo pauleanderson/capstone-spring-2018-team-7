@@ -21,8 +21,8 @@ def set_apple():
 def pick_title(platform, title, date):
   return pd.DataFrame(list(platform.find({"title":title,"date":date, "chart":"gross"})))
 
-df_apple = pick_title(set_apple(), "Knife Hit", current_date)
-df_android = pick_title(set_android(), "Knife Hit", current_date)
+df_apple = pick_title(set_apple(), "Fortnite", current_date)
+df_android = pick_title(set_android(), "Fortnite", current_date)
 
 apple_countries = df_apple['country'].tolist()
 android_countries = df_android['country'].tolist()
