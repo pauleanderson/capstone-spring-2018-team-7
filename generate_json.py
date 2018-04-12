@@ -24,10 +24,10 @@ def pick_title(platform, title, date):
 df_apple = pick_title(set_apple(), "Knife Hit", current_date)
 df_android = pick_title(set_android(), "Knife Hit", current_date)
 
-apple_countries = df_apple["country"].tolist()
-android_countries = df_android["country"].tolist()
-apple_ranks = df_apple["rank"].tolist()
-android_ranks = df_android["rank"].tolist()
+apple_countries = df_apple['country'].tolist()
+android_countries = df_android['country'].tolist()
+apple_ranks = df_apple['rank'].tolist()
+android_ranks = df_android['rank'].tolist()
 
 print(apple_countries)
 print(apple_ranks)
