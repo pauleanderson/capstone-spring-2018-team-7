@@ -209,12 +209,12 @@ lof_android_pred = lof_apple.fit_predict(df_android)
 with open("outliers_apple", "w") as output:
     writer = csv.writer(output, lineterminator='\n')
     for val in outliers_apple:
-        writer.writerow([val])  
+        writer.writerow(val)  
 
 with open("outliers_android", "w") as output:
     writer = csv.writer(output, lineterminator='\n')
     for val in outliers_android:
-        writer.writerow([val])  
+        writer.writerow(val)  
 
 
 
