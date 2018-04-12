@@ -123,20 +123,24 @@ for i in range(len(df_android_pivots)):
 
 df_android = df_android.fillna(0)
 df_android= df_android.set_index("title")
+outliers_apple =[]
+outliers_android = []
 
 def printOutliers(model,ios):
   count = 0
   if(ios == "apple"):
     for i in model:
       if(i == -1):
-          print(df_apple.iloc[count])
+          print(df_apple.index[count])
+          outlier_apple.append(df_apple.index[count])
           count = count +1
       else:
           count = count +1
   else:
       for i in model:
         if(i == -1):
-          print(df_android.iloc[count])
+          print(df_android.index[count])
+          outliers_android.append(df_android.index[count])
           count = count +1
       else:
           count = count +1
