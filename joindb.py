@@ -67,7 +67,7 @@ android_country_charts = []
 
 for i in countries:
     apple_country_charts.append(pick_country(set_apple(),i))
-    android_country_charts.appned(pick_country(set_android),i)
+    android_country_charts.append(pick_country(set_android),i)
 
 df_apple_pivots = [None]*6
 for i in range(len(apple_country_charts)-1):
@@ -124,11 +124,19 @@ for i in range(len(df_android_pivots)):
 df_android = df_android.fillna(0)
 df_android= df_android.set_index("title")
 
-def printOutliers(model):
+def printOutliers(model,ios):
   count = 0
-  for i in model:
+  if(ios == "apple"):
+    for i in model:
       if(i == -1):
           print(df_apple.iloc[count])
+          count = count +1
+      else:
+          count = count +1
+  else:
+      for i in model:
+        if(i == -1):
+          print(df_android.iloc[count])
           count = count +1
       else:
           count = count +1
@@ -180,9 +188,9 @@ IsolationForest_apple_pred = IsolationForest_apple.predict(df_apple)
 IsolationForest_android_pred = IsolationForest_apple.predict(df_android)
 #iprint(IsolationForest_apple_pred)
 print("apple")
-printOutliers(IsolationForest_apple_pred)
+printOutliers(IsolationForest_apple_pred,apple)
 print("android")
-printOutliers(IsolationForest_android_pred)
+printOutliers(IsolationForest_android_pred,android)
 
 lof_apple = LocalOutlierFactor(contamination = outliers_fraction)
 lof_apple_pred = lof_apple.fit_predict(df_apple)
