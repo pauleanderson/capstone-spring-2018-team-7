@@ -66,10 +66,13 @@ def app_data (platform, icon, title, countries, developer, url, release=None):
 
 #TODO once the input to python is decided, we will need a function that will loop through apps like code below:
 datam = ''
-
-file = open('data2.json', 'w')
 datam = datam + app_data("Apple", apple_icon, apple_title, apple_countries_string, apple_dev, apple_url, release=apple_released)
 datam = datam + app_data("Android", android_icon, android_title, android_countries_string, android_dev, android_url)
+
+print(datam)
+print(generate_data(datam))
+
+file = open('data2.json', 'w')
 file.write(generate_data(datam)
 file.write(generate_data(datam))
 file.close()
