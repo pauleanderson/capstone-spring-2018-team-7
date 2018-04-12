@@ -67,10 +67,9 @@ android_country_charts = []
 
 for i in countries:
     apple_country_charts.append(pick_country(set_apple(),i))
-    
+    android_country_charts.append(pick_country(set_android(),i))
 
 df_apple_pivots = [None]*6
-print(len(apple_country_charts))
 for i in range(len(apple_country_charts)-1):
   df_apple_pivots[i] = apple_country_charts[i].pivot_table(index = "title",columns = "date",values = "rank")
   df_apple_pivots[i] = df_apple_pivots[i].fillna(101)
@@ -79,7 +78,14 @@ for i in range(len(apple_country_charts)-1):
   df_apple_pivots[i].reset_index(inplace = True)
   df_apple_pivots[i] = df_apple_pivots[i].loc[:,["title","delta 1:2","delta 1:3","delta 1:4","delta 1:5","delta 2:3","delta 2:4","delta 2:5","delta 3:4","delta 3:5","delta 4:5"]]
 
-    
+df_android_pivots = [None]*6
+for i in range(len(android_country_charts)-1):
+  df_android_pivots[i] = android_country_charts[i].pivot_table(index = "title",columns = "date",values = "rank")
+  df_android_pivots[i] = df_android_pivots[i].fillna(101)
+  df_android_pivots[i] = df_android_pivots[i].iloc[:,df_android_pivots[i].shape[1]-5:]
+  df_android_pivots[i] = last_five_days(df_android_pivots[i])
+  df_android_pivots[i].reset_index(inplace = True)
+  df_android_pivots[i] = df_android_pivots[i].loc[:,["title","delta 1:2","delta 1:3","delta 1:4","delta 1:5","delta 2:3","delta 2:4","delta 2:5","delta 3:4","delta 3:5","delta 4:5"]] 
 
 
 #print(df_apple_pivots)
@@ -92,6 +98,7 @@ for key in apple_country_charts:
   df_apple_pivots[key].reset_index(inplace = True)
   df_apple_pivots[key] = df_apple_pivots[key].loc[:,["title","delta 1:2","delta 1:3","delta 1:4","delta 1:5","delta 2:3","delta 2:4","delta 2:5","delta 3:4","delta 3:5","delta 4:5"]]
 '''
+
 first = True
 #print(df_apple_pivots)
 for i in range(len(df_apple_pivots)):
@@ -103,13 +110,37 @@ for i in range(len(df_apple_pivots)):
 
 df_apple = df_apple.fillna(0)
 df_apple = df_apple.set_index("title")
-print(df_apple)
+#print(df_apple)
 
-def printOutliers(model):
+first = True
+
+for i in range(len(df_android_pivots)):
+  if(first):
+    df_android = df_android_pivots[i]
+    first = False
+  else:
+    df_android = pd.merge(df_android,df_android_pivots[i],on = ["title"],how = "outer")
+
+df_android = df_android.fillna(0)
+df_android= df_android.set_index("title")
+outliers_apple =[]
+outliers_android = []
+
+def printOutliers(model,ios):
   count = 0
-  for i in model:
+  if(ios == "apple"):
+    for i in model:
       if(i == -1):
-          print(df_apple.iloc[count])
+          print(df_apple.index[count])
+          outlier_apple.append(df_apple.index[count])
+          count = count +1
+      else:
+          count = count +1
+  else:
+      for i in model:
+        if(i == -1):
+          print(df_android.index[count])
+          outliers_android.append(df_android.index[count])
           count = count +1
       else:
           count = count +1
@@ -117,20 +148,12 @@ def printOutliers(model):
 
 
 
-'''
-Android country chart
-for country_chart in android_country_charts:
-  df_android_collection[country_chart] = pick_country(set_android(), country_chart)
-'''
 #country initialzation
 
 
 
 
-'''
-print(pivot_au.nlargest(3,"delta rank0"))
-print("")
-'''
+
 
 
 
@@ -151,21 +174,33 @@ ecliptic_fit_apple = EllipticEnvelope(contamination=outliers_fraction).fit(df_ap
 ecliptic_pred_apple = ecliptic_fit_apple.predict(df_apple)
 ecliptic_pred_apple = list(set(ecliptic_pred_apple))       
 
+ecliptic_fit_android = EllipticEnvelope(contamination=outliers_fraction).fit(df_android)
+ecliptic_pred_android = ecliptic_fit_apple.predict(df_android)
+ecliptic_pred_android = list(set(ecliptic_pred_android))  
 #print(ecliptic_pred_apple)
 
 
 one_class_svm = svm.OneClassSVM(nu=0.1, kernel="rbf", gamma=0.1).fit(df_apple)
 svm_pred_apple = one_class_svm.predict(df_apple)
+
+svm_pred_apple = one_class_svm.predict(df_android)
 #print(svm_pred_apple)
 #printOutliers(svm_pred_apple)
 
 IsolationForest_apple = IsolationForest(max_samples=100,contamination = outliers_fraction).fit(df_apple)
 IsolationForest_apple_pred = IsolationForest_apple.predict(df_apple)
+IsolationForest_android_pred = IsolationForest_apple.predict(df_android)
 #iprint(IsolationForest_apple_pred)
-printOutliers(IsolationForest_apple_pred)
+print("apple")
+printOutliers(IsolationForest_apple_pred,"apple")
+print("android")
+printOutliers(IsolationForest_android_pred,"android")
 
 lof_apple = LocalOutlierFactor(contamination = outliers_fraction)
 lof_apple_pred = lof_apple.fit_predict(df_apple)
+
+lof_android = LocalOutlierFactor(contamination = outliers_fraction)
+lof_android_pred = lof_apple.fit_predict(df_android)
 #print(lof_apple_pred)
 
 #plot(ecliptic_fit_apple)
