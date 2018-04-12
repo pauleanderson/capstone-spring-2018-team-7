@@ -38,30 +38,19 @@ for i in range(len(apple_countries)):
 for i in range(len(android_countries)):
     android_countries_string = android_countries_string + android_countries[i] + ": " + str(android_ranks[i]) + "\n"
 
-print(apple_countries_string)
-print(android_countries_string)
+apple_title = str(df_apple['title'].tolist()[0])
+android_title = str(df_android['title'].tolist()[0])
 
 apple_dev = str(df_apple['developer'].tolist()[0])
 android_dev = str(df_android['developer'].tolist()[0])
 
-print(apple_dev)
-print(android_dev)
-
 apple_released = str(df_apple['released'].tolist()[0])
-
-print(apple_released)
 
 apple_url = str(df_apple['url'].tolist()[0])
 android_url = str(df_android['url'].tolist()[0])
 
-print(apple_url)
-print(android_url)
-
 apple_icon = str(df_apple['icon'].tolist()[0])
 android_icon = "https:" + str(df_android['icon'].tolist()[0])
-
-print(apple_icon)
-print(android_icon)
 
 def generate_data (string):
     string = '{' +'\n' + '"text":"*Good morning from Cayce!* The update for today:", "attachments": [' + string[:-1]
@@ -70,19 +59,18 @@ def generate_data (string):
 
 def app_data (platform, icon, title, countries, developer, url, release=None):
     if (release == "Android"):
-        data = '{' +'\n' + '"title": "' + title + '", "text": "Highest Rank Country: ' + countries + '\t Developer: ' + developer + '", "thumb_url": "' + url +  '"},'
+        data = '{' +'\n' + '"Platform: "' + platform + '\n"Title": "' + title + '", "text": "Countries and Ranks: ' + countries + '\n Developer: ' + developer + '\n url: ' + url + "thumb_url": "' + icon +  '"},'
     else:
-        data = '{' +'\n' + '"title": "' + title + '", "text": "Highest Rank Country: ' + countries + '\t Release Date: ' + release + '\t Developer: ' + developer + '", "thumb_url": "' + url +  '"},'        
+        data = '{' +'\n' + '"Platform: "' + platform + '\n"Title": "' + title + '", "text": "Countries and Ranks: ' + countries + '\n Release Date: ' + release + '\n Developer: ' + developer + '\n url: ' + url + "thumb_url": "' + icon +  '"},'        
     return data
 
 #TODO once the input to python is decided, we will need a function that will loop through apps like code below:
 datam = ''
-for i in range (0,3):
-    datam = datam+app_data('Apple', 'icon', 'Dragon Times', 'Country: au, rank: 100', 'crazy_developer', 'https://lh3.googleusercontent.com/lZhL5smuoS8EqylXKUgv5tN7V9jlSUT2txzyHYHcIBDwTLkKjDGmuEXDS5N6YB5Oag=w340')
 
 file = open('data2.json', 'w')
-
-file.write(generate_data(app_data('Apple', 'icon', 'Dragon Times', 'Country: au, rank: 100', 'crazy_developer', 'https://lh3.googleusercontent.com/lZhL5smuoS8EqylXKUgv5tN7V9jlSUT2txzyHYHcIBDwTLkKjDGmuEXDS5N6YB5Oag=w340', release = "10/20")))
+datam = datam + app_data("Apple", apple_icon, apple_title, apple_countries_string, apple_dev, apple_url, release=apple_released)
+datam = datam + app_data("Android", android_icon, android_title, android_countries_string, android_dev, android_url)
+file.write(generate_data(datam)
 file.write(generate_data(datam))
 file.close()
 
