@@ -69,8 +69,8 @@ datam = ''
 datam = datam + app_data("Apple", apple_icon, apple_title, apple_countries_string, apple_dev, apple_url, release=apple_released)
 datam = datam + app_data("Android", android_icon, android_title, android_countries_string, android_dev, android_url)
 
-print(datam)
-print(generate_data(datam))
+print("datam" + datam)
+print("something" + generate_data(datam))
 
 file = open('data2.json', 'w')
 file.write(generate_data(datam)
