@@ -34,9 +34,9 @@ android_ranks = df_android['rank'].tolist()
 apple_countries_string = ""
 android_countries_string = ""
 for i in range(len(apple_countries)):
-    apple_countries_string = apple_countries_string + apple_countries[i] + ": " + str(apple_ranks[i]) + "\n"
+    apple_countries_string = apple_countries_string + apple_countries[i] + ": " + str(apple_ranks[i]) + "\t"
 for i in range(len(android_countries)):
-    android_countries_string = android_countries_string + android_countries[i] + ": " + str(android_ranks[i]) + "\n"
+    android_countries_string = android_countries_string + android_countries[i] + ": " + str(android_ranks[i]) + "\t"
 
 apple_title = str(df_apple['title'].tolist()[0])
 android_title = str(df_android['title'].tolist()[0])
@@ -59,14 +59,27 @@ def generate_data (string):
 
 def app_data (platform, icon, title, countries, developer, url, release=''):
     if (platform == "Android"):
-        data = '{' +'\n' + '"Platform: "' + platform + '", "\nTitle": "' + title + '", "text": "\nCountries and Ranks: ' + countries + '\n Developer: ' + developer + '\n url: ' + url +'", "thumb_url": "' + icon +  '"},'
-    else:
-        data = '{' +'\n' + '"Platform: "' + platform + '", "\nTitle": "' + title + '", "text": "\nCountries and Ranks: ' + countries + '\n Release Date: ' + release + '\n Developer: ' + developer + '\n url: ' + url + '", "thumb_url": "' + icon +  '"},'        
+        data = '{' + '\n' + '"title"' : '"Android Trending App",' + '\n' +
+                '"fields":' + '[' + '\n' +
+                '{' + '"title":' + "Game" + ',' + '"value":' + title + '}' + ',' + '\n'+
+                '{' + '"title":' + "Countries and Ranks" + ',' + '"value":' + countries + '}' + ',' + '\n'+
+                '{' + '"title":' + "Developer" + ',' + '"value":' + developer + '}' + ',' + '\n'+
+                '{' + '"title":' + "URL" + ',' + '"value":' + url + '}' + '\n'+ ']' + '\n'+
+                '"image_url":' + icon + '}'
+     else:
+        data = '{' + '\n' + '"title"' : '"Android Trending App",' + '\n' +
+                '"fields":' + '[' + '\n' +
+                '{' + '"title":' + "Game" + ',' + '"value":' + title + '}' + ',' + '\n'+
+                '{' + '"title":' + "Countries and Ranks" + ',' + '"value":' + countries + '}' + ',' + '\n'+
+                '{' + '"title":' + "Developer" + ',' + '"value":' + developer + '}' + ',' + '\n'+
+                '{' + '"title":' + "Release Date" + ',' + '"value":' + release + '}' + ',' + '\n'+
+                '{' + '"title":' + "URL" + ',' + '"value":' + url + '}' + '\n'+ ']' + '\n'+
+                '"image_url":' + icon + '}'    
     return data
 
 #TODO once the input to python is decided, we will need a function that will loop through apps like code below:
 datam = ''
-datam = datam + app_data("Apple", apple_icon, apple_title, apple_countries_string, apple_dev, apple_url, release=apple_released)
+datam = datam + app_data("Apple", apple_icon, apple_title, apple_countries_string, apple_dev, apple_url, release=apple_released) + ','
 datam = datam + app_data("Android", android_icon, android_title, android_countries_string, android_dev, android_url)
 
 
