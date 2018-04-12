@@ -59,7 +59,7 @@ def generate_data (string):
 
 def app_data (platform, icon, title, countries, developer, url, release=''):
     if (platform == "Android"):
-        data = '{' + '\n' + '"title"' : '"Android Trending App",' + '\n' +
+        data = '{' + '\n' + '"title"' + ':' + '"Android Trending App",' + '\n' +
                 '"fields":' + '[' + '\n' +
                 '{' + '"title":' + "Game" + ',' + '"value":' + title + '}' + ',' + '\n'+
                 '{' + '"title":' + "Countries and Ranks" + ',' + '"value":' + countries + '}' + ',' + '\n'+
@@ -67,7 +67,7 @@ def app_data (platform, icon, title, countries, developer, url, release=''):
                 '{' + '"title":' + "URL" + ',' + '"value":' + url + '}' + '\n'+ ']' + '\n'+
                 '"image_url":' + icon + '}'
      else:
-        data = '{' + '\n' + '"title"' : '"Android Trending App",' + '\n' +
+        data = '{' + '\n' + '"title"' + ':' + '"Android Trending App",' + '\n' +
                 '"fields":' + '[' + '\n' +
                 '{' + '"title":' + "Game" + ',' + '"value":' + title + '}' + ',' + '\n'+
                 '{' + '"title":' + "Countries and Ranks" + ',' + '"value":' + countries + '}' + ',' + '\n'+
