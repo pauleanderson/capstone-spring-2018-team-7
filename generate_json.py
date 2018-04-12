@@ -19,13 +19,20 @@ def set_apple():
 
 ## Select df of occurences of title in today's df type
 def pick_title(platform, title, date):
-  return pd.DataFrame(list(platform.find({"title":title,"date":date})))
+  return pd.DataFrame(list(platform.find({"title":title,"date":date, "chart":"gross"})))
 
 df_apple = pick_title(set_apple(), "Knife Hit", current_date)
 df_android = pick_title(set_android(), "Knife Hit", current_date)
 
-print(df_apple)
-print(df_android)
+apple_countries = df_apple["country"].tolist()
+android_countries = df_android["country"].tolist()
+apple_ranks = df_apple["rank"].tolist()
+android_ranks = df_android["rank"].tolist()
+
+print(apple_countries)
+print(apple_ranks)
+print(android_countries)
+print(android_ranks)
 
 def generate_data (string):
     string = '{' +'\n' + '"text":"*Cayce heils you!* The update for today:", "attachments": [' + string[:-1]
