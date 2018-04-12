@@ -206,8 +206,17 @@ lof_android_pred = lof_apple.fit_predict(df_android)
 
 #plot(ecliptic_fit_apple)
 
- outliers_apple.to_csv('outliers_apple.csv', index=False, header=False)
- outliers_android.to_csv('outliers_android.csv', index=False, header=False)
+with open("outliers_apple", "w") as output:
+    writer = csv.writer(output, lineterminator='\n')
+    for val in outliers_apple:
+        writer.writerow([val])  
+
+with open("outliers_android", "w") as output:
+    writer = csv.writer(output, lineterminator='\n')
+    for val in outliers_android:
+        writer.writerow([val])  
+
+
 
 
 
