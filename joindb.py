@@ -69,15 +69,15 @@ for i in countries:
     apple_country_charts.append(pick_country(set_apple(),i))
     
 
-df_apple_pivots = []
+df_apple_pivots = [None]*7
 print(len(apple_country_charts))
-for i in range(len(apple_country_charts)):
+for i in range(len(apple_country_charts)-1):
   df_apple_pivots[i] = apple_country_charts[i].pivot_table(index = "title",columns = "date",values = "rank")
-  df_apple_pivots[i] = df_apple_pivots.fillna(101)
-  df_apple_pivots[i] = df_apple_pivots.iloc[:,df_apple_pivots.shape[1]-5:]
-  df_apple_pivots[i] = last_five_days(df_apple_pivots)
+  df_apple_pivots[i] = df_apple_pivots[i].fillna(101)
+  df_apple_pivots[i] = df_apple_pivots[i].iloc[:,df_apple_pivots[i].shape[1]-5:]
+  df_apple_pivots[i] = last_five_days(df_apple_pivots[i])
   df_apple_pivots[i].reset_index(inplace = True)
-  df_apple_pivots[i] = df_apple_pivots.loc[:,["title","delta 1:2","delta 1:3","delta 1:4","delta 1:5","delta 2:3","delta 2:4","delta 2:5","delta 3:4","delta 3:5","delta 4:5"]]
+  df_apple_pivots[i] = df_apple_pivots[i].loc[:,["title","delta 1:2","delta 1:3","delta 1:4","delta 1:5","delta 2:3","delta 2:4","delta 2:5","delta 3:4","delta 3:5","delta 4:5"]]
 
 print(df_apple_pivots)
     
