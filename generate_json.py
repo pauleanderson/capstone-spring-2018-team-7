@@ -65,7 +65,7 @@ def app_data (platform, icon, title, countries, developer, url, release=''):
                 '{' + '"title":' + '"Countries and Ranks"' + ',' + '"value":' + '\"' + countries + '\"' + '}' + ',' + '\n' + \
                 '{' + '"title":' + '"Developer"' + ',' + '"value":' + '\"' + developer + '\"' + '}' + ',' + '\n' + \
                 '{' + '"title":' + '"URL"' + ',' + '"value":' + '\"' + url + '\"' + '}' + '\n'+ ']' + '\n' + \
-                '"image_url":' + icon + '}'
+                '"image_url":' + '\"' + icon + '\"' + '}'
     else:
         data = '{' + '\n' + '"title"' + ':' + '"Android Trending App",' + '\n' + \
                 '"fields":' + '[' + '\n' + \
@@ -74,7 +74,7 @@ def app_data (platform, icon, title, countries, developer, url, release=''):
                 '{' + '"title":' + '"Developer"' + ',' + '"value":' + '\"' + developer + '\"' + '}' + ',' + '\n' + \
                 '{' + '"title":' + '"Release Date"' + ',' + '"value":' + '\"' + release + '\"' + '}' + ',' + '\n' + \
                 '{' + '"title":' + '"URL"' + ',' + '"value":' + '\"' + url + '\"' + '}' + '\n'+ ']' + '\n' + \
-                '"image_url":' + icon + '}'    
+                '"image_url":' + '\"' + icon + '\"' + '}'    
     return data
 
 #TODO once the input to python is decided, we will need a function that will loop through apps like code below:
