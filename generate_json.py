@@ -73,7 +73,6 @@ print("datam" + datam)
 print("something" + generate_data(datam))
 
 file = open('data2.json', 'w')
-file.write(generate_data(datam)
 file.write(generate_data(datam))
 file.close()
 
