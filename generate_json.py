@@ -66,7 +66,7 @@ def app_data (platform, icon, title, countries, developer, url, release=''):
                 '{' + '"title":' + "Developer" + ',' + '"value":' + developer + '}' + ',' + '\n' + \
                 '{' + '"title":' + "URL" + ',' + '"value":' + url + '}' + '\n'+ ']' + '\n' + \
                 '"image_url":' + icon + '}'
-     else:
+    else:
         data = '{' + '\n' + '"title"' + ':' + '"Android Trending App",' + '\n' + \
                 '"fields":' + '[' + '\n' + \
                 '{' + '"title":' + "Game" + ',' + '"value":' + title + '}' + ',' + '\n' + \
