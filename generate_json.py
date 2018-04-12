@@ -1,4 +1,31 @@
 import json
+import pymongo
+import datetime
+import pandas as pd
+
+current_date = datetime.datetime.now().strftime("%Y-%m-%d")
+
+## connect to the database
+client = MongoClient ('localhost', 27017)
+data = client.apps
+
+## Pick Android collections
+def set_android():
+  return data.android
+
+## Pick Apple collections
+def set_apple():
+  return data.apple
+
+## Select df of occurences of title in today's df type
+def pick_title(platform, title, date):
+  return pd.DataFrame(list(platform.find({"title":title,"date":date})))
+
+df_apple = pick_title(set_apple(), "Knife Hit", current_date)
+df_android = pick_title(set_android(), "Knife Hit", current_date)
+
+print(df_apple)
+print(df_android)
 
 def generate_data (string):
     string = '{' +'\n' + '"text":"*Cayce heils you!* The update for today:", "attachments": [' + string[:-1]
