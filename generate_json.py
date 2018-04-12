@@ -24,9 +24,6 @@ def pick_title(platform, title, date):
 df_apple = pick_title(set_apple(), "Fortnite", current_date)
 df_android = pick_title(set_android(), "Candy Crush Saga", current_date)
 
-#print(df_apple)
-#print(df_android)
-
 apple_countries = df_apple['country'].tolist()
 apple_countries = map(str, apple_countries)
 android_countries = df_android['country'].tolist()
@@ -41,10 +38,27 @@ for i in range(len(apple_countries)):
 for i in range(len(android_countries)):
     android_countries_string = android_countries_string + android_countries[i] + ": " + str(android_ranks[i]) + "\n"
 
-print(apple_countries_string)
-print(android_countries_string)
+apple_dev = str(df_apple['developer'].tolist()[0])
+android_dev = str(df_android['developer'].tolist()[0])
 
+print(apple_dev)
+print(android_dev)
 
+apple_released = str(df_apple['released'].tolist()[0])
+
+print(apple_released)
+
+apple_url = str(df_apple['url'].tolist()[0])
+android_url = str(df_android['url'].tolist()[0])
+
+print(apple_url)
+print(android_url)
+
+apple_icon = str(df_apple['icon'].tolist()[0])
+android_icon = "https:" + str(df_android['icon'].tolist()[0])
+
+print(apple_icon)
+print(android_icon)
 
 def generate_data (string):
     string = '{' +'\n' + '"text":"*Cayce heils you!* The update for today:", "attachments": [' + string[:-1]
