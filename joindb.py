@@ -95,12 +95,13 @@ for key in apple_country_charts:
 '''
 first = True
 #print(df_apple_pivots)
-for key in df_apple_pivots.keys():
+for i in range(len(df_apple_pivots)):
   if(first):
-    df_apple = df_apple_pivots[key]
+    df_apple = df_apple_pivots[i]
+      pass
     first = False
   else:
-    df_apple = pd.merge(df_apple,df_apple_pivots[key],on = ["title"],how = "outer")
+    df_apple = pd.merge(df_apple,df_apple_pivots[i],on = ["title"],how = "outer")
 
 df_apple = df_apple.fillna(0)
 df_apple = df_apple.set_index("title")
