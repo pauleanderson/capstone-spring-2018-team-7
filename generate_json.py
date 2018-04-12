@@ -1,12 +1,12 @@
 import json
-import pymongo
+from pymongo import MongoClient
 import datetime
 import pandas as pd
 
 current_date = datetime.datetime.now().strftime("%Y-%m-%d")
 
 ## connect to the database
-client = MongoClient ('localhost', 27017)
+client = MongoClient('localhost', 27017)
 data = client.apps
 
 ## Pick Android collections
