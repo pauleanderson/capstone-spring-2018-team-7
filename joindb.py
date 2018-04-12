@@ -132,7 +132,7 @@ def printOutliers(model,ios):
     for i in model:
       if(i == -1):
           print(df_apple.index[count])
-          outlier_apple.append(df_apple.index[count])
+          outliers_apple.append(df_apple.index[count])
           count = count +1
       else:
           count = count +1
