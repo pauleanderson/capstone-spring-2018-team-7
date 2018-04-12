@@ -24,10 +24,8 @@ def set_apple ():
   return data.apple
 
 ## Pick country/chart type
-def pick_country(platform, country_chart):
-  s = country_chart.split(" ")
-  country = s[0]
-  chart = s[1]
+def pick_country(platform, country):
+  chart = 'gross'
   return pd.DataFrame(list(platform.find({"country":country,"chart":chart})))
 
 ## Pick all countries
@@ -66,26 +64,31 @@ apple_charts =  'gross'
 android_charts = 'gross'
 apple_country_charts = []
 android_country_charts = []
+
 for i in countries:
-    apple_country_charts.append(i+ " ")
-    android_country_charts.append(i+ " ")
+    apple_country_charts.append(pick_country(set_apple(),i))
+    
 
 
-df_apple_grossing_collection = pick_country(set_apple(), apple_country_charts)
+for i in apple_country_charts:
+    i = i.fillna(101)
+    i = i.iloc[:,i.shape[1]-5:]
+print(apple_country_charts[0])
+    
 
 
-df_apple_pivots = {}
-
-for key in df_apple_collection.keys():
-  df_apple_pivots[key] = df_apple_collection[key].pivot_table(index = "title", columns = "date", values = "rank")
-  df_apple_pivots[key] = df_apple_pivots[key].fillna(101)
+#print(df_apple_pivots)
+'''
+for key in apple_country_charts:
+  df_apple_pivots = apple_country_charts[key].pivot_table(index = "title", columns = "date", values = "rank")
+  df_apple_pivots[key] = apple_country_charts[key].fillna(101)
   df_apple_pivots[key] = df_apple_pivots[key].iloc[:,df_apple_pivots[key].shape[1]-5:]
   df_apple_pivots[key] = last_five_days(df_apple_pivots[key])
   df_apple_pivots[key].reset_index(inplace = True)
   df_apple_pivots[key] = df_apple_pivots[key].loc[:,["title","delta 1:2","delta 1:3","delta 1:4","delta 1:5","delta 2:3","delta 2:4","delta 2:5","delta 3:4","delta 3:5","delta 4:5"]]
-
+'''
 first = True
-
+#print(df_apple_pivots)
 for key in df_apple_pivots.keys():
   if(first):
     df_apple = df_apple_pivots[key]
