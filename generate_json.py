@@ -38,6 +38,9 @@ for i in range(len(apple_countries)):
 for i in range(len(android_countries)):
     android_countries_string = android_countries_string + android_countries[i] + ": " + str(android_ranks[i]) + "\n"
 
+print(apple_countries_string)
+print(android_countries_string)
+
 apple_dev = str(df_apple['developer'].tolist()[0])
 android_dev = str(df_android['developer'].tolist()[0])
 
