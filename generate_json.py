@@ -67,7 +67,7 @@ def app_data (platform, icon, title, countries, developer, url, release=''):
                 '{' + '"title":' + '"URL"' + ',' + '"value":' + '\"' + url + '\"' + '}' + '\n'+ '],' + '\n' + \
                 '"image_url":' + '\"' + icon + '\"' + '}'
     else:
-        data = '{' + '\n' + '"title"' + ':' + '"Android Trending App",' + '\n' + \
+        data = '{' + '\n' + '"title"' + ':' + '"Apple Trending App",' + '\n' + \
                 '"fields":' + '[' + '\n' + \
                 '{' + '"title":' + '"Game"' + ',' + '"value":' + '\"' + title + '\"' + '}' + ',' + '\n' + \
                 '{' + '"title":' + '"Countries and Ranks"' + ',' + '"value":' + '\"' + countries + '\"' + '}' + ',' + '\n' + \
@@ -83,7 +83,7 @@ datam = datam + app_data("Apple", apple_icon, apple_title, apple_countries_strin
 datam = datam + app_data("Android", android_icon, android_title, android_countries_string, android_dev, android_url)
 
 
-file = open('data2.json', 'w')
+file = open('data3.json', 'w')
 file.write(generate_data(datam))
 file.close()
 
