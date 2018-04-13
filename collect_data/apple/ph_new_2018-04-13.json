@@ -1,0 +1,278 @@
+[ 
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Bushiroad International",
+    "developerId" : 1313165317,
+    "developerUrl" : "https://itunes.apple.com/ph/developer/bushiroad-international/id1313165317?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7002",
+        "7011"
+      ],
+    "genres" : [ 
+        "Games",
+        "Adventure",
+        "Music"
+      ],
+    "icon" : "https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/c6/40/5c/c6405c62-211d-17a4-30e1-f91a8a3fc3d7/mzl.ticxptew.png/200x200bb.png",
+    "id" : "1335529760",
+    "released" : "2018-04-04",
+    "title" : "BanG Dream! Girls Band Party!",
+    "url" : "https://itunes.apple.com/ph/app/bang-dream-girls-band-party/id1335529760?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "PlayStack Ltd",
+    "developerId" : 1133080356,
+    "developerUrl" : "https://itunes.apple.com/ph/developer/playstack-ltd/id1133080356?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7001",
+        "7002"
+      ],
+    "genres" : [ 
+        "Games",
+        "Action",
+        "Adventure"
+      ],
+    "icon" : "https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/ba/b7/b2/bab7b2a6-2796-169a-a2fa-cb472955af70/AppIcon-1x_U007emarketing-85-220-6.png/200x200bb.png",
+    "id" : "1327396071",
+    "released" : "2018-04-04",
+    "title" : "Ava Airborne",
+    "url" : "https://itunes.apple.com/ph/app/ava-airborne/id1327396071?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Jonathan Topf",
+    "developerId" : 1016915418,
+    "developerUrl" : "https://itunes.apple.com/ph/developer/jonathan-topf/id1016915418?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "6017",
+        "7012",
+        "7015"
+      ],
+    "genres" : [ 
+        "Games",
+        "Education",
+        "Puzzle",
+        "Simulation"
+      ],
+    "icon" : "https://is2-ssl.mzstatic.com/image/thumb/Purple118/v4/ea/a1/08/eaa1087c-bea4-fbf8-06ee-4d2b91a4e8da/AppIcon-1x_U007emarketing-85-220-0-8.png/200x200bb.png",
+    "id" : "1315443633",
+    "released" : "2018-04-03",
+    "title" : "Trick Shot 2",
+    "url" : "https://itunes.apple.com/ph/app/trick-shot-2/id1315443633?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Daedalic Entertainment GmbH",
+    "developerId" : 469359943,
+    "developerUrl" : "https://itunes.apple.com/ph/developer/daedalic-entertainment-gmbh/id469359943?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "6018",
+        "7012",
+        "7002"
+      ],
+    "genres" : [ 
+        "Games",
+        "Books",
+        "Puzzle",
+        "Adventure"
+      ],
+    "icon" : "https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/1a/5f/04/1a5f0416-4cb6-8e79-fe6d-74b76bd0ffdb/mzl.evgvfcmn.png/200x200bb.png",
+    "id" : "1267287230",
+    "released" : "2018-04-04",
+    "title" : "The Pillars of the Earth Game",
+    "url" : "https://itunes.apple.com/ph/app/the-pillars-of-the-earth-game/id1267287230?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Nitrome",
+    "developerId" : 568079484,
+    "developerUrl" : "https://itunes.apple.com/ph/developer/nitrome/id568079484?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7001",
+        "7003"
+      ],
+    "genres" : [ 
+        "Games",
+        "Action",
+        "Arcade"
+      ],
+    "icon" : "https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/7d/b6/12/7db6126b-a0d0-78d9-5e0e-80d680726b9f/AppIcon-1x_U007emarketing-0-85-220-0-8.png/200x200bb.png",
+    "id" : "1306789834",
+    "released" : "2018-04-04",
+    "title" : "Colorblind - An Eye For An Eye",
+    "url" : "https://itunes.apple.com/ph/app/colorblind-an-eye-for-an-eye/id1306789834?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Etermax",
+    "developerId" : 286461525,
+    "developerUrl" : "https://itunes.apple.com/ph/developer/etermax/id286461525?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "6016",
+        "7017",
+        "7001"
+      ],
+    "genres" : [ 
+        "Games",
+        "Entertainment",
+        "Strategy",
+        "Action"
+      ],
+    "icon" : "https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/6e/db/c4/6edbc43e-9831-fd50-36f6-e8b8d1a12dd3/AppIcon-1x_U007emarketing-85-220-0-8.png/200x200bb.png",
+    "id" : "1235817318",
+    "released" : "2018-02-05",
+    "title" : "Orbital 1",
+    "url" : "https://itunes.apple.com/ph/app/orbital-1/id1235817318?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Wee Door",
+    "developerId" : 1297037438,
+    "developerUrl" : "https://itunes.apple.com/ph/developer/wee-door/id1297037438?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7009",
+        "7004"
+      ],
+    "genres" : [ 
+        "Games",
+        "Family",
+        "Board"
+      ],
+    "icon" : "https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/e8/5d/8c/e85d8c55-7ebe-3e02-1748-194fba5878e6/AppIcon-1x_U007emarketing-85-220-0-8.png/200x200bb.png",
+    "id" : "1345361647",
+    "released" : "2018-04-04",
+    "title" : "OIL",
+    "url" : "https://itunes.apple.com/ph/app/oil/id1345361647?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Iron Horse Games LLC",
+    "developerId" : 1281721366,
+    "developerUrl" : "https://itunes.apple.com/ph/developer/iron-horse-games-llc/id1281721366?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7017",
+        "7005"
+      ],
+    "genres" : [ 
+        "Games",
+        "Strategy",
+        "Card"
+      ],
+    "icon" : "https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/21/ba/56/21ba5630-737f-a003-6c8f-dec45f542cfd/AppIcon-1x_U007emarketing-85-220-5.png/200x200bb.png",
+    "id" : "1300190705",
+    "released" : "2018-04-03",
+    "title" : "Uncivil War TCG",
+    "url" : "https://itunes.apple.com/ph/app/uncivil-war-tcg/id1300190705?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "PlaySide",
+    "developerId" : 551505830,
+    "developerUrl" : "https://itunes.apple.com/ph/developer/playside/id551505830?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7002",
+        "7003"
+      ],
+    "genres" : [ 
+        "Games",
+        "Adventure",
+        "Arcade"
+      ],
+    "icon" : "https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/87/78/d2/8778d210-8665-7013-097f-b0cf907df5ce/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-8.png/200x200bb.png",
+    "id" : "1343628016",
+    "released" : "2018-04-03",
+    "title" : "Ghost Pop!",
+    "url" : "https://itunes.apple.com/ph/app/ghost-pop/id1343628016?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Devolver Digital",
+    "developerId" : 457410262,
+    "developerUrl" : "https://itunes.apple.com/ph/developer/devolver-digital/id457410262?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7012",
+        "6016",
+        "7002"
+      ],
+    "genres" : [ 
+        "Games",
+        "Puzzle",
+        "Entertainment",
+        "Adventure"
+      ],
+    "icon" : "https://is2-ssl.mzstatic.com/image/thumb/Purple118/v4/e3/6f/f8/e36ff8d9-2ae5-5139-3f38-1ee0c5fb6312/AppIcon-1x_U007emarketing-0-85-220-0-7.png/200x200bb.png",
+    "id" : "1354786786",
+    "released" : "2018-03-28",
+    "title" : "Umiro",
+    "url" : "https://itunes.apple.com/ph/app/umiro/id1354786786?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "FoxNext Games, LLC",
+    "developerId" : 1292952048,
+    "developerUrl" : "https://itunes.apple.com/ph/developer/foxnext-games-llc/id1292952048?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7001",
+        "7014",
+        "6016"
+      ],
+    "genres" : [ 
+        "Games",
+        "Action",
+        "Role-Playing",
+        "Entertainment"
+      ],
+    "icon" : "https://is2-ssl.mzstatic.com/image/thumb/Purple128/v4/5d/90/51/5d905160-3237-d086-6e57-6da60db0e8b8/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-5.png/200x200bb.png",
+    "id" : "1292952049",
+    "released" : "2018-03-28",
+    "title" : "MARVEL Strike Force",
+    "url" : "https://itunes.apple.com/ph/app/marvel-strike-force/id1292952049?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "中手游",
+    "developerId" : 1173784973,
+    "developerUrl" : "https://itunes.apple.com/ph/developer/%E4%B8%AD%E6%89%8B%E6%B8%B8/id1173784973?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7002",
+        "6016",
+        "7012"
+      ],
+    "genres" : [ 
+        "Games",
+        "Adventure",
+        "Entertainment",
+        "Puzzle"
+      ],
+    "icon" : "https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/8d/74/94/8d749455-13b1-9eea-47b5-98bb323117cc/AppIcon-1x_U007emarketing-85-220-8.png/200x200bb.png",
+    "id" : "1258488476",
+    "released" : "2018-03-27",
+    "title" : "Candleman",
+    "url" : "https://itunes.apple.com/ph/app/candleman/id1258488476?mt=8"
+  }
+]
