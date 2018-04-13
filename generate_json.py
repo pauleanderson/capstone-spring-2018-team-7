@@ -65,7 +65,7 @@ def app_data (platform, icon, title, countries, developer, url, release=''):
                 '{' + '"title":' + '"Countries and Ranks"' + ',' + '"value":' + '\"' + countries + '\"' + '}' + ',' + '\n' + \
                 '{' + '"title":' + '"Developer"' + ',' + '"value":' + '\"' + developer + '\"' + '}' + ',' + '\n' + \
                 '{' + '"title":' + '"URL"' + ',' + '"value":' + '\"' + url + '\"' + '}' + '\n'+ '],' + '\n' + \
-                '"image_url":' + '\"' + icon + '\"}'
+                '"image_url":' + '\"' + icon + '\"'
     else:
         data = '{' + '\n' + '"title"' + ':' + '"Apple Trending App",' + '\n' + \
                 '"fields":' + '[' + '\n' + \
@@ -80,7 +80,7 @@ def app_data (platform, icon, title, countries, developer, url, release=''):
 #TODO once the input to python is decided, we will need a function that will loop through apps like code below:
 datam = ''
 datam = datam + app_data("Apple", apple_icon, apple_title, apple_countries_string, apple_dev, apple_url, release=apple_released) + ','
-datam = datam + app_data("Android", android_icon, android_title, android_countries_string, android_dev, android_url)
+datam = datam + app_data("Android", android_icon, android_title, android_countries_string, android_dev, android_url) + '}'
 
 
 file = open('data3.json', 'w')
