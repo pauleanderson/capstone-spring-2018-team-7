@@ -178,7 +178,7 @@ ecliptic_pred_apple = list(set(ecliptic_pred_apple))
 ecliptic_fit_android = EllipticEnvelope(contamination=outliers_fraction).fit(df_android)
 ecliptic_pred_android = ecliptic_fit_apple.predict(df_android)
 ecliptic_pred_android = list(set(ecliptic_pred_android))  
-#print(ecliptic_pred_apple)
+printOutliers(ecliptic_pred_apple,"apple")
 
 
 one_class_svm = svm.OneClassSVM(nu=0.1, kernel="rbf", gamma=0.1).fit(df_apple)
@@ -193,7 +193,7 @@ IsolationForest_apple_pred = IsolationForest_apple.predict(df_apple)
 IsolationForest_android_pred = IsolationForest_apple.predict(df_android)
 #iprint(IsolationForest_apple_pred)
 
-#printOutliers(IsolationForest_apple_pred,"apple")
+printOutliers(IsolationForest_apple_pred,"apple")
 
 #printOutliers(IsolationForest_android_pred,"android")
 
