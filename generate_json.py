@@ -21,8 +21,8 @@ def set_apple():
 def pick_title(platform, title, date):
   return pd.DataFrame(list(platform.find({"title":title,"date":date, "chart":"gross"})))
 
-df_apple = pick_title(set_apple(), "Fortnite", current_date)
-df_android = pick_title(set_android(), "Candy Crush Saga", current_date)
+df_apple = pick_title(set_apple(), "Love Nikki-Dress UP Queen", current_date)
+df_android = pick_title(set_android(), "Final Fantasy XV: A New Empire", current_date)
 
 apple_countries = df_apple['country'].tolist()
 apple_countries = map(str, apple_countries)
@@ -34,9 +34,26 @@ android_ranks = df_android['rank'].tolist()
 apple_countries_string = ""
 android_countries_string = ""
 for i in range(len(apple_countries)):
-    apple_countries_string = apple_countries_string + apple_countries[i] + "- " + str(apple_ranks[i]) + "  "
+    apple_countries_string = apple_countries_string + apple_countries[i] + ": " + str(apple_ranks[i]) + "  "
 for i in range(len(android_countries)):
-    android_countries_string = android_countries_string + android_countries[i] + "- " + str(android_ranks[i]) + "  "
+    android_countries_string = android_countries_string + android_countries[i] + ": " + str(android_ranks[i]) + "  "
+
+apple_countries_string = apple_countries_string.replace("au", "Australia")
+apple_countries_string = apple_countries_string.replace("nz", "New Zealand")
+apple_countries_string = apple_countries_string.replace("se", "Sweden")
+apple_countries_string = apple_countries_string.replace("dk", "Denmark")
+apple_countries_string = apple_countries_string.replace("no", "Norway")
+apple_countries_string = apple_countries_string.replace("at", "Austria")
+apple_countries_string = apple_countries_string.replace("ph", "Phillipines")
+
+android_countries_string = android_countries_string.replace("au", "Australia")
+android_countries_string = android_countries_string.replace("nz", "New Zealand")
+android_countries_string = android_countries_string.replace("se", "Sweden")
+android_countries_string = android_countries_string.replace("dk", "Denmark")
+android_countries_string = android_countries_string.replace("no", "Norway")
+android_countries_string = android_countries_string.replace("at", "Austria")
+android_countries_string = android_countries_string.replace("ph", "Phillipines")
+
 
 apple_title = str(df_apple['title'].tolist()[0])
 android_title = str(df_android['title'].tolist()[0])
@@ -62,7 +79,7 @@ def app_data (platform, icon, title, countries, developer, url, release=''):
         data = '{' + '\n' + '"title"' + ':' + '"Android Trending App",' + '\n' + \
                 '"fields":' + '[' + '\n' + \
                 '{' + '"title":' + '"Game"' + ',' + '"value":' + '\"' + title  + '\"' + '}' + ',' + '\n' + \
-                '{' + '"title":' + '"Countries and Ranks"' + ',' + '"value":' + '\"' + countries + '\"' + '}' + ',' + '\n' + \
+                '{' + '"title":' + '"Countries and Top Grossing Ranks"' + ',' + '"value":' + '\"' + countries + '\"' + '}' + ',' + '\n' + \
                 '{' + '"title":' + '"Developer"' + ',' + '"value":' + '\"' + developer + '\"' + '}' + ',' + '\n' + \
                 '{' + '"title":' + '"URL"' + ',' + '"value":' + '\"' + url + '\"' + '}' + '\n'+ '],' + '\n' + \
                 '"image_url":' + '\"' + icon + '\"' + '}'
@@ -70,7 +87,7 @@ def app_data (platform, icon, title, countries, developer, url, release=''):
         data = '{' + '\n' + '"title"' + ':' + '"Apple Trending App",' + '\n' + \
                 '"fields":' + '[' + '\n' + \
                 '{' + '"title":' + '"Game"' + ',' + '"value":' + '\"' + title + '\"' + '}' + ',' + '\n' + \
-                '{' + '"title":' + '"Countries and Ranks"' + ',' + '"value":' + '\"' + countries + '\"' + '}' + ',' + '\n' + \
+                '{' + '"title":' + '"Countries and Top Grossing Ranks"' + ',' + '"value":' + '\"' + countries + '\"' + '}' + ',' + '\n' + \
                 '{' + '"title":' + '"Developer"' + ',' + '"value":' + '\"' + developer + '\"' + '}' + ',' + '\n' + \
                 '{' + '"title":' + '"Release Date"' + ',' + '"value":' + '\"' + release + '\"' + '}' + ',' + '\n' + \
                 '{' + '"title":' + '"URL"' + ',' + '"value":' + '\"' + url + '\"' + '}' + '\n'+ '],' + '\n' + \
