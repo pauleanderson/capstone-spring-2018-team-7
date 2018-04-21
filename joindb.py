@@ -149,9 +149,9 @@ IsolationForest_android_pred = IsolationForest_android.predict(df_android)
 printOutliers(IsolationForest_apple_pred,"apple")
 printOutliers(IsolationForest_android_pred,"android")
 
-#print(outliers_apple)
+print(outliers_apple)
 
-#print(outliers_android)
+print(outliers_android)
 
 df_apple['max'] = df_apple.max(axis = 1)
 df_android['max'] = df_android.max(axis = 1)
