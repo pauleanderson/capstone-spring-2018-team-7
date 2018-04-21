@@ -24,6 +24,9 @@ def set_android ():
 def set_apple ():
   return data.apple
 
+def set_stoplist():
+  return data.stoplist
+
 ## Pick country/chart type
 def pick_country(platform, country):
   chart = 'gross'
@@ -159,8 +162,10 @@ df_android['max'] = df_android.max(axis = 1)
 df_apple_outliers = df_apple.iloc[outliers_apple_i,:]
 df_android_outliers = df_android.iloc[outliers_android_i,:]
 
-stoplist = pd.read_csv("/home/cofccapstoneteam7/capstone-spring-2018-team-7/stoplist.csv",header = None,names = ["title"])
+stoplist = pd.DataFrame(list(set_stoplist().find({},{"title":1,"_id":0})))
 stoplist = stoplist["title"].tolist()
+
+print(stoplist)
 
 df_apple_outliers = df_apple_outliers[~df_apple_outliers.index.isin(stoplist)]
 df_android_outliers = df_android_outliers[~df_android_outliers.index.isin(stoplist)]
