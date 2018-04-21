@@ -118,24 +118,17 @@ outliers_apple =[]
 outliers_android = []
 
 def printOutliers(model,ios):
-  count = 0
-  if(ios == "apple"):
-    for i in model:
-      if(i == -1):
-          print(df_apple.index[count])
-          outliers_apple.append(df_apple.index[count])
-          count = count +1
-      else:
-          count = count +1
-  else:
-      for i in model:
-        if(i == -1):
-          print(df_android.index[count])
-          outliers_android.append(df_android.index[count])
-          count = count +1
-      else:
-          count = count +1
 
+  if(ios == "apple"):
+    for i in range(len(model)):
+      if(i == -1):
+          #print(df_apple.index[count])
+          outliers_apple.append(df_apple.index[i])
+  else:
+      for i in range(len(model)):
+        if(i == -1):
+          #print(df_android.index[count])
+          outliers_android.append(df_android.index[i])
 
 
 
@@ -151,6 +144,10 @@ IsolationForest_android_pred = IsolationForest_android.predict(df_android)
 
 printOutliers(IsolationForest_apple_pred,"apple")
 printOutliers(IsolationForest_android_pred,"android")
+
+print(outliers_apple)
+
+print(outliers_android)
 
 
 
