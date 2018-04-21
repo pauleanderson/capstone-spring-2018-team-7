@@ -89,16 +89,6 @@ for i in range(len(android_country_charts)-1):
   df_android_pivots[i] = df_android_pivots[i].loc[:,["title","delta 1:2","delta 1:3","delta 1:4","delta 1:5","delta 2:3","delta 2:4","delta 2:5","delta 3:4","delta 3:5","delta 4:5"]] 
 
 
-#print(df_apple_pivots)
-'''
-for key in apple_country_charts:
-  df_apple_pivots = apple_country_charts[key].pivot_table(index = "title", columns = "date", values = "rank")
-  df_apple_pivots[key] = apple_country_charts[key].fillna(101)
-  df_apple_pivots[key] = df_apple_pivots[key].iloc[:,df_apple_pivots[key].shape[1]-5:]
-  df_apple_pivots[key] = last_five_days(df_apple_pivots[key])
-  df_apple_pivots[key].reset_index(inplace = True)
-  df_apple_pivots[key] = df_apple_pivots[key].loc[:,["title","delta 1:2","delta 1:3","delta 1:4","delta 1:5","delta 2:3","delta 2:4","delta 2:5","delta 3:4","delta 3:5","delta 4:5"]]
-'''
 
 first = True
 #print(df_apple_pivots)
@@ -149,72 +139,25 @@ def printOutliers(model,ios):
 
 
 
-#country initialzation
 
-
-
-
-
-
-
-
-#Need to find a way to grab genre[1] and make sure its gaming.
-#that code goes here
-'''
-#mergin data frames into one training set
-
-#print(pivot_se.shape[0])
-#pivot_Train = pivot_au.join( pivot_nz, on='title',how = "inner")
-pivot_train = pd.merge(pivot_au,pivot_nz,on = ["title"],how  = "outer")
-print(pivot_train)
-#model
-'''
 
 outliers_fraction = 0.0025
-ecliptic_fit_apple = EllipticEnvelope(contamination=outliers_fraction).fit(df_apple)
-ecliptic_pred_apple = ecliptic_fit_apple.predict(df_apple)
-ecliptic_pred_apple = list(set(ecliptic_pred_apple))       
-
-ecliptic_fit_android = EllipticEnvelope(contamination=outliers_fraction).fit(df_android)
-ecliptic_pred_android = ecliptic_fit_apple.predict(df_android)
-ecliptic_pred_android = list(set(ecliptic_pred_android))  
-printOutliers(ecliptic_pred_apple,"apple")
-
-
-one_class_svm = svm.OneClassSVM(nu=0.1, kernel="rbf", gamma=0.1).fit(df_apple)
-svm_pred_apple = one_class_svm.predict(df_apple)
-
-svm_pred_apple = one_class_svm.predict(df_android)
-#print(svm_pred_apple)
-#printOutliers(svm_pred_apple)
-
 IsolationForest_apple = IsolationForest(max_samples=100,contamination = outliers_fraction).fit(df_apple)
 IsolationForest_apple_pred = IsolationForest_apple.predict(df_apple)
-IsolationForest_android_pred = IsolationForest_apple.predict(df_android)
+
+IsolationForest_apple = IsolationForest(max_samples=100,contamination = outliers_fraction).fit(df_android)
+IsolationForest_android_pred = IsolationForest_android_pred.predict(df_android)
 #iprint(IsolationForest_apple_pred)
 
 printOutliers(IsolationForest_apple_pred,"apple")
+printOutliers(IsolationForest_android_pred,"android")
 
-#printOutliers(IsolationForest_android_pred,"android")
 
-lof_apple = LocalOutlierFactor(contamination = outliers_fraction)
-lof_apple_pred = lof_apple.fit_predict(df_apple)
 
-lof_android = LocalOutlierFactor(contamination = outliers_fraction)
-lof_android_pred = lof_apple.fit_predict(df_android)
-#print(lof_apple_pred)
 
-#plot(ecliptic_fit_apple)
 
-with open("outliers_apple", "w") as output:
-    writer = csv.writer(output, lineterminator='\n')
-    for val in outliers_apple:
-        writer.writerow(val)  
 
-with open("outliers_android", "w") as output:
-    writer = csv.writer(output, lineterminator='\n')
-    for val in outliers_android:
-        writer.writerow(val)  
+ 
 
 
 
