@@ -179,16 +179,6 @@ if(len(df_apple_outliers) > 0):
 if(len(df_android_outliers) > 0): 
   androidOutlier = df_android_outliers.index[0]
 
-###################
-print(outliers_apple)
-print(df_apple_outliers)
-print(appleOutlier)
-
-print(outliers_android)
-print(df_android_outliers)
-print(androidOutlier)
-####################
-
 
 #coding json for slack bot output
 current_date = datetime.datetime.now().strftime("%Y-%m-%d")
