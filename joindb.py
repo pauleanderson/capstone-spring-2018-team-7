@@ -8,7 +8,7 @@ from sklearn import svm
 from pymongo import MongoClient
 import pandas as pd
 import sys
-import csv
+import datetime
 
 ## connect to the database
 client = MongoClient ('localhost', 27017)
