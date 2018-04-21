@@ -181,11 +181,11 @@ if(len(df_android_outliers) > 0):
 
 ###################
 print(outliers_apple)
-print(df_apple_outliers)
+print(df_apple_outliers['max'])
 print(appleOutlier)
 print()
 print(outliers_android)
-print(df_android_outliers)
+print(df_android_outliers['max'])
 print(androidOutlier)
 ####################
 
