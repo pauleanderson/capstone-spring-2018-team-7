@@ -152,9 +152,9 @@ IsolationForest_android_pred = IsolationForest_android.predict(df_android)
 printOutliers(IsolationForest_apple_pred,"apple")
 printOutliers(IsolationForest_android_pred,"android")
 
-print(outliers_apple)
+#print(outliers_apple)
 
-print(outliers_android)
+#print(outliers_android)
 
 df_apple['max'] = df_apple.max(axis = 1)
 df_android['max'] = df_android.max(axis = 1)
@@ -165,7 +165,7 @@ df_android_outliers = df_android.iloc[outliers_android_i,:]
 stoplist = pd.DataFrame(list(set_stoplist().find({},{"title":1,"_id":0})))
 stoplist = stoplist["title"].tolist()
 
-print(stoplist)
+#print(stoplist)
 
 df_apple_outliers = df_apple_outliers[~df_apple_outliers.index.isin(stoplist)]
 df_android_outliers = df_android_outliers[~df_android_outliers.index.isin(stoplist)]
@@ -173,19 +173,117 @@ df_android_outliers = df_android_outliers[~df_android_outliers.index.isin(stopli
 df_apple_outliers = df_apple_outliers.sort_values(by = ['max'], ascending = False)
 df_android_outliers = df_android_outliers.sort_values(by = ['max'], ascending = False)
 
+appleOutlier = ""
+androidOutlier = ""
 
 if(len(df_apple_outliers) > 0): 
   appleOutlier = df_apple_outliers.index[0]
-  print(appleOutlier)
+  #print(appleOutlier)
 
 if(len(df_android_outliers) > 0): 
   androidOutlier = df_android_outliers.index[0]
-  print(androidOutlier)
+  #print(androidOutlier)
 
-print(df_apple_outliers['max'])
-print(df_android_outliers['max'])
+#print(df_apple_outliers['max'])
+#print(df_android_outliers['max'])
 
- 
+#coding json for slack bot output
+
+current_date = datetime.datetime.now().strftime("%Y-%m-%d")
+
+def pick_title(platform, title, date):
+  return pd.DataFrame(list(platform.find({"title":title,"date":date, "chart":"gross"})))
+
+if(appleOutlier != ""):
+  df_apple = pick_title(set_apple(), appleOutlier, current_date)
+  apple_countries = df_apple['country'].tolist()
+  apple_countries = map(str, apple_countries)
+  apple_ranks = df_apple['rank'].tolist()
+  apple_countries_string = ""
+
+  for i in range(len(apple_countries)):
+    apple_countries_string = apple_countries_string + apple_countries[i] + ": " + str(apple_ranks[i]) + "  "
+
+  apple_countries_string = apple_countries_string.replace("au", "Australia")
+  apple_countries_string = apple_countries_string.replace("nz", "New Zealand")
+  apple_countries_string = apple_countries_string.replace("se", "Sweden")
+  apple_countries_string = apple_countries_string.replace("dk", "Denmark")
+  apple_countries_string = apple_countries_string.replace("no", "Norway")
+  apple_countries_string = apple_countries_string.replace("at", "Austria")
+  apple_countries_string = apple_countries_string.replace("ph", "Phillipines")
+  apple_title = str(df_apple['title'].tolist()[0])
+  apple_dev = str(df_apple['developer'].tolist()[0])
+  apple_released = str(df_apple['released'].tolist()[0])
+  apple_url = str(df_apple['url'].tolist()[0])
+  apple_icon = str(df_apple['icon'].tolist()[0])
+
+if(androidOutlier != ""):
+  df_android = pick_title(set_android(), androidOutlier, current_date)
+  android_countries = df_android['country'].tolist()
+  android_countries = map(str, android_countries)
+  android_ranks = df_android['rank'].tolist()
+  android_countries_string = ""
+  for i in range(len(android_countries)):
+    android_countries_string = android_countries_string + android_countries[i] + ": " + str(android_ranks[i]) + "  "
+
+  android_countries_string = android_countries_string.replace("au", "Australia")
+  android_countries_string = android_countries_string.replace("nz", "New Zealand")
+  android_countries_string = android_countries_string.replace("se", "Sweden")
+  android_countries_string = android_countries_string.replace("dk", "Denmark")
+  android_countries_string = android_countries_string.replace("no", "Norway")
+  android_countries_string = android_countries_string.replace("at", "Austria")
+  android_countries_string = android_countries_string.replace("ph", "Phillipines")
+
+  android_title = str(df_android['title'].tolist()[0])
+  android_dev = str(df_android['developer'].tolist()[0])
+  android_url = str(df_android['url'].tolist()[0])
+  android_icon = "https:" + str(df_android['icon'].tolist()[0])
+
+
+def generate_data (string):
+    string = '{' +'\n' + '"text":"*Good morning from Cayce!* The update for today:", "attachments": [' + string
+    string = string + ']}'
+    return string
+
+def app_data (platform, icon, title, countries, developer, url, release=''):
+    if (platform == "Android" and title != ""):
+        data = '{' + '\n' + '"title"' + ':' + '"Android Trending App",' + '\n' + \
+                '"fields":' + '[' + '\n' + \
+                '{' + '"title":' + '"Game"' + ',' + '"value":' + '\"' + title  + '\"' + '}' + ',' + '\n' + \
+                '{' + '"title":' + '"Countries and Top Grossing Ranks"' + ',' + '"value":' + '\"' + countries + '\"' + '}' + ',' + '\n' + \
+                '{' + '"title":' + '"Developer"' + ',' + '"value":' + '\"' + developer + '\"' + '}' + ',' + '\n' + \
+                '{' + '"title":' + '"URL"' + ',' + '"value":' + '\"' + url + '\"' + '}' + '\n'+ '],' + '\n' + \
+                '"image_url":' + '\"' + icon + '\"' + '}'
+    elif(platform == "Android" and title == ""):
+        data = '{' + '\n' + '"title"' + ':' + '"Android Trending App",' + '\n' + \
+                '"fields":' + '[' + '\n' + \
+                '{' + '"title":' + '"Update:"' + ',' + '"value":' + '\"' + "No trending app today" + '\"' + '}' + '\n'+ '],' + '\n' + '}'
+    elif(platform == "Apple" and title != ""):
+        data = '{' + '\n' + '"title"' + ':' + '"Apple Trending App",' + '\n' + \
+                '"fields":' + '[' + '\n' + \
+                '{' + '"title":' + '"Game"' + ',' + '"value":' + '\"' + title + '\"' + '}' + ',' + '\n' + \
+                '{' + '"title":' + '"Countries and Top Grossing Ranks"' + ',' + '"value":' + '\"' + countries + '\"' + '}' + ',' + '\n' + \
+                '{' + '"title":' + '"Developer"' + ',' + '"value":' + '\"' + developer + '\"' + '}' + ',' + '\n' + \
+                '{' + '"title":' + '"Release Date"' + ',' + '"value":' + '\"' + release + '\"' + '}' + ',' + '\n' + \
+                '{' + '"title":' + '"URL"' + ',' + '"value":' + '\"' + url + '\"' + '}' + '\n'+ '],' + '\n' + \
+                '"image_url":' + '\"' + icon + '\"' + '}' 
+    elif(platform == "Apple" and title == ""):  
+        data = '{' + '\n' + '"title"' + ':' + '"Apple Trending App",' + '\n' + \
+                '"fields":' + '[' + '\n' + \
+                '{' + '"title":' + '"Update:"' + ',' + '"value":' + '\"' + "No trending app today" + '\"' + '}' + '\n'+ '],' + '\n' + '}'
+    return data
+
+#TODO once the input to python is decided, we will need a function that will loop through apps like code below:
+datam = ''
+datam = datam + app_data("Apple", apple_icon, apple_title, apple_countries_string, apple_dev, apple_url, release=apple_released) + ','
+datam = datam + app_data("Android", android_icon, android_title, android_countries_string, android_dev, android_url)
+
+
+file = open('slack.json', 'w')
+file.write(generate_data(datam))
+file.close()
+
+
 
 
 
