@@ -190,22 +190,23 @@ if(len(df_android_outliers) > 0):
 #coding json for slack bot output
 
 current_date = datetime.datetime.now().strftime("%Y-%m-%d")
+apple_title = ""
+apple_dev = ""
+apple_released = ""
+apple_url = ""
+apple_icon = ""
+apple_countries_string = ""
+
+android_title = ""
+android_dev = ""
+android_url = ""
+android_icon = ""
+android_countries_string = ""
 
 def pick_title(platform, title, date):
   return pd.DataFrame(list(platform.find({"title":title,"date":date, "chart":"gross"})))
 
-  apple_title = ""
-  apple_dev = ""
-  apple_released = ""
-  apple_url = ""
-  apple_icon = ""
-  apple_countries_string = ""
 
-  android_title = ""
-  android_dev = ""
-  android_url = ""
-  android_icon = ""
-  android_countries_string = ""
 
 if(appleOutlier != ""):
   df_apple = pick_title(set_apple(), appleOutlier, current_date)
