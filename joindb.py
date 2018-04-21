@@ -126,13 +126,13 @@ def printOutliers(model,ios):
       if(model[i] == -1):
           #print(df_apple.index[count])
           outliers_apple.append(df_apple.index[i])
-          outlier_apple_i.append(i)
+          outliers_apple_i.append(i)
   else:
       for i in range(len(model)):
         if(model[i] == -1):
           #print(df_android.index[count])
           outliers_android.append(df_android.index[i])
-          outlier_android_i.append(i)
+          outliers_android_i.append(i)
 
 
 
