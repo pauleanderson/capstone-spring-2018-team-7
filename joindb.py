@@ -177,7 +177,8 @@ if(len(df_android_outliers) > 0):
   androidOutlier = df_android_outliers.index[0]
   print(androidOutlier)
 
-
+print(df_apple_outliers['max'])
+print(df_android_outliers['max'])
 
  
 
