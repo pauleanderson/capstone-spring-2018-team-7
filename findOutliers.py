@@ -87,7 +87,7 @@ for i in range(len(apple_country_charts)-1):
 df_android_pivots = [None]*6
 for i in range(len(android_country_charts)-1):
   df_android_pivots[i] = android_country_charts[i].pivot_table(index = "title",columns = "date",values = "rank")
-  df_android_pivots[i] = df_android_pivots[i].fillna(101)
+  df_android_pivots[i] = df_android_pivots[i].fillna(501)
   df_android_pivots[i] = df_android_pivots[i].iloc[:,df_android_pivots[i].shape[1]-5:]
   df_android_pivots[i] = last_five_days(df_android_pivots[i])
   df_android_pivots[i].reset_index(inplace = True)
