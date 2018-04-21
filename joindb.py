@@ -160,7 +160,7 @@ df_apple_outliers = df_apple.iloc[outliers_apple_i,:]
 df_android_outliers = df_android.iloc[outliers_android_i,:]
 
 stoplist = pd.read_csv("/home/cofccapstoneteam7/capstone-spring-2018-team-7/stoplist.csv",header = None,names = ["title"])
-stoplist = str(stoplist["title"].tolist())
+stoplist = stoplist["title"].tolist()
 
 df_apple_outliers = df_apple_outliers[~df_apple_outliers.index.isin(stoplist)]
 df_android_outliers = df_android_outliers[~df_android_outliers.index.isin(stoplist)]
