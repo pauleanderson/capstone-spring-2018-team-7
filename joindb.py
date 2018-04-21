@@ -145,8 +145,8 @@ outliers_fraction = 0.0025
 IsolationForest_apple = IsolationForest(max_samples=100,contamination = outliers_fraction).fit(df_apple)
 IsolationForest_apple_pred = IsolationForest_apple.predict(df_apple)
 
-IsolationForest_apple = IsolationForest(max_samples=100,contamination = outliers_fraction).fit(df_android)
-IsolationForest_android_pred = IsolationForest_android_pred.predict(df_android)
+IsolationForest_android = IsolationForest(max_samples=100,contamination = outliers_fraction).fit(df_android)
+IsolationForest_android_pred = IsolationForest_android.predict(df_android)
 #iprint(IsolationForest_apple_pred)
 
 printOutliers(IsolationForest_apple_pred,"apple")
