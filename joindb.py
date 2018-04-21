@@ -145,12 +145,31 @@ IsolationForest_android_pred = IsolationForest_android.predict(df_android)
 printOutliers(IsolationForest_apple_pred,"apple")
 printOutliers(IsolationForest_android_pred,"android")
 
-print(outliers_apple)
+#print(outliers_apple)
 
-print(outliers_android)
+#print(outliers_android)
+
+df_apple['max'] = df_apple.max(axis = 1)
+df_android['max'] = df_android.max(axis = 1)
+
+df_apple_outliers = df_apple.iloc[outliers_apple:]
+df_android_outliers = df_android.iloc[outliers_android:]
+
+stoplist = pd.read_csv("/home/cofccapstoneteam7/capstone-spring-2018-team-7/stoplist.csv",header = None,names = ["title"])
+stoplist = str(stoplist["title"].tolist())
+
+df_apple_outliers = df_apple_outliers.drop(index = stoplist)
+df_android_outliers = df_android_outliers.drop(index = stoplist)
+
+df_apple_outliers = df_apple_outliers.sort_values(by = ['max'], ascending = False)
+df_android_outliers = df_android_outliers.sort_values(by = ['max'], ascending = False)
 
 
+if(len(df_apple_outliers) > 0): 
+  appleOutlier = df_apple_outliers.index[0]
 
+if(len(df_android_outliers) > 0): 
+  androidOutlier = df_android_outliers.index[0]
 
 
 
