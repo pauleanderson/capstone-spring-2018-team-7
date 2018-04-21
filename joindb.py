@@ -69,10 +69,12 @@ android_charts = 'gross'
 apple_country_charts = []
 android_country_charts = []
 
+#adding all country related app store data to a dataframe
 for i in countries:
     apple_country_charts.append(pick_country(set_apple(),i))
     android_country_charts.append(pick_country(set_android(),i))
 
+#calculating the permutations of delta change and adding them to the delta frame
 df_apple_pivots = [None]*6
 for i in range(len(apple_country_charts)-1):
   df_apple_pivots[i] = apple_country_charts[i].pivot_table(index = "title",columns = "date",values = "rank")
@@ -92,9 +94,8 @@ for i in range(len(android_country_charts)-1):
   df_android_pivots[i] = df_android_pivots[i].loc[:,["title","delta 1:2","delta 1:3","delta 1:4","delta 1:5","delta 2:3","delta 2:4","delta 2:5","delta 3:4","delta 3:5","delta 4:5"]] 
 
 
-
+#cleaning and merging the deltas into a new dataframe
 first = True
-#print(df_apple_pivots)
 for i in range(len(df_apple_pivots)):
   if(first):
     df_apple = df_apple_pivots[i]
@@ -104,10 +105,9 @@ for i in range(len(df_apple_pivots)):
 
 df_apple = df_apple.fillna(0)
 df_apple = df_apple.set_index("title")
-#print(df_apple)
+
 
 first = True
-
 for i in range(len(df_android_pivots)):
   if(first):
     df_android = df_android_pivots[i]
@@ -122,6 +122,7 @@ outliers_android = []
 outliers_apple_i =[]
 outliers_android_i = []
 
+#method for appending outliers (-1) to a list
 def printOutliers(model,ios):
 
   if(ios == "apple"):
@@ -138,24 +139,20 @@ def printOutliers(model,ios):
           outliers_android_i.append(i)
 
 
-
-
-
+#Isolation forest code
 outliers_fraction = 0.0025
 IsolationForest_apple = IsolationForest(max_samples=100,contamination = outliers_fraction).fit(df_apple)
 IsolationForest_apple_pred = IsolationForest_apple.predict(df_apple)
 
 IsolationForest_android = IsolationForest(max_samples=100,contamination = outliers_fraction).fit(df_android)
 IsolationForest_android_pred = IsolationForest_android.predict(df_android)
-#iprint(IsolationForest_apple_pred)
 
 printOutliers(IsolationForest_apple_pred,"apple")
 printOutliers(IsolationForest_android_pred,"android")
 
-#print(outliers_apple)
 
-#print(outliers_android)
 
+#finding the best outlier
 df_apple['max'] = df_apple.max(axis = 1)
 df_android['max'] = df_android.max(axis = 1)
 
@@ -165,7 +162,7 @@ df_android_outliers = df_android.iloc[outliers_android_i,:]
 stoplist = pd.DataFrame(list(set_stoplist().find({},{"title":1,"_id":0})))
 stoplist = stoplist["title"].tolist()
 
-#print(stoplist)
+
 
 df_apple_outliers = df_apple_outliers[~df_apple_outliers.index.isin(stoplist)]
 df_android_outliers = df_android_outliers[~df_android_outliers.index.isin(stoplist)]
@@ -178,17 +175,13 @@ androidOutlier = ""
 
 if(len(df_apple_outliers) > 0): 
   appleOutlier = df_apple_outliers.index[0]
-  #print(appleOutlier)
 
 if(len(df_android_outliers) > 0): 
   androidOutlier = df_android_outliers.index[0]
-  #print(androidOutlier)
 
-#print(df_apple_outliers['max'])
-#print(df_android_outliers['max'])
+
 
 #coding json for slack bot output
-
 current_date = datetime.datetime.now().strftime("%Y-%m-%d")
 apple_title = ""
 apple_dev = ""
@@ -203,6 +196,8 @@ android_url = ""
 android_icon = ""
 android_countries_string = ""
 
+
+#Json formatting
 def pick_title(platform, title, date):
   return pd.DataFrame(list(platform.find({"title":title,"date":date, "chart":"gross"})))
 
