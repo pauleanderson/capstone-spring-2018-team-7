@@ -210,9 +210,15 @@ android_countries_string = ""
 def pick_title(platform, title, date):
   return pd.DataFrame(list(platform.find({"title":title,"date":date, "chart":"gross"})))
 
-
+def pick_title_json(platform, title):
+  return platform.find_one({"title":title, "chart":"gross"})
 
 if(appleOutlier != ""):
+  #add apple outlier to stoplist
+  apple_outlier_json = pick_title_json(set_apple(), appleOutlier)
+  result = set_apple().insert(apple_outlier_json)
+
+  #query information about trending app from db
   df_apple = pick_title(set_apple(), appleOutlier, current_date)
   apple_countries = df_apple['country'].tolist()
   apple_countries = map(str, apple_countries)
@@ -236,6 +242,11 @@ if(appleOutlier != ""):
   apple_icon = str(df_apple['icon'].tolist()[0])
 
 if(androidOutlier != ""):
+  #add apple outlier to stoplist
+  android_outlier_json = pick_title_json(set_android(), androidOutlier)
+  result = set_android().insert(android_outlier_json)
+
+  #query information about trending app from db
   df_android = pick_title(set_android(), androidOutlier, current_date)
   android_countries = df_android['country'].tolist()
   android_countries = map(str, android_countries)
@@ -257,6 +268,7 @@ if(androidOutlier != ""):
   android_url = str(df_android['url'].tolist()[0])
   android_icon = "https:" + str(df_android['icon'].tolist()[0])
 
+#generate json for slackbot
 
 def generate_data (string):
     string = '{' +'\n' + '"text":"*Good morning from Cayce!* The update for today:", "attachments": [' + string
@@ -291,7 +303,6 @@ def app_data (platform, icon, title, countries, developer, url, release=''):
                 '{' + '"title":' + '"Update:"' + ',' + '"value":' + '\"' + "No trending app today" + '\"' + '}' + '\n'+ '],' + '\n' + '}'
     return data
 
-#TODO once the input to python is decided, we will need a function that will loop through apps like code below:
 datam = ''
 datam = datam + app_data("Apple", apple_icon, apple_title, apple_countries_string, apple_dev, apple_url, release=apple_released) + ','
 datam = datam + app_data("Android", android_icon, android_title, android_countries_string, android_dev, android_url)
