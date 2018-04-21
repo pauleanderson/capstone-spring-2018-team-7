@@ -228,6 +228,7 @@ if(appleOutlier != ""):
 
 if(androidOutlier != ""):
   df_android = pick_title(set_android(), androidOutlier, current_date)
+  print(df_android)
   android_countries = df_android['country'].tolist()
   android_countries = map(str, android_countries)
   android_ranks = df_android['rank'].tolist()
