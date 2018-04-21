@@ -152,8 +152,8 @@ printOutliers(IsolationForest_android_pred,"android")
 df_apple['max'] = df_apple.max(axis = 1)
 df_android['max'] = df_android.max(axis = 1)
 
-df_apple_outliers = df_apple.iloc[outliers_apple:]
-df_android_outliers = df_android.iloc[outliers_android:]
+df_apple_outliers = df_apple.loc[outliers_apple:]
+df_android_outliers = df_android.loc[outliers_android:]
 
 stoplist = pd.read_csv("/home/cofccapstoneteam7/capstone-spring-2018-team-7/stoplist.csv",header = None,names = ["title"])
 stoplist = str(stoplist["title"].tolist())
