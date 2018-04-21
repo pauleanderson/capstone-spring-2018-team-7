@@ -123,12 +123,12 @@ def printOutliers(model,ios):
     for i in range(len(model)):
       if(model[i] == -1):
           #print(df_apple.index[count])
-          outliers_apple.append(str(df_apple.index[i].tolist()))
+          outliers_apple.append(df_apple.index[i].encode("utf-8"))
   else:
       for i in range(len(model)):
         if(model[i] == -1):
           #print(df_android.index[count])
-          outliers_android.append(str(df_android.index[i].tolist()))
+          outliers_android.append(df_android.index[i].encode("utf-8"))
 
 
 
