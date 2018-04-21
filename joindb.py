@@ -121,12 +121,12 @@ def printOutliers(model,ios):
 
   if(ios == "apple"):
     for i in range(len(model)):
-      if(i == -1):
+      if(model[i] == -1):
           #print(df_apple.index[count])
           outliers_apple.append(df_apple.index[i])
   else:
       for i in range(len(model)):
-        if(i == -1):
+        if(model[i] == -1):
           #print(df_android.index[count])
           outliers_android.append(df_android.index[i])
 
