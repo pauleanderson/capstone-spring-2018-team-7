@@ -216,7 +216,7 @@ def pick_title_json(platform, title):
 if(appleOutlier != ""):
   #add apple outlier to stoplist
   apple_outlier_json = pick_title_json(set_apple(), appleOutlier)
-  result = set_apple().insert(apple_outlier_json)
+  result = set_stoplist().insert(apple_outlier_json)
 
   #query information about trending app from db
   df_apple = pick_title(set_apple(), appleOutlier, current_date)
@@ -244,7 +244,7 @@ if(appleOutlier != ""):
 if(androidOutlier != ""):
   #add apple outlier to stoplist
   android_outlier_json = pick_title_json(set_android(), androidOutlier)
-  result = set_android().insert(android_outlier_json)
+  result = set_stoplist().insert(android_outlier_json)
 
   #query information about trending app from db
   df_android = pick_title(set_android(), androidOutlier, current_date)
