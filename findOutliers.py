@@ -75,8 +75,8 @@ for i in countries:
     android_country_charts.append(pick_country(set_android(),i))
 
 #calculating the permutations of delta change and adding them to the delta frame
-df_apple_pivots = [None]*6
-for i in range(len(apple_country_charts)-1):
+df_apple_pivots = [None]*7
+for i in range(len(apple_country_charts)):
   df_apple_pivots[i] = apple_country_charts[i].pivot_table(index = "title",columns = "date",values = "rank")
   df_apple_pivots[i] = df_apple_pivots[i].fillna(101)
   df_apple_pivots[i] = df_apple_pivots[i].iloc[:,df_apple_pivots[i].shape[1]-5:]
@@ -84,8 +84,8 @@ for i in range(len(apple_country_charts)-1):
   df_apple_pivots[i].reset_index(inplace = True)
   df_apple_pivots[i] = df_apple_pivots[i].loc[:,["title","delta 1:2","delta 1:3","delta 1:4","delta 1:5","delta 2:3","delta 2:4","delta 2:5","delta 3:4","delta 3:5","delta 4:5"]]
 
-df_android_pivots = [None]*6
-for i in range(len(android_country_charts)-1):
+df_android_pivots = [None]*7
+for i in range(len(android_country_charts)):
   df_android_pivots[i] = android_country_charts[i].pivot_table(index = "title",columns = "date",values = "rank")
   df_android_pivots[i] = df_android_pivots[i].fillna(501)
   df_android_pivots[i] = df_android_pivots[i].iloc[:,df_android_pivots[i].shape[1]-5:]
