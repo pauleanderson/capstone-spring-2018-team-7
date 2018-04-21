@@ -116,6 +116,8 @@ df_android = df_android.fillna(0)
 df_android= df_android.set_index("title")
 outliers_apple =[]
 outliers_android = []
+outliers_apple_i =[]
+outliers_android_i = []
 
 def printOutliers(model,ios):
 
@@ -124,11 +126,13 @@ def printOutliers(model,ios):
       if(model[i] == -1):
           #print(df_apple.index[count])
           outliers_apple.append(df_apple.index[i])
+          outlier_apple_i.append(i)
   else:
       for i in range(len(model)):
         if(model[i] == -1):
           #print(df_android.index[count])
           outliers_android.append(df_android.index[i])
+          outlier_android_i.append(i)
 
 
 
@@ -152,8 +156,8 @@ printOutliers(IsolationForest_android_pred,"android")
 df_apple['max'] = df_apple.max(axis = 1)
 df_android['max'] = df_android.max(axis = 1)
 
-df_apple_outliers = df_apple.loc[outliers_apple:]
-df_android_outliers = df_android.loc[outliers_android:]
+df_apple_outliers = df_apple.iloc[outliers_apple_i:]
+df_android_outliers = df_android.iloc[outliers_android_i:]
 
 stoplist = pd.read_csv("/home/cofccapstoneteam7/capstone-spring-2018-team-7/stoplist.csv",header = None,names = ["title"])
 stoplist = str(stoplist["title"].tolist())
@@ -167,9 +171,11 @@ df_android_outliers = df_android_outliers.sort_values(by = ['max'], ascending = 
 
 if(len(df_apple_outliers) > 0): 
   appleOutlier = df_apple_outliers.index[0]
+  print(appleOutlier)
 
 if(len(df_android_outliers) > 0): 
   androidOutlier = df_android_outliers.index[0]
+  print(androidOutlier)
 
 
 
