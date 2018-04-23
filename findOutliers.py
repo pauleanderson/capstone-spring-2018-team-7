@@ -192,6 +192,12 @@ print(androidOutlier)
 
 #coding json for slack bot output
 current_date = datetime.datetime.now().strftime("%Y-%m-%d")
+yesterday = (datetime.datetime.now() - datetime.timedelta(days=1)).strftime("%Y-%m-%d")
+yesterday2 = (datetime.datetime.now() - datetime.timedelta(days=2)).strftime("%Y-%m-%d")
+yesterday3 = (datetime.datetime.now() - datetime.timedelta(days=3)).strftime("%Y-%m-%d")
+yesterday4 = (datetime.datetime.now() - datetime.timedelta(days=4)).strftime("%Y-%m-%d")
+last5days = [current_date, yesterday, yesterday2, yesterday3, yesterday4]
+
 apple_title = ""
 apple_dev = ""
 apple_released = ""
@@ -210,6 +216,12 @@ android_countries_string = ""
 def pick_title(platform, title, date):
   return pd.DataFrame(list(platform.find({"title":title,"date":date, "chart":"gross"})))
 
+def pick_title_dates(platform, title, dates):
+  for d in dates:
+    df = pick_title(platform, country, d)
+    if(not df.empty):
+      return df
+
 def pick_title_json(platform, title):
   return platform.find_one({"title":title, "chart":"gross"})
 
@@ -219,7 +231,7 @@ if(appleOutlier != ""):
   result = set_stoplist().insert(apple_outlier_json)
 
   #query information about trending app from db
-  df_apple = pick_title(set_apple(), appleOutlier, current_date)
+  df_apple = pick_title_dates(set_apple(), appleOutlier, last5days)
   apple_countries = df_apple['country'].tolist()
   apple_countries = map(str, apple_countries)
   apple_ranks = df_apple['rank'].tolist()
@@ -247,7 +259,7 @@ if(androidOutlier != ""):
   result = set_stoplist().insert(android_outlier_json)
 
   #query information about trending app from db
-  df_android = pick_title(set_android(), androidOutlier, current_date)
+  df_android = pick_title_dates(set_android(), androidOutlier, last5days)
   android_countries = df_android['country'].tolist()
   android_countries = map(str, android_countries)
   android_ranks = df_android['rank'].tolist()
