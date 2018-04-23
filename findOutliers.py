@@ -180,13 +180,13 @@ if(len(df_android_outliers) > 0):
   androidOutlier = df_android_outliers.index[0]
 
 ###################
-print(outliers_apple)
-print(df_apple_outliers['max'])
-print(appleOutlier)
-print()
-print(outliers_android)
-print(df_android_outliers['max'])
-print(androidOutlier)
+# print(outliers_apple)
+# print(df_apple_outliers['max'])
+# print(appleOutlier)
+# print()
+# print(outliers_android)
+# print(df_android_outliers['max'])
+# print(androidOutlier)
 ####################
 
 
@@ -218,7 +218,7 @@ def pick_title(platform, title, date):
 
 def pick_title_dates(platform, title, dates):
   for d in dates:
-    df = pick_title(platform, country, d)
+    df = pick_title(platform, title, d)
     if(not df.empty):
       return df
 
