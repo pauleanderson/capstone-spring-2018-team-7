@@ -140,7 +140,7 @@ def printOutliers(model,ios):
 
 
 #Isolation forest code
-outliers_fraction = 0.005
+outliers_fraction = 0.010
 IsolationForest_apple = IsolationForest(max_samples=100,contamination = outliers_fraction).fit(df_apple)
 IsolationForest_apple_pred = IsolationForest_apple.predict(df_apple)
 

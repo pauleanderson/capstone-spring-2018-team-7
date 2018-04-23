@@ -6,6 +6,7 @@ from bson import json_util
 connection = pymongo.MongoClient("mongodb://localhost")
 db = connection.apps
 stoplist = db.stoplist
+result = stoplist.delete_many({})
 
 filepath='/home/cofccapstoneteam7/capstone-spring-2018-team-7/stoplist.json'
 data = open(filepath).read()
