@@ -320,7 +320,7 @@ datam = datam + app_data("Apple", apple_icon, apple_title, apple_countries_strin
 datam = datam + app_data("Android", android_icon, android_title, android_countries_string, android_dev, android_url)
 
 
-file = open('slack.json', 'w')
+file = open('/home/cofccapstoneteam7/capstone-spring-2018-team-7/slack.json', 'w')
 file.write(generate_data(datam))
 file.close()
 
