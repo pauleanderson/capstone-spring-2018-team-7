@@ -1,0 +1,568 @@
+[ 
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "JOX Development",
+    "developerId" : 1257092161,
+    "developerUrl" : "https://itunes.apple.com/dk/developer/jox-development/id1257092161?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7012",
+        "7003"
+      ],
+    "genres" : [ 
+        "Games",
+        "Puzzle",
+        "Arcade"
+      ],
+    "icon" : "https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/59/4b/b3/594bb357-128c-3056-9b0e-2eb81727da53/AppIcon-1x_U007emarketing-85-220-9.png/200x200bb.png",
+    "id" : "1257092162",
+    "released" : "2018-04-11",
+    "title" : "Orbia",
+    "url" : "https://itunes.apple.com/dk/app/orbia/id1257092162?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "ARTE Experience",
+    "developerId" : 1159668429,
+    "developerUrl" : "https://itunes.apple.com/dk/developer/arte-experience/id1159668429?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7017",
+        "7012"
+      ],
+    "genres" : [ 
+        "Games",
+        "Strategy",
+        "Puzzle"
+      ],
+    "icon" : "https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/c0/e6/66/c0e66699-1ea4-7c99-e5d7-8b29b30624b1/AppIcon-1x_U007emarketing-0-85-220-0-8.png/200x200bb.png",
+    "id" : "1341831522",
+    "released" : "2018-04-12",
+    "title" : "Vandals",
+    "url" : "https://itunes.apple.com/dk/app/vandals/id1341831522?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Illusion Labs",
+    "developerId" : 297694604,
+    "developerUrl" : "https://itunes.apple.com/dk/developer/illusion-labs/id297694604?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7003",
+        "6016",
+        "7016"
+      ],
+    "genres" : [ 
+        "Games",
+        "Arcade",
+        "Entertainment",
+        "Sports"
+      ],
+    "icon" : "https://is4-ssl.mzstatic.com/image/thumb/Purple128/v4/c4/9d/ca/c49dca4a-1549-00f1-b19a-b849c29fa308/AppIcon-1x_U007emarketing-85-220-4.jpeg/200x200bb.png",
+    "id" : "1313179105",
+    "released" : "2018-04-11",
+    "title" : "Touchgrind BMX 2",
+    "url" : "https://itunes.apple.com/dk/app/touchgrind-bmx-2/id1313179105?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "LINE Friends Corporation",
+    "developerId" : 1170996535,
+    "developerUrl" : "https://itunes.apple.com/dk/developer/line-friends-corporation/id1170996535?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7004",
+        "7003"
+      ],
+    "genres" : [ 
+        "Games",
+        "Board",
+        "Arcade"
+      ],
+    "icon" : "https://is4-ssl.mzstatic.com/image/thumb/Purple128/v4/62/d7/f9/62d7f9d0-6b77-93f4-c24c-14a86a2823ce/AppIcon-1x_U007emarketing-0-85-220-0-8.png/200x200bb.png",
+    "id" : "1368294028",
+    "released" : "2018-04-06",
+    "title" : "Little Wizard Sally",
+    "url" : "https://itunes.apple.com/dk/app/little-wizard-sally/id1368294028?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Netmarble Games Corp.",
+    "developerId" : 930364579,
+    "developerUrl" : "https://itunes.apple.com/dk/developer/netmarble-games-corp/id930364579?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "6004",
+        "7002",
+        "7016"
+      ],
+    "genres" : [ 
+        "Games",
+        "Sports",
+        "Adventure",
+        "Sports"
+      ],
+    "icon" : "https://is2-ssl.mzstatic.com/image/thumb/Purple128/v4/25/44/25/254425fd-0b92-29c9-093a-53f51c92d7a4/AppIcon-1x_U007emarketing-85-220-9.png/200x200bb.png",
+    "id" : "1168575660",
+    "released" : "2018-03-21",
+    "title" : "Fishing Strike",
+    "url" : "https://itunes.apple.com/dk/app/fishing-strike/id1168575660?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "John Kane",
+    "developerId" : 969845329,
+    "developerUrl" : "https://itunes.apple.com/dk/developer/john-kane/id969845329?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7019",
+        "6018",
+        "7014"
+      ],
+    "genres" : [ 
+        "Games",
+        "Word",
+        "Books",
+        "Role-Playing"
+      ],
+    "icon" : "https://is2-ssl.mzstatic.com/image/thumb/Purple118/v4/fb/69/80/fb6980ca-28e3-da3e-eb5b-4b799050f767/mzl.rkrpbbql.png/200x200bb.png",
+    "id" : "1205251581",
+    "released" : "2018-04-12",
+    "title" : "Killing Time at Lightspeed",
+    "url" : "https://itunes.apple.com/dk/app/killing-time-at-lightspeed/id1205251581?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "NOPOPO SL",
+    "developerId" : 563386827,
+    "developerUrl" : "https://itunes.apple.com/dk/developer/nopopo-sl/id563386827?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7001",
+        "7003"
+      ],
+    "genres" : [ 
+        "Games",
+        "Action",
+        "Arcade"
+      ],
+    "icon" : "https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/86/41/df/8641df65-18ab-c88a-61ff-6a418cbdb0a7/AppIcon-1x_U007emarketing-85-220-9.png/200x200bb.png",
+    "id" : "1332654482",
+    "released" : "2018-04-11",
+    "title" : "Yo! Walk the Line",
+    "url" : "https://itunes.apple.com/dk/app/yo-walk-the-line/id1332654482?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Cobra Mobile Limited",
+    "developerId" : 290142990,
+    "developerUrl" : "https://itunes.apple.com/dk/developer/cobra-mobile-limited/id290142990?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7016",
+        "6016",
+        "7003"
+      ],
+    "genres" : [ 
+        "Games",
+        "Sports",
+        "Entertainment",
+        "Arcade"
+      ],
+    "icon" : "https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/38/55/b5/3855b53d-2406-e702-2dd6-0b9e31498cfe/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-6.png/200x200bb.png",
+    "id" : "1337644441",
+    "released" : "2018-04-12",
+    "title" : "Cobi Golf Shots",
+    "url" : "https://itunes.apple.com/dk/app/cobi-golf-shots/id1337644441?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Neon Play",
+    "developerId" : 372207888,
+    "developerUrl" : "https://itunes.apple.com/dk/developer/neon-play/id372207888?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7016",
+        "7003"
+      ],
+    "genres" : [ 
+        "Games",
+        "Sports",
+        "Arcade"
+      ],
+    "icon" : "https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/65/a0/88/65a08892-2eba-a325-c999-a34c207887b0/AppIcon-1x_U007emarketing-0-85-220-0-8.png/200x200bb.png",
+    "id" : "1345343507",
+    "released" : "2018-02-21",
+    "title" : "Golf Up",
+    "url" : "https://itunes.apple.com/dk/app/golf-up/id1345343507?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Zuki Games",
+    "developerId" : 1242081071,
+    "developerUrl" : "https://itunes.apple.com/dk/developer/zuki-games/id1242081071?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7003",
+        "7002"
+      ],
+    "genres" : [ 
+        "Games",
+        "Arcade",
+        "Adventure"
+      ],
+    "icon" : "https://is2-ssl.mzstatic.com/image/thumb/Purple118/v4/af/87/aa/af87aa8f-83a8-1ae5-8add-ceaad30f68ae/AppIcon-1x_U007emarketing-85-220-5.png/200x200bb.png",
+    "id" : "1345943603",
+    "released" : "2018-04-14",
+    "title" : "Golem Rage",
+    "url" : "https://itunes.apple.com/dk/app/golem-rage/id1345943603?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Itatake.com",
+    "developerId" : 464653469,
+    "developerUrl" : "https://itunes.apple.com/dk/developer/itatake-com/id464653469?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7012",
+        "7003"
+      ],
+    "genres" : [ 
+        "Games",
+        "Puzzle",
+        "Arcade"
+      ],
+    "icon" : "https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/84/a5/f9/84a5f971-ac9a-5dac-4bf4-954f3c342af3/AppIcon-1x_U007emarketing-85-220-8.png/200x200bb.png",
+    "id" : "1345885918",
+    "released" : "2018-04-12",
+    "title" : "AZ Rockets",
+    "url" : "https://itunes.apple.com/dk/app/az-rockets/id1345885918?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Eugene Lazebny",
+    "developerId" : 1084275141,
+    "developerUrl" : "https://itunes.apple.com/dk/developer/eugene-lazebny/id1084275141?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7012",
+        "6016",
+        "7002"
+      ],
+    "genres" : [ 
+        "Games",
+        "Puzzle",
+        "Entertainment",
+        "Adventure"
+      ],
+    "icon" : "https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/2b/53/ac/2b53ac7f-fdfa-0a28-17fb-45d70bc3df08/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-8.png/200x200bb.png",
+    "id" : "1336452806",
+    "released" : "2018-04-11",
+    "title" : "Fobia",
+    "url" : "https://itunes.apple.com/dk/app/fobia/id1336452806?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Kim JiHwan",
+    "developerId" : 1321272221,
+    "developerUrl" : "https://itunes.apple.com/dk/developer/kim-jihwan/id1321272221?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7014"
+      ],
+    "genres" : [ 
+        "Games",
+        "Role-Playing"
+      ],
+    "icon" : "https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/80/72/cc/8072cc6c-0639-51a5-24f5-a03a84ced8b3/AppIcon-1x_U007emarketing-85-220-0-8.png/200x200bb.png",
+    "id" : "1321272222",
+    "released" : "2018-04-06",
+    "title" : "CAT KNIGHT SAGA SPECIAL",
+    "url" : "https://itunes.apple.com/dk/app/cat-knight-saga-special/id1321272222?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Huckleberry BV",
+    "developerId" : 674061215,
+    "developerUrl" : "https://itunes.apple.com/dk/developer/huckleberry-bv/id674061215?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7004",
+        "7012"
+      ],
+    "genres" : [ 
+        "Games",
+        "Board",
+        "Puzzle"
+      ],
+    "icon" : "https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/c6/12/eb/c612eb42-c389-a566-4f19-dcd141a01225/AppIcon-1x_U007emarketing-85-220-8.png/200x200bb.png",
+    "id" : "1327839430",
+    "released" : "2018-04-11",
+    "title" : "Pluszle: Brain Logic Game",
+    "url" : "https://itunes.apple.com/dk/app/pluszle-brain-logic-game/id1327839430?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Cloud Macaca, Inc.",
+    "developerId" : 1278612016,
+    "developerUrl" : "https://itunes.apple.com/dk/developer/cloud-macaca-inc/id1278612016?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7012"
+      ],
+    "genres" : [ 
+        "Games",
+        "Puzzle"
+      ],
+    "icon" : "https://is2-ssl.mzstatic.com/image/thumb/Purple118/v4/46/48/38/46483804-9a77-0225-1cdd-aab59cdb4703/AppIcon-1x_U007emarketing-85-220-8.png/200x200bb.png",
+    "id" : "1291380760",
+    "released" : "2018-04-10",
+    "title" : "Close Line",
+    "url" : "https://itunes.apple.com/dk/app/close-line/id1291380760?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Hero Entertainment Co., Ltd.",
+    "developerId" : 1032920871,
+    "developerUrl" : "https://itunes.apple.com/dk/developer/hero-entertainment-co-ltd/id1032920871?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7002",
+        "7014"
+      ],
+    "genres" : [ 
+        "Games",
+        "Adventure",
+        "Role-Playing"
+      ],
+    "icon" : "https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/a7/3b/5b/a73b5b72-704d-0f1e-b34a-f2e78cc95c93/AppIcon-1x_U007emarketing-85-220-4.png/200x200bb.png",
+    "id" : "1278857631",
+    "released" : "2018-04-10",
+    "title" : "Potato Clan",
+    "url" : "https://itunes.apple.com/dk/app/potato-clan/id1278857631?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Eric Bernier",
+    "developerId" : 1251757325,
+    "developerUrl" : "https://itunes.apple.com/dk/developer/eric-bernier/id1251757325?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7009",
+        "7002"
+      ],
+    "genres" : [ 
+        "Games",
+        "Family",
+        "Adventure"
+      ],
+    "icon" : "https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/f0/ef/ed/f0efedc2-0b47-cbe6-12e9-edcc58c7b094/AppIcon_Final-1x_U007emarketing-85-220-0-9.png/200x200bb.png",
+    "id" : "1251757326",
+    "released" : "2018-04-12",
+    "title" : "The Wolf's Bite",
+    "url" : "https://itunes.apple.com/dk/app/the-wolfs-bite/id1251757326?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "ZPLAY",
+    "developerId" : 531022725,
+    "developerUrl" : "https://itunes.apple.com/dk/developer/zplay/id531022725?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7002",
+        "7001"
+      ],
+    "genres" : [ 
+        "Games",
+        "Adventure",
+        "Action"
+      ],
+    "icon" : "https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/45/7f/ae/457faed2-ac6a-dce6-d58d-52a01c2873d6/AppIcon-1x_U007emarketing-0-85-220-0-5.png/200x200bb.png",
+    "id" : "1249254103",
+    "released" : "2018-04-04",
+    "title" : "Original Journey",
+    "url" : "https://itunes.apple.com/dk/app/original-journey/id1249254103?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "NEOWIZ",
+    "developerId" : 392281430,
+    "developerUrl" : "https://itunes.apple.com/dk/developer/neowiz/id392281430?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7001",
+        "7011",
+        "6011"
+      ],
+    "genres" : [ 
+        "Games",
+        "Action",
+        "Music",
+        "Music"
+      ],
+    "icon" : "https://is2-ssl.mzstatic.com/image/thumb/Purple128/v4/db/c1/a7/dbc1a7ef-71e1-1d3d-9600-5e0c9907d840/AppIcon-1x_U007emarketing-85-220-0-8.png/200x200bb.png",
+    "id" : "1071168534",
+    "released" : "2017-09-07",
+    "title" : "TAPSONIC TOP - Music Game",
+    "url" : "https://itunes.apple.com/dk/app/tapsonic-top-music-game/id1071168534?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Dignity Games Limited",
+    "developerId" : 1095762249,
+    "developerUrl" : "https://itunes.apple.com/dk/developer/dignity-games-limited/id1095762249?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "6016",
+        "7003",
+        "7002"
+      ],
+    "genres" : [ 
+        "Games",
+        "Entertainment",
+        "Arcade",
+        "Adventure"
+      ],
+    "icon" : "https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/1f/89/c7/1f89c78b-e54e-dcc8-99ab-0f832780ddec/AppIcon-1x_U007emarketing-85-220-8.png/200x200bb.png",
+    "id" : "1346136826",
+    "released" : "2018-04-06",
+    "title" : "The Leap",
+    "url" : "https://itunes.apple.com/dk/app/the-leap/id1346136826?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Evil Indie Games",
+    "developerId" : 448644619,
+    "developerUrl" : "https://itunes.apple.com/dk/developer/evil-indie-games/id448644619?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7001",
+        "6016",
+        "7003"
+      ],
+    "genres" : [ 
+        "Games",
+        "Action",
+        "Entertainment",
+        "Arcade"
+      ],
+    "icon" : "https://is2-ssl.mzstatic.com/image/thumb/Purple118/v4/cd/37/fc/cd37fc1a-f3f1-35b9-2f8a-c966cce9a161/AppIcon-1x_U007emarketing-0-85-220-0-8.png/200x200bb.png",
+    "id" : "1137017071",
+    "released" : "2018-04-04",
+    "title" : "Extra Color",
+    "url" : "https://itunes.apple.com/dk/app/extra-color/id1137017071?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Nanovation",
+    "developerId" : 876536274,
+    "developerUrl" : "https://itunes.apple.com/dk/developer/nanovation/id876536274?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7001",
+        "6016",
+        "7003"
+      ],
+    "genres" : [ 
+        "Games",
+        "Action",
+        "Entertainment",
+        "Arcade"
+      ],
+    "icon" : "https://is4-ssl.mzstatic.com/image/thumb/Purple128/v4/b6/eb/d5/b6ebd5fe-0d67-9f0f-82df-c9a5af487007/AppIcon-1x_U007emarketing-85-220-8.png/200x200bb.png",
+    "id" : "1357607046",
+    "released" : "2018-04-11",
+    "title" : "Switch N Stax",
+    "url" : "https://itunes.apple.com/dk/app/switch-n-stax/id1357607046?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Forest Ring Games UG (haftungsbeschränkt)",
+    "developerId" : 1252801249,
+    "developerUrl" : "https://itunes.apple.com/dk/developer/forest-ring-games-ug-haftungsbeschr%C3%A4nkt/id1252801249?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7001",
+        "6016",
+        "7017"
+      ],
+    "genres" : [ 
+        "Games",
+        "Action",
+        "Entertainment",
+        "Strategy"
+      ],
+    "icon" : "https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/21/2a/f7/212af7f3-c307-130a-fedc-df4797fecd36/AppIcon-1x_U007emarketing-85-220-0-9.png/200x200bb.png",
+    "id" : "1252801250",
+    "released" : "2018-01-31",
+    "title" : "Tower Duel - TD Royale",
+    "url" : "https://itunes.apple.com/dk/app/tower-duel-td-royale/id1252801250?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Pandazor",
+    "developerId" : 1084727821,
+    "developerUrl" : "https://itunes.apple.com/dk/developer/pandazor/id1084727821?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7001",
+        "7003"
+      ],
+    "genres" : [ 
+        "Games",
+        "Action",
+        "Arcade"
+      ],
+    "icon" : "https://is2-ssl.mzstatic.com/image/thumb/Purple62/v4/89/8d/49/898d49c9-e824-d23a-26a3-ec4d0b879bc6/AppIcon-1x_U007emarketing-85-220-0-8.png/200x200bb.png",
+    "id" : "1084727822",
+    "released" : "2018-04-05",
+    "title" : "Miracle Run",
+    "url" : "https://itunes.apple.com/dk/app/miracle-run/id1084727822?mt=8"
+  },
+  { 
+    "appId" : undefined,
+    "description" : undefined,
+    "developer" : "Nautilus Mobile App Private Limited",
+    "developerId" : 723490988,
+    "developerUrl" : "https://itunes.apple.com/dk/developer/nautilus-mobile-app-private-limited/id723490988?mt=8",
+    "genreIds" : [ 
+        "6014",
+        "7016",
+        "7015"
+      ],
+    "genres" : [ 
+        "Games",
+        "Sports",
+        "Simulation"
+      ],
+    "icon" : "https://is2-ssl.mzstatic.com/image/thumb/Purple62/v4/2e/5d/62/2e5d6239-8b2a-140a-13e6-af6c0c3f99c0/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-5.png/200x200bb.png",
+    "id" : "1307912741",
+    "released" : "2018-04-04",
+    "title" : "Real Cricket™ 18",
+    "url" : "https://itunes.apple.com/dk/app/real-cricket-18/id1307912741?mt=8"
+  }
+]
